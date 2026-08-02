@@ -14,15 +14,15 @@ Esta página detalha a sub-aba Login / OAuth. Para uma visão geral das Integra�
 
 A aba Templates centraliza a gestão de modelos de mensagens para WhatsApp (WABA) e Facebook Messenger. Templates são mensagens pré-aprovadas pela Meta utilizadas para iniciar conversas fora da janela de 24h ou em campanhas de marketing e utilidade.
 
-**Templates geram custos.** O envio de templates WABA é cobrado diretamente pela Meta por conversa iniciada, com valores variando conforme a categoria (Marketing, Utilidade, Autenticação) e o país do destinatário. Consulte os detalhes em [Cobranças da Meta — WhatsApp Business Platform](https://prismatelecomservicos.com/).
+**Templates geram custos.** O envio de templates WABA é cobrado diretamente pela Meta por conversa iniciada, com valores variando conforme a categoria (Marketing, Utilidade, Autenticação) e o país do destinatário. Consulte os detalhes em [Cobranças da Meta — WhatsApp Business Platform](https://prismatelecomservicos.com/ rel=).
 
 ### Como acessar
 
 Acesse **Configurações → Integrações Meta → Templates**.
 
-![](../../../.gitbook/assets/image_59bfee2a.png)
+![](../../../.gitbook/assets/sys_img_7cefbb57.png)
 
-![](../../../.gitbook/assets/image_7c4aaf46.png)
+![](../../../.gitbook/assets/sys_img_6b848e67.png)
 
 ---
 
@@ -82,15 +82,15 @@ Lixeira
 
 Excluir o template
 
-![](../../../.gitbook/assets/image_73c24d3e.png)
+![](../../../.gitbook/assets/sys_img_3a3403b4.png)
 
-![](../../../.gitbook/assets/image_5f49999a.png)
+![](../../../.gitbook/assets/sys_img_70e63183.png)
 
 #### Criar Template WABA
 
 Clique em **Criar Template** para acessar o construtor.
 
-![](../../../.gitbook/assets/image_5b39ee86.png)
+![](../../../.gitbook/assets/sys_img_5519e7fe.png)
 
 **Informações Básicas:**
 
@@ -158,7 +158,7 @@ O nome do template não pode ser alterado após a criação. Se precisar mudar o
 
 A sub-aba **Templates Facebook** permite gerenciar templates do tipo UTILITY para o canal Messenger via Graph API.
 
-![](../../../.gitbook/assets/image_640e62ad.png)
+![](../../../.gitbook/assets/sys_img_0f038970.png)
 
 #### Listar templates
 
@@ -170,7 +170,7 @@ A listagem exibe todos os templates da Page com status APPROVED, PENDING e REJEC
 
 #### Criar template
 
-![](../../../.gitbook/assets/image_03a6aeae.png)
+![](../../../.gitbook/assets/sys_img_2da05ed1.png)
 
 Clique em **Criar template** para criar um novo modelo do tipo UTILITY.
 

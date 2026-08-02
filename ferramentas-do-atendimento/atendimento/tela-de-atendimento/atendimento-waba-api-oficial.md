@@ -22,7 +22,7 @@ Após esse período, a janela se fecha e só é possível iniciar uma nova conve
 
 Na barra inferior da conversa, clique em **⋯ (três pontos)** para acessar as opções exclusivas do canal WABA, divididas em dois grupos:
 
-![](../../../.gitbook/assets/image_a46b0d96.png)
+![](../../../.gitbook/assets/sys_img_5502153c.png)
 
 ---
 
@@ -30,7 +30,7 @@ Na barra inferior da conversa, clique em **⋯ (três pontos)** para acessar as 
 
 #### Templates
 
-![](../../../.gitbook/assets/image_d28a8ef3.png)
+![](../../../.gitbook/assets/sys_img_bc8dd0bf.png)
 
 Abre o seletor de templates aprovados. Pesquise por nome, filtre por categoria e selecione o template desejado para enviar ao cliente.
 
@@ -42,7 +42,7 @@ Apenas templates com status **APPROVED** podem ser enviados.
 
 #### Botões
 
-![](../../../.gitbook/assets/image_13a58b36.png)
+![](../../../.gitbook/assets/sys_img_1e273d85.png)
 
 Envia uma mensagem com até 3 botões de resposta rápida.
 
@@ -70,7 +70,7 @@ Texto do terceiro botão (opcional)
 
 #### Lista
 
-![](../../../.gitbook/assets/image_a29ffea6.png)
+![](../../../.gitbook/assets/sys_img_e3aa44c1.png)
 
 Envia um menu de lista interativa com seções e itens clicáveis.
 
@@ -108,7 +108,7 @@ Use **+ Adicionar item** para incluir itens e **+ Adicionar seção** para criar
 
 #### CTA URL
 
-![](../../../.gitbook/assets/image_cb395ea4.png)
+![](../../../.gitbook/assets/sys_img_5b29fb15.png)
 
 Envia uma mensagem com um botão de link externo (Call to Action).
 
@@ -144,7 +144,7 @@ Texto complementar (opcional)
 
 #### Reply Buttons
 
-![](../../../.gitbook/assets/image_6328a95c.png)
+![](../../../.gitbook/assets/sys_img_4d7214d2.png)
 
 Envia uma mensagem estruturada com cabeçalho e até 3 botões de resposta rápida.
 
@@ -172,7 +172,7 @@ Até 3 botões — Botão 1 é obrigatório
 
 #### Localização
 
-![](../../../.gitbook/assets/image_e14a34e7.png)
+![](../../../.gitbook/assets/sys_img_d691b9ab.png)
 
 Envia um pin de localização no mapa.
 
@@ -200,7 +200,7 @@ Endereço completo (opcional)
 
 #### Solicitar Localização
 
-![](../../../.gitbook/assets/image_51dc1f61.png)
+![](../../../.gitbook/assets/sys_img_756971e1.png)
 
 Envia uma mensagem solicitando que o cliente compartilhe a localização dele.
 
@@ -216,7 +216,7 @@ Texto de solicitação (obrigatório)
 
 #### Endereço
 
-![](../../../.gitbook/assets/image_cab835fd.png)
+![](../../../.gitbook/assets/sys_img_e2093930.png)
 
 Envia um cartão de endereço estruturado.
 
@@ -256,7 +256,7 @@ Residencial, Comercial etc.
 
 #### Flow
 
-![](../../../.gitbook/assets/image_11c45f7c.png)
+![](../../../.gitbook/assets/sys_img_59063d70.png)
 
 Envia um WhatsApp Flow — formulário interativo nativo do WhatsApp.
 
@@ -306,7 +306,7 @@ Dados iniciais enviados ao Flow (ex.: `{"screen": "tela1", "data": {}}`)
 
 #### Produto Único
 
-![](../../../.gitbook/assets/image_3bb32af1.png)
+![](../../../.gitbook/assets/sys_img_f6e60a84.png)
 
 Envia um único produto do catálogo vinculado à conta WABA.
 
@@ -330,7 +330,7 @@ Texto opcional que acompanha o produto
 
 #### Multi-Produto
 
-![](../../../.gitbook/assets/image_53f45c69.png)
+![](../../../.gitbook/assets/sys_img_6fb8dabb.png)
 
 Envia múltiplos produtos do catálogo em uma única mensagem.
 
@@ -366,7 +366,7 @@ Texto complementar (opcional)
 
 #### Catálogo
 
-![](../../../.gitbook/assets/image_cf63b34b.png)
+![](../../../.gitbook/assets/sys_img_4addafb1.png)
 
 Envia o catálogo completo com produto em destaque.
 
@@ -390,7 +390,7 @@ Texto que acompanha o catálogo (obrigatório)
 
 #### Template Carrossel
 
-![](../../../.gitbook/assets/image_b52503fb.png)
+![](../../../.gitbook/assets/sys_img_c993cb77.png)
 
 Envia um template do tipo carrossel com múltiplos cards interativos.
 

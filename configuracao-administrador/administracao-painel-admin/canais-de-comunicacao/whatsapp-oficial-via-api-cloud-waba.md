@@ -53,36 +53,36 @@ Nesta etapa, vamos criar o aplicativo no ambiente da Meta que será responsável
 
 1. **Acesse o Facebook for Developers:** Faça o login com sua conta do Facebook em <https://developers.facebook.com/>
 
-![](../../../.gitbook/assets/image_a5518f33.png)
+![](../../../.gitbook/assets/sys_img_502f2d63.png)
 
 1. **Crie um Novo Aplicativo:**
 
 * Clique em "Criar Aplicativo".
 
-![](../../../.gitbook/assets/image_a0da9f56.png)
+![](../../../.gitbook/assets/sys_img_8c419474.png)
 
 * Selecione "Outros"
 * Selecione o tipo **"Business"**.
 
-![](../../../.gitbook/assets/image_8f45ccd9.png)
+![](../../../.gitbook/assets/sys_img_3192730f.png)
 
 * Dê um nome ao seu aplicativo (ex: "Waba Cloud API") e associe-o à sua conta do Gerenciador de Negócios (BM).
 
 1. **Adicione o Produto WhatsApp:** No painel do seu novo aplicativo, encontre e adicione o produto "WhatsApp".
 
-![](../../../.gitbook/assets/image_27e3dbc6.png)
+![](../../../.gitbook/assets/sys_img_b0bbd43d.png)
 
 1. **Configure as Informações Básicas:**
 
 * Acesse **"Configurações do app" > "Básico"**.
 
-![](../../../.gitbook/assets/image_f47c5d93.png)
+![](../../../.gitbook/assets/sys_img_c651e599.png)
 
 * Preencha os campos **"URL da Política de Privacidade"** e **"URL dos Termos de Serviço"**.
 
 1. **Ative o Aplicativo:** No topo da página, mude o status do aplicativo de "Em desenvolvimento" para **"Ao vivo"**.
 
-![](../../../.gitbook/assets/image_534a2327.png)
+![](../../../.gitbook/assets/sys_img_391df52b.png)
 
 ---
 
@@ -92,23 +92,23 @@ Agora, vamos adicionar e verificar o número de telefone que será usado pela AP
 
 1. No menu do seu aplicativo, vá para **"WhatsApp" > "Configuração da API"**.
 
-![](../../../.gitbook/assets/image_cf7dd133.png)
+![](../../../.gitbook/assets/sys_img_75c2f970.png)
 
 1. **Adicione um Número de Telefone:** Clique no botão para adicionar um novo número.
 
-![](../../../.gitbook/assets/image_f86b0d27.png)
+![](../../../.gitbook/assets/sys_img_bc3403a9.png)
 
 1. **Preencha os Dados:** Insira as informações da sua empresa e o número de telefone que você preparou na Etapa 1.
 2. **Verifique o Número:** Escolha receber o código de verificação por SMS ou ligação telefônica e insira o código recebido.
 3. **Adicione a forma de pagamento**
 
-![](../../../.gitbook/assets/image_17d7f730.png)
+![](../../../.gitbook/assets/sys_img_1d06d0a1.png)
 
 1. **Registre o Número com PIN (Passo Obrigatório):**
 
 * Após a verificação, a Meta exige um registro de segurança com um PIN de 6 dígitos. Este passo é realizado via API. (token provisório)
 
-![](../../../.gitbook/assets/image_dbce47f9.png)
+![](../../../.gitbook/assets/sys_img_386a5469.png)
 
 * Utilize uma ferramenta como o **Postman** e o endpoint **"Registrar Fone"** (disponível em nossa coleção) para enviar o PIN de 6 dígitos ao seu número. <https://www.postman.com/meta/whatsapp-business-platform/request/kkn2spv/register-phone>
 * Este passo é crucial para que o número seja ativado com sucesso.
@@ -124,7 +124,7 @@ O token gerado pelo painel do desenvolvedor é temporário e expira em 24 horas.
 1. **Acesse as Configurações do Negócio:** Navegue até seu **Gerenciador de Negócios** (BM).
 2. Vá para **"Usuários" > "Usuários do sistema"**.
 
-![](../../../.gitbook/assets/image_4f91bb40.png)
+![](../../../.gitbook/assets/sys_img_a140024d.png)
 
 1. **Crie um Usuário do Sistema:** Adicione um novo usuário do sistema com a função de **"Admin"**.
 2. **Atribua Ativos:** Com o novo usuário selecionado, clique em **"Atribuir Ativos"**.
@@ -142,13 +142,13 @@ O token gerado pelo painel do desenvolvedor é temporário e expira em 24 horas.
 
 Com tudo pronto no ambiente da Meta, o passo final é configurar a conexão dentro do Prismabot.
 
-Vídeo detalhado na nossa área de membros: <https://prismatelecomservicos.com/
+Vídeo detalhado na nossa área de membros: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
 
 1. **Conecte o Canal no Prismabot (Para Enviar Mensagens):**
 
    * No painel Admin do Prismabot, acesse **"Canais"** e adicione um novo canal do tipo **"WABA"**.
 
-   ![](../../../.gitbook/assets/image_3751497c.png)
+   ![](../../../.gitbook/assets/sys_img_6e35a539.png)
 
    * Preencha os campos com as informações obtidas no painel da Meta: Whatsapp - Configuração da API
 
@@ -162,13 +162,13 @@ Vídeo detalhado na nossa área de membros: <https://prismatelecomservicos.com/
    * Copie a **URL do Webhook** e o **Token de Verificação**.
    * Volte ao painel do seu aplicativo na Meta, em **"WhatsApp" > "Configuração da API"**.
 
-   ![](../../../.gitbook/assets/image_28376617.png)
+   ![](../../../.gitbook/assets/sys_img_df13b268.png)
 
    * Clique em "Editar" na seção de Webhooks.
    * Cole a **URL** e o **Token** copiados do Prismabot e clique em "Verificar e Salvar".
    * Após verificar, clique em **"Gerenciar"** e assine (**subscribe**) todos os eventos de webhook disponíveis (especialmente `messages`).
 
-   ![](../../../.gitbook/assets/image_4ebd2a9d.png)
+   ![](../../../.gitbook/assets/sys_img_7e36818c.png)
 
 ### Encerramento
 
@@ -193,31 +193,31 @@ Para prevenir esse problema, é importante definir uma rota pública estável em
 
 Essas configurações ajudam a garantir uma rota mais direta e estável entre a servidor e a infraestrutura da Meta, reduzindo atrasos e eliminando o erro de timeout nos logs.
 
-![](../../../.gitbook/assets/image_2d7162c1.png)
+![](../../../.gitbook/assets/sys_img_8a3f2103.png)
 
 ## Links de apoio - Meta API
 
 **Guia Verificação do app (tech provider)**
 
-[![Logo](../../../.gitbook/assets/image_facdd2e9.png)Como Aprovar Seu App Da Meta (Passo A Passo) - Prisma TelecomPrisma Telecom](https://prismatelecomservicos.com//geral/app-meta-aprovar/)
+[![Logo](../../../.gitbook/assets/sys_img_5477e8c4.png)Como Aprovar Seu App Da Meta (Passo A Passo) - Comunidade Prisma TelecomComunidade Prisma Telecom](https://comunidade.zdg.com.br/geral/app-meta-aprovar/)
 
-[![Logo](../../../.gitbook/assets/image_5901cf53.png)Coexistência WhatsApp + Cadastro Incorporado: Tutorial DEFINITIVO! - Prisma TelecomPrisma Telecom](https://prismatelecomservicos.com//geral/coexistence-whatsapp/)
+[![Logo](../../../.gitbook/assets/sys_img_6e47259e.png)Coexistência WhatsApp + Cadastro Incorporado: Tutorial DEFINITIVO! - Comunidade Prisma TelecomComunidade Prisma Telecom](https://comunidade.zdg.com.br/geral/coexistence-whatsapp/)
 
 **Guia Configuração coexistência:**
 
-[https://prismatelecomservicos.com/)
+[https://prismatelecomservicos.com/ class="text-base">ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
 
 **Configuração login incorporado:**
 
-[https://prismatelecomservicos.com/)
+[https://prismatelecomservicos.com/ class="text-base">ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
 
 **Configuração instagram nativo:**
 
-[https://prismatelecomservicos.com/)
+[https://prismatelecomservicos.com/ class="text-base">ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
 
 **Configuração facebook messenger nativo:**
 
-[https://prismatelecomservicos.com/)
+[https://prismatelecomservicos.com/ class="text-base">ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
 
 **Guia da Meta para configuração do login incorporado:**
 <https://developers.facebook.com/docs/facebook-login/facebook-login-for-business/>**Guia da Meta para configuração da coexistência:**

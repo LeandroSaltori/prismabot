@@ -1,49 +1,51 @@
+Copiar
+
+Nesta página
+
 # Central de Ajuda Prismabot
 
-Seja bem-vindo à documentação oficial do **Prismabot**, a plataforma omnichannel de atendimento e automação desenvolvida pela **Prisma Telecom**. 
+Documentação oficial do Prismabot: tutoriais, configurações, canais, automação, atendimento e API — tudo para operar e administrar sua plataforma omnichannel.
 
-Aqui você encontra tutoriais passo a passo, guias de configuração de canais, manuais de uso das ferramentas de atendimento, gerenciamento de automações e suporte técnico.
+![](./.gitbook/assets/sys_img_949672eb.png)
 
-![](./.gitbook/assets/prisma_logo.webp)
-
----
-
-### 🚀 Primeiros Passos
-
-Para quem está começando a usar a plataforma ou deseja conhecer todos os recursos:
-
-* [Como funciona o Prismabot](como-funciona-o-prismabot.md)
-* [Primeiro Acesso ao Sistema](primeiro-acesso/primeiro-acesso-ao-sistema.md)
-* [Onboarding para Novos Assinantes](primeiro-acesso/onboarding-novos-assinantes.md)
+O **Prismabot** é uma plataforma de atendimento e automação omnichannel — WhatsApp, Instagram, Messenger e mais — instalada no seu próprio servidor, no modelo plataforma de atendimento. Ideal para agências, empresas de software e empreendedores que querem oferecer atendimento profissional com a própria marca.
 
 ---
 
-### 🛠️ Funcionalidades do Atendimento
+### Conhecendo o Prismabot
 
-Manuais e guias para operadores, gestores e administradores do sistema:
+Para quem está avaliando a plataforma ou quer entender como ela funciona.
 
-* [Home e Dashboard](ferramentas-do-atendimento/home-e-dashboard.md)
-* [Tela de Atendimento e Filas](ferramentas-do-atendimento/atendimento.md)
-* [Comunicação e Disparos](ferramentas-do-atendimento/comunicacao-e-marketing.md)
-* [Painel Admin e Equipes](configuracao-administrador/administracao-painel-admin.md)
+[Como funciona o Prismabot](/como-funciona-o-prismabot)[API Oficial vs API Não Oficial](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)[Pré-requisitos de instalação e utilização](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)
 
 ---
 
-### 🤖 Automação & Integrações
+### Novo por aqui?
 
-Aprenda a configurar chatbots, conectar inteligências artificiais e integrar o Prismabot a outros sistemas:
+Acabou de assinar ou está instalando pela primeira vez.
 
-* [ChatFlow (Construtor de Chatbot)](configuracao-administrador/automacao/chat-flow.md)
-* [Integrando Inteligência Artificial (ChatGPT)](avancado-recursos-tecnicos/integrando-o-chat-gpt.md)
-* [Integração Google Calendar](avancado-recursos-tecnicos/integracao-google-calendar.md)
-* [Referência da API](central-do-assinante/referencia-da-api.md)
+[Onboarding - novos assinantes](/primeiro-acesso/onboarding-novos-assinantes)[Instalar Prismabot](/primeiro-acesso/instalar-prismabot)[Primeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)
 
 ---
 
-### 📞 Suporte & Termos
+### Já sou assinante
 
-Dúvidas sobre o funcionamento, regras de uso ou precisa de ajuda técnica?
+Recursos e referências para o dia a dia da operação.
 
-* [Política de Suporte Técnico](diretrizes-e-politicas/politica-de-suporte-tecnico.md)
-* [Termos e Condições de Uso](diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento.md)
-* [Aviso de Privacidade](diretrizes-e-politicas/aviso-de-privacidade.md)
+[Changelog (4.0.x última versão)](/central-do-assinante/atualizacoes-e-status-do-prismabot/changelog-4.0.x-ultima-versao)[Política de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)[Referência da API](/central-do-assinante/referencia-da-api)[Manutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)
+
+---
+
+### Overview em vídeo
+
+---
+
+### Políticas e Termos
+
+[Termos e Condições Gerais de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)[Aviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)
+
+[PróximoComo funciona o Prismabot](/como-funciona-o-prismabot)
+
+Atualizado há 26 dias
+
+Isto foi útil?

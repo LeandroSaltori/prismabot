@@ -16,10 +16,10 @@ Bem-vindo ao Prismabot. Este guia mostra o que você receberá após a compra e 
 
 Após a confirmação do pagamento, você receberá dois e-mails automáticos:
 
-1. **Acesso ao portal do assinante** ([prismatelecomservicos.com](https://prismatelecomservicos.com/)) — onde ficam as videoaulas, o script de instalação e os arquivos necessários para as próximas etapas.
+1. **Acesso ao portal do assinante** ([portal.zdg.com.br](https://prismatelecomservicos.com/ rel=)) — onde ficam as videoaulas, o script de instalação e os arquivos necessários para as próximas etapas.
 2. **Chave de licença** — código único que você usará para ativar o Prismabot após a instalação. Guarde em local seguro.
 
-Se não receber os e-mails em até alguns minutos, verifique a caixa de spam. Para recuperar a chave de licença, abra um chamado em [suporte@prismatelecom.com](https://prismatelecomservicos.com/).
+Se não receber os e-mails em até alguns minutos, verifique a caixa de spam. Para recuperar a chave de licença, abra um chamado em [suporte.zdg.com.br](https://prismatelecomservicos.com/ rel=).
 
 ---
 
@@ -39,6 +39,7 @@ Com o ambiente pronto, escolha uma das duas formas de instalação:
 
 ---
 
+### Passo 4 — [Ative a licença](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot)
 
 Após a instalação, o sistema estará funcional mas ainda sem licença ativa. A ativação é feita pelo próprio assinante dentro do painel do Prismabot:
 
@@ -50,7 +51,7 @@ Após a instalação, o sistema estará funcional mas ainda sem licença ativa. 
 
 O domínio informado na ativação deve ser exatamente o mesmo configurado durante a instalação. Domínio incorreto impedirá a ativação da licença.
 
-Não localizou a chave de licença no e-mail? Verifique a caixa de spam ou abra um chamado em [suporte@prismatelecom.com](https://prismatelecomservicos.com/) solicitando o reenvio.
+Não localizou a chave de licença no e-mail? Verifique a caixa de spam ou abra um chamado em [suporte.zdg.com.br](https://prismatelecomservicos.com/ rel=) solicitando o reenvio.
 
 ---
 
@@ -59,15 +60,15 @@ Não localizou a chave de licença no e-mail? Verifique a caixa de spam ou abra 
 Recomendamos a leitura das páginas abaixo antes de colocar o sistema em produção:
 
 * [Manutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca) — ações obrigatórias de segurança pós-instalação, firewall e backups
-* [Política de Suporte Técnico](https://prismatelecomservicos.com/) — canais, horários, SLA e o que está incluso no suporte
+* [Política de Suporte Técnico](https://prismatelecomservicos.com/ rel=) — canais, horários, SLA e o que está incluso no suporte
 * [Termos e Condições de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)
 
 ---
 
 ### Recursos adicionais
 
-* [**Canal de avisos no Telegram**](https://prismatelecomservicos.com/) — disponível na área de membros. Mantenha as notificações ativas para ser avisado sobre atualizações e novidades.
-* [**Roadmap público**](https://prismatelecomservicos.com/) — Sugira melhorias, vote e acompanhe o desenvolvimento de novas funcionalidades
+* [**Canal de avisos no Telegram**](https://prismatelecomservicos.com/ rel=) — disponível na área de membros. Mantenha as notificações ativas para ser avisado sobre atualizações e novidades.
+* [**Roadmap público**](https://prismatelecomservicos.com/ rel=) — Sugira melhorias, vote e acompanhe o desenvolvimento de novas funcionalidades
 
 [AnteriorPrincipais dúvidas administrativas](/central-do-assinante/gestao-da-assinatura/principais-duvidas-administrativas)[PróximoInstalar Prismabot](/primeiro-acesso/instalar-prismabot)
 

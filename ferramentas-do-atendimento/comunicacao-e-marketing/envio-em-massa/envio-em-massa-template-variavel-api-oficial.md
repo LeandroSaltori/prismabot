@@ -14,7 +14,7 @@ Use esta aba para disparar templates WABA com variáveis dinâmicas individuais 
 
 Esta aba requer uma conexão via **API Oficial (WABA)**.
 
-![](../../../.gitbook/assets/image_2d38295b.png)
+![](../../../.gitbook/assets/sys_img_e2e2cb55.png)
 
 Esta página detalha o funcionamento desta aba específica. Para uma visão geral da funcionalidade, tutoriais em vídeo e orientações de uso, [acesse Envio em Massa.](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa)
 

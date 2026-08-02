@@ -26,7 +26,7 @@ O primeiro passo é adicionar o atalho (ícone) do Prismabot no seu celular (And
 3. Selecione **"Instalar app"** ou **"Adicionar à tela inicial"** e confirme.
 4. Abra o Prismabot pelo **ícone** que foi criado na tela inicial.
 
-![](../.gitbook/assets/image_40140186.png)
+![](../.gitbook/assets/sys_img_3060e51f.png)
 
 #### **Para iPhone (iOS) — pelo Safari:**
 
@@ -36,7 +36,7 @@ O primeiro passo é adicionar o atalho (ícone) do Prismabot no seu celular (And
 4. Selecione **"Adicionar à Tela de Início"** e confirme.
 5. Abra o Prismabot pelo **ícone** criado na tela inicial — **não** pelo Safari.
 
-![](../.gitbook/assets/image_8e38acb3.png)
+![](../.gitbook/assets/sys_img_dc3074e9.png)
 
 ### 2. Passo a Passo para Ativar as Notificações
 
@@ -48,7 +48,7 @@ Primeiro, você precisa habilitar a recepção de notificações dentro do próp
 
 Este botão só é visível quando o Prismabot é executado a partir do celular, com atalho na tela inicial (PWA).
 
-![](../.gitbook/assets/image_accb6f07.png)
+![](../.gitbook/assets/sys_img_26c3e836.png)
 
 #### Habilite o Web Push no Canal Desejado
 
@@ -58,7 +58,7 @@ Em seguida, você precisa dizer ao Prismabot para qual canal você quer receber 
 * Edite o canal para o qual deseja receber notificações.
 * Marque a opção **"Habilitar WebPush"** e salve as alterações.
 
-![](../.gitbook/assets/image_6efe715c.png)
+![](../.gitbook/assets/sys_img_9d1ba16b.png)
 
 ### 3. Customizações do ícone e nome do App
 
@@ -71,7 +71,7 @@ O nome definido aqui aparecerá no título da aba do navegador, nas telas de ins
 1. No campo **Nome do Aplicativo**, apague o nome atual e digite o nome da sua empresa.
 2. Clique no botão azul **Salvar**.
 
-![](../.gitbook/assets/image_c4f775ec.png)
+![](../.gitbook/assets/sys_img_0e917f28.png)
 
 #### Configurando o Ícone do Aplicativo (PWA)
 

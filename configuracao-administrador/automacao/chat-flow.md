@@ -15,7 +15,7 @@ O Chat Flow é o construtor nativo de chatbots do Prismabot que permite criar jo
 
 Acesse **Automação → Chat Flow**.
 
-![](../../.gitbook/assets/image_afd7e97e.png)
+![](../../.gitbook/assets/sys_img_8942c208.png)
 
 ---
 
@@ -23,7 +23,7 @@ Acesse **Automação → Chat Flow**.
 
 Cada cartão exibe: nome, quantidade de nós, status (Ativo/Inativo) e data de atualização.
 
-![](../../.gitbook/assets/image_7ddf4383.png)
+![](../../.gitbook/assets/sys_img_e2276a6d.png)
 
 ---
 
@@ -107,7 +107,7 @@ Cada bloco pode ter **várias saídas** apontando para destinos diferentes. As c
 
 O canvas é a área onde você monta visualmente o fluxo.
 
-![](../../.gitbook/assets/image_bd62dd28.png)
+![](../../.gitbook/assets/sys_img_b7542bf7.png)
 
 #### Painel lateral de blocos
 
@@ -231,7 +231,7 @@ Na tela de gerenciamento, clique em **+ Novo Fluxo** e configure:
 * **Status** — Ativo ou Inativo
 * **Filtros de audiência** — controle quem entra no fluxo: tipo de contato (todos, novos, recorrentes), tags obrigatórias, tags excluídas, colunas do kanban, canais de origem e nível de prioridade
 
-![](../../.gitbook/assets/image_f972ca6f.png)
+![](../../.gitbook/assets/sys_img_7fa6b53e.png)
 
 ---
 
@@ -247,7 +247,7 @@ Um fluxo criado não funciona até ser conectado a um canal:
 
 A partir daí, toda nova conversa iniciada naquele canal será gerenciada pelo fluxo.
 
-![](../../.gitbook/assets/image_c80c7069.png)
+![](../../.gitbook/assets/sys_img_b674c0a7.png)
 
 ---
 

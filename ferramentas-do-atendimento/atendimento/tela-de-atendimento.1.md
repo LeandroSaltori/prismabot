@@ -17,13 +17,13 @@ Essa é uma das seções mais importantes da plataforma. é a tela principal ond
 
 No menu lateral esquerdo, clique no Menu **Atendimento** e selecione a aba **Atendimentos**.
 
-![](../../.gitbook/assets/image_e257fe3b.png)
+![](../../.gitbook/assets/sys_img_d2eda05c.png)
 
 #### Você verá a seguinte tela:
 
 A tela de atendimento é dividida em quatro blocos principais de controle:
 
-![](../../.gitbook/assets/image_27a8dff3.png)
+![](../../.gitbook/assets/sys_img_44abb167.png)
 
 [**1. Menu dos Atendimentos (Lado Esquerdo)**](/ferramentas-do-atendimento/atendimento/tela-de-atendimento/menu-dos-atendimentos)
 

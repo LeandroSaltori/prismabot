@@ -15,7 +15,7 @@ A página de **Integrações Meta** é o centro de comando para todos os canais 
 
 No menu lateral, clique no Menu **Configurações**, selecione a aba **Integrações Meta**.
 
-![](../../.gitbook/assets/image_2f300b2b.png)
+![](../../.gitbook/assets/sys_img_3e491af5.png)
 
 Você também pode acessar por Configurações - Integrações - Meta
 
@@ -25,7 +25,7 @@ Você também pode acessar por Configurações - Integrações - Meta
 
 A interface é organizada em três grandes abas superiores que dividem as responsabilidades de gerenciamento: **Contas Meta**, **Configurações** e **Templates**.
 
-![](../../.gitbook/assets/image_cb3959af.png)
+![](../../.gitbook/assets/sys_img_c612088b.png)
 
 ---
 
@@ -68,7 +68,7 @@ Serve para gerenciar a recepção de mensagens do Messenger e personalizar como 
 * **Personas:** Serve para criar remetentes alternativos (ex: "Atendente João"). Com isso, o cliente visualiza o nome e foto do atendente específico no Messenger, em vez de apenas o nome da Página.
 * **Como usar:** Selecione a página, clique em **Verificar Página** e salve as configurações de saudação ou personas.
 
-![](../../.gitbook/assets/image_9fe623d9.png)
+![](../../.gitbook/assets/sys_img_3e032669.png)
 
 #### [2. Aba: Configurações](/configuracao-administrador/configuracao/integracoes-meta/configuracoes-integracoes-meta)
 
@@ -79,7 +79,7 @@ Serve para gerenciar a recepção de mensagens do Messenger e personalizar como 
 * **Token Meta:** Local para salvar e renovar o Token de acesso permanente à API.
 * **Verificação WABA:** Ferramenta para validar a Business Manager (BM) e a versão da API utilizada.
 
-![](../../.gitbook/assets/image_ec5da3cd.png)
+![](../../.gitbook/assets/sys_img_51141808.png)
 
 #### [3. Aba: Templates](/configuracao-administrador/configuracao/integracoes-meta/templates-integracoes-meta)
 
@@ -88,7 +88,7 @@ Central de modelos de mensagens para comunicações oficiais.
 * **3.1 Templates WABA:** Permite visualizar a lista de modelos aprovados, sincronizar status com a Meta e criar novos templates diretamente pelo sistema Prismabot utilizando o Construtor de Templates.
 * **3.2 Templates Facebook:** Espaço informativo, lembrando que modelos exclusivos de Facebook/Messenger devem ser gerenciados diretamente no Gerenciador de Negócios da Meta.
 
-![](../../.gitbook/assets/image_e686054d.png)
+![](../../.gitbook/assets/sys_img_d87cbbea.png)
 
 [AnteriorAPI - Configurações](/configuracao-administrador/configuracao/api)[PróximoLogin / OAuth — Contas Meta (Configurações)](/configuracao-administrador/configuracao/integracoes-meta/login-oauth-contas-meta-configuracoes)
 

@@ -12,13 +12,13 @@ Versão original: 22/05/2024
 
 Última atualização: 12/05/2026
 
-Versão vigente em: <https://prismatelecomservicos.com/
+Versão vigente em: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
 
-A Prisma Telecom, inscrita no CNPJ sob o nº 35.617.749/0001-67, com sede em Alfenas/MG ("Prisma Telecom"), criou este Aviso de Privacidade (o "Aviso") para explicar como trata dados pessoais quando você contrata, instala ou utiliza o Prismabot, ou quando acessa o nosso Site.
+A BIANCA SANT ANA PEREIRA & CIA LTDA, inscrita no CNPJ sob o nº 35.617.749/0001-67, com sede em Alfenas/MG ("Prisma Telecom"), criou este Aviso de Privacidade (o "Aviso") para explicar como trata dados pessoais quando você contrata, instala ou utiliza o Prismabot, ou quando acessa o nosso Site.
 
 O Prismabot é um software omnichannel de gestão e automação de atendimento, licenciado em modelo em nuvem (em nuvem): a Prisma Telecom entrega a licença e o instalador, e o Cliente acessa a plataforma operada em nuvem pela Prisma Telecom. Esse desenho é determinante para entender quem trata o quê — por isso há um capítulo dedicado ao tema mais adiante (ver o capítulo Particularidades do modelo em nuvem).
 
-Este Aviso integra de forma indissociável os [Termos e Condições de Uso do Prismabot](https://prismatelecomservicos.com/). Em caso de dúvida ou para exercer seus direitos como Titular, fale conosco pelos canais informados ao final do documento.
+Este Aviso integra de forma indissociável os [Termos e Condições de Uso do Prismabot](https://prismatelecomservicos.com/ rel=). Em caso de dúvida ou para exercer seus direitos como Titular, fale conosco pelos canais informados ao final do documento.
 
 ### SUMÁRIO - INFORMAÇÕES CONTIDAS NESTE AVISO
 
@@ -49,7 +49,7 @@ Para facilitar a leitura, alguns termos usados ao longo deste Aviso:
 * Controlador / Operador. Conceitos da LGPD: o Controlador toma as decisões sobre o tratamento; o Operador trata os dados segundo as instruções do Controlador.
 * LGPD. Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais.
 * ANPD. Autoridade Nacional de Proteção de Dados.
-* Site. Domínios e subdomínios operados pela Prisma Telecom no contexto do Prismabot. As páginas principais são o site corporativo ([https://prismatelecomservicos.com/](https://prismatelecomservicos.com//)) e o site institucional do produto ([https://prismatelecomservicos.com/](https://prismatelecomservicos.com//)); demais subdomínios da Prisma Telecom voltados a atendimento, documentação, treinamento de Clientes e canais correlatos estão igualmente cobertos por este Aviso. Produtos distintos do Prismabot, como a Prisma Telecom, são regidos por avisos de privacidade próprios.
+* Site. Domínios e subdomínios operados pela Prisma Telecom no contexto do Prismabot. As páginas principais são o site corporativo ([https://zdg.com.br](https://zdg.com.br/)) e o site institucional do produto ([https://prismabot.zdg.com.br](https://prismabot.zdg.com.br/)); demais subdomínios da Prisma Telecom voltados a atendimento, documentação, treinamento de Clientes e canais correlatos estão igualmente cobertos por este Aviso. Produtos distintos do Prismabot, como a Comunidade Prisma Telecom, são regidos por avisos de privacidade próprios.
 * servidor (Virtual Private Server). Servidor virtual contratado e custeado pelo próprio Cliente, junto a provedores de infraestrutura, onde o Prismabot é instalado e operado sob exclusiva guarda do Cliente.
 * Plataforma WhatsApp. Plataformas operadas pela WhatsApp LLC (grupo Meta Platforms, Inc.), integradas ao Prismabot via API Oficial — arquitetura na qual a Prisma Telecom atua como Tech Provider certificado — ou via APIs não oficiais configuradas pelo Cliente, conforme [termos da plataforma](https://www.whatsapp.com/legal/).
 * Canais de Integração de Terceiros. Redes sociais, mensageiros, marketplaces, CRMs, gateways de pagamento e demais sistemas integráveis ao Prismabot via APIs, webhooks ou conectores, ativados e configurados sob exclusiva responsabilidade do Cliente, que atua como Controlador dos dados que decide trafegar por cada canal.
@@ -341,7 +341,7 @@ Em cumprimento ao art. 41 da LGPD, a Prisma Telecom mantém Encarregado pela Pro
 
 Este Aviso pode ser atualizado a qualquer tempo para refletir mudanças na operação, na legislação ou nas práticas de tratamento da Prisma Telecom. Quando houver alterações relevantes, o Titular será notificado pelos canais cadastrados ou por aviso no Site, e a versão atualizada valerá a partir de sua publicação. A continuidade no uso do Prismabot ou do Site após a atualização confirmará a ciência e a vigência do novo Aviso.
 
-A versão vigente está sempre disponível em <https://prismatelecomservicos.com/
+A versão vigente está sempre disponível em [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=).
 
 [AnteriorTermos e Condições Gerais de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)[PróximoManutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)
 

@@ -38,14 +38,14 @@ O Prismabot disponibiliza quatro ferramentas para resolver essas inconsistência
 * **Localização:** Tela de Atendimento > Conversa com o contato > Informações do Contato (Detalhes) > Aba "Util." > Botão Atualizar LID
 * **Como funciona:** Ideal para corrigir um contato que você está atendendo no momento. Ao clicar em "Atualizar LID", o sistema atualiza o identificador e une as mensagens daquele contato específico.
 
-![](../.gitbook/assets/image_db8b29bd.png)
+![](../.gitbook/assets/sys_img_2f28becb.png)
 
 #### Ferramenta 2: Agrupar LID (Ação em Massa)
 
 * **Localização:** Menu Contatos > Botão "Utilitários" > "Agrupar LID".
 * **Como funciona:** Executa a mesma lógica da ferramenta individual, mas em massa. O sistema varre o tenant e une todas as mensagens relacionadas aos respectivos contatos que possuem o mesmo LID, limpando as duplicidades básicas da base.
 
-![](../.gitbook/assets/image_ad39c462.png)
+![](../.gitbook/assets/sys_img_138f4c2e.png)
 
 #### Ferramenta 3: Scan de Contatos sem LID
 
@@ -54,19 +54,19 @@ O Prismabot disponibiliza quatro ferramentas para resolver essas inconsistência
 
 **Atenção:** Este processo varre toda a sua base de dados. Em caso de bancos de dados muito grandes, a operação pode demorar consideravelmente ou até mesmo acionar o bloqueio da conta no WhatsApp devido ao alto volume de requisições à API.
 
-![](../.gitbook/assets/image_95901dff.png)
+![](../.gitbook/assets/sys_img_d1842ce0.png)
 
 #### Ferramenta 4: Consolidar duplicatas LID (Avançado)
 
 * **Localização:** Menu Configurações> Configurações Gerais > Ações do Sistema
 
-![](../.gitbook/assets/image_fc91c3f2.png)
+![](../.gitbook/assets/sys_img_6cd15c21.png)
 
 * **Como funciona:** Detecta e mescla pares de contatos duplicados gerados por cruzamento de LID e Pushname (Nome). Essa função serve para juntar dois contatos repetidos manualmente, quando o sistema não consegue detectar sozinho que são a mesma pessoa ou possui um contato "envenenado" (com problemas) que precisa ser substituído por um contato saudável.
 
 **Operação Destrutiva:** Existe remoção de contatos e alteração irreversível em cerca de 14 tabelas do banco de dados. **É obrigatório confirmar que você realizou o backup do banco de dados** antes de prosseguir. O sistema permite rodar uma auditoria (Dry Run) antes de aplicar as mudanças reais.
 
-![](../.gitbook/assets/image_a930f09e.png)
+![](../.gitbook/assets/sys_img_aefdf8dc.png)
 
 **Como fazer a Mesclagem Manual na Ferramenta 4:**
 
@@ -83,7 +83,7 @@ Na tela de diagnóstico, se o sistema não uniu automaticamente, você olha os d
 
 **Resultado prático:** O contato fica 100% unificado, com um único histórico de conversa, e as mensagens futuras passam a ser entregues para a pessoa certa, em vez de "se perderem" na ficha errada.
 
-![](../.gitbook/assets/image_25a8f2ea.png)
+![](../.gitbook/assets/sys_img_26bef44b.png)
 
 ---
 

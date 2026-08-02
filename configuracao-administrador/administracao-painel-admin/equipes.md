@@ -28,11 +28,11 @@ Uma empresa que possui diferentes fluxos de atendimento utiliza a página de Equ
 
 Para acessar, clique no Menu **Administração** e selecione a aba **Equipes**.
 
-![](../../.gitbook/assets/image_dcb54727.png)
+![](../../.gitbook/assets/sys_img_819b94b9.png)
 
 #### Você verá a seguinte tela:
 
-![](../../.gitbook/assets/image_cac15444.png)
+![](../../.gitbook/assets/sys_img_d47940f1.png)
 
 **Explicação dos campos e ícones**
 
@@ -59,7 +59,7 @@ Para acessar, clique no Menu **Administração** e selecione a aba **Equipes**.
 3. Mantenha a chave **Ativa** habilitada para que a equipe fique disponível para uso imediato.
 4. Clique em **Salvar**.
 
-![](../../.gitbook/assets/image_cd1af351.png)
+![](../../.gitbook/assets/sys_img_dadd366e.png)
 
 **Gerenciar membros da equipe**
 
@@ -71,7 +71,7 @@ Para acessar, clique no Menu **Administração** e selecione a aba **Equipes**.
 
 As equipes criadas nesta página serão refletidas diretamente no [Chat Privado](/ferramentas-do-atendimento/atendimento/chat-privado)
 
-![](../../.gitbook/assets/image_cd781714.png)
+![](../../.gitbook/assets/sys_img_c103ca1d.png)
 
 #### Avisos e precauções
 

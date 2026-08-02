@@ -10,7 +10,7 @@ Ferramentas de atendimento do Prismabot: tela de conversas, filtros de tickets, 
 
 A seção de **Atendimento** reúne todas as ferramentas que a equipe utiliza no dia a dia de relacionamento com o cliente: a tela principal de conversas, a comunicação interna entre agentes e o gerenciamento da base de contatos.
 
-![](../.gitbook/assets/image_336753e8.png)
+![](../.gitbook/assets/sys_img_91866ad4.png)
 
 ---
 
@@ -31,11 +31,11 @@ A central de operações da equipe. É aqui que os atendentes gerenciam todas as
 
 ### [Chat Privado](/ferramentas-do-atendimento/atendimento/chat-privado)
 
-Ferramenta de comunicação interna entre agentes e equipes sem sair da plataforma. Permite troca de mensagens, arquivos, mensagens de voz e chamadas de áudio e vídeo entre atendentes — sem expor nada ao cliente.
+Ferramenta de comunicação interna entre agentes e equipes sem sair da plataforma. Permite troca de mensagens, arquivos, mensagens de voz e chamadas de áudio e vídeo entre atendentes — sem expor nada ao cliente final.
 
 ---
 
-### [Contatos](https://prismatelecomservicos.com/)
+### [Contatos](https://prismatelecomservicos.com/ rel=)
 
 Diretório central de clientes da plataforma, que funciona como um CRM integrado. Permite criar, importar, segmentar e gerenciar toda a base de contatos por etiquetas, carteiras e campos personalizados — e iniciar atendimentos diretamente a partir da lista.
 

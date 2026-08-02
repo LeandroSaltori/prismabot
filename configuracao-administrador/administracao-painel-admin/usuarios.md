@@ -29,11 +29,11 @@ Uma empresa contrata um novo colaborador para o setor de suporte. O administrado
 
 Caminho clicando no Menu **Administração** e na aba **Usuários**.
 
-![](../../.gitbook/assets/image_9630f3da.png)
+![](../../.gitbook/assets/sys_img_885f768e.png)
 
 #### Você verá a seguinte tela:
 
-![](../../.gitbook/assets/image_6678f5da.png)
+![](../../.gitbook/assets/sys_img_a196923b.png)
 
 **Explicação dos campos e ícones**
 
@@ -62,23 +62,23 @@ Caminho clicando no Menu **Administração** e na aba **Usuários**.
 2. Preencha os dados básicos: **Nome**, **E-mail**, **Senha** e **Telefone**.
 3. **Perfil:** Escolha entre as opções fixas ou a opção **Personalizado** (ver detalhamento abaixo).
 
-![](../../.gitbook/assets/image_9df6131c.png)
+![](../../.gitbook/assets/sys_img_49e6c070.png)
 
 **Usuário Restrito:** Quando esta opção está ativa para um usuário, a experiência dele na plataforma será limitada. Explicação mais abaixo.
 
 **Permissões de Menu:** Marque os módulos que o colaborador terá acesso (Ex: Envio em Massa, Kanban, Campanhas).
 
-![](../../.gitbook/assets/image_4a6be2c8.png)
+![](../../.gitbook/assets/sys_img_b2890e55.png)
 
 **2. Configurar Telefonia (Opcional)**
 
 **Bloquear WaVoIP:**se desejar impedir que o usuário realize chamadas pela plataforma.
 
-![](../../.gitbook/assets/image_40cfd373.png)
+![](../../.gitbook/assets/sys_img_929a8b29.png)
 
 **Config SIP:** habilite a chave se houver integração com telefonia IP.
 
-![](../../.gitbook/assets/image_21dc90c5.png)
+![](../../.gitbook/assets/sys_img_a371346f.png)
 
 Preencha os dados do servidor, usuário e senha fornecidos pelo seu provedor VoIP.
 
@@ -88,7 +88,7 @@ Preencha os dados do servidor, usuário e senha fornecidos pelo seu provedor VoI
 2. Defina para cada dia da semana se o usuário está "Aberto" ou "Fechado".
 3. Configure os turnos (1º e 2º período). O usuário só aparecerá como disponível para novos atendimentos dentro destes intervalos.
 
-![](../../.gitbook/assets/image_99b0fdc6.png)
+![](../../.gitbook/assets/sys_img_e38cb0a3.png)
 
 ---
 
@@ -113,13 +113,13 @@ Quando esta opção está ativa para um usuário, a experiência dele na platafo
 
 **Menu de Contatos Oculto:** O usuário não terá acesso ao menu "Contatos", impedindo a visualização ou exportação da lista completa de contatos.
 
-![](../../.gitbook/assets/image_c9cf1e30.png)
+![](../../.gitbook/assets/sys_img_a66a8b00.png)
 
 **Proibido Iniciar Novas Conversas**
 
 * O botão "Iniciar Conversa Avulsa" na tela de Atendimentos será ocultado.
 
-![](../../.gitbook/assets/image_ec82c42f.png)
+![](../../.gitbook/assets/sys_img_bcc57008.png)
 
 #### Na Tela de Atendimento (Chat)
 

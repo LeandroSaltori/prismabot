@@ -20,7 +20,7 @@ O **Rastreamento de Conversões** permite identificar e mensurar a eficácia dos
 2. Selecione a aba **Integrações**.
 3. No submenu lateral esquerdo, clique em **Conversões Ads**.
 
-![](../../../.gitbook/assets/image_9af6644b.png)
+![](../../../.gitbook/assets/sys_img_90db717a.png)
 
 ---
 
@@ -28,7 +28,7 @@ O **Rastreamento de Conversões** permite identificar e mensurar a eficácia dos
 
 A interface é dividida entre as abas de **Configurações**, onde são gerenciadas as chaves técnicas e regras, e a aba de **Relatórios de Anúncios**, onde as conversões processadas são listadas.
 
-![](../../../.gitbook/assets/image_8db3ab2f.png)
+![](../../../.gitbook/assets/sys_img_47b05291.png)
 
 ---
 
@@ -61,7 +61,7 @@ Para o rastreamento funcionar, a sua campanha na Meta deve ser do tipo **"Clique
 * Quando o cliente clica no anúncio e envia a mensagem, a Meta anexa o parâmetro `CTWA Click ID`.
 * O Prismabot identifica esse parâmetro automaticamente e devolve a conversão para a Meta e Google, confirmando que o clique resultou em uma conversa real.
 
-![](../../../.gitbook/assets/image_7febc161.png)
+![](../../../.gitbook/assets/sys_img_c34724aa.png)
 
 **4. Consultar Relatórios de Anúncios**
 
@@ -72,7 +72,7 @@ Na aba **Relatórios de Anúncios**, você pode auditar os resultados em tempo r
 * **Status do Evento:** Verifique se o evento consta como "Enviado", confirmando que a plataforma de anúncios recebeu o dado de conversão.
 * **URL:** Clique em "Ver anúncio" para visualizar a peça criativa que gerou aquele atendimento.
 
-![](../../../.gitbook/assets/image_21aee129.png)
+![](../../../.gitbook/assets/sys_img_9cdaf0f1.png)
 
 ---
 
@@ -80,7 +80,7 @@ Na aba **Relatórios de Anúncios**, você pode auditar os resultados em tempo r
 
 **Limitação de Atribuição:** O rastreamento **não funciona** se o anúncio enviar o cliente para um site/landing page intermediária. Quando o cliente clica em um botão de WhatsApp dentro de um site, o parâmetro original do anúncio (Click ID) se perde, impossibilitando a atribuição direta nesta página.
 
-![](../../../.gitbook/assets/image_228eed50.png)
+![](../../../.gitbook/assets/sys_img_55b21e76.png)
 
 **Google Ads:** Diferente da Meta, o Google Ads não envia o ID de clique nativamente dentro da mensagem do WhatsApp. A integração com Google nesta página serve para alimentar o **Google Analytics (GA4)** com relatórios de volume, mas não otimiza lances de campanhas de pesquisa diretamente como ocorre no Facebook/Instagram.
 

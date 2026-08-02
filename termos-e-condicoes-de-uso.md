@@ -15,7 +15,7 @@ Data de disponibilização: 22/05/2024
 ---
 
 Estes Termos e Condições de Uso (“Termos”) regulam a relação comercial e o licenciamento de
-uso entre a empresa **Prisma Telecom**, pessoa jurídica de direito
+uso entre a empresa **BIANCA SANT ANA PEREIRA & CIA LTDA**, pessoa jurídica de direito
 privado, inscrita no CNPJ sob o nº 35.617.749/0001-67, doravante denominada “Prismabot” ou
 “**LICENCIANTE**”, e a pessoa física ou jurídica que adquire a licença, doravante denominada
 “**CLIENTE**” ou “**LICENCIADO**”.
@@ -51,9 +51,9 @@ Para facilitar a leitura e interpretação deste documento, adotamos as seguinte
 * **Cliente (ou Licenciado)**: Pessoa física ou jurídica que adquire a Licença de Uso do Software Prismabot, responsável pelo pagamento, pela contratação da infraestrutura (servidor) e pela gestão dos Usuários e Clientes Finais (Tenants).
 * **Sistema Prismabot**: Software desenvolvido e de propriedade exclusiva da Prismabot, fornecido sob regime de licenciamento em nuvem. Trata-se de uma solução tecnológica para centralização e gestão de multicanais de atendimento e automação.
 * **Licença de Uso Anual**: Modalidade de contratação que concede ao Cliente o direito de uso do Sistema Prismabot pelo período de 12 (doze) meses, instalada na infraestrutura providenciada pelo Cliente.
-* **Modelo Prismabot**: Característica do Sistema Prismabot que permite ao Cliente personalizar a identidade visual e revender o acesso ao software para terceiros sob sua própria marca.
+* **Modelo plataforma de atendimento**: Característica do Sistema Prismabot que permite ao Cliente personalizar a identidade visual e revender o acesso ao software para terceiros sob sua própria marca.
 * **Infraestrutura (servidor)**: Servidor Virtual Privado (Virtual Private Server) contratado e custeado diretamente pelo Cliente junto a terceiros, onde o Sistema Prismabot será instalado.
-* **Usuário**: Pessoa autorizada pelo Cliente a acessar o painel do sistema (Painel Administrativo, Admin, supervisores ou atendentes).
+* **Usuário**: Pessoa autorizada pelo Cliente a acessar o painel do sistema (Super Admin, Admin, supervisores ou atendentes).
 * **Tenant (Cliente Final)**: Conta ou instância criada pelo Cliente dentro do Sistema Prismabot para revender serviços a terceiros.
 
 ---
@@ -91,7 +91,7 @@ A servidor onde o sistema será instalado deverá satisfazer os seguintes requis
 * Armazenamento: SSD ou NVMe a partir de 200GB.
 
 **3.3. Documentação Técnica:**
-Os requisitos detalhados e atualizados constam no link oficial: <https://prismatelecomservicos.com//requisitos-de-uso>.
+Os requisitos detalhados e atualizados constam no link oficial: <https://prismabot.passaportezdg.com.br/requisitos-de-uso>.
 
 **3.4. Versões Suportadas:**
 É crucial manter o sistema operacional e navegadores atualizados. As versões suportadas para conexão com a Plataforma WhatsApp são:
@@ -119,7 +119,7 @@ O Usuário deve fornecer informações verdadeiras, exatas e atuais. A Prismabot
 
 4.2. Responsabilidade sobre Equipe: O Cliente é o único responsável pela seleção, contratação, remuneração e gestão de seus funcionários (Usuários/Atendentes) que utilizam a plataforma, isentando a Prismabot de qualquer vínculo trabalhista ou solidariedade.
 
-4.3. Responsabilidade sobre o Modelo Prismabot (Tenants):
+4.3. Responsabilidade sobre o Modelo plataforma de atendimento (Tenants):
 Considerando que o Cliente pode revender o uso do sistema (SaaS) sob marca própria:
 
 * 4.3.1. A Prismabot atua como fornecedora de tecnologia e não possui relação com os clientes finais (Tenants) do Cliente.
@@ -130,7 +130,7 @@ Considerando que o Cliente pode revender o uso do sistema (SaaS) sob marca próp
 
 **5.1. Objeto:** O contrato concede ao Cliente uma Licença de Uso de Software (Direito de Uso), não exclusiva, intransferível e temporária, do Sistema Prismabot, para instalação em servidor (servidor) do Cliente.
 
-**5.2. Escopo:** A licença permite instalar o software, configurar o Prismabot, criar usuários ilimitados (conforme capacidade do servidor) e receber atualizações durante a vigência contratual.
+**5.2. Escopo:** A licença permite instalar o software, configurar o plataforma de atendimento, criar usuários ilimitados (conforme capacidade do servidor) e receber atualizações durante a vigência contratual.
 
 **5.3. Restrições:**
 Sob pena de cancelamento imediato e medidas judiciais, é vedado:
@@ -173,7 +173,7 @@ O limite de instâncias e os direitos comerciais de uso são estritamente determ
 
 * **6.2.1. Modalidades de Licenciamento:**
 * **I. Plano "Uso Próprio" (Single-Tenant):** Concede o direito de ativação de apenas **01 (uma) instância (Tenant)** vinculada à chave de licença. Este plano é destinado exclusivamente à centralização e gestão do próprio negócio do Cliente, não havendo limites para a criação de usuários (atendentes) ou conexão de números telefônicos nesta mesma instância. É expressamente vedada a cliente, sublocação ou criação de contas para terceiros nesta modalidade.
-* **II. Plano "Para cliente" (Multi-Tenant):** Concede o direito de criação e gestão de múltiplas instâncias (Tenants) de forma ilimitada. Este plano autoriza o Cliente a operar no modelo Prismabot e revender acessos (SaaS) para múltiplos clientes finais. Todas as instâncias criadas devem estar vinculadas a subdomínios de um mesmo domínio raiz de titularidade do Cliente (ex: app1.cliente.com, app2.cliente.com), validado pela chave de licença no momento da ativação.
+* **II. Plano "Para cliente" (Multi-Tenant):** Concede o direito de criação e gestão de múltiplas instâncias (Tenants) de forma ilimitada. Este plano autoriza o Cliente a operar no modelo plataforma de atendimento e revender acessos (SaaS) para múltiplos clientes finais. Todas as instâncias criadas devem estar vinculadas a subdomínios de um mesmo domínio raiz de titularidade do Cliente (ex: app1.cliente.com, app2.cliente.com), validado pela chave de licença no momento da ativação.
 * **6.2.2. Intransferibilidade da Licença Matriz:** A licença (chave de ativação) é pessoal, intransferível e vinculada ao CPF/CNPJ do Cliente adquirente. Mesmo no Plano "Para cliente", o Cliente comercializa apenas o acesso (login) aos seus Tenants, sendo expressamente vedado o compartilhamento ou repasse da chave de licença para ativação em servidores ou domínios raízes de terceiros.
 * **6.2.3. Auditoria e Penalidades:** A Prismabot reserva-se o direito de verificar o cumprimento destas cláusulas a qualquer momento (via telemetria ou auditoria de banco de dados). A constatação de uso indevido — a exemplo de um Cliente do "Plano Uso Próprio" comercializando acessos a terceiros, ou ativações em domínios não autorizados — poderá acarretar a suspensão imediata da licença e a cobrança proporcional à diferença de plano ou licenças extras utilizadas irregularmente.
 
@@ -279,12 +279,12 @@ Conforme detalhado na Cláusula 3.6, a Prismabot não possui controle sobre serv
 O Sistema Prismabot, seu código-fonte, arquitetura de banco de dados, logotipos (da marca Prismabot), documentações, manuais e APIs são de propriedade intelectual exclusiva da Prismabot (Licenciante).
 
 * **9.1.1.** A contratação da licença não transfere, em hipótese alguma, a titularidade ou os direitos autorais do software para o Cliente. O Cliente recebe apenas uma autorização de uso (Licença), limitada, revogável e não exclusiva.
-* **9.1.2.** É vedado ao Cliente remover, ocultar ou alterar os avisos de copyright ou mecanismos de validação de licença embutidos no código-fonte, exceto nas áreas explicitamente designadas para personalização visual (Prismabot).
+* **9.1.2.** É vedado ao Cliente remover, ocultar ou alterar os avisos de copyright ou mecanismos de validação de licença embutidos no código-fonte, exceto nas áreas explicitamente designadas para personalização visual (plataforma de atendimento).
 
-**9.2. Titularidade do Cliente (Prismabot e Dados):**
+**9.2. Titularidade do Cliente (plataforma de atendimento e Dados):**
 Pertencem exclusivamente ao Cliente:
 
-* I. A marca, logotipo e identidade visual aplicados sobre a plataforma no modelo Prismabot.
+* I. A marca, logotipo e identidade visual aplicados sobre a plataforma no modelo plataforma de atendimento.
 * II. A base de dados de contatos, históricos de conversas e informações de seus clientes finais (Tenants).
 * III. A estratégia de precificação e os contratos firmados com seus próprios clientes.
 

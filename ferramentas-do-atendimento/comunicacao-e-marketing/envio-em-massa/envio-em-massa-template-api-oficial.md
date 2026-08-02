@@ -14,7 +14,7 @@ Use esta aba para disparar templates WABA aprovados pela Meta para uma lista de 
 
 Esta aba requer uma conexão via **API Oficial (WABA)**. Conexões por QR Code não são compatíveis com envio de templates.
 
-![](../../../.gitbook/assets/image_ab1ca92a.png)
+![](../../../.gitbook/assets/sys_img_26115788.png)
 
 Esta página detalha o funcionamento desta aba específica. Para uma visão geral da funcionalidade, tutoriais em vídeo e orientações de uso, [acesse Envio em Massa.](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa)
 
@@ -74,7 +74,7 @@ Ao usar **Todos os Contatos**, revise o tamanho da sua base antes de disparar e 
 3. Preencha as variáveis do template, se houver
 4. Confirme o preview antes de prosseguir
 
-![](../../../.gitbook/assets/image_0153a37a.png)
+![](../../../.gitbook/assets/sys_img_97fc9965.png)
 
 ### Realizando o envio
 

@@ -15,11 +15,11 @@ A capacidade de centralizar múltiplos canais de comunicação em uma única pla
 
 Para acessar, clique no Menu **Administração** e selecione a aba **Canais**.
 
-![](../../.gitbook/assets/image_ecd188bb.png)
+![](../../.gitbook/assets/sys_img_29d6036f.png)
 
 #### Você verá a seguinte tela:
 
-![](../../.gitbook/assets/image_280f334a.png)
+![](../../.gitbook/assets/sys_img_c00d461f.png)
 
 ---
 
@@ -29,7 +29,7 @@ O Prismabot oferece suporte a múltiplos canais simultâneos. Abaixo, listamos a
 
 #### 1. Meta Oficial
 
-![](../../.gitbook/assets/image_04fe3e96.png)
+![](../../.gitbook/assets/sys_img_0738ef80.png)
 
 [**WhatsApp Oficial (OAuth):**](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia) Conexão na API oficial via QR-CODE, com coexistência entre Whatsapp business e o prismabot, usando o app de integração nativo do Prismabot. É a conexão mais prática e segura disponível. Necessário ter um número WhatsApp business.
 
@@ -39,7 +39,7 @@ O Prismabot oferece suporte a múltiplos canais simultâneos. Abaixo, listamos a
 
 #### 2. Whatsapp não oficial
 
-![](../../.gitbook/assets/image_b5cb4d28.png)
+![](../../.gitbook/assets/sys_img_53bbc58a.png)
 
 Simula o WhatsApp Web/Desktop. Depende de um aparelho celular conectado. O Prismabot disponibiliza diversos "motores" para garantir compatibilidade com diferentes tipos de chip:
 
@@ -52,11 +52,11 @@ Simula o WhatsApp Web/Desktop. Depende de um aparelho celular conectado. O Prism
 
 **Qual a diferença técnica?**
 Para entender profundamente os prós e contras de cada tipo de conexão e decidir qual é a melhor para o seu negócio, leia nosso artigo comparativo:
-👉 [**API Oficial vs. APIs Não Oficiais: Guia Completo**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fprismatelecomservicos.com%2Fconheca-o-prismabot%2Frecursos-e-integracoes-do-prismabot%2Fapi-oficial-do-whatsapp-vs.-apis-nao-oficiais)
+👉 [**API Oficial vs. APIs Não Oficiais: Guia Completo**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fajuda.zdg.com.br%2Fconheca-o-prismabot%2Frecursos-e-integracoes-do-prismabot%2Fapi-oficial-do-whatsapp-vs.-apis-nao-oficiais)
 
 #### 3. Outros
 
-![](../../.gitbook/assets/image_6553efbd.png)
+![](../../.gitbook/assets/sys_img_e9d9a91f.png)
 
 * **Telegram:** Conexão via Bot Token oficial. Extremamente estável e funciona 100% na nuvem.
 * **WebMail:** Conexão via protocolo IMAP/SMTP para transformar e-mails recebidos em tickets de atendimento.
@@ -71,7 +71,7 @@ No topo da página, você encontra dois botões principais para a organização 
 
 1. **Alterar Ordem de Visualização:** Permite reorganizar a disposição dos cards na tela podendo organizar por: Padrão, A–Z, por tipo, Agrupado, por provedor ou por status
 
-![](../../.gitbook/assets/image_0b31d975.png)
+![](../../.gitbook/assets/sys_img_5bb9ebef.png)
 
 1. **Adicionar Canal:** Botão para iniciar uma nova conexão.
 
@@ -83,7 +83,7 @@ No topo da página, você encontra dois botões principais para a organização 
 
 Após a ativação de uma conexão, o sistema disponibiliza um menu de ações rápidas para a gestão técnica e operacional do canal. Estas opções permitem o controle de fluxo de mensagens e a manutenção da integridade da comunicação.
 
-![](../../.gitbook/assets/image_a1b2629f.png)
+![](../../.gitbook/assets/sys_img_60a4240a.png)
 
 **Opções Gerais (Disponíveis para todos os canais)**
 

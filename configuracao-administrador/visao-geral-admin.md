@@ -6,8 +6,6 @@ Nesta página
 
 # Visão geral Admin
 
-![Prisma Telecom](../.gitbook/assets/prisma_logo.png)
-
 O **Painel Admin** é a interface utilizada pelos gestores e colaboradores de uma empresa que utiliza o Prismabot. Ele é segmentado para permitir tanto a operação diária quanto a configuração estratégica do negócio.
 
 ---
@@ -40,7 +38,7 @@ Para garantir a segurança dos dados e a organização da equipe, o painel do Te
 
 O sistema Prismabot organiza as funcionalidades em oito menus principais. A visibilidade destes menus varia de acordo com o nível de acesso.
 
-![](../.gitbook/assets/image_8a2cc5b1.png)
+![](../.gitbook/assets/sys_img_8a8b0692.png)
 
 #### 1. Menus Operacionais (Visíveis para Todos)
 
@@ -103,6 +101,7 @@ Estes menus contêm configurações que alteram o comportamento do sistema. Por 
 
 ---
 
+[AnteriorStorage S3](/configuracao-superadmin/sistema/sistema-dados-e-configuracao/storage-s3)[PróximoAdministração - Painel Admin](/configuracao-administrador/administracao-painel-admin)
 
 Atualizado há 3 meses
 

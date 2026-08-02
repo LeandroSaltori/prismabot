@@ -25,7 +25,7 @@ A API Oficial é a infraestrutura homologada, construída e mantida pela própri
 O Prismabot integra-se à API Oficial permitindo duas formas de configuração:
 
 * **Via App Prismabot (Login Incorporado):** O usuário utiliza o aplicativo oficial da Prisma Telecom para realizar o login via Facebook e conectar o número de forma rápida.
-* **Via App Próprio (Tech Provider):** O assinante cria e aprova seu próprio aplicativo no painel *Facebook Developers*. Indicado para operações Prismabot, permitindo que seus clientes façam o login visualizando a sua marca.
+* **Via App Próprio (Tech Provider):** O assinante cria e aprova seu próprio aplicativo no painel *Facebook Developers*. Indicado para operações plataforma de atendimento, permitindo que seus clientes façam o login visualizando a sua marca.
 
 #### Coexistência
 

@@ -20,11 +20,11 @@ A sub-aba WhatsApp centraliza o gerenciamento completo dos números oficiais (WA
 
 Acesse **Configurações → Integrações Meta → Contas Meta → WhatsApp**.
 
-![](../../../.gitbook/assets/image_d12acca4.png)
+![](../../../.gitbook/assets/sys_img_5e1f5ecd.png)
 
 ### Você verá a seguinte tela
 
-![](../../../.gitbook/assets/image_abf3358d.png)
+![](../../../.gitbook/assets/sys_img_b22f1843.png)
 
 ### Selecionando a conexão
 
@@ -34,7 +34,7 @@ Use o seletor **Conexão WABA** no topo para escolher qual número gerenciar. O 
 
 #### Informações da Conexão
 
-![](../../../.gitbook/assets/image_8c3e769c.png)
+![](../../../.gitbook/assets/sys_img_bf4ea2f0.png)
 
 Exibe os dados técnicos do número selecionado:
 
@@ -88,9 +88,9 @@ Define se os webhooks serão entregues via App Próprio ou via proxy TechProvide
 
 Executa um diagnóstico completo da conexão — verifica token, WABA e webhook
 
-![](../../../.gitbook/assets/image_9f1f9f88.png)
+![](../../../.gitbook/assets/sys_img_811da2be.png)
 
-![](../../../.gitbook/assets/image_636050f5.png)
+![](../../../.gitbook/assets/sys_img_54f0e83d.png)
 
 #### Telefone
 

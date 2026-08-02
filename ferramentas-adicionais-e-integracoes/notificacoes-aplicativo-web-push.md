@@ -61,7 +61,7 @@ Em seguida, você precisa dizer ao Prismabot para qual canal você quer receber 
 
 #### 3. Customizações do ícone e nome do App
 
-**Disponível no perfil: Super-Administrador**
+**Disponível no perfil: Administrador**
 
 **Alterando o Nome do Aplicativo**
 

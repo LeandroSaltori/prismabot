@@ -48,21 +48,21 @@ O `pm2 status` e o `pm2 logs prismabot-backend` geralmente já mostram a causa p
 
 #### "Recuperação de licença: A licença ficou inválida durante a operação"
 
-**Onde aparece:** na tela de login, ao tentar entrar com o superadmin.
+**Onde aparece:** na tela de login, ao tentar entrar com o Administrador.
 
-**O que significa:** a licença expirou ou ficou inválida. O sistema entra automaticamente em **modo de recuperação**, onde somente o superadmin consegue alterar a chave de licença.
+**O que significa:** a licença expirou ou ficou inválida. O sistema entra automaticamente em **modo de recuperação**, onde somente o Administrador consegue alterar a chave de licença.
 
 **Como resolver:**
 
-1. Acesse com o **superadmin**
+1. Acesse com o **Administrador**
 2. Insira a **nova chave de licença** (se renovou) ou a **chave atual** (se ainda válida) para revalidar
 3. Se já renovou a licença mas o erro persiste, pode ser que a licença tenha ficado inválida por mais de 6 horas — nesse caso, **reinicie o backend** na servidor:
 
-Se o sistema ficar mais de **6 horas** com a licença inválida, ele bloqueia o acesso. Nesse caso, além de inserir a chave válida, é necessário reiniciar o backend. Somente o **superadmin** pode alterar a chave de licença nesse estado.
+Se o sistema ficar mais de **6 horas** com a licença inválida, ele bloqueia o acesso. Nesse caso, além de inserir a chave válida, é necessário reiniciar o backend. Somente o **Administrador** pode alterar a chave de licença nesse estado.
 
 #### Esta empresa está inativa. Entre em contato com o administrador
 
-* **Situação:** Tenta logar pelo superadmin e o aviso aparece
+* **Situação:** Tenta logar pelo Administrador e o aviso aparece
 * **Causa:** Ocorre quando é inativado o **Tenant 1** via banco ou rotina externa
 * **Solução:** Acessar o banco de dados e ativar na **tabela TENANT** o **Tenant 1**
 
@@ -126,7 +126,7 @@ Se o tipo de conteúdo não for suportado, o comportamento esperado é que o Pri
 
 **O que significa:** o tenant atingiu o limite de conexões permitidas para a sua conta.
 
-**Como resolver:** acesse o **Superadmin → Tenants** e revise o limite de conexões configurado para esse tenant. Aumente o limite se necessário.
+**Como resolver:** acesse o **Administrador → Tenants** e revise o limite de conexões configurado para esse tenant. Aumente o limite se necessário.
 
 ---
 

@@ -18,7 +18,6 @@ Se ao conectar um número WhatsApp pela API Oficial (via App Techprovider/compar
 
 Esse erro aparece na etapa de autenticação OAuth, quando o Prismabot tenta conectar um número à API Oficial usando o **Login Incorporado (Oauth)**. O nome do erro indica uma restrição de **conexões**, não necessariamente uma permissão isolada faltando.
 
-[**Saiba mais sobre o cálculo de Score do APP Tech Provider Compartilhado**](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
 
 ---
 
@@ -26,7 +25,6 @@ Esse erro aparece na etapa de autenticação OAuth, quando o Prismabot tenta con
 
 Quando uma licença acumula números de baixa reputação (amarelos/vermelhos) no App compartilhado da Prisma Telecom, ela **perde a permissão de conectar novos números** por esse App — o que gera exatamente um erro de "sem permissão" por limite de conexões.
 
-1. Acesse **Superadmin → Tenants e Licença → Gerenciar Licença → Score do App Tech Provider**.
 2. Verifique se a licença está com o **score baixo** (faixa "Alerta" ou "Crítico") ou se aparece algum aviso de **bloqueio de conexão de novos números**.
 3. Se estiver bloqueada, siga os passos de **limpeza dos números ruins** e **desbloqueio (cortesia ou manual)** descritos no artigo completo: 👉 Score do App Tech Provider
 

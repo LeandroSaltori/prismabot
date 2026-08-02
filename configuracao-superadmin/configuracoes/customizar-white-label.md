@@ -5,13 +5,13 @@ Nesta página
 1. [Configuração Superadmin](/configuracao-superadmin)
 2. [Configurações Superadmin](/configuracao-superadmin/configuracoes)
 
-# Customizar (plataforma de atendimento)
+# Customizar (Prismabot)
 
 Personalize a aparência e configurações do sistema
 
 **Disponível para o perfil: Superadministrador**
 
-O módulo de customização permite que o Superadministrador aplique a identidade visual de sua própria marca em toda a interface do sistema Prismabot. Através do modelo **plataforma de atendimento**, é possível transformar a plataforma em um produto proprietário, garantindo que os tenants (clientes) visualizem apenas os logotipos, cores e nomes definidos pelo administrador.
+O módulo de customização permite que o Superadministrador aplique a identidade visual de sua própria marca em toda a interface do sistema Prismabot. Através do modelo **Prismabot**, é possível transformar a plataforma em um produto proprietário, garantindo que os tenants (clientes) visualizem apenas os logotipos, cores e nomes definidos pelo administrador.
 
 As principais funções da customização são:
 
@@ -119,7 +119,7 @@ Permite ao administrador criar uma biblioteca de vídeos para instruir os tenant
 * **Cadastrando um Tutorial:** Clique em "Novo Tutorial", insira um título, descrição e o link do vídeo (YouTube/Vimeo).
 * **Thumbnail:** Selecione uma imagem de capa para o vídeo.
 * **Hierarquia:** Defina a ordem numérica em que os vídeos aparecerão para o cliente.
-* **Visualização:** Uma vez ativos, os vídeos aparecem na aba "Tutoriais" do painel do usuário final, servindo como uma base de conhecimento plataforma de atendimento.
+* **Visualização:** Uma vez ativos, os vídeos aparecem na aba "Tutoriais" do painel do usuário final, servindo como uma base de conhecimento Prismabot.
 
 ![](../../.gitbook/assets/image_4c7491ca.png)
 

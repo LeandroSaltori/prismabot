@@ -13,7 +13,7 @@ Nesta página
 
 A configuração do SMTP é um passo técnico essencial para permitir que sua plataforma Prismabot envie e-mails transacionais automaticamente em seu nome.
 
-Esta configuração é utilizada para o envio de e-mails transacionais do sistema, como **criação de usuário** e informações do **plataforma de atendimento** (nome da plataforma, logotipo, etc.). **Redefinição de senha não é enviada por este SMTP** — essa funcionalidade não está disponível por esse canal.
+Esta configuração é utilizada para o envio de e-mails transacionais do sistema, como **criação de usuário** e informações do **Prismabot** (nome da plataforma, logotipo, etc.). **Redefinição de senha não é enviada por este SMTP** — essa funcionalidade não está disponível por esse canal.
 
 ### Como acessar
 
@@ -55,7 +55,7 @@ Ativar protocolo seguro.
 
 ### Artigo: [Como recuperar a senha SMTP](/configuracao-superadmin/configuracoes/e-mail-smtp-do-tenant/como-recuperar-a-senha-smtp)
 
-[AnteriorCustomizar (plataforma de atendimento)](/configuracao-superadmin/configuracoes/customizar-plataforma de atendimento)[PróximoComo recuperar a senha SMTP](/configuracao-superadmin/configuracoes/e-mail-smtp-do-tenant/como-recuperar-a-senha-smtp)
+[AnteriorCustomizar (Prismabot)](/configuracao-superadmin/configuracoes/customizar-Prismabot)[PróximoComo recuperar a senha SMTP](/configuracao-superadmin/configuracoes/e-mail-smtp-do-tenant/como-recuperar-a-senha-smtp)
 
 Atualizado há 24 dias
 

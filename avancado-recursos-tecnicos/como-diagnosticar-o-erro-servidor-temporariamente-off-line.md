@@ -76,7 +76,7 @@ Antes de olhar logs, confira o estado do disco do seu servidor.
 
 Alguma partição perto de **100% em "Use%"**? (erro `disk_full` / `53100` no log do Postgres)
 
-**Causa:** a servidor em nuvem ficou sem espaço em disco — quase sempre logs do PM2, cache ou mídias acumuladas.
+**Causa:** a servidor ficou sem espaço em disco — quase sempre logs do PM2, cache ou mídias acumuladas.
 
 **Solução:**
 

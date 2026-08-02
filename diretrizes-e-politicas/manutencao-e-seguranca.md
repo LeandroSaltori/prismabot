@@ -8,7 +8,7 @@ Nesta página
 
 Ações obrigatórias após a instalação: alterar credenciais padrão, configurar firewall, criar rotina de backups e manter o servidor atualizado.
 
-O Prismabot é um software **gerenciado em nuvem**: A Prisma Telecom gerencia toda a infraestrutura e entrega o Prismabot pronto para uso em nuvem. Isso significa que a segurança e a manutenção do ambiente são de sua responsabilidade após a instalação.
+O Prismabot é um software **em nuvem**: A Prisma Telecom gerencia toda a infraestrutura e entrega o Prismabot pronto para uso em nuvem. Isso significa que a segurança e a manutenção do ambiente são de sua responsabilidade após a instalação.
 
 Esta página reúne as ações que você precisa executar para manter sua instância segura e atualizada.
 
@@ -60,7 +60,7 @@ Configuração do PostgreSQL/Redis
 
 **Senha do usuário de deploy** (`deployzdg`)
 
-Terminal da servidor em nuvem
+Terminal da servidor
 
 Não colocar o sistema em produção sem alterar essas credenciais. Instâncias com valores padrão são vulneráveis a acessos não autorizados.
 
@@ -68,7 +68,7 @@ Não colocar o sistema em produção sem alterar essas credenciais. Instâncias 
 
 #### Firewall
 
-Mantenha um firewall ativo na servidor em nuvem. As únicas portas que precisam estar abertas para o funcionamento do Prismabot são:
+Mantenha um firewall ativo na servidor. As únicas portas que precisam estar abertas para o funcionamento do Prismabot são:
 
 Porta
 
@@ -80,7 +80,7 @@ Uso
 
 TCP
 
-Acesso SSH à servidor em nuvem
+Acesso SSH à servidor
 
 `80`
 
@@ -120,7 +120,7 @@ Configure uma rotina de backup automático que cubra:
 * Arquivos de mídia armazenados pelo sistema
 * Arquivo `.env` de configuração
 
-Sem backup, a perda de dados por falha de hardware ou erro operacional é irreversível. Considere replicar os backups para um storage externo à servidor em nuvem.
+Sem backup, a perda de dados por falha de hardware ou erro operacional é irreversível. Considere replicar os backups para um storage externo à servidor.
 
 ---
 
@@ -130,7 +130,7 @@ Para entender o que é responsabilidade da Prisma Telecom e o que é responsabil
 
 * [Termos e Condições de Uso e Licenciamento](https://prismatelecomservicos.com/) — cláusulas 8 (obrigações e responsabilidades) e 10 (privacidade e proteção de dados)
 * [Política de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico) — o que está e o que não está incluso no suporte
-* [Aviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade) — como os dados são tratados no modelo gerenciado em nuvem
+* [Aviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade) — como os dados são tratados no modelo em nuvem
 
 [AnteriorAviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)[PróximoAPI Oficial vs API Não Oficial](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
 

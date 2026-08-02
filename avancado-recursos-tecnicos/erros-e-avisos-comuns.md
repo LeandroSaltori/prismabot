@@ -40,7 +40,7 @@ Após atualizar a sessão em [Configurações → Sessões](/configuracao-admini
 * Banco de dados ou Redis indisponível
 * Erro de build após instalação ou atualização
 
-**Como diagnosticar:** acesse a servidor em nuvem e execute:
+**Como diagnosticar:** acesse a servidor e execute:
 
 O `pm2 status` e o `pm2 logs prismabot-backend` geralmente já mostram a causa principal. Envie o retorno ao suporte se o problema persistir.
 
@@ -56,7 +56,7 @@ O `pm2 status` e o `pm2 logs prismabot-backend` geralmente já mostram a causa p
 
 1. Acesse com o **superadmin**
 2. Insira a **nova chave de licença** (se renovou) ou a **chave atual** (se ainda válida) para revalidar
-3. Se já renovou a licença mas o erro persiste, pode ser que a licença tenha ficado inválida por mais de 6 horas — nesse caso, **reinicie o backend** na servidor em nuvem:
+3. Se já renovou a licença mas o erro persiste, pode ser que a licença tenha ficado inválida por mais de 6 horas — nesse caso, **reinicie o backend** na servidor:
 
 Se o sistema ficar mais de **6 horas** com a licença inválida, ele bloqueia o acesso. Nesse caso, além de inserir a chave válida, é necessário reiniciar o backend. Somente o **superadmin** pode alterar a chave de licença nesse estado.
 
@@ -173,7 +173,7 @@ Se o contato do WebChat **não possui telefone cadastrado**, não é possível e
 ### Erro ao gerar o certificado HTTPS
 
 * Verifique se o apontamento foi prapagado
-* Acesse a servidor em nuvem como root e execute o comando
+* Acesse a servidor como root e execute o comando
 
 ## Erros de Banco de Dados
 
@@ -193,7 +193,7 @@ Acessar o terminal com root
 
 ## Customização não são carregadas no front
 
-Acessar a servidor em nuvem como deployzdg
+Acessar a servidor como deployzdg
 
 Realizar as customizações
 

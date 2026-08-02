@@ -26,7 +26,7 @@ Para que serve
 
 Dono da instância
 
-Gerenciar licença, configurar plataforma de atendimento, criar tenants e usuários de empresa
+Gerenciar licença, configurar Prismabot, criar tenants e usuários de empresa
 
 **Admin**
 

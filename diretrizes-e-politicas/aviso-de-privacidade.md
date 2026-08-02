@@ -6,7 +6,7 @@ Nesta página
 
 # Aviso de Privacidade
 
-Como o Prismabot trata dados pessoais em modelo gerenciado em nuvem: responsabilidades do assinante, coleta, armazenamento e conformidade com a LGPD.
+Como o Prismabot trata dados pessoais em modelo em nuvem: responsabilidades do assinante, coleta, armazenamento e conformidade com a LGPD.
 
 Versão original: 22/05/2024
 
@@ -16,7 +16,7 @@ Versão vigente em: <https://prismatelecomservicos.com/
 
 A Prisma Telecom, inscrita no CNPJ sob o nº 35.617.749/0001-67, com sede em Alfenas/MG ("Prisma Telecom"), criou este Aviso de Privacidade (o "Aviso") para explicar como trata dados pessoais quando você contrata, instala ou utiliza o Prismabot, ou quando acessa o nosso Site.
 
-O Prismabot é um software omnichannel de gestão e automação de atendimento, licenciado em modelo gerenciado em nuvem (gerenciado em nuvem): a Prisma Telecom entrega a licença e o instalador, e o Cliente acessa a plataforma operada em nuvem pela Prisma Telecom. Esse desenho é determinante para entender quem trata o quê — por isso há um capítulo dedicado ao tema mais adiante (ver o capítulo Particularidades do modelo gerenciado em nuvem).
+O Prismabot é um software omnichannel de gestão e automação de atendimento, licenciado em modelo em nuvem (em nuvem): a Prisma Telecom entrega a licença e o instalador, e o Cliente acessa a plataforma operada em nuvem pela Prisma Telecom. Esse desenho é determinante para entender quem trata o quê — por isso há um capítulo dedicado ao tema mais adiante (ver o capítulo Particularidades do modelo em nuvem).
 
 Este Aviso integra de forma indissociável os [Termos e Condições de Uso do Prismabot](https://prismatelecomservicos.com/). Em caso de dúvida ou para exercer seus direitos como Titular, fale conosco pelos canais informados ao final do documento.
 
@@ -28,7 +28,7 @@ Este Aviso integra de forma indissociável os [Termos e Condições de Uso do Pr
 * [4. Finalidades do tratamento](/diretrizes-e-politicas/aviso-de-privacidade#id-4.-finalidades-do-tratamento)
 * [5. Bases legais aplicáveis](/diretrizes-e-politicas/aviso-de-privacidade#id-5.-bases-legais-aplicaveis)
 * [6. Com quem compartilhamos seus dados](/diretrizes-e-politicas/aviso-de-privacidade#id-6.-com-quem-compartilhamos-seus-dados)
-* [7. Particularidades do modelo gerenciado em nuvem](/diretrizes-e-politicas/aviso-de-privacidade#id-7.-particularidades-do-modelo-gerenciado em nuvem)
+* [7. Particularidades do modelo em nuvem](/diretrizes-e-politicas/aviso-de-privacidade#id-7.-particularidades-do-modelo-em nuvem)
 * [8. Por quanto tempo guardamos seus dados](/diretrizes-e-politicas/aviso-de-privacidade#id-8.-por-quanto-tempo-guardamos-seus-dados)
 * [9. Como protegemos seus dados](/diretrizes-e-politicas/aviso-de-privacidade#id-9.-como-protegemos-seus-dados)
 * [10. Direitos do Titular](/diretrizes-e-politicas/aviso-de-privacidade#id-10.-direitos-do-titular)
@@ -43,14 +43,14 @@ Este Aviso integra de forma indissociável os [Termos e Condições de Uso do Pr
 
 Para facilitar a leitura, alguns termos usados ao longo deste Aviso:
 
-* Cliente. Pessoa física ou jurídica que contrata a licença do Prismabot e gerencia, sob sua responsabilidade, a servidor em nuvem onde o Software é instalado.
+* Cliente. Pessoa física ou jurídica que contrata a licença do Prismabot e gerencia, sob sua responsabilidade, a servidor onde o Software é instalado.
 * Usuário. Pessoa indicada pelo Cliente para utilizar o Prismabot (administrador ou usuário interno) ou que apenas navega no Site.
 * Titular. Pessoa natural a quem se referem os dados pessoais.
 * Controlador / Operador. Conceitos da LGPD: o Controlador toma as decisões sobre o tratamento; o Operador trata os dados segundo as instruções do Controlador.
 * LGPD. Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais.
 * ANPD. Autoridade Nacional de Proteção de Dados.
-* Site. Domínios e subdomínios operados pela Prisma Telecom no contexto do Prismabot. As páginas principais são o site corporativo ([https://zdg.com.br](https://zdg.com.br/)) e o site institucional do produto ([https://prismabot.zdg.com.br](https://prismabot.zdg.com.br/)); demais subdomínios da Prisma Telecom voltados a atendimento, documentação, treinamento de Clientes e canais correlatos estão igualmente cobertos por este Aviso. Produtos distintos do Prismabot, como a Comunidade Prisma Telecom, são regidos por avisos de privacidade próprios.
-* servidor em nuvem (Virtual Private Server). Servidor virtual contratado e custeado pelo próprio Cliente, junto a provedores de infraestrutura, onde o Prismabot é instalado e operado sob exclusiva guarda do Cliente.
+* Site. Domínios e subdomínios operados pela Prisma Telecom no contexto do Prismabot. As páginas principais são o site corporativo ([https://prismatelecomservicos.com/](https://prismatelecomservicos.com//)) e o site institucional do produto ([https://prismatelecomservicos.com/](https://prismatelecomservicos.com//)); demais subdomínios da Prisma Telecom voltados a atendimento, documentação, treinamento de Clientes e canais correlatos estão igualmente cobertos por este Aviso. Produtos distintos do Prismabot, como a Comunidade Prisma Telecom, são regidos por avisos de privacidade próprios.
+* servidor (Virtual Private Server). Servidor virtual contratado e custeado pelo próprio Cliente, junto a provedores de infraestrutura, onde o Prismabot é instalado e operado sob exclusiva guarda do Cliente.
 * Plataforma WhatsApp. Plataformas operadas pela WhatsApp LLC (grupo Meta Platforms, Inc.), integradas ao Prismabot via API Oficial — arquitetura na qual a Prisma Telecom atua como Tech Provider certificado — ou via APIs não oficiais configuradas pelo Cliente, conforme [termos da plataforma](https://www.whatsapp.com/legal/).
 * Canais de Integração de Terceiros. Redes sociais, mensageiros, marketplaces, CRMs, gateways de pagamento e demais sistemas integráveis ao Prismabot via APIs, webhooks ou conectores, ativados e configurados sob exclusiva responsabilidade do Cliente, que atua como Controlador dos dados que decide trafegar por cada canal.
 * Plano de Assinatura. Licença de uso do Prismabot por período determinado, contratada pelo Cliente nas plataformas de pagamento parceiras.
@@ -66,7 +66,7 @@ Este Aviso se aplica aos seguintes Titulares:
 * Clientes que contratam a licença de uso do Prismabot;
 * Usuários indicados pelos Clientes para operar o Software.
 
-Este Aviso não se aplica aos contatos finais (leads, clientes do Cliente, destinatários de mensagens) cujos dados o Cliente trafega pelo Prismabot instalado em sua própria servidor em nuvem. Em relação a esses dados, o Cliente é o Controlador — cabe a ele manter sua própria política de privacidade, obter os consentimentos cabíveis e atender às solicitações dos titulares (ver o capítulo Particularidades do modelo gerenciado em nuvem).
+Este Aviso não se aplica aos contatos finais (leads, clientes do Cliente, destinatários de mensagens) cujos dados o Cliente trafega pelo Prismabot instalado em sua própria servidor. Em relação a esses dados, o Cliente é o Controlador — cabe a ele manter sua própria política de privacidade, obter os consentimentos cabíveis e atender às solicitações dos titulares (ver o capítulo Particularidades do modelo em nuvem).
 
 ---
 
@@ -93,7 +93,7 @@ Durante a navegação no Site e o uso do painel administrativo do Prismabot, reg
 
 ### 3.3. Dados técnicos do sistema de licenciamento
 
-Em razão da natureza gerenciado em nuvem do Prismabot, a Prisma Telecom não acessa os dados operacionais que trafegam na plataforma em nuvem (mensagens, contatos, conversas, mídias). Para validação de licença, segurança e combate à pirataria, o Software emite, a partir da plataforma em nuvem, telemetria limitada:
+Em razão da natureza em nuvem do Prismabot, a Prisma Telecom não acessa os dados operacionais que trafegam na plataforma em nuvem (mensagens, contatos, conversas, mídias). Para validação de licença, segurança e combate à pirataria, o Software emite, a partir da plataforma em nuvem, telemetria limitada:
 
 * Chave de licença e seu status (ativa/inativa);
 * Subdomínios cadastrados na instalação;
@@ -176,8 +176,8 @@ A Prisma Telecom compartilha dados pessoais apenas com terceiros indispensáveis
 
 Os Operadores contratados pela Prisma Telecom são organizados em categorias funcionais. Mantemos contratos de tratamento de dados e exigimos padrões mínimos de segurança da informação compatíveis com a LGPD.
 
-* Infraestrutura corporativa. Hospedagem da servidor em nuvem corporativa, automações internas e e-mail técnico — Hostinger Brasil Hospedagem de Sites LTDA ([política de privacidade](https://www.hostinger.com/br/legal/privacy-policy/)).
-* Sistema de licenciamento centralizado. servidor em nuvem dedicada que valida licenças do Prismabot e recebe a telemetria descrita no capítulo Quais dados coletamos — Hetzner Online GmbH, com infraestrutura na Alemanha (entra em transferência internacional, ver capítulo Transferência internacional de dados).
+* Infraestrutura corporativa. Hospedagem da servidor corporativa, automações internas e e-mail técnico — Hostinger Brasil Hospedagem de Sites LTDA ([política de privacidade](https://www.hostinger.com/br/legal/privacy-policy/)).
+* Sistema de licenciamento centralizado. servidor dedicada que valida licenças do Prismabot e recebe a telemetria descrita no capítulo Quais dados coletamos — Hetzner Online GmbH, com infraestrutura na Alemanha (entra em transferência internacional, ver capítulo Transferência internacional de dados).
 * Rede global de CDN, proxy reverso e proteção anti-spam — utilizada na hospedagem do Site institucional e no roteamento da camada Tech Provider Meta.
 * Suíte de produtividade corporativa — e-mail corporativo, planilhas e documentos usados internamente pela Prisma Telecom para gestão operacional e comunicação com Clientes.
 * Plataforma de CRM, e-mail marketing e e-mails transacionais — gestão de contatos, segmentação e envio de comunicados.
@@ -208,9 +208,9 @@ Os dados pessoais transitando por essas integrações são governados pelos term
 
 O Site pode incorporar recursos hospedados em servidores de terceiros (vídeos, fontes web, mapas, bibliotecas e CDNs públicas) que, ao serem carregados pelo navegador do visitante, podem coletar dados técnicos com finalidades técnicas e, eventualmente, estatísticas próprias do provedor. Tais coletas são governadas pelas políticas de privacidade dos respectivos provedores.
 
-### 6.6. Provedor de servidor em nuvem contratado pelo Cliente
+### 6.6. Provedor de servidor contratado pelo Cliente
 
-No modelo gerenciado em nuvem, o provedor de servidor em nuvem contratado pelo próprio Cliente é Operador contratado diretamente pelo Cliente, e não pela Prisma Telecom. A Prisma Telecom não responde pelas políticas de privacidade, segurança ou disponibilidade do provedor de infraestrutura escolhido pelo Cliente.
+No modelo em nuvem, o provedor de servidor contratado pelo próprio Cliente é Operador contratado diretamente pelo Cliente, e não pela Prisma Telecom. A Prisma Telecom não responde pelas políticas de privacidade, segurança ou disponibilidade do provedor de infraestrutura escolhido pelo Cliente.
 
 ### 6.7. Links para sites e plataformas de terceiros
 
@@ -218,9 +218,9 @@ Nosso Site pode conter links para sites e plataformas de terceiros (parceiros, a
 
 ---
 
-## 7. Particularidades do modelo gerenciado em nuvem
+## 7. Particularidades do modelo em nuvem
 
-O Prismabot é um software gerenciado em nuvem: a Prisma Telecom entrega a licença e o instalador, e o Cliente contrata, gerencia e custeia a infraestrutura (servidor em nuvem) onde o Software roda. Esse desenho redistribui responsabilidades de privacidade e merece capítulo próprio.
+O Prismabot é um software em nuvem: a Prisma Telecom entrega a licença e o instalador, e o Cliente contrata, gerencia e custeia a infraestrutura (servidor) onde o Software roda. Esse desenho redistribui responsabilidades de privacidade e merece capítulo próprio.
 
 ### 7.1. Divisão de papéis Prisma Telecom / Cliente
 
@@ -232,7 +232,7 @@ A relação envolvendo dados pessoais segue a divisão abaixo:
 
 ### 7.2. O que a Prisma Telecom não acessa
 
-Por força do modelo gerenciado em nuvem, a Prisma Telecom não tem acesso:
+Por força do modelo em nuvem, a Prisma Telecom não tem acesso:
 
 * Ao banco de dados do Cliente armazenado em nuvem;
 * Aos contatos, conversas, mensagens e mídias trafegados pelo Software;
@@ -248,12 +248,12 @@ Para as conexões via API Oficial do WhatsApp Business Platform, Instagram Direc
 
 A Prisma Telecom não responde pelo tratamento de dados realizado por terceiros, em especial:
 
-* Pelo provedor de servidor em nuvem contratado pelo Cliente (operador do Cliente);
+* Pelo provedor de servidor contratado pelo Cliente (operador do Cliente);
 * Pelas plataformas de pagamento parceiras (controladoras autônomas);
 * Pelas plataformas Meta e demais Controladores parceiros;
 * Pelas integrações de canais e sistemas de terceiros ativadas pelo Cliente em seu dashboard.
 
-O Cliente, por sua vez, é responsável pela segurança da própria servidor em nuvem (firewalls, atualizações, gestão de credenciais) e pelos eventos de segurança decorrentes da sua operação (item 10.3 dos Termos de Uso).
+O Cliente, por sua vez, é responsável pela segurança da própria servidor (firewalls, atualizações, gestão de credenciais) e pelos eventos de segurança decorrentes da sua operação (item 10.3 dos Termos de Uso).
 
 ---
 
@@ -268,7 +268,7 @@ Os dados pessoais sob responsabilidade da Prisma Telecom são tratados pelos seg
 
 A solicitação de exclusão pode ser feita a qualquer momento pelo e-mail suporte@prismatelecom.com. Após o atendimento, os dados são deletados permanentemente, ressalvadas as hipóteses de conservação acima.
 
-Dados na plataforma em nuvem. Em razão do modelo gerenciado em nuvem, os dados operacionais armazenados na plataforma em nuvem (mensagens, contatos, conversas, base de dados dos tenants) são de guarda exclusiva do Cliente. A Prisma Telecom não tem poder de exclusão sobre essa base — solicitações nesse sentido devem ser dirigidas diretamente ao Cliente.
+Dados na plataforma em nuvem. Em razão do modelo em nuvem, os dados operacionais armazenados na plataforma em nuvem (mensagens, contatos, conversas, base de dados dos tenants) são de guarda exclusiva do Cliente. A Prisma Telecom não tem poder de exclusão sobre essa base — solicitações nesse sentido devem ser dirigidas diretamente ao Cliente.
 
 ---
 
@@ -276,7 +276,7 @@ Dados na plataforma em nuvem. Em razão do modelo gerenciado em nuvem, os dados 
 
 A Prisma Telecom adota medidas técnicas e organizacionais para proteger os dados pessoais sob sua responsabilidade contra acessos não autorizados, perda, destruição e uso indevido. Entre as medidas: controle de acesso baseado em funções, autenticação multifator nos sistemas internos, criptografia em trânsito (TLS), gestão de credenciais, monitoramento de eventos e contratos de tratamento com os Operadores listados no capítulo Com quem compartilhamos.
 
-No modelo gerenciado em nuvem, a segurança da plataforma em nuvem — incluindo firewalls, atualizações do sistema operacional, gestão de credenciais e demais controles — é de responsabilidade exclusiva do Cliente (item 10.3 dos Termos de Uso). A Prisma Telecom não se responsabiliza por vazamentos decorrentes de invasões, falhas de configuração ou engenharia social sofridas na infraestrutura do Cliente ou por sua equipe.
+No modelo em nuvem, a segurança da plataforma em nuvem — incluindo firewalls, atualizações do sistema operacional, gestão de credenciais e demais controles — é de responsabilidade exclusiva do Cliente (item 10.3 dos Termos de Uso). A Prisma Telecom não se responsabiliza por vazamentos decorrentes de invasões, falhas de configuração ou engenharia social sofridas na infraestrutura do Cliente ou por sua equipe.
 
 Nenhuma operação realizada via internet é 100% segura. Caso identifique vulnerabilidade ou suspeita de incidente envolvendo nossos sistemas, entre em contato imediato pelo e-mail **suporte@prismatelecom.com**.
 
@@ -299,7 +299,7 @@ A LGPD assegura a você, na qualidade de Titular, os direitos abaixo, que podem 
 
 Para garantir que os direitos sejam exercidos por você ou por seu representante legal, a Prisma Telecom pode solicitar informações ou comprovações de identidade. Atenderemos às solicitações dentro do prazo da LGPD; em casos complexos ou de alto volume, manteremos você atualizado sobre o andamento.
 
-Quando a Prisma Telecom atuar como Operadora (situações descritas no capítulo Particularidades do modelo gerenciado em nuvem), as solicitações relativas aos dados dos contatos finais do Cliente devem ser dirigidas ao próprio Cliente — Controlador desses dados.
+Quando a Prisma Telecom atuar como Operadora (situações descritas no capítulo Particularidades do modelo em nuvem), as solicitações relativas aos dados dos contatos finais do Cliente devem ser dirigidas ao próprio Cliente — Controlador desses dados.
 
 ---
 
@@ -324,7 +324,7 @@ As principais regiões de destino dos Operadores e Controladores parceiros são:
 * União Europeia (Alemanha, França e Irlanda) — Hetzner Online GmbH (sistema de licenciamento) e demais Operadores europeus de CRM, documentação e produtividade, todos sob regime do GDPR;
 * Estados Unidos e outras regiões — Meta Platforms, suíte de produtividade corporativa, ferramentas de mensuração estatística e rede global de CDN/proxy.
 
-No modelo gerenciado em nuvem, o Cliente é livre para escolher provedores de servidor em nuvem em qualquer país. A transferência internacional decorrente dessa escolha é de responsabilidade exclusiva do Cliente, na qualidade de Controlador dos dados de seus clientes finais. O mesmo se aplica às integrações configuradas pelo Cliente.
+No modelo em nuvem, o Cliente é livre para escolher provedores de servidor em qualquer país. A transferência internacional decorrente dessa escolha é de responsabilidade exclusiva do Cliente, na qualidade de Controlador dos dados de seus clientes finais. O mesmo se aplica às integrações configuradas pelo Cliente.
 
 ---
 

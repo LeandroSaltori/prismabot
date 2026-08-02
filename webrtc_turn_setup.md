@@ -82,11 +82,11 @@ Edite o arquivo (ex.: `sudo nano /etc/turnserver.conf`) e ajuste ao seu ambiente
 
 Substitua:
 
-* `SEU_IP_PUBLICO` — IP público da servidor em nuvem (ou par `IP_PUBLICO/IP_INTERNO` se a VM estiver atrás de 1:1 NAT).
+* `SEU_IP_PUBLICO` — IP público da servidor (ou par `IP_PUBLICO/IP_INTERNO` se a VM estiver atrás de 1:1 NAT).
 * `exemplo.com.br` — domínio ou nome lógico (campo `realm`).
 * `prismabot_turn` e `uma_senha_longa_e_aleatoria` — **iguais** a `WEBRTC_TURN_USERNAME` e `WEBRTC_TURN_CREDENTIAL`.
 
-Se a servidor em nuvem não tiver IP público direto na interface (NAT do provedor):
+Se a servidor não tiver IP público direto na interface (NAT do provedor):
 
 ### TLS (`turns:` na porta 5349)
 
@@ -110,7 +110,7 @@ Reinicie o coturn:
 
 ---
 
-## 3. Firewall (UFW na servidor em nuvem)
+## 3. Firewall (UFW na servidor)
 
 No painel da nuvem (security group / firewall), abra as **mesmas** portas.
 
@@ -120,7 +120,7 @@ No painel da nuvem (security group / firewall), abra as **mesmas** portas.
 
 Aponte um registro **A** (ou AAAA) para o subdomínio usado no TURN, ex.:
 
-* `turn.exemplo.com.br` → IP público da servidor em nuvem
+* `turn.exemplo.com.br` → IP público da servidor
 
 Use esse nome em `WEBRTC_TURN_URLS` em vez do IP, se possível (facilita certificado TLS e mudanças de IP).
 

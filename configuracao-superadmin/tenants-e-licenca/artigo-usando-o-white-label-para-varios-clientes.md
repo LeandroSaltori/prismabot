@@ -5,9 +5,9 @@ Nesta página
 1. [Configuração Superadmin](/configuracao-superadmin)
 2. [Tenants e Licença](/configuracao-superadmin/tenants-e-licenca)
 
-# Artigo: Usando o plataforma de atendimento para Vários Clientes
+# Artigo: Usando o Prismabot para Vários Clientes
 
-Esta página é um guia completo para entender como o modelo plataforma de atendimento do Prismabot funciona em cenários com múltiplos clientes. O objetivo é esclarecer a relação entre sua licença, as instalações, a personalização de marca e as regras de uso da plataforma.
+Esta página é um guia completo para entender como o modelo Prismabot do Prismabot funciona em cenários com múltiplos clientes. O objetivo é esclarecer a relação entre sua licença, as instalações, a personalização de marca e as regras de uso da plataforma.
 
 **A Dúvida Mais Comum:** "Posso configurar uma marca, logo e cores diferentes para cada um dos meus clientes?"
 
@@ -21,9 +21,9 @@ Sua licença Prismabot está atrelada a alguns conceitos fundamentais que define
 
 * **Uma Licença Anual:** Governa o seu direito de uso do software Prismabot.
 * **Um Domínio Principal:** Sua licença está associada a um domínio principal (ex: suaagencia.com). Todas as suas instalações devem operar em subdomínios deste domínio principal.
-* **Múltiplas Instalações (servidor em nuvem):** Sua única licença permite que você instale o Prismabot em múltiplos servidores (servidor em nuvem), desde que as regras de propriedade da infraestrutura sejam seguidas.
+* **Múltiplas Instalações (servidor):** Sua única licença permite que você instale o Prismabot em múltiplos servidores (servidor), desde que as regras de propriedade da infraestrutura sejam seguidas.
 * **Múltiplos Clientes (Tenants):** O Prismabot foi projetado para o modelo SaaS, permitindo que você crie contas de clientes (tenants) isoladas.
-* **Uma Marca (plataforma de atendimento) por Instalação:** A personalização de marca (logo, cores, nome) é definida no nível do Super Admin e se aplica a **toda aquela instalação** e a todos os tenants dentro dela.
+* **Uma Marca (Prismabot) por Instalação:** A personalização de marca (logo, cores, nome) é definida no nível do Super Admin e se aplica a **toda aquela instalação** e a todos os tenants dentro dela.
 
 ---
 
@@ -31,13 +31,13 @@ Sua licença Prismabot está atrelada a alguns conceitos fundamentais que define
 
 Este é o modelo de operação mais comum e direto.
 
-* **Como Funciona:** Você tem **uma única instalação** do Prismabot em um único servidor (servidor em nuvem). Dentro desta instalação, você cria múltiplos tenants, um para cada cliente seu.
-* **Personalização:** Você configura o plataforma de atendimento com a **sua própria marca** no painel Super Admin. Todos os seus clientes acessarão a plataforma através de um subdomínio seu (ex: app.suaagencia.com) e verão a sua marca.
+* **Como Funciona:** Você tem **uma única instalação** do Prismabot em um único servidor (servidor). Dentro desta instalação, você cria múltiplos tenants, um para cada cliente seu.
+* **Personalização:** Você configura o Prismabot com a **sua própria marca** no painel Super Admin. Todos os seus clientes acessarão a plataforma através de um subdomínio seu (ex: app.suaagencia.com) e verão a sua marca.
 
 **Vantagens:**
 
 * **Gestão Simplificada:** Você gerencia, atualiza e mantém um único servidor.
-* **Custo de Infraestrutura Menor:** O custo se limita a um único servidor em nuvem (que pode precisar de upgrade conforme o número de clientes cresce).
+* **Custo de Infraestrutura Menor:** O custo se limita a um único servidor (que pode precisar de upgrade conforme o número de clientes cresce).
 
 **Limitação:**
 
@@ -49,25 +49,25 @@ Este é o modelo de operação mais comum e direto.
 
 Este modelo oferece a máxima flexibilidade de personalização e é a solução para quem precisa oferecer a plataforma com a marca de cada cliente.
 
-* **Como Funciona:** Você realiza **múltiplas instalações** do Prismabot, cada uma em um **servidor (servidor em nuvem) separado**. Cada instalação será dedicada a um único cliente final.
+* **Como Funciona:** Você realiza **múltiplas instalações** do Prismabot, cada uma em um **servidor (servidor) separado**. Cada instalação será dedicada a um único cliente.
 
-Você (o assinante) deve ser o proprietário ou o responsável direto pela infraestrutura (servidor em nuvem) onde cada instalação está rodando
+Você (o assinante) deve ser o proprietário ou o responsável direto pela infraestrutura (servidor) onde cada instalação está rodando
 
-* **Personalização:** Como cada instalação tem seu próprio painel Super Admin, você pode configurar o plataforma de atendimento de **cada instalação com a marca específica daquele cliente**.
+* **Personalização:** Como cada instalação tem seu próprio painel Super Admin, você pode configurar o Prismabot de **cada instalação com a marca específica daquele cliente**.
 
 **Exemplo:**
 
-* **Instalação 1 (servidor em nuvem 1):** Para o Cliente A. Acessível em clientea.suaagencia.com. Marca, logo e cores do Cliente A.
-* **Instalação 2 (servidor em nuvem 2):** Para o Cliente B. Acessível em clienteb.suaagencia.com. Marca, logo e cores do Cliente B.
+* **Instalação 1 (servidor 1):** Para o Cliente A. Acessível em clientea.suaagencia.com. Marca, logo e cores do Cliente A.
+* **Instalação 2 (servidor 2):** Para o Cliente B. Acessível em clienteb.suaagencia.com. Marca, logo e cores do Cliente B.
 
 **Vantagens:**
 
-* **Personalização Total:** Cada cliente tem uma experiência 100% plataforma de atendimento com sua própria marca.
+* **Personalização Total:** Cada cliente tem uma experiência 100% Prismabot com sua própria marca.
 * **Isolamento de Infraestrutura:** Cada cliente opera em um ambiente completamente isolado, o que pode ser um requisito de segurança para alguns.
 
 **Pontos a Considerar:**
 
-* **Custo de Infraestrutura Maior:** Cada instalação requer seu próprio servidor em nuvem, multiplicando os custos.
+* **Custo de Infraestrutura Maior:** Cada instalação requer seu próprio servidor, multiplicando os custos.
 * **Gestão Mais Complexa:** Você será responsável por manter e atualizar múltiplas instalações.
 
 ---
@@ -81,7 +81,7 @@ A flexibilidade de múltiplas instalações está diretamente ligada aos nossos 
 Sua licença Prismabot **pode ser usada em múltiplas instalações sem custo adicional**, contanto que duas condições sejam atendidas:
 
 1. Todas as instalações operem sob subdomínios do **mesmo domínio principal** associado à sua licença.
-2. **Você (o assinante) deve ser o proprietário ou o responsável direto pela infraestrutura (servidor em nuvem)** onde cada instalação está rodando.
+2. **Você (o assinante) deve ser o proprietário ou o responsável direto pela infraestrutura (servidor)** onde cada instalação está rodando.
 
 Não é permitido "revender" ou "transferir" a licença do software de forma avulsa. O que você vende é o **acesso a um serviço** que roda em uma infraestrutura gerenciada por você.
 

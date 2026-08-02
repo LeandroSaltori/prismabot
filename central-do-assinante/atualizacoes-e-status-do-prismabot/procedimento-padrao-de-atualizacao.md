@@ -51,7 +51,7 @@ O pacote de instalação/atualização (`prismabot_passaporte_shell`) é de uso 
 
 **Faça um snapshot do servidor antes de continuar.**
 
-Acesse o painel do seu provedor de servidor em nuvem e crie um snapshot completo do servidor. Essa é a única garantia de reverter o sistema ao estado anterior em caso de falha durante a atualização. Não prossiga sem um backup recente.
+Acesse o painel do seu provedor de servidor e crie um snapshot completo do servidor. Essa é a única garantia de reverter o sistema ao estado anterior em caso de falha durante a atualização. Não prossiga sem um backup recente.
 
 ---
 
@@ -111,7 +111,7 @@ Acesse o servidor via SSH com o usuário da aplicação (geralmente `deployzdg`)
 
 #### Passo 5 — Build do frontend
 
-O `npm run build` exige processamento intenso. Verifique se a servidor em nuvem tem RAM e swap adequados — memória insuficiente pode interromper o build por travamento.
+O `npm run build` exige processamento intenso. Verifique se a servidor tem RAM e swap adequados — memória insuficiente pode interromper o build por travamento.
 
 #### Passo 6 — Atualização dos serviços no PM2
 

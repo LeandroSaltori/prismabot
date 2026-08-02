@@ -46,9 +46,9 @@ Canal de comunicação direto entre o superadmin e os tenants, acessível dentro
 
 ---
 
-### [Usando o plataforma de atendimento para Vários Clientes](/configuracao-superadmin/tenants-e-licenca/artigo-usando-o-plataforma de atendimento-para-varios-clientes)
+### [Usando o Prismabot para Vários Clientes](/configuracao-superadmin/tenants-e-licenca/artigo-usando-o-Prismabot-para-varios-clientes)
 
-Guia prático sobre como estruturar a operação plataforma de atendimento para atender múltiplos clientes com uma única instalação Prismabot.
+Guia prático sobre como estruturar a operação Prismabot para atender múltiplos clientes com uma única instalação Prismabot.
 
 [AnteriorVisão geral Superadmin](/configuracao-superadmin/visao-geral-super-admin)[PróximoGerenciar Licença Prismabot](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot)
 

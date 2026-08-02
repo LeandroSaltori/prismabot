@@ -65,7 +65,7 @@ Com os dados em mãos, vamos configurar o aplicativo dentro do sistema.
 
 #### Parte 3: Utilizando a Integração (Tenant)
 
-Agora que o app está configurado, o cliente final pode conectar as contas.
+Agora que o app está configurado, o cliente pode conectar as contas.
 
 1. No painel do cliente, vá em **Integrações** > **Meta**.
 2. Clique no botão **Cadastro Incorporado**.

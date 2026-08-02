@@ -69,7 +69,7 @@ O acesso à nossa área de membros, onde ficam as videoaulas, é válido por um 
 O acesso ao nosso portal de suporte (Tomticket) está diretamente atrelado à validade da sua assinatura.
 
 1. **Verifique a Validade:** Confirme se sua assinatura anual ainda está ativa. O acesso ao suporte é encerrado após o vencimento da licença.
-2. **Entre em Contato:** Se sua assinatura estiver ativa e mesmo assim você não conseguir o acesso, ou se precisar de ajuda para renovar, entre em contato conosco através do nosso WhatsApp de atendimento: <https://zdg.dev.br/contato>.
+2. **Entre em Contato:** Se sua assinatura estiver ativa e mesmo assim você não conseguir o acesso, ou se precisar de ajuda para renovar, entre em contato conosco através do nosso WhatsApp de atendimento: <https://prismatelecomservicos.com//contato>.
 
 ### Não tenho acesso à Comunidade Prisma Telecom. O que fazer?
 
@@ -84,13 +84,13 @@ O acesso à Comunidade Prisma Telecom é um produto separado. Siga os passos par
 
 Para renovar sua licença anual do Prismabot, siga os passos abaixo:
 
-1. **Acesse a Página de Renovação:** Entre no link: <https://prismabot.zdg.com.br/renovar/>
+1. **Acesse a Página de Renovação:** Entre no link: <https://prismatelecomservicos.com//renovar/>
 2. **Informe seu E-mail:** Adicione o mesmo e-mail que você utilizou na compra original.
 3. **Siga para o Checkout:** Você será redirecionado para a página de pagamento para concluir a renovação.
 
 ### Quais são as possibilidades e condições de renovação?
 
-* **Frequência e Planos:** Trabalhamos apenas com a renovação no **plano anual**. Para conferir as opções e os valores atuais, acesse nossa página oficial: <https://prismabot.zdg.com.br/renovar/>
+* **Frequência e Planos:** Trabalhamos apenas com a renovação no **plano anual**. Para conferir as opções e os valores atuais, acesse nossa página oficial: <https://prismatelecomservicos.com//renovar/>
 * **Valor da Renovação:** O valor atual reflete todas as melhorias e novas funcionalidades implementadas no Prismabot ao longo do último ano, além dos avanços planejados para o futuro.
 * **Reajustes:** Pode haver reajuste nos valores de renovação. Quando isso ocorre, comunicamos antecipadamente a todos os assinantes, oferecendo a oportunidade de renovar pelo valor antigo antes da mudança.
 * **Renovação Automática:** **Não trabalhamos com renovação automática ou recorrência**. A renovação deve ser feita manualmente através da nossa página.
@@ -102,7 +102,7 @@ Ao renovar sua assinatura, a nova validade e as configurações podem variar dep
 * **Prazo de Validade:** Serão adicionados 12 meses à **data de expiração da sua licença anterior**. Por exemplo, se sua licença vencia em 01/11/2025, a nova data de expiração será 01/11/2026.
 * **Se você manteve o mesmo plano:** Sua chave de licença continua a mesma. A data de expiração no seu painel Superadmin será atualizada automaticamente em algumas horas.
 * **Se você mudou de plano:** Você receberá uma **nova chave de licença** por e-mail. É necessário acessar o painel Superadmin e substituir a chave antiga pela nova.
-* **Acessos:** Caso você perca o acesso ao portal do assinante ou ao Tomticket após a renovação, entre em contato conosco via WhatsApp: <https://zdg.dev.br/contato>.
+* **Acessos:** Caso você perca o acesso ao portal do assinante ou ao Tomticket após a renovação, entre em contato conosco via WhatsApp: <https://prismatelecomservicos.com//contato>.
 * **Verificação:** Você pode conferir a nova data de expiração da sua licença a qualquer momento no menu "Assinatura" do seu painel Superadmin.
 
 ## Dúvidas gerais

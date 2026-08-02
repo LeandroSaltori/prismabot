@@ -13,7 +13,7 @@ A página de **Domínio OAuth Customizado** permite que a empresa personalize a 
 
 #### Caso de uso
 
-Uma empresa que revende a solução Prismabot como um serviço próprio (plataforma de atendimento) deseja que, ao conectar um Canal oficial, o cliente veja a URL da revendedora no modal de login do Facebook. Ao configurar o domínio customizado, a empresa elimina referências técnicas externas, aumentando a credibilidade e a confiança do usuário final no processo de autenticação.
+Uma empresa que revende a solução Prismabot como um serviço próprio (Prismabot) deseja que, ao conectar um Canal oficial, o cliente veja a URL da revendedora no modal de login do Facebook. Ao configurar o domínio customizado, a empresa elimina referências técnicas externas, aumentando a credibilidade e a confiança do usuário final no processo de autenticação.
 
 #### Como acessar a página
 

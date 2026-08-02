@@ -62,7 +62,7 @@ A integração de comentários exige aprovação de um programa específico do L
 
 1. Dentro do app criado, acesse a aba **Products**.
 2. Localize **Community Management API** e clique em **Request access**.
-3. Preencha o formulário explicando o caso de uso (ex: "Gerenciar e responder comentários da página da empresa através de uma plataforma de atendimento omnichannel").
+3. Preencha o formulário explicando o caso de uso (ex: "Gerenciar e responder comentários da página da empresa através de uma Prismabot omnichannel").
 4. Aguarde a aprovação do LinkedIn.
 
 **Sem a aprovação do Community Management API, a integração não funcionará.** O LinkedIn precisa revisar e aprovar o uso antes de qualquer configuração no Prismabot.
@@ -81,7 +81,7 @@ Com o app criado e o acesso aprovado:
 
 O **Redirect URI** deve ser cadastrado **exatamente** como `https://oauth.techprovider.com.br/callback.html` no LinkedIn Developer Portal. Qualquer divergência impedirá o funcionamento da integração.
 
-**Quer usar um domínio próprio (plataforma de atendimento)?** Configure-o previamente em `/oauth-dominio` dentro do Prismabot e use esse domínio como Redirect URI no LinkedIn Developer Portal.
+**Quer usar um domínio próprio (Prismabot)?** Configure-o previamente em `/oauth-dominio` dentro do Prismabot e use esse domínio como Redirect URI no LinkedIn Developer Portal.
 
 ---
 

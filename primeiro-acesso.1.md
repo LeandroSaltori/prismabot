@@ -25,7 +25,7 @@ Se não receber os e-mails em até alguns minutos, verifique a caixa de spam. Pa
 
 ### Passo 2 — Prepare o ambiente
 
-Antes de instalar, você precisará de um servidor servidor em nuvem contratado e dois subdomínios apontados para o IP da servidor em nuvem. Os requisitos mínimos e o passo a passo de configuração estão em:
+Antes de instalar, você precisará de um servidor servidor contratado e dois subdomínios apontados para o IP da servidor. Os requisitos mínimos e o passo a passo de configuração estão em:
 
 [1. Preparar ambiente](/primeiro-acesso/instalar-prismabot/1.-preparar-ambiente)
 

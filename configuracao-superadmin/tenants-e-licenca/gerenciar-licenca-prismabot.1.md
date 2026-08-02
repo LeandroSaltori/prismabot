@@ -201,7 +201,7 @@ Provavelmente a **validade da versão instalada** expirou — veja a diferença 
 
 #### Como renovar minha assinatura?
 
-Acesse [prismabot.zdg.com.br/renovar](https://prismabot.zdg.com.br/renovar/), informe o e-mail utilizado na compra original e siga para o checkout. Trabalhamos apenas com plano anual — não há renovação automática ou recorrência.
+Acesse [prismabot.zdg.com.br/renovar](https://prismatelecomservicos.com//renovar/), informe o e-mail utilizado na compra original e siga para o checkout. Trabalhamos apenas com plano anual — não há renovação automática ou recorrência.
 
 ---
 

@@ -25,7 +25,7 @@ A API Oficial é a infraestrutura homologada, construída e mantida pela própri
 O Prismabot integra-se à API Oficial permitindo duas formas de configuração:
 
 * **Via App Prismabot (Login Incorporado):** O usuário utiliza o aplicativo oficial da Prisma Telecom para realizar o login via Facebook e conectar o número de forma rápida.
-* **Via App Próprio (Tech Provider):** O assinante cria e aprova seu próprio aplicativo no painel *Facebook Developers*. Indicado para operações plataforma de atendimento, permitindo que seus clientes façam o login visualizando a sua marca.
+* **Via App Próprio (Tech Provider):** O assinante cria e aprova seu próprio aplicativo no painel *Facebook Developers*. Indicado para operações Prismabot, permitindo que seus clientes façam o login visualizando a sua marca.
 
 #### Coexistência
 
@@ -50,7 +50,7 @@ As APIs Não Oficiais são métodos alternativos que emulam o comportamento do W
 #### Tipos de APIs Não Oficiais Suportadas
 
 1. **Nativas (Baileys e WWebJS):** Bibliotecas integradas ao código do Prismabot. A conexão é feita diretamente pelo painel através da leitura do QR Code. Não há custos adicionais.
-2. **Auto-hospedadas / gerenciado em nuvem (Ex: Evolution API, Wuzapi):** Aplicações externas de código aberto instaladas e mantidas pelo próprio usuário em um servidor à parte, integradas ao Prismabot via credenciais (Host/Token).
+2. **Auto-hospedadas / em nuvem (Ex: Evolution API, Wuzapi):** Aplicações externas de código aberto instaladas e mantidas pelo próprio usuário em um servidor à parte, integradas ao Prismabot via credenciais (Host/Token).
 3. **Gerenciadas / Pagas (Ex: Z-API, Uazapi):** Serviços terceirizados fornecidos por outras empresas (SaaS) mediante pagamento de mensalidade. A empresa terceira gerencia a estabilidade do roteamento.
 
 #### Riscos e Responsabilidades Operacionais

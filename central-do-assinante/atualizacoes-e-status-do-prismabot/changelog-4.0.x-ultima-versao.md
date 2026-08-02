@@ -17,7 +17,7 @@ Notas de versão do Prismabot 4.0.x: novidades, correções e breaking changes d
 
 **AVISO: FAÇA UM SNAPSHOT DO SERVIDOR**
 
-Antes de iniciar qualquer procedimento de atualização, é **mandatório** criar um **snapshot** (um ponto de restauração) do seu servidor servidor em nuvem.
+Antes de iniciar qualquer procedimento de atualização, é **mandatório** criar um **snapshot** (um ponto de restauração) do seu servidor servidor.
 
 Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado anterior de forma rápida e segura em caso de qualquer falha ou imprevisto durante o processo de atualização.
 
@@ -260,7 +260,7 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 #### ⚙️ Superadmin e Configurações
 
-* Customização plataforma de atendimento:
+* Customização Prismabot:
 
   + Tela de Signup padrão internacional (agora customizável).
   + Link do Postman (agora customizável).
@@ -385,7 +385,7 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 🎧 Novos recursos de [atendimento](/configuracao-administrador/gestao-comercial/analises-e-registros/painel-de-atendimentos)
 👤 [Perfil personalizado de usuários](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)
 🔌 Novos [Endpoints API](/central-do-assinante/referencia-da-api)
-🎨 [Personalizações](/configuracao-superadmin/configuracoes/customizar-plataforma de atendimento)
+🎨 [Personalizações](/configuracao-superadmin/configuracoes/customizar-Prismabot)
 ☁️ Armazenamento externo ([Storage AmazonS3](/configuracao-superadmin/sistema/sistema-dados-e-configuracao/storage-s3), etc)
 ⚡️ [Autoinstalador melhorado](https://prismatelecomservicos.com/)
 💳 Novos gateways de pagamento (stripe, mercadopago, etc)

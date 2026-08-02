@@ -71,7 +71,7 @@ Antes de configurar a integração no Prismabot, é necessário criar um aplicat
    * **App ID (client\_id)**
    * **App Secret (client\_secret)**
 
-**Quer usar um domínio próprio (plataforma de atendimento)?** Caso você queira utilizar um domínio próprio para o OAuth em vez do `oauth.techprovider.com.br`, configure-o previamente em `/oauth-dominio` dentro do Prismabot.
+**Quer usar um domínio próprio (Prismabot)?** Caso você queira utilizar um domínio próprio para o OAuth em vez do `oauth.techprovider.com.br`, configure-o previamente em `/oauth-dominio` dentro do Prismabot.
 
 ---
 

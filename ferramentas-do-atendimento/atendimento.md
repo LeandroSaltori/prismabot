@@ -31,7 +31,7 @@ A central de operações da equipe. É aqui que os atendentes gerenciam todas as
 
 ### [Chat Privado](/ferramentas-do-atendimento/atendimento/chat-privado)
 
-Ferramenta de comunicação interna entre agentes e equipes sem sair da plataforma. Permite troca de mensagens, arquivos, mensagens de voz e chamadas de áudio e vídeo entre atendentes — sem expor nada ao cliente final.
+Ferramenta de comunicação interna entre agentes e equipes sem sair da plataforma. Permite troca de mensagens, arquivos, mensagens de voz e chamadas de áudio e vídeo entre atendentes — sem expor nada ao cliente.
 
 ---
 

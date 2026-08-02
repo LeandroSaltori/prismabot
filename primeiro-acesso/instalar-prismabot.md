@@ -14,7 +14,7 @@ Esta seção cobre as três etapas necessárias para colocar uma nova instância
 
 ### [1. Preparar Ambiente](/primeiro-acesso/instalar-prismabot/1.-preparar-ambiente)
 
-Antes de instalar, é necessário ter um servidor servidor em nuvem contratado e dois subdomínios apontados para o IP da servidor em nuvem. Esta página detalha os requisitos mínimos de hardware (RAM, vCPU, armazenamento), provedores recomendados e o passo a passo de configuração do DNS.
+Antes de instalar, é necessário ter um servidor servidor contratado e dois subdomínios apontados para o IP da servidor. Esta página detalha os requisitos mínimos de hardware (RAM, vCPU, armazenamento), provedores recomendados e o passo a passo de configuração do DNS.
 
 ---
 

@@ -67,7 +67,7 @@ Após preencher as credenciais, copie a **URL do Webhook** exibida no formulári
 
 Os webhooks notificam a plataforma sobre novos pedidos e atualizações em tempo real.
 
-O campo **Callback do OAuth proxy** é fixo e informativo — o cliente não precisa cadastrá-lo manualmente. Para usar um domínio próprio no OAuth (plataforma de atendimento), configure em `/auth-dominio`.
+O campo **Callback do OAuth proxy** é fixo e informativo — o cliente não precisa cadastrá-lo manualmente. Para usar um domínio próprio no OAuth (Prismabot), configure em `/auth-dominio`.
 
 ---
 

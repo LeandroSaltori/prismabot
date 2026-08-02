@@ -113,7 +113,7 @@ O que informar
 
 **Main business scope of the company**
 
-Descreva a empresa como uma plataforma de atendimento omnichannel, licenciada (B2B, plataforma de atendimento, multi-tenant) para outras empresas/agências.
+Descreva a empresa como uma Prismabot omnichannel, licenciada (B2B, Prismabot, multi-tenant) para outras empresas/agências.
 
 **Required permission and main application scenarios**
 

@@ -135,7 +135,7 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 **Posso manter o celular ativo e usar o Prismabot ao mesmo tempo?** Sim. O modo de coexistência permite que o número opere simultaneamente no app WhatsApp Business e no painel do Prismabot.
 
-**Como oferecer a conexão WABA para os clientes da minha cliente final com a minha marca?** É necessário criar e aprovar um App próprio no Facebook Developers. Veja a Opção 2 acima.
+**Como oferecer a conexão WABA para os clientes da minha cliente com a minha marca?** É necessário criar e aprovar um App próprio no Facebook Developers. Veja a Opção 2 acima.
 
 [AnteriorLID do WhatsApp](/diretrizes-e-politicas/lid-do-whatsapp)[PróximoWhatsapp Oficial- Cadastro Incorporado e Coexistência com APP próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
 

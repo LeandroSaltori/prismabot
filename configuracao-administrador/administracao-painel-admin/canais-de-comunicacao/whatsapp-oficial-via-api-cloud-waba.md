@@ -191,7 +191,7 @@ Para prevenir esse problema, é importante definir uma rota pública estável em
    * `1.1.1.1` (Cloudflare)
    * `8.8.8.8` (Google)
 
-Essas configurações ajudam a garantir uma rota mais direta e estável entre a servidor em nuvem e a infraestrutura da Meta, reduzindo atrasos e eliminando o erro de timeout nos logs.
+Essas configurações ajudam a garantir uma rota mais direta e estável entre a servidor e a infraestrutura da Meta, reduzindo atrasos e eliminando o erro de timeout nos logs.
 
 ![](../../../.gitbook/assets/image_2d7162c1.png)
 
@@ -199,9 +199,9 @@ Essas configurações ajudam a garantir uma rota mais direta e estável entre a 
 
 **Guia Verificação do app (tech provider)**
 
-[![Logo](../../../.gitbook/assets/image_facdd2e9.png)Como Aprovar Seu App Da Meta (Passo A Passo) - Comunidade ZDGComunidade Prisma Telecom](https://comunidade.zdg.com.br/geral/app-meta-aprovar/)
+[![Logo](../../../.gitbook/assets/image_facdd2e9.png)Como Aprovar Seu App Da Meta (Passo A Passo) - Comunidade ZDGComunidade Prisma Telecom](https://prismatelecomservicos.com//geral/app-meta-aprovar/)
 
-[![Logo](../../../.gitbook/assets/image_5901cf53.png)Coexistência WhatsApp + Cadastro Incorporado: Tutorial DEFINITIVO! - Comunidade ZDGComunidade Prisma Telecom](https://comunidade.zdg.com.br/geral/coexistence-whatsapp/)
+[![Logo](../../../.gitbook/assets/image_5901cf53.png)Coexistência WhatsApp + Cadastro Incorporado: Tutorial DEFINITIVO! - Comunidade ZDGComunidade Prisma Telecom](https://prismatelecomservicos.com//geral/coexistence-whatsapp/)
 
 **Guia Configuração coexistência:**
 

@@ -24,7 +24,7 @@ Para realizar este procedimento, utilizaremos o software **PGAdmin**.
 Antes de abrir o PGAdmin, você precisará do Usuário (*Username*) e da Senha (*Password*) do seu banco de dados. Você pode encontrar essas informações de duas formas:
 
 1. **Sumário de Instalação:** Os dados são entregues no resumo gerado no final da instalação do sistema Prismabot.
-2. **Arquivo .env:** Caso não tenha salvo o sumário, acesse o servidor (servidor em nuvem) onde o Prismabot está hospedado, navegue até a pasta do **back-end** e abra o arquivo `.env`. Lá constarão o `username` e o `password` do banco de dados.
+2. **Arquivo .env:** Caso não tenha salvo o sumário, acesse o servidor (servidor) onde o Prismabot está hospedado, navegue até a pasta do **back-end** e abra o arquivo `.env`. Lá constarão o `username` e o `password` do banco de dados.
 
 #### Passo 2: Configurar o Servidor no PGAdmin
 

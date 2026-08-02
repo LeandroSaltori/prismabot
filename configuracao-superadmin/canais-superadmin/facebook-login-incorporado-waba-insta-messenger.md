@@ -11,7 +11,7 @@ Nesta página
 
 A funcionalidade de **Login do Facebook** permite que seus clientes conectem contas de WhatsApp Business API (WABA) ao Prismabot de forma simplificada.
 
-Ao configurar seu aplicativo da Meta no Superadmin, o cliente final não precisará gerar tokens manuais. Ele apenas clicará em um botão "Logar com Facebook", aceitará as permissões e selecionará os números disponíveis para criar o canal.
+Ao configurar seu aplicativo da Meta no Superadmin, o cliente não precisará gerar tokens manuais. Ele apenas clicará em um botão "Logar com Facebook", aceitará as permissões e selecionará os números disponíveis para criar o canal.
 
 **Vídeo Tutorial:**
 

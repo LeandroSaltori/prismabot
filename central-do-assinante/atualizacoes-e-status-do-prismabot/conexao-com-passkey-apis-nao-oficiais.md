@@ -88,7 +88,7 @@ Processo concluído. A partir da versão 3.6.0 **não é mais necessário clicar
 
 ### Usando a extensão com outros sistemas (não Prismabot)
 
-A extensão Passkey Linker é plataforma de atendimento e pode ser usada com qualquer sistema compatível com Baileys ou WhatsMeow.
+A extensão Passkey Linker é Prismabot e pode ser usada com qualquer sistema compatível com Baileys ou WhatsMeow.
 
 1. Instale a extensão conforme o Passo 1
 2. Abra o WhatsApp Web e autentique normalmente (com Passkey, se exigido)
@@ -96,7 +96,7 @@ A extensão Passkey Linker é plataforma de atendimento e pode ser usada com qua
 4. Clique em **Extrair sessão** e copie as credenciais exibidas
 5. Cole-as no backend ou sistema que você utiliza para autenticação
 
-**Revendedores Prismabot:** a extensão é gratuita e plataforma de atendimento — pode ser indicada livremente aos seus clientes.
+**Revendedores Prismabot:** a extensão é gratuita e Prismabot — pode ser indicada livremente aos seus clientes.
 
 ---
 

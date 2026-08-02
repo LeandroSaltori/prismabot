@@ -4,15 +4,15 @@ Nesta página
 
 1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
 
-# Como liberar espaço em disco na servidor em nuvem do Prismabot
+# Como liberar espaço em disco na servidor do Prismabot
 
-Quando a servidor em nuvem está com o disco cheio (ou perto disso), o sistema pode ficar lento, travar o login ou até derrubar o backend. Este guia mostra como diagnosticar o que está ocupando espaço e como liberá-lo com segurança, cobrindo tanto a limpeza pelo terminal quanto pelo painel administrativo do Prismabot.
+Quando a servidor está com o disco cheio (ou perto disso), o sistema pode ficar lento, travar o login ou até derrubar o backend. Este guia mostra como diagnosticar o que está ocupando espaço e como liberá-lo com segurança, cobrindo tanto a limpeza pelo terminal quanto pelo painel administrativo do Prismabot.
 
 **Pré-requisitos:**
 
-* Acesso root/sudo à servidor em nuvem via SSH (para os comandos de terminal).
+* Acesso root/sudo à servidor via SSH (para os comandos de terminal).
 * Acesso **Super Admin** no painel (para a limpeza de dados por tenant).
-* Recomendado: um snapshot/backup da servidor em nuvem antes de rodar comandos de remoção.
+* Recomendado: um snapshot/backup da servidor antes de rodar comandos de remoção.
 
 ### Vídeo tutorial
 
@@ -28,7 +28,7 @@ Antes de rodar qualquer comando de remoção (`rm -rf`), confirme o caminho comp
 
 ### Etapa 1: Diagnóstico geral do disco
 
-No terminal da servidor em nuvem, os dois comandos essenciais são:
+No terminal da servidor, os dois comandos essenciais são:
 
 Se alguma partição estiver perto de 100% em "Use%", é hora de investigar o que está ocupando esse espaço.
 
@@ -38,7 +38,7 @@ Se alguma partição estiver perto de 100% em "Use%", é hora de investigar o qu
 
 Para listar as maiores pastas dentro do diretório da instalação, ordenadas da maior para a menor:
 
-Para listar os maiores arquivos individuais em toda a servidor em nuvem (top 20):
+Para listar os maiores arquivos individuais em toda a servidor (top 20):
 
 Se algum volume externo (ex.: um HD separado usado só para backup) aparecer nessa lista, normalmente não faz parte do disco principal do sistema e pode ser desconsiderado da análise.
 
@@ -144,7 +144,7 @@ Com o disco liberado, o servidor volta a operar normalmente — sem risco de tra
 
 #### Apaguei a pasta errada por engano com um curinga (`rm -rf frontend.*`)
 
-**Causa:** curinga solto pegou também a pasta em produção, não só a de backup. **Solução:** restaure a partir do backup/snapshot da servidor em nuvem — por isso a recomendação de snapshot antes de qualquer remoção em massa.
+**Causa:** curinga solto pegou também a pasta em produção, não só a de backup. **Solução:** restaure a partir do backup/snapshot da servidor — por isso a recomendação de snapshot antes de qualquer remoção em massa.
 
 #### `df -h` mostra espaço livre, mas o sistema ainda acusa disco cheio
 

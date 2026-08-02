@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Diretrizes e Políticas](/diretrizes-e-politicas)
-
 # Aviso de Privacidade
 
 Como o Prismabot trata dados pessoais em modelo em nuvem: responsabilidades do assinante, coleta, armazenamento e conformidade com a LGPD.
@@ -22,20 +16,20 @@ Este Aviso integra de forma indissociável os [Termos e Condições de Uso do Pr
 
 ### SUMÁRIO - INFORMAÇÕES CONTIDAS NESTE AVISO
 
-* [1. Definições](/diretrizes-e-politicas/aviso-de-privacidade#id-1.-definicoes)
-* [2. A quem se aplica este Aviso](/diretrizes-e-politicas/aviso-de-privacidade#id-2.-a-quem-se-aplica-este-aviso)
-* [3. Quais dados coletamos e como](/diretrizes-e-politicas/aviso-de-privacidade#id-3.-quais-dados-coletamos-e-como)
-* [4. Finalidades do tratamento](/diretrizes-e-politicas/aviso-de-privacidade#id-4.-finalidades-do-tratamento)
-* [5. Bases legais aplicáveis](/diretrizes-e-politicas/aviso-de-privacidade#id-5.-bases-legais-aplicaveis)
-* [6. Com quem compartilhamos seus dados](/diretrizes-e-politicas/aviso-de-privacidade#id-6.-com-quem-compartilhamos-seus-dados)
-* [7. Particularidades do modelo em nuvem](/diretrizes-e-politicas/aviso-de-privacidade#id-7.-particularidades-do-modelo-em nuvem)
-* [8. Por quanto tempo guardamos seus dados](/diretrizes-e-politicas/aviso-de-privacidade#id-8.-por-quanto-tempo-guardamos-seus-dados)
-* [9. Como protegemos seus dados](/diretrizes-e-politicas/aviso-de-privacidade#id-9.-como-protegemos-seus-dados)
-* [10. Direitos do Titular](/diretrizes-e-politicas/aviso-de-privacidade#id-10.-direitos-do-titular)
-* [11. Cookies](/diretrizes-e-politicas/aviso-de-privacidade#id-11.-cookies)
-* [12. Transferência internacional de dados](/diretrizes-e-politicas/aviso-de-privacidade#id-12.-transferencia-internacional-de-dados)
-* [13. Encarregado e canais de contato](/diretrizes-e-politicas/aviso-de-privacidade#id-13.-encarregado-e-canais-de-contato)
-* [14. Alterações desta Política](/diretrizes-e-politicas/aviso-de-privacidade#id-14.-alteracoes-desta-politica)
+* [1. Definições](../aviso-de-privacidade.md#id-1.-definicoes)
+* [2. A quem se aplica este Aviso](../aviso-de-privacidade.md#id-2.-a-quem-se-aplica-este-aviso)
+* [3. Quais dados coletamos e como](../aviso-de-privacidade.md#id-3.-quais-dados-coletamos-e-como)
+* [4. Finalidades do tratamento](../aviso-de-privacidade.md#id-4.-finalidades-do-tratamento)
+* [5. Bases legais aplicáveis](../aviso-de-privacidade.md#id-5.-bases-legais-aplicaveis)
+* [6. Com quem compartilhamos seus dados](../aviso-de-privacidade.md#id-6.-com-quem-compartilhamos-seus-dados)
+* [7. Particularidades do modelo em nuvem](../aviso-de-privacidade.md#id-7.-particularidades-do-modelo-em nuvem)
+* [8. Por quanto tempo guardamos seus dados](../aviso-de-privacidade.md#id-8.-por-quanto-tempo-guardamos-seus-dados)
+* [9. Como protegemos seus dados](../aviso-de-privacidade.md#id-9.-como-protegemos-seus-dados)
+* [10. Direitos do Titular](../aviso-de-privacidade.md#id-10.-direitos-do-titular)
+* [11. Cookies](../aviso-de-privacidade.md#id-11.-cookies)
+* [12. Transferência internacional de dados](../aviso-de-privacidade.md#id-12.-transferencia-internacional-de-dados)
+* [13. Encarregado e canais de contato](../aviso-de-privacidade.md#id-13.-encarregado-e-canais-de-contato)
+* [14. Alterações desta Política](../aviso-de-privacidade.md#id-14.-alteracoes-desta-politica)
 
 ---
 
@@ -343,7 +337,7 @@ Este Aviso pode ser atualizado a qualquer tempo para refletir mudanças na opera
 
 A versão vigente está sempre disponível em [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=).
 
-[AnteriorTermos e Condições Gerais de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)[PróximoManutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)
+
 
 Atualizado há 2 meses
 

@@ -83,7 +83,7 @@ Visualização e gestão de todas as sessões ativas dos canais conectados ao te
 
 Configurações dos recursos de CRM da plataforma: gestão de Kanbans, demandas e variáveis personalizadas para uso em automações e campos de contato.
 
-[AnteriorLog auditoria (admin)](configuracao/log-auditoria-admin/)[PróximoConfigurações Gerais](configuracoes-painel-admin/configuracoes-gerais/)
+
 
 Atualizado há 29 dias
 

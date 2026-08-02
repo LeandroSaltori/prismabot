@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 🔘 Interativo Waba
 
 ### SendButtonWABA
@@ -135,7 +128,7 @@ Testar
 
 Successful response
 
-[Anterior🟩 Interativo Uaz API](/central-do-assinante/referencia-da-api/interativo-uaz-api)[Próximo🏷️ Kanban / Tags / Motivos / Filas](/central-do-assinante/referencia-da-api/kanban-tags-motivos-filas)
+
 
 Atualizado há 9 dias
 

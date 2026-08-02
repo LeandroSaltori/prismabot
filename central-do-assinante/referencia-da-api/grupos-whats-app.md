@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 👥 Grupos Whats App
 
 ### GroupAddParticipant
@@ -779,7 +772,7 @@ Testar
 
 Successful response
 
-[Anterior📂 Galeria](/central-do-assinante/referencia-da-api/galeria)[Próximo🟢 Interativo Baileys](/central-do-assinante/referencia-da-api/interativo-baileys)
+
 
 Atualizado há 9 dias
 

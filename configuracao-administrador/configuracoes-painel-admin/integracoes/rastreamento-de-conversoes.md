@@ -1,11 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Configurações Painel Admin](/configuracao-administrador/configuracoes-painel-admin)
-3. [Integrações](/configuracao-administrador/configuracoes-painel-admin/integracoes)
-
 # Rastreamento de Conversões
 
 **Disponível para o perfil:** Administrador
@@ -86,7 +78,7 @@ Na aba **Relatórios de Anúncios**, você pode auditar os resultados em tempo r
 
 **Conjunto de Dados:** Em alguns casos, a Meta cria um conjunto de dados automático para mensagens (ex: "Prismabot Event Data"). Verifique no seu Gerenciador de Eventos se o ID do Pixel que você está usando é o mesmo que está recebendo os eventos de mensagem.
 
-[AnteriorBSP: Dialog360 e Gupshup](/configuracao-administrador/configuracoes-painel-admin/integracoes/bsp-dialog360-e-gupshup)[PróximoHabilitar Webhooks](/configuracao-administrador/configuracoes-painel-admin/integracoes/habilitar-webhooks)
+
 
 Atualizado há 2 meses
 

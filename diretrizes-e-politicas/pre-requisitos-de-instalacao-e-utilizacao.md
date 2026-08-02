@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Diretrizes e Políticas](/diretrizes-e-politicas)
-
 # Pré-requisitos de instalação e utilização
 
 Especificações mínimas de servidor, sistema operacional (Ubuntu), RAM, vCPU, domínio e navegador para instalar e usar o Prismabot.
@@ -112,9 +106,9 @@ Para acessar o painel do Prismabot, a máquina de cada atendente deve atender ao
 
 A gestão, segurança e manutenção do servidor são de responsabilidade do assinante. Veja as ações obrigatórias após a instalação:
 
-[Manutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)
+[Manutenção e Segurança](manutencao-e-seguranca.md)
 
-[AnteriorDiretrizes e Políticas](/diretrizes-e-politicas)[PróximoPolítica de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)
+
 
 Atualizado há 25 dias
 

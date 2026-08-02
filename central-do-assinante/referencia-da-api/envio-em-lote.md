@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 📤 Envio Em Lote
 
 ### BulkDispatchIncrementProgress
@@ -459,7 +452,7 @@ Testar
 
 Successful response
 
-[Anterior📊 Dashboard](/central-do-assinante/referencia-da-api/dashboard)[Próximo📂 Galeria](/central-do-assinante/referencia-da-api/galeria)
+
 
 Atualizado há 8 dias
 

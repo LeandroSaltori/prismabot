@@ -1,11 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Ferramentas do atendimento](/ferramentas-do-atendimento)
-2. [Comunicação e marketing](/ferramentas-do-atendimento/comunicacao-e-marketing)
-3. [Envio em Massa](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa)
-
 # Envio em Massa - Template Variável API Oficial
 
 **Disponível para o perfil: Administrador, Supervisor e Usuário**
@@ -16,7 +8,7 @@ Esta aba requer uma conexão via **API Oficial (WABA)**.
 
 ![](../../../.gitbook/assets/sys_img_e2e2cb55.png)
 
-Esta página detalha o funcionamento desta aba específica. Para uma visão geral da funcionalidade, tutoriais em vídeo e orientações de uso, [acesse Envio em Massa.](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa)
+Esta página detalha o funcionamento desta aba específica. Para uma visão geral da funcionalidade, tutoriais em vídeo e orientações de uso, [acesse Envio em Massa.](../envio-em-massa.md)
 
 ### Configurando o disparo
 
@@ -82,7 +74,7 @@ Padronize os números antes de importar: normalize o 9º dígito conforme o DDD 
 
 Não feche a página durante o envio. O progresso é processado pelo navegador e o disparo pode ser interrompido se a aba for fechada.
 
-[AnteriorEnvio em Massa - Template API Oficial](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-template-api-oficial)[PróximoEnvio em massa - Texto](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-texto)
+
 
 Atualizado há 1 mês
 

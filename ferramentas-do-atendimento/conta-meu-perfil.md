@@ -25,7 +25,7 @@ Gerencie suas informações pessoais, foto de perfil e senha de acesso ao sistem
 * Informe a senha atual e a nova senha com no mínimo 6 caracteres
 * Confirme a nova senha e clique em Alterar senha
 
-[AnteriorTarefas](gestao/tarefas/)[PróximoVisão geral - Ferramentas Adicionais e Integrações](../ferramentas-adicionais-e-integracoes/visao-geral-ferramentas-adicionais-e-integracoes/)
+
 
 Atualizado há 4 meses
 

@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 📊 Listagens
 
 ### GetAllSessionApis
@@ -435,7 +428,7 @@ Testar
 
 Successful response
 
-[Anterior🏷️ Kanban / Tags / Motivos / Filas](/central-do-assinante/referencia-da-api/kanban-tags-motivos-filas)[Próximo🔍 Listagens Utilitárias](/central-do-assinante/referencia-da-api/listagens-utilitarias)
+
 
 Atualizado há 8 dias
 

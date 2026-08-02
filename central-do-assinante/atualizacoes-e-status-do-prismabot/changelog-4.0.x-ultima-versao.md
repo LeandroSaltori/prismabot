@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Atualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-prismabot)
-
 # Changelog (4.0.x última versão)
 
 Notas de versão do Prismabot 4.0.x: novidades, correções e breaking changes de cada atualização. Leia antes de atualizar.
@@ -378,24 +371,24 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 **🚀 UPDATE OFICIAL (HOMOLOG) | 04/05/2026**
 
 ⚛️ Novo front end React Next.js - interface mais rápida e moderna
-🔗 Integrações nativas com [Instagram, Facebook](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/instagram-e-facebook-messenger-via-oauth-login) e [WhatsApp API oficial](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia) - Oauth próprio do Prismabot
-🤖 [Copiloto de I.A](/configuracao-administrador/configuracoes-painel-admin/bots-e-ia/copiloto-de-ia) - Resumos, sugestões de respostas, análises de sentimento...
+🔗 Integrações nativas com [Instagram, Facebook](../../configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/instagram-e-facebook-messenger-via-oauth-login.md) e [WhatsApp API oficial](../../configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia.md) - Oauth próprio do Prismabot
+🤖 [Copiloto de I.A](../../configuracao-administrador/configuracoes-painel-admin/bots-e-ia/copiloto-de-ia.md) - Resumos, sugestões de respostas, análises de sentimento...
 📱 Novos canais - Mercado Livre, Woocommerce, OLX, Tiktok, Youtube, Linkedin, Rocket.Chat
 📈 Rastreamento de conversões Pixel Meta e Google GA4
-🎧 Novos recursos de [atendimento](/configuracao-administrador/gestao-comercial/analises-e-registros/painel-de-atendimentos)
-👤 [Perfil personalizado de usuários](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)
-🔌 Novos [Endpoints API](/central-do-assinante/referencia-da-api)
+🎧 Novos recursos de [atendimento](../../configuracao-administrador/gestao-comercial/analises-e-registros/painel-de-atendimentos.md)
+👤 [Perfil personalizado de usuários](../../configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso.md)
+🔌 Novos [Endpoints API](../referencia-da-api.md)
 ⚡️ [Autoinstalador melhorado](https://prismatelecomservicos.com/)
 💳 Novos gateways de pagamento (stripe, mercadopago, etc)
 🚀 Modo Cluster - Infraestrutura para escala com múltiplos núcleos de processamento
-📧 Integração com [SMTP](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/e-mail-imap-smtp) para envio e recebimento de email nos tickets
+📧 Integração com [SMTP](../../configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/e-mail-imap-smtp.md) para envio e recebimento de email nos tickets
 ✨ Recursos premium baileys / uazapi - botões, listas, etc
 
 ### Histórico das versões antigas (antes da v4.0)
 
 Nas páginas seguintes você encontra o histórico completo das versões anteriores.
 
-[AnteriorAtualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-prismabot)[Próximo3.1.5.x](/central-do-assinante/atualizacoes-e-status-do-prismabot/changelog-4.0.x-ultima-versao/3.1.5.x)
+
 
 Atualizado há 8 dias
 

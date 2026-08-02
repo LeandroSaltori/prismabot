@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Configuração Admin](/configuracao-administrador/configuracao)
-
 # Integrações Meta
 
 **Disponível para o perfil:** Administrador
@@ -37,7 +30,7 @@ Clique no link para ver o detalhamento de cada uma das páginas
 
 Esta aba centraliza a conexão e o gerenciamento operacional das contas autenticadas. Ela é subdividida em quatro sub-abas:
 
-[**1.1 Login / OAuth: Autenticação e Aplicativo Meta**](/configuracao-administrador/configuracao/integracoes-meta/login-oauth-contas-meta-configuracoes)
+[**1.1 Login / OAuth: Autenticação e Aplicativo Meta**](integracoes-meta/login-oauth-contas-meta-configuracoes.md)
 
 Esta sub-aba serve como a porta de entrada para a integração, permitindo que o Prismabot receba autorização da Meta para gerenciar suas mensagens.
 
@@ -45,7 +38,7 @@ Esta sub-aba serve como a porta de entrada para a integração, permitindo que o
 * **App Próprio:** Se você utiliza um aplicativo de desenvolvedor próprio, deverá preencher manualmente o **App ID**, **Versão da API** e **ID de Configuração**.
 * **Ação:** Clique em **Login com Facebook** para autorizar as permissões. Após o retorno, use o botão **Verificar Status** para confirmar se o token foi gerado (Status: *Success*).
 
-[**1.2 WhatsApp: Gerenciamento de Telefones WABA**](/configuracao-administrador/configuracao/integracoes-meta/whatsapp-contas-meta)
+[**1.2 WhatsApp: Gerenciamento de Telefones WABA**](integracoes-meta/whatsapp-contas-meta.md)
 
 Esta seção serve para a gestão completa do ciclo de vida dos números oficiais. Ela permite registrar novos telefones, validar webhooks e monitorar a saúde financeira e operacional da conta.
 
@@ -53,14 +46,14 @@ Esta seção serve para a gestão completa do ciclo de vida dos números oficiai
 * **Uso & Limites:** Puxa dados da Business Manager para exibir o **Faturamento** das conversas e os **Limites de Envio (Tiers)**, informando quantos clientes únicos a conta pode contatar a cada 24 horas.
 * **Análises:** Exibe métricas de performance de entrega e leitura para até 10 templates simultâneos.
 
-[**1.3 Instagram: Integração de Direct Business**](/configuracao-administrador/configuracao/integracoes-meta/instagram-contas-meta)
+[**1.3 Instagram: Integração de Direct Business**](integracoes-meta/instagram-contas-meta.md)
 
 Esta aba serve para vincular e verificar a conexão com perfis profissionais do Instagram Business que estão associados a uma Página do Facebook.
 
 * **Como usar:** Selecione o perfil no menu suspenso e clique em **Verificar Conta**.
 * **Análise:** O status deve constar como **CONNECTED** para que as mensagens do Direct e menções em Stories sejam capturadas pelo sistema.
 
-[**1.4 Facebook: Mensagens de Páginas e Identidade (Personas)**](/configuracao-administrador/configuracao/integracoes-meta/facebook-contas-meta)
+[**1.4 Facebook: Mensagens de Páginas e Identidade (Personas)**](integracoes-meta/facebook-contas-meta.md)
 
 Serve para gerenciar a recepção de mensagens do Messenger e personalizar como a empresa se apresenta no chat oficial do Facebook.
 
@@ -70,7 +63,7 @@ Serve para gerenciar a recepção de mensagens do Messenger e personalizar como 
 
 ![](../../.gitbook/assets/sys_img_3e032669.png)
 
-#### [2. Aba: Configurações](/configuracao-administrador/configuracao/integracoes-meta/configuracoes-integracoes-meta)
+#### [2. Aba: Configurações](integracoes-meta/configuracoes-integracoes-meta.md)
 
 Área técnica destinada aos parâmetros de backend da integração.
 
@@ -81,7 +74,7 @@ Serve para gerenciar a recepção de mensagens do Messenger e personalizar como 
 
 ![](../../.gitbook/assets/sys_img_51141808.png)
 
-#### [3. Aba: Templates](/configuracao-administrador/configuracao/integracoes-meta/templates-integracoes-meta)
+#### [3. Aba: Templates](integracoes-meta/templates-integracoes-meta.md)
 
 Central de modelos de mensagens para comunicações oficiais.
 
@@ -90,7 +83,7 @@ Central de modelos de mensagens para comunicações oficiais.
 
 ![](../../.gitbook/assets/sys_img_d87cbbea.png)
 
-[AnteriorAPI - Configurações](/configuracao-administrador/configuracao/api)[PróximoLogin / OAuth — Contas Meta (Configurações)](/configuracao-administrador/configuracao/integracoes-meta/login-oauth-contas-meta-configuracoes)
+
 
 Atualizado há 2 meses
 

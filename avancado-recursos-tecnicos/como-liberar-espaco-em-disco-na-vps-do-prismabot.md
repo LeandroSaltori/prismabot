@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
-
 # Como liberar espaço em disco na servidor do Prismabot
 
 Quando a servidor está com o disco cheio (ou perto disso), o sistema pode ficar lento, travar o login ou até derrubar o backend. Este guia mostra como diagnosticar o que está ocupando espaço e como liberá-lo com segurança, cobrindo tanto a limpeza pelo terminal quanto pelo painel administrativo do Prismabot.
@@ -150,7 +144,7 @@ Com o disco liberado, o servidor volta a operar normalmente — sem risco de tra
 
 **Causa:** esgotamento de **inodes**, não de espaço em bytes. **Solução:** rode `df -i` para confirmar e localize diretórios com excesso de arquivos pequenos (ex.: muitos arquivos de sessão/cache).
 
-[AnteriorErro de Autenticação no app Whatsapp Oauth](/avancado-recursos-tecnicos/erro-de-autenticacao-no-app-whatsapp-oauth)[PróximoCustomização do Frontend](/avancado-recursos-tecnicos/customizacao-do-frontend)
+
 
 Atualizado há 15 dias
 

@@ -1,7 +1,3 @@
-Copiar
-
-Nesta página
-
 # API Oficial WABA
 
 Tudo sobre a API Oficial do WhatsApp (WABA) no Prismabot: como funciona, formas de conectar, templates HSM, custos Meta e recursos exclusivos.
@@ -10,7 +6,7 @@ O Prismabot possui integração nativa com a **API Oficial do WhatsApp (WABA)**,
 
 Para quem já possui um App aprovado no Facebook Developers, o Prismabot também oferece suporte à integração via App próprio.
 
-**Custos da API Oficial:** os custos de uso da API Oficial (cobranças por conversas fora da janela de 24 horas) são faturados diretamente pela Meta na **Business Manager (BM) do número conectado**. O pagamento dessas taxas é responsabilidade do assinante. O Prismabot cobra exclusivamente a licença do software. Veja mais em [Cobranças da Meta.](/api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform)
+**Custos da API Oficial:** os custos de uso da API Oficial (cobranças por conversas fora da janela de 24 horas) são faturados diretamente pela Meta na **Business Manager (BM) do número conectado**. O pagamento dessas taxas é responsabilidade do assinante. O Prismabot cobra exclusivamente a licença do software. Veja mais em [Cobranças da Meta.](api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform.md)
 
 **Risco de bloqueio:** o uso da API Oficial elimina o risco de banimento por uso de software não autorizado. No entanto, o número ainda está sujeito às avaliações de qualidade da Meta — bloqueios por envio de spam ou violação das políticas de mensageria são de responsabilidade do operador, independentemente da ferramenta utilizada. Siga sempre as [diretrizes da Meta](https://www.whatsapp.com/legal/business-policy/).
 
@@ -38,7 +34,7 @@ O Prismabot disponibiliza seu próprio App (aprovado como Tech Provider na Meta)
 Ao conectar pelo App da Prisma Telecom, a permissão de **ligações de voz** (`calls`) já está aprovada automaticamente.
 
 Números com alto índice de denúncias (status Red na Meta) podem ser desconectados do App compartilhado da Prisma Telecom para proteger os demais assinantes. 
-**Tutorial completo:** [WhatsApp Oficial OAuth (login)](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia)
+**Tutorial completo:** [WhatsApp Oficial OAuth (login)](configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia.md)
 
 ---
 
@@ -53,7 +49,7 @@ Assinantes que já possuem um App aprovado no Facebook Developers — ou que des
 
 O processo de App Review da Meta exige envio de documentos e vídeos demonstrativos. O suporte do Prismabot não realiza esse processo, mas pode indicar profissionais especializados.
 
-**Tutorial completo:** [Cadastro Incorporado e Coexistência com App Próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
+**Tutorial completo:** [Cadastro Incorporado e Coexistência com App Próprio](api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio.md)
 
 
 ---
@@ -88,7 +84,7 @@ Painel da Meta onde a empresa gerencia contas, ativos e métodos de pagamento
 
 Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 horas
 
-**APIs não oficiais também são suportadas.** O Prismabot permite conexão via QR Code por APIs não oficiais (Baileys, Evolution API, Z-API, entre outras). Cada modalidade tem características e riscos distintos. Veja: [API Oficial vs. APIs Não Oficiais](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
+**APIs não oficiais também são suportadas.** O Prismabot permite conexão via QR Code por APIs não oficiais (Baileys, Evolution API, Z-API, entre outras). Cada modalidade tem características e riscos distintos. Veja: [API Oficial vs. APIs Não Oficiais](diretrizes-e-politicas/api-oficial-vs-api-nao-oficial.md)
 
 ---
 
@@ -96,32 +92,32 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 #### Conectar e gerenciar o canal
 
-* [WhatsApp Oficial OAuth (login com coexistência)](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia): passo a passo para conectar um número em modo de coexistência usando o App da Prisma Telecom
-* [Integrações Meta — configurações do canal](/configuracao-administrador/configuracao/integracoes-meta): painel de configurações do canal após a conexão: webhook, roteamento de chamadas, número de teste e outras opções
-* [Contas WhatsApp na Meta](/configuracao-administrador/configuracao/integracoes-meta/whatsapp-contas-meta) — visualização e gestão dos números WABA vinculados à Business Manager
+* [WhatsApp Oficial OAuth (login com coexistência)](configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia.md): passo a passo para conectar um número em modo de coexistência usando o App da Prisma Telecom
+* [Integrações Meta — configurações do canal](configuracao-administrador/configuracao/integracoes-meta.md): painel de configurações do canal após a conexão: webhook, roteamento de chamadas, número de teste e outras opções
+* [Contas WhatsApp na Meta](configuracao-administrador/configuracao/integracoes-meta/whatsapp-contas-meta.md) — visualização e gestão dos números WABA vinculados à Business Manager
 
 #### Templates e disparos
 
-* [Gerenciar Templates HSM](/configuracao-administrador/configuracao/integracoes-meta/templates-integracoes-meta) — criação, edição e aprovação de templates de mensagem na Meta diretamente pelo painel
-* [Envio em Massa — Template API Oficial](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-template-api-oficial) — disparo em massa usando um template fixo para uma lista de contatos
-* [Envio em Massa — Template com Variáveis](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-template-variavel-api-oficial) — disparo em massa com preenchimento dinâmico de variáveis do template por contato
+* [Gerenciar Templates HSM](configuracao-administrador/configuracao/integracoes-meta/templates-integracoes-meta.md) — criação, edição e aprovação de templates de mensagem na Meta diretamente pelo painel
+* [Envio em Massa — Template API Oficial](ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-template-api-oficial.md) — disparo em massa usando um template fixo para uma lista de contatos
+* [Envio em Massa — Template com Variáveis](ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-template-variavel-api-oficial.md) — disparo em massa com preenchimento dinâmico de variáveis do template por contato
 
 #### Atendimento com canal WABA
 
-* [Painel de atendimento — recursos exclusivos WABA](/ferramentas-do-atendimento/atendimento/tela-de-atendimento/atendimento-waba-api-oficial) — funcionalidades disponíveis na tela de atendimento para canais API Oficial: reações, edição de mensagens, templates e ligações
+* [Painel de atendimento — recursos exclusivos WABA](ferramentas-do-atendimento/atendimento/tela-de-atendimento/atendimento-waba-api-oficial.md) — funcionalidades disponíveis na tela de atendimento para canais API Oficial: reações, edição de mensagens, templates e ligações
 
 #### Ligações de voz
 
-* [Ligações de voz na API Oficial (WABA)](/api-oficial-waba/ligacoes-de-voz-na-api-oficial-waba) — como ativar o recebimento de chamadas WebRTC, solicitar permissão de chamada para ligar, e configurar o roteamento entre atendentes
+* [Ligações de voz na API Oficial (WABA)](api-oficial-waba/ligacoes-de-voz-na-api-oficial-waba.md) — como ativar o recebimento de chamadas WebRTC, solicitar permissão de chamada para ligar, e configurar o roteamento entre atendentes
 
 #### Rastreamento e integrações avançadas
 
-* [Rastreamento de Conversões (Meta Pixel)](/configuracao-administrador/configuracoes-painel-admin/integracoes/rastreamento-de-conversoes) — integração com o Meta Pixel para rastrear eventos de conversão originados em atendimentos via WABA
-* [Exemplo de fluxo N8N + API Prismabot + WABA](/api-oficial-waba/exemplo-de-fluxo-no-n8n-+-api-prismabot-+-waba) — exemplo prático de automação integrando N8N com a API do Prismabot em canais WABA
+* [Rastreamento de Conversões (Meta Pixel)](configuracao-administrador/configuracoes-painel-admin/integracoes/rastreamento-de-conversoes.md) — integração com o Meta Pixel para rastrear eventos de conversão originados em atendimentos via WABA
+* [Exemplo de fluxo N8N + API Prismabot + WABA](api-oficial-waba/exemplo-de-fluxo-no-n8n-+-api-prismabot-+-waba.md) — exemplo prático de automação integrando N8N com a API do Prismabot em canais WABA
 
 #### Cobrança da Meta
 
-* [Como funciona a cobrança de mensagens na Meta](/api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform) — modelo de precificação por categorias de conversa, janela de 24 horas e como gerenciar o faturamento na Business Manager
+* [Como funciona a cobrança de mensagens na Meta](api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform.md) — modelo de precificação por categorias de conversa, janela de 24 horas e como gerenciar o faturamento na Business Manager
 
 ---
 
@@ -135,7 +131,7 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 **Como oferecer a conexão WABA para os clientes da minha cliente com a minha marca?** É necessário criar e aprovar um App próprio no Facebook Developers. Veja a Opção 2 acima.
 
-[AnteriorLID do WhatsApp](/diretrizes-e-politicas/lid-do-whatsapp)[PróximoWhatsapp Oficial- Cadastro Incorporado e Coexistência com APP próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
+
 
 Atualizado há 1 mês
 

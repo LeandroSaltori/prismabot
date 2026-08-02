@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 🎫 Tickets
 
 ### AddTag
@@ -957,7 +950,7 @@ Testar
 
 Successful response
 
-[Anterior🏢 Tenant API](/central-do-assinante/referencia-da-api)[Próximo🎫 Tickets Extras](/central-do-assinante/referencia-da-api/tickets-extras)
+
 
 Atualizado há 9 dias
 

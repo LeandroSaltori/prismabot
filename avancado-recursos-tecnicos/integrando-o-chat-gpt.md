@@ -79,7 +79,7 @@ Ainda na mesma janela, você pode refinar a integração:
 
 Após preencher as informações, salve as configurações. Seu canal estará pronto para utilizar o ChatGPT nos atendimentos.
 
-[AnteriorCustomização do Frontend](customizacao-do-frontend/)[PróximoIntegração Google Calendar](integracao-google-calendar/)
+
 
 Atualizado há 18 dias
 

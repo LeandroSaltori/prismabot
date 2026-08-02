@@ -43,7 +43,7 @@ Diretório central de clientes da plataforma, que funciona como um CRM integrado
 
 ***
 
-[AnteriorBarra de ferramenta geral](home-e-dashboard/barra-de-ferramenta-geral/)[PróximoTela de Atendimento](atendimento/tela-de-atendimento/)
+
 
 Atualizado há 1 mês
 

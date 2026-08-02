@@ -1,13 +1,7 @@
-Copiar
-
-Nesta página
-
-1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
-
 # Integrações terceiras
 
-[N8N - Tutorial de integração](/avancado-recursos-tecnicos/integracoes-terceiras/n8n-tutorial-de-integracao)[API do Google Speech-to-Text](/avancado-recursos-tecnicos/integracoes-terceiras/api-do-google-speech-to-text)[API do site Comtele (SMS)](/avancado-recursos-tecnicos/integracoes-terceiras/api-do-site-comtele-sms)[Como criar uma API Key ChatGPT](/avancado-recursos-tecnicos/integracoes-terceiras/como-criar-uma-api-key-chatgpt)[Projeto no Dialogflow](/avancado-recursos-tecnicos/integracoes-terceiras/projeto-no-dialogflow)[Typebot autohospedado](/avancado-recursos-tecnicos/integracoes-terceiras/typebot-autohospedado)
+[N8N - Tutorial de integração](integracoes-terceiras/n8n-tutorial-de-integracao.md)[API do Google Speech-to-Text](integracoes-terceiras/api-do-google-speech-to-text.md)[API do site Comtele (SMS)](integracoes-terceiras/api-do-site-comtele-sms.md)[Como criar uma API Key ChatGPT](integracoes-terceiras/como-criar-uma-api-key-chatgpt.md)[Projeto no Dialogflow](integracoes-terceiras/projeto-no-dialogflow.md)[Typebot autohospedado](integracoes-terceiras/typebot-autohospedado.md)
 
-[AnteriorComo instalar o Prismabot em Modo Cluster](/avancado-recursos-tecnicos/integracoes-terceiras)[PróximoN8N - Tutorial de integração](/avancado-recursos-tecnicos/integracoes-terceiras/n8n-tutorial-de-integracao)
+
 
 Isto foi útil?

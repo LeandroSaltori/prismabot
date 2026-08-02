@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Diretrizes e Políticas](/diretrizes-e-politicas)
-
 # API Oficial vs API Não Oficial
 
 Comparação entre API Oficial (WABA) e APIs não oficiais (Baileys, wwebjs, Meow): estabilidade, riscos, custos e qual escolher para sua operação.
@@ -74,7 +68,7 @@ Conforme estabelecido nos **Termos e Condições de Uso**, o Prismabot não gara
 
 **4. A conexão não oficial desconectou. O suporte do Prismabot pode resolver?** Desconexões em APIs não oficiais nativas ocorrem devido a atualizações nos protocolos do WhatsApp. A resolução exige a releitura do QR Code e a garantia de que o celular hospedeiro possui conexão estável. Em casos de quebra estrutural (atualizações massivas da Meta), o Prismabot lança patches corretivos de software, mas não atua individualmente na restauração de sessões.
 
-[AnteriorManutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)[PróximoLID do WhatsApp](/diretrizes-e-politicas/lid-do-whatsapp)
+
 
 Atualizado há 2 meses
 

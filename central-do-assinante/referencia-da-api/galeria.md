@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 📂 Galeria
 
 ### GalleryDelete
@@ -163,7 +156,7 @@ Testar
 
 Successful response
 
-[Anterior📤 Envio Em Lote](/central-do-assinante/referencia-da-api/envio-em-lote)[Próximo👥 Grupos Whats App](/central-do-assinante/referencia-da-api/grupos-whats-app)
+
 
 Atualizado há 8 dias
 

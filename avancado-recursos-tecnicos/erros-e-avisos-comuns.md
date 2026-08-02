@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
-
 # Erros e Avisos Comuns
 
 ### Avisos do painel
@@ -18,7 +12,7 @@ Nesta página
 2. Verifique se o canal está conectado e sem alertas internos
 3. Confirme que o envio e recebimento continuam funcionando normalmente
 
-Após atualizar a sessão em [Configurações → Sessões](/configuracao-administrador/configuracoes-painel-admin/sessoes), o aviso deve desaparecer. Se persistir, verifique se o token/sessão está válido ou se é necessário reconectar o canal.
+Após atualizar a sessão em [Configurações → Sessões](../configuracao-administrador/configuracoes-painel-admin/sessoes.md), o aviso deve desaparecer. Se persistir, verifique se o token/sessão está válido ou se é necessário reconectar o canal.
 
 ---
 
@@ -197,7 +191,7 @@ Acessar a servidor como deployzdg
 
 Realizar as customizações
 
-[AnteriorTypebot autohospedado](/avancado-recursos-tecnicos/integracoes-terceiras/typebot-autohospedado)[PróximoTemplate (WABA) não chega ao destinatário](/avancado-recursos-tecnicos/erros-e-avisos-comuns/template-waba-nao-chega-ao-destinatario)
+
 
 Atualizado há 1 mês
 

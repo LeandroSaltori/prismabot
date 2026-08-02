@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
-
 # Como diagnosticar o erro "servidor temporariamente off-line"
 
 Se o seu Prismabot parou de carregar (tela branca, erro de conexão ou "servidor offline"), na maioria dos casos dá pra identificar — e às vezes já resolver — sozinho, em menos de 5 minutos, sem esperar o suporte. Este checklist ensina a acessar o terminal do seu servidor e descobrir exatamente o que parou.
@@ -152,7 +146,7 @@ Na maioria das vezes, o sistema volta já na Etapa 3 ou 5. Se depois de seguir t
 
 **Causa:** pode ser um erro específico do código, de uma integração ou de uma atualização incompleta. **Solução:** abra um chamado de **Suporte Técnico**, anexando o texto do erro copiado na Etapa 4 e um print do `pm2 list` mostrando o status atual.
 
-[AnteriorBanco de dados - Como acessar](/avancado-recursos-tecnicos/banco-de-dados-como-acessar)[PróximoErro de Autenticação no app Whatsapp Oauth](/avancado-recursos-tecnicos/erro-de-autenticacao-no-app-whatsapp-oauth)
+
 
 Atualizado há 25 dias
 

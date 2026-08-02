@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
-
 # Erro de Autenticação no app Whatsapp Oauth
 
 Checklist para investigar o erro "PERMISSION CONNECTIONS LIMITED" na hora de se conectar ao tech provider
@@ -61,7 +55,7 @@ Se a licença está com o Score saudável e o erro persiste, confirme a configur
 
 **Causa:** gate de proteção do Score do App Tech Provider ativo. **Solução:** siga a Etapa 1 — limpar números ruins e desbloquear a licença antes de tentar conectar o número novo novamente.
 
-[AnteriorComo diagnosticar o erro "servidor temporariamente off-line"](/avancado-recursos-tecnicos/como-diagnosticar-o-erro-servidor-temporariamente-off-line)[PróximoComo liberar espaço em disco na servidor do Prismabot](/avancado-recursos-tecnicos/como-liberar-espaco-em-disco-na-servidor-do-prismabot)
+
 
 Atualizado há 25 dias
 

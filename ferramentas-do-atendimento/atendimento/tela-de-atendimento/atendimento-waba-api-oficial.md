@@ -1,11 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Ferramentas do atendimento](/ferramentas-do-atendimento)
-2. [Atendimento](/ferramentas-do-atendimento/atendimento)
-3. [Tela de Atendimento](/ferramentas-do-atendimento/atendimento/tela-de-atendimento)
-
 # Atendimento WABA (Api Oficial)
 
 Painel de Atendimentos
@@ -14,7 +6,7 @@ O canal **WhatsApp Business API (WABA)** possui recursos exclusivos na tela de a
 
 Após esse período, a janela se fecha e só é possível iniciar uma nova conversa enviando um **template pré-aprovado**.
 
-**Onde criar templates?** Os templates WABA são criados e enviados para aprovação da Meta em **Configurações → Integrações Meta → Templates**. Consulte [Templates — Integrações Meta](/configuracao-administrador/configuracao/integracoes-meta/templates-integracoes-meta) para o passo a passo.
+**Onde criar templates?** Os templates WABA são criados e enviados para aprovação da Meta em **Configurações → Integrações Meta → Templates**. Consulte [Templates — Integrações Meta](../../../configuracao-administrador/configuracao/integracoes-meta/templates-integracoes-meta.md) para o passo a passo.
 
 ---
 
@@ -414,11 +406,11 @@ Array JSON com os cards — cada card tem `headerMediaId` e `buttons` (obrigató
 
 #### Páginas relacionadas
 
-* [Templates — Integrações Meta — criar e gerenciar templates WABA e Facebook](/configuracao-administrador/configuracao/integracoes-meta/templates-integracoes-meta)
-* [Contas Meta — WhatsApp — conectar o número WABA](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia)
-* [Cobranças da Meta — WhatsApp Business Platform — entender os custos por template e conversa](/api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform)
+* [Templates — Integrações Meta — criar e gerenciar templates WABA e Facebook](../../../configuracao-administrador/configuracao/integracoes-meta/templates-integracoes-meta.md)
+* [Contas Meta — WhatsApp — conectar o número WABA](../../../configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia.md)
+* [Cobranças da Meta — WhatsApp Business Platform — entender os custos por template e conversa](../../../api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform.md)
 
-[AnteriorDetalhes do contato](/ferramentas-do-atendimento/atendimento/tela-de-atendimento/detalhes-do-contato)[PróximoTipos de Arquivos Suportados para Envio](/ferramentas-do-atendimento/atendimento/tela-de-atendimento/tipos-de-arquivos-suportados-para-envio)
+
 
 Atualizado há 1 mês
 

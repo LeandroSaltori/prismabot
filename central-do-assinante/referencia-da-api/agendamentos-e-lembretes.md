@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 📅 Agendamentos E Lembretes
 
 ### AppointmentCreate
@@ -603,7 +596,7 @@ Testar
 
 Successful response
 
-[AnteriorReferência da API](/central-do-assinante/referencia-da-api)[Próximo📣 Campanhas](/central-do-assinante/referencia-da-api/campanhas)
+
 
 Atualizado há 8 dias
 

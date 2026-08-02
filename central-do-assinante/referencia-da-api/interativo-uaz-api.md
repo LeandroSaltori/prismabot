@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 🟩 Interativo Uaz API
 
 ### UazapiButton
@@ -425,7 +418,7 @@ Testar
 
 Successful response
 
-[Anterior💬 Interativo Messenger](/central-do-assinante/referencia-da-api/interativo-messenger)[Próximo🔘 Interativo Waba](/central-do-assinante/referencia-da-api/interativo-waba)
+
 
 Atualizado há 8 dias
 

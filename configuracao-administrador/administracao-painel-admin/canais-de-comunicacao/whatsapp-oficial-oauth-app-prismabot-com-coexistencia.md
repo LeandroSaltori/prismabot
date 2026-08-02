@@ -1,11 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Administração - Painel Admin](/configuracao-administrador/administracao-painel-admin)
-3. [Canais de comunicação](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao)
-
 oauthcoexistência
 
 # WhatsApp Oficial OAuth APP Prismabot com coexistência
@@ -118,7 +110,7 @@ No modo coexixtência não é possível fazer ligações. Para fazer ligações 
 
 ### Verificação
 
-[AnteriorDistribuição Automática de Atendimentos](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/como-conectar-um-canal-sessao-numero/distribuicao-automatica-de-atendimentos)[PróximoModo híbrido - Como conectar](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/modo-hibrido-como-conectar)
+
 
 Atualizado há 15 dias
 

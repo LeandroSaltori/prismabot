@@ -93,7 +93,7 @@ Estes menus contêm configurações que alteram o comportamento do sistema. Por 
 
 ***
 
-[AnteriorStorage S3](/configuracao-administrador/visao-geral-admin)[PróximoAdministração - Painel Admin](administracao-painel-admin/)
+
 
 Atualizado há 3 meses
 

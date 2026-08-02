@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 👥 Mensagens Em Grupo
 
 ### SendGroupMessageAPIText
@@ -125,7 +118,7 @@ Testar
 
 Successful response
 
-[Anterior📨 Mensagens Avançadas](/central-do-assinante/referencia-da-api/mensagens-avancadas)[Próximo💼 Oportunidades](/central-do-assinante/referencia-da-api/oportunidades)
+
 
 Atualizado há 8 dias
 

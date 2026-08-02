@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 📨 Mensagens Avançadas
 
 ### SearchMessages
@@ -185,7 +178,7 @@ Testar
 
 Successful response
 
-[Anterior📨 Mensagens](/central-do-assinante/referencia-da-api/mensagens)[Próximo👥 Mensagens Em Grupo](/central-do-assinante/referencia-da-api/mensagens-em-grupo)
+
 
 Atualizado há 8 dias
 

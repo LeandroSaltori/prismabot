@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 📞 Logs De Chamadas
 
 ### CallLogList
@@ -199,7 +192,7 @@ Testar
 
 Successful response
 
-[Anterior🔍 Listagens Utilitárias](/central-do-assinante/referencia-da-api/listagens-utilitarias)[Próximo📨 Mensagens](/central-do-assinante/referencia-da-api/mensagens)
+
 
 Atualizado há 8 dias
 

@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 👥 Usuários
 
 ### CreateUser
@@ -229,7 +222,7 @@ Testar
 
 Successful response
 
-[Anterior✅ To Do List](/central-do-assinante/referencia-da-api/to-do-list)[PróximoModels](/central-do-assinante/referencia-da-api/models)
+
 
 Atualizado há 8 dias
 

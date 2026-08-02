@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Diretrizes e Políticas](/diretrizes-e-politicas)
-
 # Termos e Condições Gerais de Uso e Licenciamento
 
 Contrato de uso do Prismabot: regras de licenciamento, obrigações do assinante, limitação de responsabilidade e condições gerais de uso da plataforma.
@@ -29,18 +23,18 @@ atendimentos denominado “**SISTEMA Prismabot**”, fornecido na modalidade aut
 
 ### QUAIS AS INFORMAÇÕES QUE VOCÊ ENCONTRARÁ NESTES TERMOS
 
-1. [CONCEITOS IMPORTANTES NESTES TERMOS](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-1.-conceitos-importantes-nestes-termos)
-2. [NATUREZA E EFICÁCIA DOS TERMOS](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-2.-natureza-e-eficacia-dos-termos)
-3. [REQUISITOS TÉCNICOS E CONDIÇÕES DE OPERAÇÃO](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-3.-requisitos-tecnicos-e-condicoes-de-operacao)
-4. [DELIMITAÇÃO DE RESPONSABILIDADES E RELAÇÃO COM TERCEIROS](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-4.-delimitacao-de-responsabilidades-e-relacao-com-terceiros)
-5. [OBJETO E LICENÇA DE USO](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-5.-objeto-e-licenca-de-uso)
-6. [PLANOS, PAGAMENTO, RENOVAÇÃO E CANCELAMENTO](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-6.-planos-pagamento-renovacao-e-cancelamento)
-7. [POLÍTICA DE SUPORTE TÉCNICO E SLA](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-7.-politica-de-suporte-tecnico-e-sla)
-8. [OBRIGAÇÕES, RESPONSABILIDADES E LIMITAÇÕES](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-8.-obrigacoes-responsabilidades-e-limitacoes)
-9. [PROPRIEDADE INTELECTUAL](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-9.-propriedade-intelectual)
-10. [PRIVACIDADE E PROTEÇÃO DE DADOS (LGPD)](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-10.-privacidade-e-protecao-de-dados-lgpd)
-11. [DISPOSIÇÕES GERAIS](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-11.-disposicoes-gerais)
-12. [FORO E LEGISLAÇÃO APLICÁVEL](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-12.-foro-e-legislacao-aplicavel)
+1. [CONCEITOS IMPORTANTES NESTES TERMOS](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-1.-conceitos-importantes-nestes-termos)
+2. [NATUREZA E EFICÁCIA DOS TERMOS](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-2.-natureza-e-eficacia-dos-termos)
+3. [REQUISITOS TÉCNICOS E CONDIÇÕES DE OPERAÇÃO](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-3.-requisitos-tecnicos-e-condicoes-de-operacao)
+4. [DELIMITAÇÃO DE RESPONSABILIDADES E RELAÇÃO COM TERCEIROS](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-4.-delimitacao-de-responsabilidades-e-relacao-com-terceiros)
+5. [OBJETO E LICENÇA DE USO](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-5.-objeto-e-licenca-de-uso)
+6. [PLANOS, PAGAMENTO, RENOVAÇÃO E CANCELAMENTO](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-6.-planos-pagamento-renovacao-e-cancelamento)
+7. [POLÍTICA DE SUPORTE TÉCNICO E SLA](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-7.-politica-de-suporte-tecnico-e-sla)
+8. [OBRIGAÇÕES, RESPONSABILIDADES E LIMITAÇÕES](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-8.-obrigacoes-responsabilidades-e-limitacoes)
+9. [PROPRIEDADE INTELECTUAL](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-9.-propriedade-intelectual)
+10. [PRIVACIDADE E PROTEÇÃO DE DADOS (LGPD)](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-10.-privacidade-e-protecao-de-dados-lgpd)
+11. [DISPOSIÇÕES GERAIS](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-11.-disposicoes-gerais)
+12. [FORO E LEGISLAÇÃO APLICÁVEL](termos-e-condicoes-gerais-de-uso-e-licenciamento.md#id-12.-foro-e-legislacao-aplicavel)
 
 ---
 
@@ -333,7 +327,7 @@ Se qualquer disposição deste contrato for considerada inválida ou inexequíve
 
 12.2. Fica eleito o foro da Comarca de Alfenas - MG como o único competente para dirimir quaisquer dúvidas ou litígios oriundos deste contrato, com renúncia expressa a qualquer outro, por mais privilegiado que seja ou venha a ser.
 
-[AnteriorPolítica de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)[PróximoAviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)
+
 
 Atualizado há 2 meses
 

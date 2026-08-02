@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Diretrizes e Políticas](/diretrizes-e-politicas)
-
 # LID do WhatsApp
 
 O WhatsApp implementou mudanças de privacidade na forma como os números de telefone são exibidos em novas conversas, introduzindo um identificador interno chamado **LID**. Isso pode gerar a criação de contatos duplicados na plataforma.
@@ -96,7 +90,7 @@ Quando você utiliza as opções simples (Ferramentas 1 e 2), o sistema busca um
 
 Se o LID no contato duplicado for diferente do número no contato original, o sistema não consegue garantir que são a mesma pessoa de forma segura. É exatamente nestes casos (onde a ferramenta 1 e 2 falham) que você deve utilizar a **Ferramenta 4 (Consolidar duplicatas LID)** para forçar a união manualmente.
 
-[AnteriorAPI Oficial vs API Não Oficial](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)[PróximoAPI Oficial WABA](/api-oficial-waba)
+
 
 Atualizado há 2 meses
 

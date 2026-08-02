@@ -1,11 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Ferramentas do atendimento](/ferramentas-do-atendimento)
-2. [Comunicação e marketing](/ferramentas-do-atendimento/comunicacao-e-marketing)
-3. [Envio em Massa](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa)
-
 # Envio em Massa - Template API Oficial
 
 **Disponível para o perfil: Administrador, Supervisor e Usuário**
@@ -16,7 +8,7 @@ Esta aba requer uma conexão via **API Oficial (WABA)**. Conexões por QR Code n
 
 ![](../../../.gitbook/assets/sys_img_26115788.png)
 
-Esta página detalha o funcionamento desta aba específica. Para uma visão geral da funcionalidade, tutoriais em vídeo e orientações de uso, [acesse Envio em Massa.](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa)
+Esta página detalha o funcionamento desta aba específica. Para uma visão geral da funcionalidade, tutoriais em vídeo e orientações de uso, [acesse Envio em Massa.](../envio-em-massa.md)
 
 ### Configurando o disparo
 
@@ -85,7 +77,7 @@ Não feche a página durante o envio. O progresso é processado pelo navegador e
 
 Use sempre o formato internacional: `DDI + DDD + Número` (Ex: `5511999999999`).
 
-[AnteriorEnvio em Massa](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa)[PróximoEnvio em Massa - Template Variável API Oficial](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-template-variavel-api-oficial)
+
 
 Atualizado há 1 mês
 

@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes)
-
 # Ligações no Prismabot (Telefonia e Voz)
 
 SIP e Wavoip
@@ -40,7 +34,7 @@ Quem tem infraestrutura de telefonia VoIP própria
 
 ---
 
-### [1. Ligações via API Oficial (WABA)](/api-oficial-waba/ligacoes-de-voz-na-api-oficial-waba)
+### [1. Ligações via API Oficial (WABA)](../api-oficial-waba/ligacoes-de-voz-na-api-oficial-waba.md)
 
 A modalidade mais completa para quem usa o canal WhatsApp Oficial. As chamadas acontecem dentro do próprio WhatsApp do cliente — sem aplicativos externos — e são gerenciadas diretamente pelo painel do Prismabot.
 
@@ -80,11 +74,11 @@ Toca para um usuário por vez, escalando se não houver atendimento
 3. Configure o roteamento em **Configurações → Roteamento de chamadas WABA**
 4. Para fazer uma ligação: abra o atendimento → **Detalhes do contato → Telefonia → WABA** → envie a solicitação de permissão → aguarde o aceite → **Ligar**
 
-Para o detalhamento completo, acesse a página [Ligações de voz na API Oficial (WABA).](/api-oficial-waba/ligacoes-de-voz-na-api-oficial-waba)
+Para o detalhamento completo, acesse a página [Ligações de voz na API Oficial (WABA).](../api-oficial-waba/ligacoes-de-voz-na-api-oficial-waba.md)
 
 ---
 
-### [2. Ligações via WhatsApp (WaVoIP)](/configuracao-administrador/gestao-comercial/analises-e-registros/wavoip)
+### [2. Ligações via WhatsApp (WaVoIP)](../configuracao-administrador/gestao-comercial/analises-e-registros/wavoip.md)
 
 Permite fazer e receber chamadas de voz do WhatsApp diretamente na interface do Prismabot, usando conexões **não oficiais (Baileys)**. Requer uma conta ativa no serviço externo **WaVoIP**.
 
@@ -100,19 +94,19 @@ Permite fazer e receber chamadas de voz do WhatsApp diretamente na interface do 
 
 Após a conexão, atendentes podem fazer e receber chamadas pelo ícone **WaVoIP** no menu do atendimento.
 
-Para o passo a passo completo de configuração, acesse [WaVoIP — Ligações pelo WhatsApp.](/ferramentas-adicionais-e-integracoes/wavoip-ligacoes-pelo-whatsapp)
+Para o passo a passo completo de configuração, acesse [WaVoIP — Ligações pelo WhatsApp.](wavoip-ligacoes-pelo-whatsapp.md)
 
 #### Gerenciamento e histórico WaVoIP
 
 Em **Gestão Comercial → WaVoIP**, o administrador pode autenticar a conta e consultar o histórico de chamadas com gravações. Acesse com login/senha ou por token.
 
-Para detalhes, acesse [WaVoIP — Gestão Comercial.](/configuracao-administrador/gestao-comercial/analises-e-registros/wavoip)
+Para detalhes, acesse [WaVoIP — Gestão Comercial.](../configuracao-administrador/gestao-comercial/analises-e-registros/wavoip.md)
 
 #### Envio em massa de voz (WaVoIP)
 
 Também é possível realizar **chamadas de voz em massa** enviando um arquivo de áudio para uma lista de números via conexão Baileys. Acesse em **Comunicação e Marketing → Envio em Massa → WaVoIP**.
 
-Para detalhes, acesse [Envio em Massa — WaVoIP.](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-wavoip)
+Para detalhes, acesse [Envio em Massa — WaVoIP.](../ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-wavoip.md)
 
 ---
 
@@ -200,7 +194,7 @@ Localiza chamadas de um número específico
 
 Use o botão **Exportar CSV** para baixar o histórico filtrado para análise em planilha.
 
-Para detalhes, acesse [Log Ligações.](/configuracao-administrador/gestao-comercial/analises-e-registros/log-ligacoes)
+Para detalhes, acesse [Log Ligações.](../configuracao-administrador/gestao-comercial/analises-e-registros/log-ligacoes.md)
 
 ---
 
@@ -212,7 +206,7 @@ Para detalhes, acesse [Log Ligações.](/configuracao-administrador/gestao-comer
 
 **Prismabot não é um provedor de telefonia.** A plataforma centraliza e exibe as chamadas, mas a infraestrutura de voz (número de telefone, trunk, minutos) é fornecida pelo serviço de terceiro escolhido.
 
-[AnteriorVisão geral - Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes/visao-geral-ferramentas-adicionais-e-integracoes)[PróximoNotificações Aplicativo (web push)](/ferramentas-adicionais-e-integracoes/notificacoes-aplicativo-web-push)
+
 
 Atualizado há 1 mês
 

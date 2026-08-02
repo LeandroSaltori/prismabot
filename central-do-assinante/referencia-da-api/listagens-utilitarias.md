@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 🔍 Listagens Utilitárias
 
 ### ListAutoReplies
@@ -139,7 +132,7 @@ Testar
 
 Successful response
 
-[Anterior📊 Listagens](/central-do-assinante/referencia-da-api/listagens)[Próximo📞 Logs De Chamadas](/central-do-assinante/referencia-da-api/logs-de-chamadas)
+
 
 Atualizado há 8 dias
 

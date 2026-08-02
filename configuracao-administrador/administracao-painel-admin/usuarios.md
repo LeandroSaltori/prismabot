@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Administração - Painel Admin](/configuracao-administrador/administracao-painel-admin)
-
 # Usuários
 
 Gestão de Usuários
@@ -103,7 +96,7 @@ O Prismabot permite uma granularidade avançada através dos **Perfis de Acesso*
 * **Atendente:** Focado na operação direta de chats e contatos.
 * **Personalizado:** Ao selecionar esta opção, surge o campo **Perfil de Acesso**, onde você pode escolher um template de permissões pré-criado.
 
-[**Gerenciar Perfis**](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)
+[**Gerenciar Perfis**](usuarios/perfis-de-acesso.md)
 
 Ao clicar no botão **Gerenciar Perfis** no topo da tela, o sistema abre uma área exclusiva para a criação de novos templates de permissões reutilizáveis
 
@@ -142,7 +135,7 @@ Esta funcionalidade é desenhada para proteger os dados sensíveis dos seus clie
 
 **Atenção:** Ao inativar um usuário, ele perderá o acesso imediato ao painel, porém seus dados e histórico de atendimentos permanecem salvos no banco de dados para auditoria.
 
-[AnteriorEquipes](/configuracao-administrador/administracao-painel-admin/equipes)[PróximoPerfis de Acesso](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)
+
 
 Atualizado há 3 meses
 

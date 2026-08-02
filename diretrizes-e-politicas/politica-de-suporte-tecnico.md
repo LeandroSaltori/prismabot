@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Diretrizes e Políticas](/diretrizes-e-politicas)
-
 # Política de Suporte Técnico
 
 O que está incluso no suporte Prismabot: canais de atendimento, horários, SLA, escopo técnico e o que não é coberto pelo suporte.
@@ -71,7 +65,7 @@ O Prismabot oferece integração com diversas ferramentas externas, mas o funcio
 3. **Envio de Anexos:** Ao descrever sua dúvida, seja claro e forneça o máximo de detalhes. Anexos no formato de vídeo são aceitos, com duração máxima de 30 segundos por vídeo e limite de 1 vídeo por interação no ticket.
 4. **Encerramento por Inatividade:** Chamados que permanecerem sem resposta por parte do cliente por mais de 72 horas serão encerrados automaticamente pelo sistema.
 
-[AnteriorPré-requisitos de instalação e utilização](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)[PróximoTermos e Condições Gerais de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)
+
 
 Atualizado há 1 mês
 

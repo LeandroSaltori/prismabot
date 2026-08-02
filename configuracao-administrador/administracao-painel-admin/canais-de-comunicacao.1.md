@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Administração - Painel Admin](/configuracao-administrador/administracao-painel-admin)
-
 # Canais de comunicação
 
 **Disponível para o perfil: Administrador e supervisor**
@@ -31,11 +24,11 @@ O Prismabot oferece suporte a múltiplos canais simultâneos. Abaixo, listamos a
 
 ![](../../.gitbook/assets/sys_img_0738ef80.png)
 
-[**WhatsApp Oficial (OAuth):**](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia) Conexão na API oficial via QR-CODE, com coexistência entre Whatsapp business e o prismabot, usando o app de integração nativo do Prismabot. É a conexão mais prática e segura disponível. Necessário ter um número WhatsApp business.
+[**WhatsApp Oficial (OAuth):**](canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia.md) Conexão na API oficial via QR-CODE, com coexistência entre Whatsapp business e o prismabot, usando o app de integração nativo do Prismabot. É a conexão mais prática e segura disponível. Necessário ter um número WhatsApp business.
 
-[**Instagram Direct** e **Facebook Messenger**](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/instagram-e-facebook-messenger-via-oauth-login) via API Oficial (Login do Facebook), sem necessidade de hubs externos (BETA)
+[**Instagram Direct** e **Facebook Messenger**](canais-de-comunicacao/instagram-e-facebook-messenger-via-oauth-login.md) via API Oficial (Login do Facebook), sem necessidade de hubs externos (BETA)
 
-[**Waba: WhatsApp Oficial - Cloud API**](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-via-api-cloud-waba)**:** Conexão via app próprio, que deve ser configurado no facebook developers. Não depende de celular ligado e oferece risco reduzido de banimento. Ideal para médias e grandes operações.
+[**Waba: WhatsApp Oficial - Cloud API**](canais-de-comunicacao/whatsapp-oficial-via-api-cloud-waba.md)**:** Conexão via app próprio, que deve ser configurado no facebook developers. Não depende de celular ligado e oferece risco reduzido de banimento. Ideal para médias e grandes operações.
 
 #### 2. Whatsapp não oficial
 
@@ -52,7 +45,7 @@ Simula o WhatsApp Web/Desktop. Depende de um aparelho celular conectado. O Prism
 
 **Qual a diferença técnica?**
 Para entender profundamente os prós e contras de cada tipo de conexão e decidir qual é a melhor para o seu negócio, leia nosso artigo comparativo:
-👉 [**API Oficial vs. APIs Não Oficiais: Guia Completo**](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
+👉 [**API Oficial vs. APIs Não Oficiais: Guia Completo**](../../diretrizes-e-politicas/api-oficial-vs-api-nao-oficial.md)
 
 #### 3. Outros
 
@@ -75,7 +68,7 @@ No topo da página, você encontra dois botões principais para a organização 
 
 1. **Adicionar Canal:** Botão para iniciar uma nova conexão.
 
-* [👉 **Clique aqui para ver o passo a passo de como conectar um novo canal**](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/como-conectar-um-canal-sessao-numero)
+* [👉 **Clique aqui para ver o passo a passo de como conectar um novo canal**](canais-de-comunicacao/como-conectar-um-canal-sessao-numero.md)
 
 ---
 
@@ -125,7 +118,7 @@ Assim, conseguimos usar vários números do mesmo aplicativo em tenants diferent
 
 ---
 
-[AnteriorAdministração - Painel Admin](/configuracao-administrador/administracao-painel-admin)[PróximoComo conectar um canal (sessão/número)](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/como-conectar-um-canal-sessao-numero)
+
 
 Atualizado há 3 meses
 

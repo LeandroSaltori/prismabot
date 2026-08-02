@@ -1,11 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Administração - Painel Admin](/configuracao-administrador/administracao-painel-admin)
-3. [Canais de comunicação](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao)
-
 # Whatsapp Oficial via API Cloud WABA
 
 Como criar um app no facebook developers para usar a api oficial da Meta
@@ -227,7 +219,7 @@ Essas configurações ajudam a garantir uma rota mais direta e estável entre a 
 
 <https://developers.facebook.com/support/>
 
-[AnteriorInstagram e Facebook Messenger via OAuth (login)](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/instagram-e-facebook-messenger-via-oauth-login)[PróximoCanal whatsapp Baileys](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/canal-whatsapp-baileys)
+
 
 Atualizado há 1 mês
 

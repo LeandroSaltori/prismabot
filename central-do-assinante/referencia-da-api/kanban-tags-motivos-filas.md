@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 🏷️ Kanban / Tags / Motivos / Filas
 
 ### CreateKanban
@@ -745,7 +738,7 @@ Testar
 
 Successful response
 
-[Anterior🔘 Interativo Waba](/central-do-assinante/referencia-da-api/interativo-waba)[Próximo📊 Listagens](/central-do-assinante/referencia-da-api/listagens)
+
 
 Atualizado há 8 dias
 

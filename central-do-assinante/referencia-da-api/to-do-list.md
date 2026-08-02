@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # ✅ To Do List
 
 ### TodoCreate
@@ -267,7 +260,7 @@ Testar
 
 Successful response
 
-[Anterior🎫 Tickets Extras](/central-do-assinante/referencia-da-api/tickets-extras)[Próximo👥 Usuários](/central-do-assinante/referencia-da-api/usuarios)
+
 
 Atualizado há 8 dias
 

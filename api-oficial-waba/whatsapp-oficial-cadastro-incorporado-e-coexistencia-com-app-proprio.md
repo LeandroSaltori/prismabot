@@ -1,16 +1,10 @@
-Copiar
-
-Nesta página
-
-1. [API Oficial WABA](/api-oficial-waba)
-
 # Whatsapp Oficial- Cadastro Incorporado e Coexistência com APP próprio
 
 Como conectar o WhatsApp Business pela API Oficial usando um App Próprio no Facebook Developers com Embedded Signup e coexistência.
 
 #### Tutorial de como aprovar seu APP Próprio na meta:
 
-[Como aprovar seu App da Meta](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio/como-aprovar-seu-app-da-meta)
+[Como aprovar seu App da Meta](whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio/como-aprovar-seu-app-da-meta.md)
 
 #### Parte 1: Configurações no Facebook Developers
 
@@ -85,7 +79,7 @@ Agora que o app está configurado, o cliente final pode conectar as contas.
 4. Ao finalizar, o canal será criado e você poderá ver o status "Conectado".
 5. O número funcionará tanto no painel (API) quanto no celular (App Business) simultaneamente.
 
-[AnteriorAPI Oficial WABA](/api-oficial-waba)[PróximoComo aprovar seu App da Meta](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio/como-aprovar-seu-app-da-meta)
+
 
 Atualizado há 23 dias
 

@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Administração - Painel Admin](/configuracao-administrador/administracao-painel-admin)
-
 # Equipes
 
 Equipes Chat
@@ -69,7 +62,7 @@ Para acessar, clique no Menu **Administração** e selecione a aba **Equipes**.
 
 #### Detalhamento
 
-As equipes criadas nesta página serão refletidas diretamente no [Chat Privado](/ferramentas-do-atendimento/atendimento/chat-privado)
+As equipes criadas nesta página serão refletidas diretamente no [Chat Privado](../../ferramentas-do-atendimento/atendimento/chat-privado.md)
 
 ![](../../.gitbook/assets/sys_img_c103ca1d.png)
 
@@ -79,7 +72,7 @@ As equipes criadas nesta página serão refletidas diretamente no [Chat Privado]
 
 A foto da equipe deve respeitar o limite de **5MB**. Formatos recomendados: PNG ou JPG.
 
-[AnteriorCanal WooCommerce](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/canal-woocommerce)[PróximoUsuários](/configuracao-administrador/administracao-painel-admin/usuarios)
+
 
 Atualizado há 3 meses
 

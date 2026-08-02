@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 🎫 Tickets Extras
 
 ### EndTicketPause
@@ -421,7 +414,7 @@ Testar
 
 Successful response
 
-[Anterior🎫 Tickets](/central-do-assinante/referencia-da-api/tickets)[Próximo✅ To Do List](/central-do-assinante/referencia-da-api/to-do-list)
+
 
 Atualizado há 8 dias
 

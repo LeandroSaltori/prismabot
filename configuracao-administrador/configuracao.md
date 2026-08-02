@@ -43,7 +43,7 @@ Rastreamento detalhado de todas as ações realizadas na plataforma: quem execut
 
 Centro de controle global do painel Admin. Define as regras que regem o comportamento da plataforma: visibilidade de tickets, tipo de listagem de mensagens, transbordo automático, carência pós-atendimento, autenticação em dois fatores e importação de histórico de conversas.
 
-[AnteriorWaVoIP - Gestão comercial](gestao-comercial/analises-e-registros/wavoip/)[PróximoAPI - Configurações](configuracao/api/)
+
 
 Atualizado há 29 dias
 

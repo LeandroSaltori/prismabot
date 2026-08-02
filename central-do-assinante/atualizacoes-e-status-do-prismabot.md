@@ -27,6 +27,6 @@ Todas as atualizações do **Prismabot** — novos recursos, melhorias de desemp
 
 ---
 
-### 📋 [Changelog — Novidades e Melhorias da Plataforma](/central-do-assinante/atualizacoes-e-status-do-prismabot/changelog-4.0.x-ultima-versao)
+### 📋 [Changelog — Novidades e Melhorias da Plataforma](atualizacoes-e-status-do-prismabot/changelog-4.0.x-ultima-versao.md)
 
 Consulte o histórico de lançamentos para conhecer as novas funcionalidades adicionadas.

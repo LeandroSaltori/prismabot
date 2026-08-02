@@ -1,16 +1,8 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Configuração Admin](/configuracao-administrador/configuracao)
-3. [Integrações Meta](/configuracao-administrador/configuracao/integracoes-meta)
-
 # Templates — Integrações Meta
 
 **Disponível para o perfil: Administrador**
 
-Esta página detalha a sub-aba Login / OAuth. Para uma visão geral das Integrações Meta, acesse [Integrações Meta.](/configuracao-administrador/configuracao/integracoes-meta)
+Esta página detalha a sub-aba Login / OAuth. Para uma visão geral das Integrações Meta, acesse [Integrações Meta.](../integracoes-meta.md)
 
 A aba Templates centraliza a gestão de modelos de mensagens para WhatsApp (WABA) e Facebook Messenger. Templates são mensagens pré-aprovadas pela Meta utilizadas para iniciar conversas fora da janela de 24h ou em campanhas de marketing e utilidade.
 
@@ -196,7 +188,7 @@ Templates do Facebook Messenger devem ter conteúdo **utility ou transacional** 
 
 Templates do Facebook são gerenciados via Graph API. Para listá-los ou criá-los pelo Prismabot, é necessário ter um canal Messenger conectado e autenticado na sub-aba Facebook — Contas Meta.
 
-[AnteriorConfigurações — Integrações Meta](/configuracao-administrador/configuracao/integracoes-meta/configuracoes-integracoes-meta)[PróximoLog auditoria (admin)](/configuracao-administrador/configuracao/log-auditoria-admin)
+
 
 Atualizado há 2 meses
 

@@ -139,7 +139,7 @@ Você pode criar agendamentos automáticos durante uma conversa do bot com seu c
 * **Descrição:** Detalhes adicionais sobre o agendamento.
 * **Local:** Onde ocorrerá o evento
 
-[AnteriorIntegrando o chat GPT](integrando-o-chat-gpt/)[PróximoInfraestrutura](infraestrutura/)
+
 
 Atualizado há 5 meses
 

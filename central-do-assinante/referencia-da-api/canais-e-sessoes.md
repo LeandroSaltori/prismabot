@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 🔌 Canais E Sessões
 
 ### CreateSession
@@ -375,7 +368,7 @@ Testar
 
 Successful response
 
-[Anterior📣 Campanhas](/central-do-assinante/referencia-da-api/campanhas)[Próximo👤 Contatos](/central-do-assinante/referencia-da-api/contatos)
+
 
 Atualizado há 8 dias
 

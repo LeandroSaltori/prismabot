@@ -1,20 +1,12 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Configuração Admin](/configuracao-administrador/configuracao)
-3. [Integrações Meta](/configuracao-administrador/configuracao/integracoes-meta)
-
 # WhatsApp — Contas Meta
 
 **Disponível para o perfil: Administrador**
 
-Esta página detalha a sub-aba Login / OAuth. Para uma visão geral das Integrações Meta, acesse [Integrações Meta.](/configuracao-administrador/configuracao/integracoes-meta)
+Esta página detalha a sub-aba Login / OAuth. Para uma visão geral das Integrações Meta, acesse [Integrações Meta.](../integracoes-meta.md)
 
 A sub-aba WhatsApp centraliza o gerenciamento completo dos números oficiais (WABA) conectados ao sistema — registro de telefones, configuração de webhooks, perfil do número, limites de envio e diagnóstico da conexão.
 
-[Tutorial de como conectar o whatsapp pela API Oficial](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia)
+[Tutorial de como conectar o whatsapp pela API Oficial](../../administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia.md)
 
 ### Como acessar
 
@@ -201,7 +193,7 @@ Webhooks entregues via proxy Prismabot
 
 Após salvar, revalide o webhook para que a Meta reconheça o novo destino. Use o botão **Revalidar Webhook WABA** após confirmar a alteração.
 
-[AnteriorLogin / OAuth — Contas Meta (Configurações)](/configuracao-administrador/configuracao/integracoes-meta/login-oauth-contas-meta-configuracoes)[PróximoInstagram — Contas Meta](/configuracao-administrador/configuracao/integracoes-meta/instagram-contas-meta)
+
 
 Atualizado há 2 meses
 

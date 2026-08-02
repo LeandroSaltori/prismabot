@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [API Oficial WABA](/api-oficial-waba)
-
 # Cobranças da Meta (WhatsApp Business Platform)
 
 Esta página detalha como funciona o modelo de precificação do WhatsApp Business Platform (WABA). É fundamental compreender que estes custos são cobrados diretamente pela Meta através da sua conta de faturamento no Gerenciador de Negócios.
@@ -60,7 +54,7 @@ Os valores detalhados por país e categoria, bem como as faixas de volume, são 
 
 Nota: As informações acima referem-se às políticas da Meta com atualizações previstas para 1º de julho de 2025.
 
-[AnteriorExemplo de fluxo no N8N + API Prismabot + WABA](/api-oficial-waba/exemplo-de-fluxo-no-n8n-+-api-prismabot-+-waba)[PróximoAtualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-prismabot)
+
 
 Atualizado há 3 meses
 

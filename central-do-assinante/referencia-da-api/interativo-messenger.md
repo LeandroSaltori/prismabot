@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 💬 Interativo Messenger
 
 ### Quick Reply
@@ -581,7 +574,7 @@ Testar
 
 Successful response
 
-[Anterior📷 Interativo Instagram](/central-do-assinante/referencia-da-api/interativo-instagram)[Próximo🟩 Interativo Uaz API](/central-do-assinante/referencia-da-api/interativo-uaz-api)
+
 
 Atualizado há 8 dias
 

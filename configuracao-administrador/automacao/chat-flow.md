@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](/configuracao-administrador)
-2. [Automação](/configuracao-administrador/automacao)
-
 # ChatFlow (chatbot)
 
 **Disponível para o perfil:** Administrador e Supervisor
@@ -253,14 +246,14 @@ A partir daí, toda nova conversa iniciada naquele canal será gerenciada pelo f
 
 ### Páginas relacionadas
 
-* [Boas práticas e solução de problemas](/configuracao-administrador/automacao/chat-flow/chat-flow-boas-praticas-e-solucao-de-problemas)
-* [Interações disponíveis](/configuracao-administrador/automacao/chat-flow/chat-flow-interacoes-disponiveis)
-* [Configurações do Fluxo](/configuracao-administrador/automacao/chat-flow/chat-flow-configuracoes-do-fluxo)
-* [Exemplo: Menu de departamentos](/configuracao-administrador/automacao/chat-flow/chat-flow-exemplo-menu-departamentos)
-* [Exemplo: Qualificação de lead com captura de dados](/configuracao-administrador/automacao/chat-flow/chat-flow-exemplo-qualificacao-de-lead-com-captura-de-dados)
-* [Exemplo: Fluxo com horário de atendimento](/configuracao-administrador/automacao/chat-flow/chat-flow-exemplo-fluxo-com-horario-de-atendimento)
+* [Boas práticas e solução de problemas](chat-flow/chat-flow-boas-praticas-e-solucao-de-problemas.md)
+* [Interações disponíveis](chat-flow/chat-flow-interacoes-disponiveis.md)
+* [Configurações do Fluxo](chat-flow/chat-flow-configuracoes-do-fluxo.md)
+* [Exemplo: Menu de departamentos](chat-flow/chat-flow-exemplo-menu-departamentos.md)
+* [Exemplo: Qualificação de lead com captura de dados](chat-flow/chat-flow-exemplo-qualificacao-de-lead-com-captura-de-dados.md)
+* [Exemplo: Fluxo com horário de atendimento](chat-flow/chat-flow-exemplo-fluxo-com-horario-de-atendimento.md)
 
-[AnteriorAniversários](/configuracao-administrador/automacao/aniversarios)[PróximoChat Flow - Boas práticas e solução de problemas](/configuracao-administrador/automacao/chat-flow/chat-flow-boas-praticas-e-solucao-de-problemas)
+
 
 Atualizado há 1 mês
 

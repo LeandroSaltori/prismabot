@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 💼 Oportunidades
 
 ### CreateOpportunity
@@ -201,7 +194,7 @@ Testar
 
 Successful response
 
-[Anterior👥 Mensagens Em Grupo](/central-do-assinante/referencia-da-api/mensagens-em-grupo)[Próximo📋 Templates WABA](/central-do-assinante/referencia-da-api/templates-waba)
+
 
 Atualizado há 8 dias
 

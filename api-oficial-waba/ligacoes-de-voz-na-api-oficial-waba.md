@@ -1,9 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [API Oficial WABA](/api-oficial-waba)
-
 # Ligações de voz na API Oficial (WABA)
 
 A API Oficial do WhatsApp (WABA) permite **receber e fazer ligações de voz** dentro do próprio WhatsApp do cliente, tudo pelo painel do Prismabot. Este artigo mostra como habilitar o recebimento de chamadas, como solicitar a permissão necessária para originar ligações e como configurar o roteamento das chamadas entre os atendentes.
@@ -128,7 +122,7 @@ Com as chamadas ativadas, seu canal WABA passa a receber e fazer ligações de v
 
 **Causa:** chamadas WebRTC não ativadas nas configurações do número WABA conectado ao Prismabot, ou roteamento direcionando para usuários que não estão logados. **Solução:** confirme a ativação em **Configurações > Integrações > Meta > WhatsApp** e revise a regra em **Roteamento de chamadas WABA**.
 
-[AnteriorComo aprovar seu App da Meta](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio/como-aprovar-seu-app-da-meta)[PróximoExemplo de fluxo no N8N + API Prismabot + WABA](/api-oficial-waba/exemplo-de-fluxo-no-n8n-+-api-prismabot-+-waba)
+
 
 Atualizado há 1 mês
 

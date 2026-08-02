@@ -98,7 +98,7 @@ Ao enviar esta única imagem, o sistema trabalhará de forma inteligente: ele ge
 
 **Específico do Android:** a **otimização de bateria** e a **economia de dados** costumam bloquear notificações em segundo plano. Em **Configurações → Apps → (Prismabot/Chrome) → Bateria**, deixe **"Sem restrições"**, e libere o uso de **dados em segundo plano**. Mantenha também o **Chrome atualizado**.
 
-[AnteriorLigações no Prismabot (Telefonia e Voz)](ligacoes-no-prismabot-telefonia-e-voz/)[PróximoWavoip - Ligações pelo WhatsApp](wavoip-ligacoes-pelo-whatsapp/)
+
 
 Atualizado há 1 mês
 

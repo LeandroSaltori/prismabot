@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 📣 Campanhas
 
 ### CampaignCancel
@@ -821,7 +814,7 @@ Testar
 
 Successful response
 
-[Anterior📅 Agendamentos E Lembretes](/central-do-assinante/referencia-da-api/agendamentos-e-lembretes)[Próximo🔌 Canais E Sessões](/central-do-assinante/referencia-da-api/canais-e-sessoes)
+
 
 Atualizado há 8 dias
 

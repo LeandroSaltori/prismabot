@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 📨 Mensagens
 
 ### GetMessageByMessageId
@@ -385,7 +378,7 @@ Testar
 
 Successful response
 
-[Anterior📞 Logs De Chamadas](/central-do-assinante/referencia-da-api/logs-de-chamadas)[Próximo📨 Mensagens Avançadas](/central-do-assinante/referencia-da-api/mensagens-avancadas)
+
 
 Atualizado há 8 dias
 

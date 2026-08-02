@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 🏗️ CRM Pipeline
 
 ### PipelineCreate
@@ -529,7 +522,7 @@ Testar
 
 Successful response
 
-[Anterior👤 Contatos](/central-do-assinante/referencia-da-api/contatos)[Próximo📊 Dashboard](/central-do-assinante/referencia-da-api/dashboard)
+
 
 Atualizado há 8 dias
 

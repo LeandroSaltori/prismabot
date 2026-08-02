@@ -1,2 +1,1 @@
 # Como funciona o Prismabot
-

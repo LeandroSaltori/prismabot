@@ -1,7 +1,3 @@
-Copiar
-
-Nesta página
-
 # WEBRTC\_TURN\_SETUP
 
 Este guia configura um servidor **TURN** com **coturn** para chamadas de áudio/vídeo do **chat privado**. O tráfego de mídia pode ser retransmitido pelo TURN quando a conexão direta (STUN) não funciona — por exemplo, usuários em redes/ISPs diferentes ou CGNAT.
@@ -155,6 +151,6 @@ Após editar o `.env` do backend:
 
 Para credenciais **temporárias** por usuário (shared secret / REST do coturn), seria necessário estender o backend — este guia cobre o modo **usuário/senha estático**, que já é suportado pelas variáveis `WEBRTC_TURN_*`.
 
-[AnteriorTemplate (WABA) não chega ao destinatário](/avancado-recursos-tecnicos/erros-e-avisos-comuns/template-waba-nao-chega-ao-destinatario)
+
 
 Isto foi útil?

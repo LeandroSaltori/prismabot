@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 🏢 Tenant API
 
 ### CreateApi
@@ -411,7 +404,7 @@ Testar
 
 Successful response
 
-[Anterior📋 Templates WABA](/central-do-assinante/referencia-da-api/templates-waba)[Próximo🎫 Tickets](/central-do-assinante/referencia-da-api/tickets)
+
 
 Atualizado há 8 dias
 

@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 📊 Dashboard
 
 ### DashTicketsAndTimes
@@ -507,7 +500,7 @@ Testar
 
 Successful response
 
-[Anterior🏗️ CRM Pipeline](/central-do-assinante/referencia-da-api/crm-pipeline)[Próximo📤 Envio Em Lote](/central-do-assinante/referencia-da-api/envio-em-lote)
+
 
 Atualizado há 8 dias
 

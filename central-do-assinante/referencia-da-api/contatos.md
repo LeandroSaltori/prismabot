@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Referência da API](/central-do-assinante/referencia-da-api)
-
 # 👤 Contatos
 
 ### BlockContact
@@ -693,7 +686,7 @@ Testar
 
 Successful response
 
-[Anterior🔌 Canais E Sessões](/central-do-assinante/referencia-da-api/canais-e-sessoes)[Próximo🏗️ CRM Pipeline](/central-do-assinante/referencia-da-api/crm-pipeline)
+
 
 Atualizado há 8 dias
 

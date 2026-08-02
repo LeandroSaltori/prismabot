@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [Ferramentas do atendimento](/ferramentas-do-atendimento)
-2. [Atendimento](/ferramentas-do-atendimento/atendimento)
-
 # Tela de Atendimento
 
 Painel de Atendimentos
@@ -25,23 +18,23 @@ A tela de atendimento é dividida em quatro blocos principais de controle:
 
 ![](../../.gitbook/assets/sys_img_44abb167.png)
 
-[**1. Menu dos Atendimentos (Lado Esquerdo)**](/ferramentas-do-atendimento/atendimento/tela-de-atendimento/menu-dos-atendimentos)
+[**1. Menu dos Atendimentos (Lado Esquerdo)**](tela-de-atendimento/menu-dos-atendimentos.md)
 
 Esta sessão centraliza a listagem de todas as conversas ativas e pendentes, permitindo ao usuário navegar entre chats privados ou de grupos, aplicar filtros avançados por etiquetas, filas ou conexões, e gerenciar o fluxo de entrada através das abas de status "Abertos", "Pendentes" e "Fechados".
 
-[**2. Barra de Mensagem (Inferior)**](/ferramentas-do-atendimento/atendimento/tela-de-atendimento/barra-de-mensagem)
+[**2. Barra de Mensagem (Inferior)**](tela-de-atendimento/barra-de-mensagem.md)
 
 Localizada no rodapé do chat, concentra as ferramentas de interação direta com o cliente, incluindo a inserção de emojis, o envio de anexos multimídia, o uso de mensagens rápidas por atalhos e o acesso a recursos de Inteligência Artificial para reescrita ou resumo de textos durante o atendimento.
 
-[**3. Ícones de Acesso Rápido (Topo Direito)**](/ferramentas-do-atendimento/atendimento/tela-de-atendimento/acesso-rapido-atendimento)
+[**3. Ícones de Acesso Rápido (Topo Direito)**](tela-de-atendimento/acesso-rapido-atendimento.md)
 
 Barra de ferramentas superior que agrupa os comandos de gestão do ticket, permitindo retornar a conversa para a fila, resolver o atendimento, transferir o contato entre departamentos, usuários ou canais, além de fornecer acesso rápido à galeria de mídias, busca de mensagens e agendamentos.
 
-[**4. Detalhes do Contato (Painel Lateral Direito)**](/ferramentas-do-atendimento/atendimento/tela-de-atendimento/detalhes-do-contato)
+[**4. Detalhes do Contato (Painel Lateral Direito)**](tela-de-atendimento/detalhes-do-contato.md)
 
 Exibe a ficha cadastral completa do cliente em tempo real, fornecendo contexto ao atendente por meio da visualização de fotos, dados de aniversário, etiquetas de segmentação, carteiras de responsáveis e o histórico de logs de comunicação e mensagens favoritas vinculadas ao perfil.
 
-[AnteriorAtendimento](/ferramentas-do-atendimento/atendimento)[PróximoMenu dos atendimentos](/ferramentas-do-atendimento/atendimento/tela-de-atendimento/menu-dos-atendimentos)
+
 
 Atualizado há 2 meses
 

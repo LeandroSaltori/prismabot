@@ -1,10 +1,3 @@
-Copiar
-
-Nesta página
-
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
-2. [Atualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-prismabot)
-
 # Conexão com Passkey — APIs não oficiais
 
 Em 30/06/2025, o WhatsApp ativou uma nova camada de segurança que exige uma **Chave de Acesso (Passkey)** durante o processo de vinculação de novos dispositivos. Isso quebrou o fluxo tradicional de leitura de QR Code utilizado pelas bibliotecas não oficiais — o problema **não é específico do Prismabot** e afeta todo o ecossistema de APIs não oficiais.
@@ -108,7 +101,7 @@ A extensão Passkey Linker é Prismabot e pode ser usada com qualquer sistema co
 
 **A extensão tem custo?** Não. É gratuita e disponibilizada pela Prisma Telecom para toda a comunidade.
 
-[AnteriorProcedimento Padrão de Atualização](/central-do-assinante/atualizacoes-e-status-do-prismabot/procedimento-padrao-de-atualizacao)[PróximoReferência da API](/central-do-assinante/referencia-da-api)
+
 
 Atualizado há 29 dias
 

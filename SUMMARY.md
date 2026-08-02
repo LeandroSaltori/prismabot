@@ -1,5 +1,7 @@
 # Table of contents
 
+* [CENTRAL DE AJUDA - PRISMABOT](README.md)
+
 ## PRIMEIRO ACESSO
 
 * [Primeiro Acesso ao Sistema](primeiro-acesso/primeiro-acesso-ao-sistema.md)
@@ -7,7 +9,7 @@
 
 ## APRESENTAÇÃO
 
-* [Como funciona o Prismabot](como-funciona-o-prismabot.md)
+* [Como funciona o Prismabot](apresentacao/como-funciona-o-prismabot.md)
 * [API Oficial WABA](api-oficial-waba.md)
   * [Atualizações e Status do Prismabot](central-do-assinante/atualizacoes-e-status-do-prismabot.md)
   * [Referência da API](central-do-assinante/referencia-da-api.md)

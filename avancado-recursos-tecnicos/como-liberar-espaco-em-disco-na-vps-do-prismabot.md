@@ -11,7 +11,7 @@ Quando a servidor está com o disco cheio (ou perto disso), o sistema pode ficar
 **Pré-requisitos:**
 
 * Acesso root/sudo à servidor via SSH (para os comandos de terminal).
-* Acesso **Super Admin** no painel (para a limpeza de dados por tenant).
+* Acesso **Painel Administrativo** no painel (para a limpeza de dados por tenant).
 * Recomendado: um snapshot/backup da servidor antes de rodar comandos de remoção.
 
 ### Vídeo tutorial
@@ -46,11 +46,11 @@ No caso do Prismabot, o maior consumo costuma estar na **pasta** `public` **do b
 
 ---
 
-### Etapa 3: Limpar mídias por tenant (painel Super Admin)
+### Etapa 3: Limpar mídias por tenant (Painel Administrativo)
 
 Em vez de mexer direto nos arquivos pelo terminal, o painel permite sanitizar os dados de um tenant específico:
 
-1. Acesse **Superadmin → Tenants e Licenciamento → Tenants**.
+1. Acesse **Painel Administrativo → Tenants e Licenciamento → Tenants**.
 2. Localize o tenant identificado na Etapa 2 e clique no menu de **três pontos** ao lado dele.
 3. Use **Calcular tamanho dos dados** para confirmar o quanto aquele tenant está ocupando.
 4. Use **Limpeza por filtro** para remover mensagens/mídias antigas — é possível filtrar por:
@@ -110,7 +110,7 @@ Terminal SSH — `du`
 
 Limpar mídias de um tenant
 
-Superadmin → Tenants → menu de três pontos → Limpeza por filtro / Apagar arquivos da empresa
+Painel Administrativo → Tenants → menu de três pontos → Limpeza por filtro / Apagar arquivos da empresa
 
 Limpar pastas de backup pós-atualização
 
@@ -126,7 +126,7 @@ Terminal SSH — `journalctl --vacuum-size`
 
 Solução definitiva para mídias
 
-Superadmin → Sistema → Storage S3
+Painel Administrativo → Sistema → Storage S3
 
 ---
 

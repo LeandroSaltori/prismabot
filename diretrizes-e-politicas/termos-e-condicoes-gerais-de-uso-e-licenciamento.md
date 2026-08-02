@@ -53,7 +53,7 @@ Para facilitar a leitura e interpretação deste documento, adotamos as seguinte
 * **Licença de Uso Anual**: Modalidade de contratação que concede ao Cliente o direito de uso do Sistema Prismabot pelo período de 12 (doze) meses, instalada na infraestrutura providenciada pelo Cliente.
 * **Modelo Prismabot**: Característica do Sistema Prismabot que permite ao Cliente personalizar a identidade visual e revender o acesso ao software para terceiros sob sua própria marca.
 * **Infraestrutura (servidor)**: Servidor Virtual Privado (Virtual Private Server) contratado e custeado diretamente pelo Cliente junto a terceiros, onde o Sistema Prismabot será instalado.
-* **Usuário**: Pessoa autorizada pelo Cliente a acessar o painel do sistema (Super Admin, Admin, supervisores ou atendentes).
+* **Usuário**: Pessoa autorizada pelo Cliente a acessar o painel do sistema (Painel Administrativo, Admin, supervisores ou atendentes).
 * **Tenant (Cliente Final)**: Conta ou instância criada pelo Cliente dentro do Sistema Prismabot para revender serviços a terceiros.
 
 ---

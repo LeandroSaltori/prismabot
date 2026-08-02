@@ -31,7 +31,7 @@ Antes de cadastrar no Prismabot, é necessário ajustar as configurações do se
    * business\_management
    * whatsapp\_business\_messaging
    * whatsapp\_business\_management
-4. **Copie o Token** gerado (ele será usado no Superadmin).
+4. **Copie o Token** gerado (ele será usado no Painel Administrativo).
 
 **3. Configuração do Cadastro Incorporado (Config ID)**
 
@@ -45,11 +45,11 @@ Antes de cadastrar no Prismabot, é necessário ajustar as configurações do se
 
 ---
 
-#### Parte 2: Configuração no Superadmin
+#### Parte 2: Configuração no Painel Administrativo
 
 Com os dados em mãos, vamos configurar o aplicativo dentro do sistema.
 
-1. Acesse o painel **Superadmin** > **App Waba**.
+1. Acesse o painel **Painel Administrativo** > **App Waba**.
 2. Clique em **Adicionar** e preencha os campos:
 
    * **App ID:** Encontrado no cabeçalho do Facebook Developers.
@@ -59,7 +59,7 @@ Com os dados em mãos, vamos configurar o aplicativo dentro do sistema.
    * **App Secret:** Encontrado nas configurações básicas do App (clique em "Mostrar").
 3. **Importante:** Copie a **URL de Redirecionamento** (Redirect URI) que o sistema exibe nesta tela.
 4. Volte ao Facebook Developers > **Facebook Login** > **Configurações** e cole essa URL no campo "URIs de redirecionamento do OAuth válidos".
-5. Salve o cadastro no Superadmin.
+5. Salve o cadastro no Painel Administrativo.
 
 ---
 

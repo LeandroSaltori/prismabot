@@ -16,7 +16,7 @@ Bem-vindo ao Prismabot. Este guia mostra o que você receberá após a compra e 
 
 Após a confirmação do pagamento, você receberá dois e-mails automáticos:
 
-1. **Acesso ao portal do assinante** ([portal.zdg.com.br](https://prismatelecomservicos.com/)) — onde ficam as videoaulas, o script de instalação e os arquivos necessários para as próximas etapas.
+1. **Acesso ao portal do assinante** ([prismatelecomservicos.com](https://prismatelecomservicos.com/)) — onde ficam as videoaulas, o script de instalação e os arquivos necessários para as próximas etapas.
 2. **Chave de licença** — código único que você usará para ativar o Prismabot após a instalação. Guarde em local seguro.
 
 Se não receber os e-mails em até alguns minutos, verifique a caixa de spam. Para recuperar a chave de licença, abra um chamado em [suporte@prismatelecom.com](https://prismatelecomservicos.com/).
@@ -39,7 +39,6 @@ Com o ambiente pronto, escolha uma das duas formas de instalação:
 
 ---
 
-### Passo 4 — [Ative a licença](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot)
 
 Após a instalação, o sistema estará funcional mas ainda sem licença ativa. A ativação é feita pelo próprio assinante dentro do painel do Prismabot:
 

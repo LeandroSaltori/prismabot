@@ -90,7 +90,7 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 * Correções: `/getMessagebyId` + `mediaUrl`; envio base64 com caption de mídia; disparo de ligações **Wavoip**.
 * Nova rota para disparar a **pesquisa de avaliação** por ticket ou por número.
 
-#### ⚙️ Superadmin, Planos e Pagamentos
+#### ⚙️ Painel Administrativo, Planos e Pagamentos
 
 * **Provisionamento de tenants via API** agora vincula assinaturas do Stripe, Pagar.me e Mercado Pago (além do Asaas), habilitando a atualização automática de status de pagamento por webhook.
 * **Migração de tenants para o gateway global** (Stripe/Mercado Pago) direto na tela de Planos, com criação automática do cliente; corrigido o gateway efetivo que mantinha o tenant no Asaas após a troca (signup, troca de plano e leitura de faturas).
@@ -147,11 +147,11 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 * Bloqueio de transferência para canal não liberado ao usuário — passa a valer para interações manuais, chatbot e rotas de API externa.
 
-#### ⚙️ Superadmin, Planos e Faturamento
+#### ⚙️ Painel Administrativo, Planos e Faturamento
 
 * Catálogo de **preços de planos** e configurações de planos expandidas.
 * Controle por tenant: **menus visíveis** e **quantidade de canais por tipo**.
-* Listagem de **usuários** no Superadmin e correção na **edição de tenant**.
+* Listagem de **usuários** no Painel Administrativo e correção na **edição de tenant**.
 * **Trial** alinhado ao pagamento (gateway — cobrança inteligente).
 * **Revalidação** de status de pagamento na tela de pagamento em atraso.
 * Autoinstalador: **update all backends**.
@@ -258,7 +258,7 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 #### **🚀 UPDATE OFICIAL (HOMOLOG) | 26/05/2026**
 
-#### ⚙️ Superadmin e Configurações
+#### ⚙️ Painel Administrativo e Configurações
 
 * Customização Prismabot:
 
@@ -267,7 +267,7 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
   + Customização de cores para o Dark Mode.
   + Adicionada visualização prévia da tipografia.
 * Global Providers: Liberado Global Provider para integrações da Meta.
-* OAuth: Opção de usar o app padrão do Google OAuth liberada na edição do tenant pelo Superadmin.
+* OAuth: Opção de usar o app padrão do Google OAuth liberada na edição do tenant pelo Painel Administrativo.
 * Gestão do Sistema e Usuários:
 
   + Opções de distribuição nas filas.
@@ -303,7 +303,7 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 * Horários e Status:
 
   + Horário do usuário agora permite configurar intervalo (*range*).
-  + O Superadmin foi excluído da regra de bloqueio de horário.
+  + O Painel Administrativo foi excluído da regra de bloqueio de horário.
   + Adicionada opção de setar como Offline ao sair do sistema.
   + Status na abertura de conversa avulsa.
 * Chat Privado (Interno): Adicionada chamada (ligação de áudio e vídeo) entre usuários. Ajustada a largura da tela do chat privado.
@@ -385,8 +385,6 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 🎧 Novos recursos de [atendimento](/configuracao-administrador/gestao-comercial/analises-e-registros/painel-de-atendimentos)
 👤 [Perfil personalizado de usuários](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)
 🔌 Novos [Endpoints API](/central-do-assinante/referencia-da-api)
-🎨 [Personalizações](/configuracao-superadmin/configuracoes/customizar-Prismabot)
-☁️ Armazenamento externo ([Storage AmazonS3](/configuracao-superadmin/sistema/sistema-dados-e-configuracao/storage-s3), etc)
 ⚡️ [Autoinstalador melhorado](https://prismatelecomservicos.com/)
 💳 Novos gateways de pagamento (stripe, mercadopago, etc)
 🚀 Modo Cluster - Infraestrutura para escala com múltiplos núcleos de processamento

@@ -101,7 +101,6 @@ Estes menus contêm configurações que alteram o comportamento do sistema. Por 
 
 ---
 
-[AnteriorStorage S3](/configuracao-superadmin/sistema/sistema-dados-e-configuracao/storage-s3)[PróximoAdministração - Painel Admin](/configuracao-administrador/administracao-painel-admin)
 
 Atualizado há 3 meses
 

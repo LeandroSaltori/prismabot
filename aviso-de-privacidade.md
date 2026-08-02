@@ -49,7 +49,7 @@ Para facilitar a leitura, alguns termos usados ao longo deste Aviso:
 * Controlador / Operador. Conceitos da LGPD: o Controlador toma as decisões sobre o tratamento; o Operador trata os dados segundo as instruções do Controlador.
 * LGPD. Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais.
 * ANPD. Autoridade Nacional de Proteção de Dados.
-* Site. Domínios e subdomínios operados pela Prisma Telecom no contexto do Prismabot. As páginas principais são o site corporativo ([https://prismatelecomservicos.com/](https://prismatelecomservicos.com//)) e o site institucional do produto ([https://prismatelecomservicos.com/](https://prismatelecomservicos.com//)); demais subdomínios da Prisma Telecom voltados a atendimento, documentação, treinamento de Clientes e canais correlatos estão igualmente cobertos por este Aviso. Produtos distintos do Prismabot, como a Comunidade Prisma Telecom, são regidos por avisos de privacidade próprios.
+* Site. Domínios e subdomínios operados pela Prisma Telecom no contexto do Prismabot. As páginas principais são o site corporativo ([https://prismatelecomservicos.com/](https://prismatelecomservicos.com//)) e o site institucional do produto ([https://prismatelecomservicos.com/](https://prismatelecomservicos.com//)); demais subdomínios da Prisma Telecom voltados a atendimento, documentação, treinamento de Clientes e canais correlatos estão igualmente cobertos por este Aviso. Produtos distintos do Prismabot, como a Prisma Telecom, são regidos por avisos de privacidade próprios.
 * servidor (Virtual Private Server). Servidor virtual contratado e custeado pelo próprio Cliente, junto a provedores de infraestrutura, onde o Prismabot é instalado e operado sob exclusiva guarda do Cliente.
 * Plataforma WhatsApp. Plataformas operadas pela WhatsApp LLC (grupo Meta Platforms, Inc.), integradas ao Prismabot via API Oficial — arquitetura na qual a Prisma Telecom atua como Tech Provider certificado — ou via APIs não oficiais configuradas pelo Cliente, conforme [termos da plataforma](https://www.whatsapp.com/legal/).
 * Canais de Integração de Terceiros. Redes sociais, mensageiros, marketplaces, CRMs, gateways de pagamento e demais sistemas integráveis ao Prismabot via APIs, webhooks ou conectores, ativados e configurados sob exclusiva responsabilidade do Cliente, que atua como Controlador dos dados que decide trafegar por cada canal.
@@ -333,7 +333,7 @@ No modelo em nuvem, o Cliente é livre para escolher provedores de servidor em q
 Em cumprimento ao art. 41 da LGPD, a Prisma Telecom mantém Encarregado pela Proteção de Dados Pessoais designado internamente, que pode ser contatado pelos canais abaixo:
 
 * E-mail do Encarregado (privacidade, LGPD e exercício de direitos): **suporte@prismatelecom.com**
-* E-mail para comunicação geral: **suporte@zdg.com.br**
+* E-mail para comunicação geral: **suporte@prismatelecom.com**
 
 ---
 

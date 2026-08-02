@@ -12,7 +12,6 @@ oauthcoexistência
 
 Passo a passo para conectar um número WhatsApp Business pela API Oficial usando o app da Prisma Telecom (Tech Provider) com modo de coexistência.
 
-Números com alto índice de denúncias (status Red na Meta) podem ser desconectados do App compartilhado da Prisma Telecom para proteger os demais assinantes. Veja: [Score do App Tech Provider](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
 
 #### O que é o Modo de Coexistência?
 
@@ -22,11 +21,11 @@ Ao utilizar este método, você conecta o seu número à API Oficial da Meta sem
 
 ---
 
-### Etapa 0: Ativação do Canal no Painel Super Admin
+### Etapa 0: Ativação do Canal no Painel Administrativo
 
 A liberação do recurso OAuth é feita por empresa (Tenant). Se você é o assinante do Prismabot, siga estes passos. Se você é um cliente ou está usando apenas o acesso demo do sistema, solicite essa liberação ao suporte e pule para a etapa 1.
 
-Faça login no sistema com seu usuário **Super Admin**.
+Faça login no sistema com seu usuário **Painel Administrativo**.
 
 No menu lateral, acesse **Tenants** (Empresas) e clique em **Editar** na empresa desejada.
 
@@ -69,7 +68,7 @@ Com o recurso liberado, acesse a conta da empresa (Admin normal) para realizar a
 3. No campo "Tipo de Canal", selecione a opção **WhatsApp OAuth**.
 4. **Selecione o Aplicativo Meta:** Você verá um menu suspenso para escolher o aplicativo.
 
-   * Selecione o aplicativo nativo fornecido pela plataforma (ex: teste login incorporado tech provider zdg ou Prisma Telecom App).
+   * Selecione o aplicativo nativo fornecido pela plataforma (ex: teste login incorporado Prisma Telecom ou Prisma Telecom App).
    * (Nota: Caso sua empresa seja um Tech Provider aprovado pela Meta, você poderá selecionar seu próprio App configurado previamente).
 5. Clique no botão azul **Conectar via WhatsApp OAuth**.
 
@@ -106,7 +105,6 @@ Ao conectar seu WhatsApp Business, a Meta realizará uma análise final da sua e
 
 Para testar, envie uma mensagem de outro número para o seu WhatsApp Business. Você verá a mensagem chegando instantaneamente no seu celular e na aba "Pendentes" na tela de atendimento do seu Prismabot!
 
-**AVISO: Reputação do Número e Restrições de Uso** [**(Score)**](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
 
 Ao conectar através do **App compartilhado da Prisma Telecom**, seu número passa a integrar nosso ecossistema. Para proteger a estabilidade de todos os assinantes, monitoramos rigorosamente a qualidade dos canais conectados.
 

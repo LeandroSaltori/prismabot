@@ -37,7 +37,6 @@ O Prismabot disponibiliza seu próprio App (aprovado como Tech Provider na Meta)
 
 Ao conectar pelo App da Prisma Telecom, a permissão de **ligações de voz** (`calls`) já está aprovada automaticamente.
 
-Números com alto índice de denúncias (status Red na Meta) podem ser desconectados do App compartilhado da Prisma Telecom para proteger os demais assinantes. Veja: [Score do App Tech Provider](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
 
 **Tutorial completo:** [WhatsApp Oficial OAuth (login)](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia)
 
@@ -50,13 +49,12 @@ Assinantes que já possuem um App aprovado no Facebook Developers — ou que des
 **O que é necessário:**
 
 * App criado e aprovado no Facebook Developers com status de Tech Provider
-* Configuração do App no painel Super Admin
+* Configuração do App no Painel Administrativo
 
 O processo de App Review da Meta exige envio de documentos e vídeos demonstrativos. O suporte do Prismabot não realiza esse processo, mas pode indicar profissionais especializados.
 
 **Tutorial completo:** [Cadastro Incorporado e Coexistência com App Próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
 
-**Configuração no Super Admin:** [Facebook — Login Incorporado WABA, Instagram e Messenger](/configuracao-superadmin/canais-superadmin/facebook-login-incorporado-waba-insta-messenger)
 
 ---
 

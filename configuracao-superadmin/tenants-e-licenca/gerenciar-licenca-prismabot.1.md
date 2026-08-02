@@ -100,7 +100,7 @@ Realize estes dois passos logo após a primeira instalação do Prismabot.
 
 Após salvar, o status pode levar alguns minutos para atualizar. Aguarde até que o sistema processe a validação e o status mude para **"Ativo"**.
 
-Não recebeu sua licença por e-mail? Abra um chamado de suporte administrativo em [suporte.zdg.com.br](https://prismatelecomservicos.com/).
+Não recebeu sua licença por e-mail? Abra um chamado de suporte administrativo em [suporte@prismatelecom.com](https://prismatelecomservicos.com/).
 
 ![](../../.gitbook/assets/image_3e997405.png)
 
@@ -207,7 +207,7 @@ Acesse [prismabot.zdg.com.br/renovar](https://prismabot.zdg.com.br/renovar/), in
 
 #### Ainda não consegui resolver. Como abrir suporte?
 
-Abra um chamado no portal de suporte administrativo em [suporte.zdg.com.br](https://prismatelecomservicos.com/). Selecione o departamento **"Suporte Administrativo"** e descreva o problema com o print do status da licença e o domínio configurado.
+Abra um chamado no portal de suporte administrativo em [suporte@prismatelecom.com](https://prismatelecomservicos.com/). Selecione o departamento **"Suporte Administrativo"** e descreva o problema com o print do status da licença e o domínio configurado.
 
 #### [Link para aula completa - portal do assinante](https://prismatelecomservicos.com/)
 

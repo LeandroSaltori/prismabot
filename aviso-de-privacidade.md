@@ -183,7 +183,7 @@ Os Operadores contratados pela Prisma Telecom são organizados em categorias fun
 * Plataforma de CRM, e-mail marketing e e-mails transacionais — gestão de contatos, segmentação e envio de comunicados.
 * Plataformas de documentação, treinamento e atendimento de Clientes — central de ajuda, portal de aulas e ferramentas correlatas de relacionamento.
 
-Esta enumeração é exemplificativa: a Prisma Telecom pode adicionar, substituir ou remover Operadores de mesma natureza e finalidade a qualquer tempo, sem necessidade de atualização individual deste Aviso. A lista nominal atualizada de Operadores pode ser solicitada a qualquer momento pelo Titular, nos termos do art. 18, VII, da LGPD, pelo e-mail **contato@prismatelecomservicos.com**.
+Esta enumeração é exemplificativa: a Prisma Telecom pode adicionar, substituir ou remover Operadores de mesma natureza e finalidade a qualquer tempo, sem necessidade de atualização individual deste Aviso. A lista nominal atualizada de Operadores pode ser solicitada a qualquer momento pelo Titular, nos termos do art. 18, VII, da LGPD, pelo e-mail **suporte@prismatelecom.com**.
 
 ### 6.2. Controladores parceiros
 
@@ -266,7 +266,7 @@ Os dados pessoais sob responsabilidade da Prisma Telecom são tratados pelos seg
 * Logs de aplicação. Mantidos por, no mínimo, 6 (seis) meses, em cumprimento ao art. 15 da Lei nº 12.965/2014 (Marco Civil da Internet).
 * Obrigações legais específicas. Documentos fiscais e demais dados sujeitos a prazos de guarda definidos em legislação aplicável são conservados pelo prazo correspondente.
 
-A solicitação de exclusão pode ser feita a qualquer momento pelo e-mail contato@prismatelecomservicos.com. Após o atendimento, os dados são deletados permanentemente, ressalvadas as hipóteses de conservação acima.
+A solicitação de exclusão pode ser feita a qualquer momento pelo e-mail suporte@prismatelecom.com. Após o atendimento, os dados são deletados permanentemente, ressalvadas as hipóteses de conservação acima.
 
 Dados na plataforma em nuvem. Em razão do modelo gerenciado em nuvem, os dados operacionais armazenados na plataforma em nuvem (mensagens, contatos, conversas, base de dados dos tenants) são de guarda exclusiva do Cliente. A Prisma Telecom não tem poder de exclusão sobre essa base — solicitações nesse sentido devem ser dirigidas diretamente ao Cliente.
 
@@ -278,13 +278,13 @@ A Prisma Telecom adota medidas técnicas e organizacionais para proteger os dado
 
 No modelo gerenciado em nuvem, a segurança da plataforma em nuvem — incluindo firewalls, atualizações do sistema operacional, gestão de credenciais e demais controles — é de responsabilidade exclusiva do Cliente (item 10.3 dos Termos de Uso). A Prisma Telecom não se responsabiliza por vazamentos decorrentes de invasões, falhas de configuração ou engenharia social sofridas na infraestrutura do Cliente ou por sua equipe.
 
-Nenhuma operação realizada via internet é 100% segura. Caso identifique vulnerabilidade ou suspeita de incidente envolvendo nossos sistemas, entre em contato imediato pelo e-mail **contato@prismatelecomservicos.com**.
+Nenhuma operação realizada via internet é 100% segura. Caso identifique vulnerabilidade ou suspeita de incidente envolvendo nossos sistemas, entre em contato imediato pelo e-mail **suporte@prismatelecom.com**.
 
 ---
 
 ## 10. Direitos do Titular
 
-A LGPD assegura a você, na qualidade de Titular, os direitos abaixo, que podem ser exercidos pelo e-mail **contato@prismatelecomservicos.com**:
+A LGPD assegura a você, na qualidade de Titular, os direitos abaixo, que podem ser exercidos pelo e-mail **suporte@prismatelecom.com**:
 
 * Confirmação e acesso ao tratamento de seus dados;
 * Correção de dados incompletos, inexatos ou desatualizados;
@@ -332,7 +332,7 @@ No modelo gerenciado em nuvem, o Cliente é livre para escolher provedores de se
 
 Em cumprimento ao art. 41 da LGPD, a Prisma Telecom mantém Encarregado pela Proteção de Dados Pessoais designado internamente, que pode ser contatado pelos canais abaixo:
 
-* E-mail do Encarregado (privacidade, LGPD e exercício de direitos): **contato@prismatelecomservicos.com**
+* E-mail do Encarregado (privacidade, LGPD e exercício de direitos): **suporte@prismatelecom.com**
 * E-mail para comunicação geral: **suporte@zdg.com.br**
 
 ---

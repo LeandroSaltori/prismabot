@@ -2,19 +2,7 @@
 
 ![Prisma Telecom](../.gitbook/assets/prisma_logo.png)
 
-Acompanhe as novidades, melhorias, status do sistema e o histórico de versões do **Prismabot**.
-
----
-
-## 🟢 Status da Documentação & Robô em Nuvem
-
-Esta Central de Ajuda é monitorada e atualizada de forma 100% automática e contínua via **GitHub Actions (Robô em Nuvem)**, garantindo que novos recursos e guias estejam sempre atualizados.
-
-* **Frequência de Atualização:** Automática (Sincronização agendada a cada 6 horas)
-* **Última Sincronização Automática:** 02/08/2026 às 15:53 (Horário de Brasília)
-* **Fonte Originária de Dados:** `ajuda.zdg.com.br` / `ajuda.zpro` ➔ Convertido para **Prisma Telecom**
-* **Repositório Oficial:** [github.com/LeandroSaltori/prismabot](https://github.com/LeandroSaltori/prismabot) (Branch `main`)
-* **Status do Robô:** 🟢 **Operacional (100% Sincronizado e Ativo)**
+Acompanhe as novidades, melhorias e o histórico de versões do **Prismabot**.
 
 ---
 
@@ -27,6 +15,6 @@ Todas as atualizações do **Prismabot** — novos recursos, melhorias de desemp
 
 ---
 
-### 📋 [Changelog — Novidades e Melhorias da Plataforma](atualizacoes-e-status-do-prismabot/changelog-4.0.x-ultima-versao.md)
+### 📋 [Changelog — Novidades e Melhorias da Plataforma](atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao.md)
 
 Consulte o histórico de lançamentos para conhecer as novas funcionalidades adicionadas.

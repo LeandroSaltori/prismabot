@@ -4,7 +4,7 @@ Copiar
 
 Nesta página
 
-1. [Avançado - Recursos técnicos](./)
+1. [Avançado - Recursos técnicos](../avancado-recursos-tecnicos.md)
 
 ## Integrando o chat GPT
 

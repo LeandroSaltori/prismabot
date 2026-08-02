@@ -1,6 +1,6 @@
 # Como funciona o Prismabot
 
-![Prisma Telecom](.gitbook/assets/prisma_logo.png)
+![Prisma Telecom](./.gitbook/assets/prisma_logo.png)
 
 **Visão geral do Prismabot:** plataforma omnichannel gerenciada em nuvem com WhatsApp, Instagram Direct, Facebook Messenger, Telegram, E-mail, Webchat e inteligência artificial para empresas e cliente final.
 

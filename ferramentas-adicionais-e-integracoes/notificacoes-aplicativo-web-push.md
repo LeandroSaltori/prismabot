@@ -4,7 +4,7 @@ Copiar
 
 Nesta página
 
-1. [Ferramentas Adicionais e Integrações](./)
+1. [Ferramentas Adicionais e Integrações](../ferramentas-adicionais-e-integracoes.md)
 
 ## Notificações Aplicativo (web push)
 

@@ -4,7 +4,7 @@ Copiar
 
 Nesta página
 
-1. [Configuração Administrador](./)
+1. [Configuração Administrador](../configuracao-administrador.md)
 
 ## Configuração Admin
 
@@ -14,13 +14,13 @@ A seção de **Configuração** reúne as ferramentas técnicas e operacionais d
 
 ***
 
-#### [API - Configurações](configuracao/api/)
+#### [API - Configurações](configuracao/api.md)
 
 Geração e gestão de tokens de acesso para integração do Prismabot com sistemas externos (CRMs, ERPs, automações). Também oferece documentação interativa dos endpoints, sandbox para testes de requisições e configuração de webhooks para disparos automáticos de eventos.
 
 ***
 
-#### [Integrações Meta](configuracao/integracoes-meta/)
+#### [Integrações Meta](configuracao/integracoes-meta.md)
 
 Centro de comando para todos os canais oficiais do ecossistema Meta conectados ao tenant. Agrupa autenticação OAuth, gestão de contas e templates em um único lugar:
 
@@ -33,13 +33,13 @@ Centro de comando para todos os canais oficiais do ecossistema Meta conectados a
 
 ***
 
-#### [Log de Auditoria](configuracao/log-auditoria-admin/)
+#### [Log de Auditoria](configuracao/log-auditoria-admin.md)
 
 Rastreamento detalhado de todas as ações realizadas na plataforma: quem executou, quando, de qual IP e qual recurso foi afetado. Permite filtrar eventos por usuário, período ou tipo de entidade, e exportar registros para auditorias externas.
 
 ***
 
-#### [Configurações Gerais](configuracoes-painel-admin/)
+#### [Configurações Gerais](configuracoes-painel-admin.md)
 
 Centro de controle global do painel Admin. Define as regras que regem o comportamento da plataforma: visibilidade de tickets, tipo de listagem de mensagens, transbordo automático, carência pós-atendimento, autenticação em dois fatores e importação de histórico de conversas.
 

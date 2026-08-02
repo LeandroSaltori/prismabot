@@ -4,7 +4,7 @@ Copiar
 
 Nesta página
 
-1. [Configuração Administrador](./)
+1. [Configuração Administrador](../configuracao-administrador.md)
 
 ## Visão geral Admin
 

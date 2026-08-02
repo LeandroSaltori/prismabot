@@ -4,7 +4,7 @@ Copiar
 
 Nesta página
 
-1. [Configuração Administrador](./)
+1. [Configuração Administrador](../configuracao-administrador.md)
 
 ## Configurações Painel Admin
 
@@ -16,7 +16,7 @@ A seção de **Configurações** reúne os ajustes operacionais do painel Admin:
 
 ***
 
-#### [Configurações Gerais](configuracoes-painel-admin/configuracoes-gerais/)
+#### [Configurações Gerais](configuracoes-painel-admin/configuracoes-gerais.md)
 
 Centro de controle global do painel Admin. Define as regras que regem o comportamento da plataforma para toda a equipe:
 
@@ -30,7 +30,7 @@ Centro de controle global do painel Admin. Define as regras que regem o comporta
 
 ***
 
-#### [Bots e IA](configuracoes-painel-admin/bots-e-ia/)
+#### [Bots e IA](configuracoes-painel-admin/bots-e-ia.md)
 
 Gerenciamento centralizado de todas as ferramentas de automação e modelos de linguagem integrados ao sistema. Cada provedor é habilitado individualmente e pode ser configurado para responder automaticamente a todos os tickets ou ativado manualmente por canal.
 
@@ -46,7 +46,7 @@ Gerenciamento centralizado de todas as ferramentas de automação e modelos de l
 
 ***
 
-#### [Integrações](configuracoes-painel-admin/integracoes/)
+#### [Integrações](configuracoes-painel-admin/integracoes.md)
 
 Habilitação e configuração das integrações com plataformas e serviços externos. Cada integração é ativada individualmente conforme a operação:
 
@@ -63,7 +63,7 @@ Habilitação e configuração das integrações com plataformas e serviços ext
 
 ***
 
-#### [Apps](configuracoes-painel-admin/apps-configuracoes/)
+#### [Apps](configuracoes-painel-admin/apps-configuracoes.md)
 
 Configuração dos aplicativos de marketplace e redes sociais conectados ao tenant:
 
@@ -73,13 +73,13 @@ Configuração dos aplicativos de marketplace e redes sociais conectados ao tena
 
 ***
 
-#### [Sessões](configuracoes-painel-admin/sessoes/)
+#### [Sessões](configuracoes-painel-admin/sessoes.md)
 
 Visualização e gestão de todas as sessões ativas dos canais conectados ao tenant. Permite monitorar o status de conexão de cada canal em tempo real.
 
 ***
 
-#### [CRM](configuracoes-painel-admin/crm/)
+#### [CRM](configuracoes-painel-admin/crm.md)
 
 Configurações dos recursos de CRM da plataforma: gestão de Kanbans, demandas e variáveis personalizadas para uso em automações e campos de contato.
 

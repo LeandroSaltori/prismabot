@@ -4,7 +4,7 @@ Copiar
 
 Nesta página
 
-1. [Ferramentas do atendimento](./)
+1. [Ferramentas do atendimento](../ferramentas-do-atendimento.md)
 
 ## Conta - Meu perfil
 

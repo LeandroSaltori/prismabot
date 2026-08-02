@@ -4,7 +4,7 @@ Copiar
 
 Nesta página
 
-1. [Ferramentas do atendimento](./)
+1. [Ferramentas do atendimento](../ferramentas-do-atendimento.md)
 
 ## Atendimento
 
@@ -16,7 +16,7 @@ A seção de **Atendimento** reúne todas as ferramentas que a equipe utiliza no
 
 ***
 
-#### [Tela de Atendimento](atendimento/tela-de-atendimento/)
+#### [Tela de Atendimento](atendimento/tela-de-atendimento.md)
 
 A central de operações da equipe. É aqui que os atendentes gerenciam todas as conversas ativas com os clientes, organizadas por filas, canais e status. A seção cobre todas as áreas funcionais da interface:
 
@@ -31,7 +31,7 @@ A central de operações da equipe. É aqui que os atendentes gerenciam todas as
 
 ***
 
-#### [Chat Privado](atendimento/chat-privado/)
+#### [Chat Privado](atendimento/chat-privado.md)
 
 Ferramenta de comunicação interna entre agentes e equipes sem sair da plataforma. Permite troca de mensagens, arquivos, mensagens de voz e chamadas de áudio e vídeo entre atendentes — sem expor nada ao cliente final.
 

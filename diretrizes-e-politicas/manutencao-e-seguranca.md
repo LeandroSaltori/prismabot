@@ -124,7 +124,7 @@ Para entender o que é responsabilidade da Prisma Telecom e o que é responsabil
 
 * [Termos e Condições de Uso e Licenciamento](https://prismatelecomservicos.com/ rel=) — cláusulas 8 (obrigações e responsabilidades) e 10 (privacidade e proteção de dados)
 * [Política de Suporte Técnico](politica-de-suporte-tecnico.md) — o que está e o que não está incluso no suporte
-* [Aviso de Privacidade](../aviso-de-privacidade.md) — como os dados são tratados no modelo em nuvem
+* [Aviso de Privacidade](aviso-de-privacidade.md) — como os dados são tratados no modelo em nuvem
 
 
 

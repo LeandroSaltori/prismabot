@@ -52,7 +52,7 @@ Simula o WhatsApp Web/Desktop. Depende de um aparelho celular conectado. O Prism
 
 **Qual a diferença técnica?**
 Para entender profundamente os prós e contras de cada tipo de conexão e decidir qual é a melhor para o seu negócio, leia nosso artigo comparativo:
-👉 [**API Oficial vs. APIs Não Oficiais: Guia Completo**](https://www.google.com/url?sa=E&q=https%3A%2F%2Fajuda.zdg.com.br%2Fconheca-o-prismabot%2Frecursos-e-integracoes-do-prismabot%2Fapi-oficial-do-whatsapp-vs.-apis-nao-oficiais)
+👉 [**API Oficial vs. APIs Não Oficiais: Guia Completo**](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
 
 #### 3. Outros
 

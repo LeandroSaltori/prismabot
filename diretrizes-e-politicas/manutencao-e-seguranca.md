@@ -22,7 +22,7 @@ Antes de colocar o sistema em operação, certifique-se de que o servidor atende
 
 Para instalar o sistema, siga o guia de instalação:
 
-[2. Processo de instalação do Prismabot](/primeiro-acesso/instalar-prismabot/2.-instalacao-automatica)
+[2. Processo de instalação do Prismabot](/primeiro-acesso/primeiro-acesso-ao-sistema)
 
 ---
 

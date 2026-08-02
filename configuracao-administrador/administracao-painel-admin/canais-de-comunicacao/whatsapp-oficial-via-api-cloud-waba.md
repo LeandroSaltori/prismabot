@@ -199,9 +199,9 @@ Essas configurações ajudam a garantir uma rota mais direta e estável entre a 
 
 **Guia Verificação do app (tech provider)**
 
-[![Logo](../../../.gitbook/assets/sys_img_5477e8c4.png)Como Aprovar Seu App Da Meta (Passo A Passo) - Comunidade Prisma TelecomComunidade Prisma Telecom](https://comunidade.zdg.com.br/geral/app-meta-aprovar/)
+[![Logo](../../../.gitbook/assets/sys_img_5477e8c4.png)Como Aprovar Seu App Da Meta (Passo A Passo) - Comunidade Prisma TelecomComunidade Prisma Telecom](https://prismatelecomservicos.com/)
 
-[![Logo](../../../.gitbook/assets/sys_img_6e47259e.png)Coexistência WhatsApp + Cadastro Incorporado: Tutorial DEFINITIVO! - Comunidade Prisma TelecomComunidade Prisma Telecom](https://comunidade.zdg.com.br/geral/coexistence-whatsapp/)
+[![Logo](../../../.gitbook/assets/sys_img_6e47259e.png)Coexistência WhatsApp + Cadastro Incorporado: Tutorial DEFINITIVO! - Comunidade Prisma TelecomComunidade Prisma Telecom](https://prismatelecomservicos.com/)
 
 **Guia Configuração coexistência:**
 

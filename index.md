@@ -24,7 +24,7 @@ Para quem está avaliando a plataforma ou quer entender como ela funciona.
 
 Acabou de assinar ou está instalando pela primeira vez.
 
-[Onboarding - novos assinantes](/primeiro-acesso/onboarding-novos-assinantes)[Instalar Prismabot](/primeiro-acesso/instalar-prismabot)[Primeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)
+[Onboarding - novos assinantes](/primeiro-acesso/onboarding-novos-assinantes)[Instalar Prismabot](/primeiro-acesso/primeiro-acesso-ao-sistema)[Primeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)
 
 ---
 

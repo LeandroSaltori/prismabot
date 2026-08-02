@@ -91,7 +91,7 @@ A servidor onde o sistema será instalado deverá satisfazer os seguintes requis
 * Armazenamento: SSD ou NVMe a partir de 200GB.
 
 **3.3. Documentação Técnica:**
-Os requisitos detalhados e atualizados constam no link oficial: <https://prismabot.passaportezdg.com.br/requisitos-de-uso>.
+Os requisitos detalhados e atualizados constam no link oficial: <https://prismatelecomservicos.com/
 
 **3.4. Versões Suportadas:**
 É crucial manter o sistema operacional e navegadores atualizados. As versões suportadas para conexão com a Plataforma WhatsApp são:

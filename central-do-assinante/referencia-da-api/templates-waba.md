@@ -193,7 +193,7 @@ Testar
 
 Successful response
 
-[Anterior💼 Oportunidades](/central-do-assinante/referencia-da-api/oportunidades)[Próximo🏢 Tenant API](/central-do-assinante/referencia-da-api/tenant-api)
+[Anterior💼 Oportunidades](/central-do-assinante/referencia-da-api/oportunidades)[Próximo🏢 Tenant API](/central-do-assinante/referencia-da-api)
 
 Atualizado há 9 dias
 

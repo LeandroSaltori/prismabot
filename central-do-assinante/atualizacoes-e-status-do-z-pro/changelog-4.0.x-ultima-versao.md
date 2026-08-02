@@ -385,8 +385,8 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 🎧 Novos recursos de [atendimento](/configuracao-administrador/gestao-comercial/analises-e-registros/painel-de-atendimentos)
 👤 [Perfil personalizado de usuários](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)
 🔌 Novos [Endpoints API](/central-do-assinante/referencia-da-api)
-🎨 [Personalizações](/configuracao-superadmin/configuracoes/customizar-plataforma de atendimento)
-☁️ Armazenamento externo ([Storage AmazonS3](/configuracao-superadmin/sistema/sistema-dados-e-configuracao/storage-s3), etc)
+🎨 [Personalizações](/configuracao-administrador/visao-geral-admin de atendimento)
+☁️ Armazenamento externo ([Storage AmazonS3](/configuracao-administrador/visao-geral-admin), etc)
 ⚡️ [Autoinstalador melhorado](https://prismatelecomservicos.com/ rel=)
 💳 Novos gateways de pagamento (stripe, mercadopago, etc)
 🚀 Modo Cluster - Infraestrutura para escala com múltiplos núcleos de processamento

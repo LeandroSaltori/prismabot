@@ -957,7 +957,7 @@ Testar
 
 Successful response
 
-[Anterior🏢 Tenant API](/central-do-assinante/referencia-da-api/tenant-api)[Próximo🎫 Tickets Extras](/central-do-assinante/referencia-da-api/tickets-extras)
+[Anterior🏢 Tenant API](/central-do-assinante/referencia-da-api)[Próximo🎫 Tickets Extras](/central-do-assinante/referencia-da-api/tickets-extras)
 
 Atualizado há 9 dias
 

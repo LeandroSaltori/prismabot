@@ -1,77 +1,41 @@
-Copiar
+# Onboarding - Novos Assinantes
 
-Nesta página
+![Prisma Telecom](../.gitbook/assets/prisma_logo.png)
 
-1. [Primeiro Acesso](/primeiro-acesso)
-
-# Onboarding - novos assinantes
-
-Primeiros passos após a compra do Prismabot: e-mail de boas-vindas, preparar o ambiente, instalar, ativar a licença e configurar o sistema.
-
-Bem-vindo ao Prismabot. Este guia mostra o que você receberá após a compra e qual é a sequência de passos para colocar o sistema em operação.
+Bem-vindo ao **Prismabot**! Este guia orienta você sobre os primeiros passos após a contratação da sua plataforma gerenciada de atendimento.
 
 ---
 
-### Passo 1 — Verifique seu e-mail
+### Passo 1 — Verifique seu e-mail de boas-vindas
 
-Após a confirmação do pagamento, você receberá dois e-mails automáticos:
+Após a confirmação da sua contratação com a **Prisma Telecom**, você receberá um e-mail com as suas informações de acesso:
 
-1. **Acesso ao portal do assinante** ([portal.zdg.com.br](https://prismatelecomservicos.com/ rel=)) — onde ficam as videoaulas, o script de instalação e os arquivos necessários para as próximas etapas.
-2. **Chave de licença** — código único que você usará para ativar o Prismabot após a instalação. Guarde em local seguro.
+1. **Link de acesso à plataforma** (URL exclusiva da sua conta em nuvem).
+2. **E-mail e Senha temporária** para o seu primeiro login.
 
-Se não receber os e-mails em até alguns minutos, verifique a caixa de spam. Para recuperar a chave de licença, abra um chamado em [suporte.zdg.com.br](https://prismatelecomservicos.com/ rel=).
-
----
-
-### Passo 2 — Prepare o ambiente
-
-Antes de instalar, você precisará de um servidor servidor contratado e dois subdomínios apontados para o IP da servidor. Os requisitos mínimos e o passo a passo de configuração estão em:
-
-[1. Preparar ambiente](/primeiro-acesso/instalar-prismabot/1.-preparar-ambiente)
+Se não encontrar o e-mail em sua caixa de entrada em até alguns minutos, verifique a caixa de Spam ou entre em contato com nosso atendimento pelo WhatsApp **(16) 3702-7844**.
 
 ---
 
-### Passo 3 — Instale o Prismabot
+### Passo 2 — Faça o primeiro login e troque sua senha
 
-Com o ambiente pronto, escolha uma das duas formas de instalação:
-
-[2. Processo de instalação do Prismabot](/primeiro-acesso/instalar-prismabot/2.-instalacao-automatica)
+Acesse o link recebido no navegador do seu computador ou smartphone, insira seus dados de acesso e, na opção **Meu Perfil**, altere a senha provisória para uma senha de sua preferência.
 
 ---
 
-### Passo 4 — [Ative a licença](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot)
+### Passo 3 — Conecte seus canais e cadastre sua equipe
 
-Após a instalação, o sistema estará funcional mas ainda sem licença ativa. A ativação é feita pelo próprio assinante dentro do painel do Prismabot:
-
-1. Acesse o painel com o usuário **super-admin**
-2. Vá em **Gestão de Assinatura**
-3. Insira a **chave de licença** recebida por e-mail após a compra
-4. Informe o **domínio principal** da instalação (o mesmo subdomínio de front-end configurado no ambiente)
-5. Salve para concluir a ativação
-
-O domínio informado na ativação deve ser exatamente o mesmo configurado durante a instalação. Domínio incorreto impedirá a ativação da licença.
-
-Não localizou a chave de licença no e-mail? Verifique a caixa de spam ou abra um chamado em [suporte.zdg.com.br](https://prismatelecomservicos.com/ rel=) solicitando o reenvio.
+Com o painel aberto:
+* Conecte seus canais de comunicação em **Administração → Canais**.
+* Cadastre os atendentes e supervisores da sua empresa em **Administração → Usuários**.
+* Organize as filas de atendimento em **Administração → Equipes**.
 
 ---
 
-### Passo 5 — Leia as diretrizes da plataforma
+### Passo 4 — Canais de Suporte Técnico
 
-Recomendamos a leitura das páginas abaixo antes de colocar o sistema em produção:
+Nossa equipe está à disposição para auxiliar em qualquer dúvida durante o seu onboarding:
 
-* [Manutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca) — ações obrigatórias de segurança pós-instalação, firewall e backups
-* [Política de Suporte Técnico](https://prismatelecomservicos.com/ rel=) — canais, horários, SLA e o que está incluso no suporte
-* [Termos e Condições de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)
-
----
-
-### Recursos adicionais
-
-* [**Canal de avisos no Telegram**](https://prismatelecomservicos.com/ rel=) — disponível na área de membros. Mantenha as notificações ativas para ser avisado sobre atualizações e novidades.
-* [**Roadmap público**](https://prismatelecomservicos.com/ rel=) — Sugira melhorias, vote e acompanhe o desenvolvimento de novas funcionalidades
-
-[AnteriorPrincipais dúvidas administrativas](/central-do-assinante/gestao-da-assinatura/principais-duvidas-administrativas)[PróximoInstalar Prismabot](/primeiro-acesso/instalar-prismabot)
-
-Atualizado há 1 mês
-
-Isto foi útil?
+* **E-mail:** [suporte@prismatelecom.com](mailto:suporte@prismatelecom.com)
+* **Telefone / WhatsApp:** (16) 3702-7844
+* **Website Oficial:** [prismatelecomservicos.com](https://prismatelecomservicos.com/)

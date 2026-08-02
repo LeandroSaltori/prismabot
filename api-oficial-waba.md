@@ -4,6 +4,8 @@ Nesta página
 
 # API Oficial WABA
 
+![Prisma Telecom](./.gitbook/assets/prisma_logo.png)
+
 Tudo sobre a API Oficial do WhatsApp (WABA) no Prismabot: como funciona, formas de conectar, templates HSM, custos Meta e recursos exclusivos.
 
 O Prismabot possui integração nativa com a **API Oficial do WhatsApp (WABA)**, mantida e homologada pela Meta. O Prismabot é um **Tech Provider certificado pela Meta**, o que permite que assinantes conectem números de WhatsApp Business por meio do aplicativo da Prisma Telecom, sem necessidade de criar um App próprio.

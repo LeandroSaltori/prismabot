@@ -1,5 +1,7 @@
 # Primeiro Acesso ao Sistema
 
+![Prisma Telecom](../.gitbook/assets/prisma_logo.png)
+
 Este guia orienta você no seu primeiro acesso à plataforma **Prismabot** após a liberação da sua conta pela **Prisma Telecom**.
 
 ---

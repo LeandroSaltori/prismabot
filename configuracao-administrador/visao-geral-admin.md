@@ -6,6 +6,8 @@ Nesta página
 
 # Visão geral Admin
 
+![Prisma Telecom](../.gitbook/assets/prisma_logo.png)
+
 O **Painel Admin** é a interface utilizada pelos gestores e colaboradores de uma empresa que utiliza o Prismabot. Ele é segmentado para permitir tanto a operação diária quanto a configuração estratégica do negócio.
 
 ---

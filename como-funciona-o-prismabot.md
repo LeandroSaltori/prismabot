@@ -1,5 +1,7 @@
 # Como Funciona o Prismabot
 
+![Prisma Telecom](./.gitbook/assets/prisma_logo.png)
+
 O **Prismabot** é a plataforma omnichannel de atendimento automatizado e gestão de conversas desenvolvida e oferecida pela **Prisma Telecom**. 
 
 O sistema centraliza em um único painel inteligente todas as interações da sua empresa vindas de múltiplos canais — **WhatsApp, Instagram Direct, Facebook Messenger, Telegram, E-mail e Webchat** —, distribuindo os atendimentos entre suas equipes, organizando filas e automatizando jornadas com Chatbot e Inteligência Artificial.

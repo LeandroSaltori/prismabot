@@ -1,5 +1,7 @@
 # Onboarding — Novos Assinantes
 
+![Prisma Telecom](../.gitbook/assets/prisma_logo.png)
+
 Seja bem-vindo ao **Prismabot**! Este guia rápido apresenta os passos para iniciar a operação do seu atendimento na plataforma.
 
 ---

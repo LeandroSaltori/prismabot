@@ -20,6 +20,12 @@ def rebrand(text):
     text = re.sub(r'\bZDG\b', 'Prisma Telecom', text, flags=re.IGNORECASE)
     return text
 
+def is_ignored_path(href):
+    lowered = href.lower()
+    if 'superadmin' in lowered or 'tenant' in lowered or 'licenca' in lowered:
+        return True
+    return False
+
 def download_image(url, save_path):
     if os.path.exists(save_path):
         return True
@@ -54,11 +60,11 @@ def sync():
     for a in links:
         href = a['href']
         if href.startswith('/') and len(href) > 1 and not href.startswith('/~') and 'http' not in href:
-            if href not in seen:
+            if href not in seen and not is_ignored_path(href):
                 seen.add(href)
                 pages_to_crawl.append((href, a.text.strip()))
 
-    print(f"Found {len(pages_to_crawl)} pages to sync.")
+    print(f"Found {len(pages_to_crawl)} client-facing pages to sync.")
 
     for href, title in pages_to_crawl:
         full_url = urljoin(BASE_URL, href)

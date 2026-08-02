@@ -255,6 +255,4 @@ A partir daí, toda nova conversa iniciada naquele canal será gerenciada pelo f
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

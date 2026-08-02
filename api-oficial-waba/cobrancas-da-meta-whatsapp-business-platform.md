@@ -56,6 +56,4 @@ Nota: As informações acima referem-se às políticas da Meta com atualizaçõe
 
 
 
-Atualizado há 3 meses
-
-Isto foi útil?
+ 3 meses

@@ -1,15 +1,33 @@
-# Apps
+# Apps (Configurações)
 
-![Prisma Telecom](../../.gitbook/assets/prisma_logo.png)
+- [LinkedIn - Configuração Apps](https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes/linkedin-configuracao-apps.md)
+- [Mercado Livre - Configuração Apps](https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes/mercado-livre-configuracao-apps.md)
+- [OLX - Configuração Apps](https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes/olx-configuracao-apps.md)
+- [Rocket.chat - Configuração Apps](https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes/rocket.chat-configuracao-apps.md)
+- [Tiktok - Configuração Apps](https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes/tiktok-configuracao-apps.md)
+- [WooCommerce - Configuração Apps](https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes/woocommerce-configuracao-apps.md)
+- [Nuvemshop - Configurações Apps](https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes/nuvemshop-configuracoes-apps.md)
+- [Google - Configuração Apps](https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes/google-configuracao-apps.md): Funcionalidade em Beta
+- [Youtube - Configuração Apps](https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes/youtube-configuracao-apps.md)
 
-Esta página faz parte da documentação oficial do **Prismabot** da **Prisma Telecom**.
 
 ---
 
-### Visão Geral
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
 
-Para obter suporte ou mais informações sobre esta funcionalidade, entre em contato com nosso atendimento:
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-* **E-mail:** [suporte@prismatelecom.com](mailto:suporte@prismatelecom.com)
-* **Telefone / WhatsApp:** (16) 3702-7844
-* **Website Oficial:** [prismatelecomservicos.com](https://prismatelecomservicos.com/)
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
+
+```
+GET https://prismatelecomservicos.com/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes.md?ask=<question>&goal=<endgoal>
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

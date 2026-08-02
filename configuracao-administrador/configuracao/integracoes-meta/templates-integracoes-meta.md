@@ -6,7 +6,7 @@ Esta página detalha a sub-aba Login / OAuth. Para uma visão geral das Integra�
 
 A aba Templates centraliza a gestão de modelos de mensagens para WhatsApp (WABA) e Facebook Messenger. Templates são mensagens pré-aprovadas pela Meta utilizadas para iniciar conversas fora da janela de 24h ou em campanhas de marketing e utilidade.
 
-**Templates geram custos.** O envio de templates WABA é cobrado diretamente pela Meta por conversa iniciada, com valores variando conforme a categoria (Marketing, Utilidade, Autenticação) e o país do destinatário. Consulte os detalhes em [Cobranças da Meta — WhatsApp Business Platform](https://prismatelecomservicos.com/ rel=).
+**Templates geram custos.** O envio de templates WABA é cobrado diretamente pela Meta por conversa iniciada, com valores variando conforme a categoria (Marketing, Utilidade, Autenticação) e o país do destinatário. Consulte os detalhes em [Cobranças da Meta — WhatsApp Business Platform].
 
 ### Como acessar
 
@@ -190,6 +190,4 @@ Templates do Facebook são gerenciados via Graph API. Para listá-los ou criá-l
 
 
 
-Atualizado há 2 meses
-
-Isto foi útil?
+ 2 meses

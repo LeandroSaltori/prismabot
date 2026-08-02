@@ -1,11 +1,5 @@
 # Configuração Admin
 
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](../configuracao-administrador.md)
-
 ## Configuração Admin
 
 A seção de **Configuração** reúne as ferramentas técnicas e operacionais do painel Admin: integração com sistemas externos via API, gestão dos canais oficiais da Meta, rastreabilidade de ações da equipe e as configurações globais de comportamento da plataforma.
@@ -45,6 +39,4 @@ Centro de controle global do painel Admin. Define as regras que regem o comporta
 
 
 
-Atualizado há 29 dias
-
-Isto foi útil?
+ 29 dias

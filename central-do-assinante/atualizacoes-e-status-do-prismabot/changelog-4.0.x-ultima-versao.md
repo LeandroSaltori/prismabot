@@ -390,6 +390,4 @@ Nas páginas seguintes você encontra o histórico completo das versões anterio
 
 
 
-Atualizado há 8 dias
-
-Isto foi útil?
+ 8 dias

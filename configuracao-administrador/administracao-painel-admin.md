@@ -48,6 +48,4 @@ Centro de gestão de acessos do Prismabot. Permite cadastrar colaboradores, defi
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

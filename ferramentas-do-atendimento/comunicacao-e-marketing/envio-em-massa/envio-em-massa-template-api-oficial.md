@@ -79,6 +79,4 @@ Use sempre o formato internacional: `DDI + DDD + Número` (Ex: `5511999999999`).
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

@@ -112,6 +112,4 @@ No modo coexixtência não é possível fazer ligações. Para fazer ligações 
 
 
 
-Atualizado há 15 dias
-
-Isto foi útil?
+ 15 dias

@@ -1,11 +1,5 @@
 # Integrando o ChatGPT
 
-Copiar
-
-Nesta página
-
-1. [Avançado - Recursos técnicos](../avancado-recursos-tecnicos.md)
-
 ## Integrando o chat GPT
 
 Este tutorial irá guiá-lo pelo processo de integração do ChatGPT em sua plataforma Prismabot, permitindo que você automatize conversas e utilize o poder da inteligência artificial da OpenAI em seus canais
@@ -81,6 +75,4 @@ Após preencher as informações, salve as configurações. Seu canal estará pr
 
 
 
-Atualizado há 18 dias
-
-Isto foi útil?
+ 18 dias

@@ -1,11 +1,5 @@
 # Visão geral Admin
 
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](../configuracao-administrador.md)
-
 ## Visão geral Admin
 
 O **Painel Admin** é a interface utilizada pelos gestores e colaboradores de uma empresa que utiliza o Prismabot. Ele é segmentado para permitir tanto a operação diária quanto a configuração estratégica do negócio.
@@ -95,6 +89,4 @@ Estes menus contêm configurações que alteram o comportamento do sistema. Por 
 
 
 
-Atualizado há 3 meses
-
-Isto foi útil?
+ 3 meses

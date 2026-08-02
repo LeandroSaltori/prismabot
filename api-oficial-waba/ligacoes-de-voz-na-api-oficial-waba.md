@@ -124,6 +124,4 @@ Com as chamadas ativadas, seu canal WABA passa a receber e fazer ligações de v
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

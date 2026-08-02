@@ -39,6 +39,4 @@ Configuração de respostas automáticas para eventos do Instagram: comentários
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

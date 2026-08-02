@@ -74,6 +74,4 @@ A foto da equipe deve respeitar o limite de **5MB**. Formatos recomendados: PNG 
 
 
 
-Atualizado há 3 meses
-
-Isto foi útil?
+ 3 meses

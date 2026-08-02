@@ -38,7 +38,7 @@ Recomendamos datacenter brasileiro para garantir baixa latência e melhor experi
 
 **Brasil:**
 
-* [Hostinger](https://prismatelecomservicos.com/ rel=)
+* [Hostinger]
 * [HostGator](https://www.hostgator.com.br/servidor-servidor)
 
 **Internacional (avalie a latência antes de contratar):**
@@ -110,6 +110,4 @@ A gestão, segurança e manutenção do servidor são de responsabilidade do ass
 
 
 
-Atualizado há 25 dias
-
-Isto foi útil?
+ 25 dias

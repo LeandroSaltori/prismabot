@@ -208,6 +208,4 @@ Para detalhes, acesse [Log Ligações.](../configuracao-administrador/gestao-com
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

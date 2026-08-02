@@ -1,11 +1,5 @@
 # Integração Google Calendar
 
-Copiar
-
-Nesta página
-
-1. [Avançado - Recursos técnicos](../avancado-recursos-tecnicos.md)
-
 ## Integração Google Calendar
 
 #### Vídeo Tutorial
@@ -141,6 +135,4 @@ Você pode criar agendamentos automáticos durante uma conversa do bot com seu c
 
 
 
-Atualizado há 5 meses
-
-Isto foi útil?
+ 5 meses

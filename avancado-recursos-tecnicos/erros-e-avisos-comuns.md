@@ -106,7 +106,7 @@ Se o problema persistir após todas as tentativas acima, considere migrar o cana
 * Mensagens trocadas entre contas WABA
 * Arquivos em formatos não suportados
 
-**Como tratar:** verifique se o arquivo ou tipo de mensagem está na lista de formatos suportados pelo Prismabot: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
+**Como tratar:** verifique se o arquivo ou tipo de mensagem está na lista de formatos suportados pelo Prismabot: [https://prismatelecomservicos.com/  fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">]
 
 Se o tipo de conteúdo não for suportado, o comportamento esperado é que o Prismabot ignore ou registre o evento sem processar — não há ação corretiva do lado do sistema.
 
@@ -193,6 +193,4 @@ Realizar as customizações
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

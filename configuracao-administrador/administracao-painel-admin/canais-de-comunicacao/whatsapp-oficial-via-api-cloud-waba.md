@@ -134,7 +134,7 @@ O token gerado pelo painel do desenvolvedor é temporário e expira em 24 horas.
 
 Com tudo pronto no ambiente da Meta, o passo final é configurar a conexão dentro do Prismabot.
 
-Vídeo detalhado na nossa área de membros: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
+Vídeo detalhado na nossa área de membros: [https://prismatelecomservicos.com/  fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">]
 
 1. **Conecte o Canal no Prismabot (Para Enviar Mensagens):**
 
@@ -197,19 +197,19 @@ Essas configurações ajudam a garantir uma rota mais direta e estável entre a 
 
 **Guia Configuração coexistência:**
 
-[https://prismatelecomservicos.com/ class="text-base">ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
+[https://prismatelecomservicos.com/ class="text-base">prismatelecomservicos.com]
 
 **Configuração login incorporado:**
 
-[https://prismatelecomservicos.com/ class="text-base">ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
+[https://prismatelecomservicos.com/ class="text-base">prismatelecomservicos.com]
 
 **Configuração instagram nativo:**
 
-[https://prismatelecomservicos.com/ class="text-base">ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
+[https://prismatelecomservicos.com/ class="text-base">prismatelecomservicos.com]
 
 **Configuração facebook messenger nativo:**
 
-[https://prismatelecomservicos.com/ class="text-base">ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
+[https://prismatelecomservicos.com/ class="text-base">prismatelecomservicos.com]
 
 **Guia da Meta para configuração do login incorporado:**
 <https://developers.facebook.com/docs/facebook-login/facebook-login-for-business/>**Guia da Meta para configuração da coexistência:**
@@ -221,6 +221,4 @@ Essas configurações ajudam a garantir uma rota mais direta e estável entre a 
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

@@ -1,11 +1,5 @@
 # Conta - Meu perfil
 
-Copiar
-
-Nesta página
-
-1. [Ferramentas do atendimento](../ferramentas-do-atendimento.md)
-
 ## Conta - Meu perfil
 
 Gerencie suas informações pessoais, foto de perfil e senha de acesso ao sistema.
@@ -27,6 +21,4 @@ Gerencie suas informações pessoais, foto de perfil e senha de acesso ao sistem
 
 
 
-Atualizado há 4 meses
-
-Isto foi útil?
+ 4 meses

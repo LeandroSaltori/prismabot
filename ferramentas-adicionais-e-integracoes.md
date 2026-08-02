@@ -1,15 +1,28 @@
 # Ferramentas Adicionais e Integrações
 
-![Prisma Telecom](./.gitbook/assets/prisma_logo.png)
+- [Visão geral - Ferramentas Adicionais e Integrações](https://prismatelecomservicos.com/ferramentas-adicionais-e-integracoes/visao-geral-ferramentas-adicionais-e-integracoes.md)
+- [Ligações no Prismabot (Telefonia e Voz)](https://prismatelecomservicos.com/ferramentas-adicionais-e-integracoes/ligacoes-no-z-pro-telefonia-e-voz.md): SIP e Wavoip
+- [Notificações Aplicativo (web push)](https://prismatelecomservicos.com/ferramentas-adicionais-e-integracoes/notificacoes-aplicativo-web-push.md): Como adicionar o Prismabot como App na tela inicial do celular e acionar o WebPush
+- [Wavoip - Ligações pelo WhatsApp](https://prismatelecomservicos.com/ferramentas-adicionais-e-integracoes/wavoip-ligacoes-pelo-whatsapp.md)
 
-Esta página faz parte da documentação oficial do **Prismabot** da **Prisma Telecom**.
 
 ---
 
-### Visão Geral
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
 
-Para obter suporte ou mais informações sobre esta funcionalidade, entre em contato com nosso atendimento:
+## Querying This Documentation
+If you need additional information that is not directly available in this page, you can query the documentation dynamically by asking a question.
 
-* **E-mail:** [suporte@prismatelecom.com](mailto:suporte@prismatelecom.com)
-* **Telefone / WhatsApp:** (16) 3702-7844
-* **Website Oficial:** [prismatelecomservicos.com](https://prismatelecomservicos.com/)
+Perform an HTTP GET request on the current page URL with the `ask` query parameter, and the optional `goal` query parameter:
+
+```
+GET https://prismatelecomservicos.com/ferramentas-adicionais-e-integracoes.md?ask=<question>&goal=<endgoal>
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is optional and describes the broader end goal you are ultimately trying to accomplish on behalf of the user. GitBook uses it to tailor the answer towards what is most useful for that goal.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

@@ -20,6 +20,4 @@ Aqui você encontrará canais de comunicação alternativos como a telefonia (Wa
 
 
 
-Atualizado há 1 ano
-
-Isto foi útil?
+ 1 ano

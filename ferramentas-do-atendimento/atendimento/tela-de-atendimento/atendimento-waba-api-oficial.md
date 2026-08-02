@@ -412,6 +412,4 @@ Array JSON com os cards — cada card tem `headerMediaId` e `buttons` (obrigató
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

@@ -382,6 +382,4 @@ Successful response
 
 
 
-Atualizado há 9 dias
-
-Isto foi útil?
+ 9 dias

@@ -57,6 +57,4 @@ Se a licença está com o Score saudável e o erro persiste, confirme a configur
 
 
 
-Atualizado há 25 dias
-
-Isto foi útil?
+ 25 dias

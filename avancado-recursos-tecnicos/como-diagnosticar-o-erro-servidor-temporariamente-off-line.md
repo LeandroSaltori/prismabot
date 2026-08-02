@@ -24,8 +24,6 @@ O Prismabot roda como um processo (`backend`) gerenciado pelo **PM2** dentro do 
 1. Conecte na nuvem via SSH (ou abra o terminal web da hospedagem).
 2. Entre no usuário `deployzdg` — é obrigatório, as aplicações rodam dentro dele:
 
-Copiar
-
 ```
 sudo su deployzdg
 ```
@@ -148,6 +146,4 @@ Na maioria das vezes, o sistema volta já na Etapa 3 ou 5. Se depois de seguir t
 
 
 
-Atualizado há 25 dias
-
-Isto foi útil?
+ 25 dias

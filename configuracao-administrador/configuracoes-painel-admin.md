@@ -1,11 +1,5 @@
 # Configurações Painel Admin
 
-Copiar
-
-Nesta página
-
-1. [Configuração Administrador](../configuracao-administrador.md)
-
 ## Configurações Painel Admin
 
 Configurações
@@ -85,6 +79,4 @@ Configurações dos recursos de CRM da plataforma: gestão de Kanbans, demandas 
 
 
 
-Atualizado há 29 dias
-
-Isto foi útil?
+ 29 dias

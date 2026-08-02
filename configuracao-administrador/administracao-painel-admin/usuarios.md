@@ -137,6 +137,4 @@ Esta funcionalidade é desenhada para proteger os dados sensíveis dos seus clie
 
 
 
-Atualizado há 3 meses
-
-Isto foi útil?
+ 3 meses

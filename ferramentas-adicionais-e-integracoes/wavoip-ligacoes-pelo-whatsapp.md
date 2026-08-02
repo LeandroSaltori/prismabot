@@ -182,6 +182,4 @@ deve ser tratado diretamente com o suporte da WaVoIP em [**wavoip.com**](https:/
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

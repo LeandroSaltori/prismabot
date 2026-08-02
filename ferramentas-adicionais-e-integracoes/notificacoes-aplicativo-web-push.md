@@ -1,11 +1,5 @@
 # Notificações Aplicativo (web push)
 
-Copiar
-
-Nesta página
-
-1. [Ferramentas Adicionais e Integrações](../ferramentas-adicionais-e-integracoes.md)
-
 ## Notificações Aplicativo (web push)
 
 Como adicionar o Prismabot como App na tela inicial do celular e acionar o WebPush
@@ -100,6 +94,4 @@ Ao enviar esta única imagem, o sistema trabalhará de forma inteligente: ele ge
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

@@ -70,6 +70,4 @@ Conforme estabelecido nos **Termos e Condições de Uso**, o Prismabot não gara
 
 
 
-Atualizado há 2 meses
-
-Isto foi útil?
+ 2 meses

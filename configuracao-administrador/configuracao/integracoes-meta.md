@@ -85,6 +85,4 @@ Central de modelos de mensagens para comunicações oficiais.
 
 
 
-Atualizado há 2 meses
-
-Isto foi útil?
+ 2 meses

@@ -224,6 +224,4 @@ Successful response
 
 
 
-Atualizado há 8 dias
-
-Isto foi útil?
+ 8 dias

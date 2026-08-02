@@ -1,11 +1,5 @@
 # Atendimento
 
-Copiar
-
-Nesta página
-
-1. [Ferramentas do atendimento](../ferramentas-do-atendimento.md)
-
 ## Atendimento
 
 Ferramentas de atendimento do Prismabot: tela de conversas, filtros de tickets, chat interno entre agentes e gerenciamento de contatos.
@@ -37,7 +31,7 @@ Ferramenta de comunicação interna entre agentes e equipes sem sair da platafor
 
 ***
 
-#### \[Contatos]\(https://prismatelecomservicos.com/ rel=)
+#### \[Contatos]\
 
 Diretório central de clientes da plataforma, que funciona como um CRM integrado. Permite criar, importar, segmentar e gerenciar toda a base de contatos por etiquetas, carteiras e campos personalizados — e iniciar atendimentos diretamente a partir da lista.
 
@@ -45,6 +39,4 @@ Diretório central de clientes da plataforma, que funciona como um CRM integrado
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

@@ -76,6 +76,4 @@ Não feche a página durante o envio. O progresso é processado pelo navegador e
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

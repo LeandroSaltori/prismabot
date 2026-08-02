@@ -195,6 +195,4 @@ Após salvar, revalide o webhook para que a Meta reconheça o novo destino. Use 
 
 
 
-Atualizado há 2 meses
-
-Isto foi útil?
+ 2 meses

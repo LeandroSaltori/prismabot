@@ -50,8 +50,6 @@ JSON com array extra de objetos no formato `RTCIceServer` (mesclado após os STU
 
 **Só TURN em UDP/TCP 3478 (sem TLS):**
 
-Copiar
-
 ```
 WEBRTC_TURN_URLS=turn:turn.exemplo.com.br:3478
 WEBRTC_TURN_USERNAME=prismabot_turn
@@ -150,7 +148,3 @@ Após editar o `.env` do backend:
 * Credenciais ficam **somente** no servidor (backend `.env`); não coloque senha TURN em variáveis `NEXT_PUBLIC_*` no frontend.
 
 Para credenciais **temporárias** por usuário (shared secret / REST do coturn), seria necessário estender o backend — este guia cobre o modo **usuário/senha estático**, que já é suportado pelas variáveis `WEBRTC_TURN_*`.
-
-
-
-Isto foi útil?

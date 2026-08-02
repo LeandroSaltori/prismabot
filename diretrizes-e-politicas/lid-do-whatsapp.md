@@ -92,6 +92,4 @@ Se o LID no contato duplicado for diferente do número no contato original, o si
 
 
 
-Atualizado há 2 meses
-
-Isto foi útil?
+ 2 meses

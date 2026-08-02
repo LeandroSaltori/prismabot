@@ -133,6 +133,4 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 
 
-Atualizado há 1 mês
-
-Isto foi útil?
+ 1 mês

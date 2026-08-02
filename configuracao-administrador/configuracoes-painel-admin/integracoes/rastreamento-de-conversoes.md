@@ -80,6 +80,4 @@ Na aba **Relatórios de Anúncios**, você pode auditar os resultados em tempo r
 
 
 
-Atualizado há 2 meses
-
-Isto foi útil?
+ 2 meses

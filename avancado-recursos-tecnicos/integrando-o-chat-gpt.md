@@ -1,32 +1,34 @@
+# Integrando o ChatGPT
+
 Copiar
 
 Nesta página
 
-1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
+1. [Avançado - Recursos técnicos](./)
 
-# Integrando o chat GPT
+## Integrando o chat GPT
 
 Este tutorial irá guiá-lo pelo processo de integração do ChatGPT em sua plataforma Prismabot, permitindo que você automatize conversas e utilize o poder da inteligência artificial da OpenAI em seus canais
 
-## PRÉ-REQUISITOS
+### PRÉ-REQUISITOS
 
-#### Vídeo configurando a sua conta na Open IA:
+**Vídeo configurando a sua conta na Open IA:**
 
 **Pré-requisitos: Configurando sua conta na OpenAI**
 
 Antes de iniciar a integração no Prismabot, é indispensável que você tenha uma conta configurada na plataforma de desenvolvedores da OpenAI.
 
-1. **Crie sua Conta:** Acesse o site da API da OpenAI em [https://openai.com/pt-BR/api/](https://www.google.com/url?sa=E&q=https%3A%2F%2Fopenai.com%2Fpt-BR%2Fapi%2F) e crie sua conta.
+1. **Crie sua Conta:** Acesse o site da API da OpenAI em [https://openai.com/pt-BR/api/](https://www.google.com/url?sa=E\&q=https%3A%2F%2Fopenai.com%2Fpt-BR%2Fapi%2F) e crie sua conta.
 2. **Adicione Créditos:** A utilização da API da OpenAI é um serviço pago. Você precisará adicionar créditos à sua conta para que as requisições funcionem.
 3. **Gere sua Chave de API (API Key):** Dentro do painel da OpenAI, navegue até a seção de chaves de API e gere uma nova chave. **Guarde esta chave em um local seguro, pois você precisará dela para configurar a integração no Prismabot.**
 
 Com a chave de API em mãos, você está pronto para configurar a integração.
 
-## INTEGRAÇÃO NO Prismabot
+### INTEGRAÇÃO NO Prismabot
 
-#### Vídeo integrando o ChatGPT no Prismabot:
+**Vídeo integrando o ChatGPT no Prismabot:**
 
-#### **Passo 1: Ativando a Integração no Prismabot**
+**Passo 1: Ativando a Integração no Prismabot**
 
 A primeira etapa é habilitar a funcionalidade do ChatGPT dentro do seu sistema Prismabot.
 
@@ -35,11 +37,11 @@ A primeira etapa é habilitar a funcionalidade do ChatGPT dentro do seu sistema 
 3. No menu secundário que aparecerá, selecione a opção **Chat GPT**.
 4. Ative a opção **"Ativar integração com ChatGPT"**.
 
-![](../.gitbook/assets/sys_img_394f285a.png)
+![](../.gitbook/assets/image_772fc1eb.png)
 
-*Opcional: Você também pode ativar a chave "Ativar integração com ChatGPT para todos os atendimentos por padrão" se desejar que o bot responda em todos os canais automaticamente. Caso contrário, você configurará canal por canal, como mostrado no próximo passo.*
+_Opcional: Você também pode ativar a chave "Ativar integração com ChatGPT para todos os atendimentos por padrão" se desejar que o bot responda em todos os canais automaticamente. Caso contrário, você configurará canal por canal, como mostrado no próximo passo._
 
-#### **Passo 2: Configurando o ChatGPT em um Canal de Comunicação**
+**Passo 2: Configurando o ChatGPT em um Canal de Comunicação**
 
 Após ativar a integração, você precisa configurar sua chave de API e as instruções do seu assistente em cada canal que desejar.
 
@@ -47,9 +49,9 @@ Após ativar a integração, você precisa configurar sua chave de API e as inst
 2. Localize o canal desejado (ex: WhatsApp, Webchat) e clique no ícone de **Configurações (engrenagem)**.
 3. Caso não tenha nenhum canal criado ainda. Clique no botão + Adicionar Canal. Uma janela de configurações se abrirá.
 
-![](../.gitbook/assets/sys_img_202a63b2.png)
+![](../.gitbook/assets/image_1f3b48fc.png)
 
-#### **Passo 3: Integrando o chat GPT no seu canal**
+**Passo 3: Integrando o chat GPT no seu canal**
 
 **Para conectar o canal do prismabot com sua api da openIA, você precisa inserir:**
 
@@ -59,14 +61,12 @@ Após ativar a integração, você precisa configurar sua chave de API e as inst
 Você tem duas opções principais para definir como seu assistente de IA irá se comportar:
 
 * **Opção 1: Prompt direto no Prismabot (Prompt ChatGPT)**
-
-  + Use este campo para escrever as instruções do seu assistente diretamente no Prismabot. Defina sua personalidade, o tom de voz, as regras de negócio e como ele deve interagir com os usuários.
+  * Use este campo para escrever as instruções do seu assistente diretamente no Prismabot. Defina sua personalidade, o tom de voz, as regras de negócio e como ele deve interagir com os usuários.
 * **Opção 2: Usar um Assistant da OpenAI (AssistantId ChatGPT)**
+  * Se você já criou e configurou um "Assistant" na interface (Playground) da própria OpenAI, basta colar o **ID do Assistant** neste campo. O Prismabot utilizará todas as configurações que você já definiu por lá.
+  * **Importante:** Ao usar um Assistant ID, as instruções do campo "Prompt ChatGPT" serão desconsideradas.
 
-  + Se você já criou e configurou um "Assistant" na interface (Playground) da própria OpenAI, basta colar o **ID do Assistant** neste campo. O Prismabot utilizará todas as configurações que você já definiu por lá.
-  + **Importante:** Ao usar um Assistant ID, as instruções do campo "Prompt ChatGPT" serão desconsideradas.
-
-#### **Passo 4: Configurações Adicionais (Opcional)**
+**Passo 4: Configurações Adicionais (Opcional)**
 
 Ainda na mesma janela, você pode refinar a integração:
 
@@ -75,11 +75,11 @@ Ainda na mesma janela, você pode refinar a integração:
 * **ChatGPT Voice Model:** Caso opte por respostas em áudio, selecione o modelo de voz desejado (ex: alloy, onyx, nova).
 * **Ativar Respostas de Voz (ChatGPT Voice):** Ative esta opção para que o bot responda às mensagens com áudios em vez de texto.
 
-![](../.gitbook/assets/sys_img_22b41b4e.png)
+![](../.gitbook/assets/image_2ed36d75.png)
 
 Após preencher as informações, salve as configurações. Seu canal estará pronto para utilizar o ChatGPT nos atendimentos.
 
-[AnteriorCustomização do Frontend](/avancado-recursos-tecnicos/customizacao-do-frontend)[PróximoIntegração Google Calendar](/avancado-recursos-tecnicos/integracao-google-calendar)
+[AnteriorCustomização do Frontend](customizacao-do-frontend/)[PróximoIntegração Google Calendar](integracao-google-calendar/)
 
 Atualizado há 18 dias
 

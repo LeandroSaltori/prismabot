@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Como funciona o Prismabot](como-funciona-o-prismabot.md)
+* [Como funciona o Prismabot](README.md)
 * [Primeiro Acesso ao Sistema](primeiro-acesso/primeiro-acesso-ao-sistema.md)
 * [Onboarding - novos assinantes](primeiro-acesso/onboarding-novos-assinantes.md)
 * [API Oficial WABA](api-oficial-waba.md)
@@ -25,7 +25,7 @@
   * [Integração Google Calendar](avancado-recursos-tecnicos/integracao-google-calendar.md)
   * [Integrações terceiras](avancado-recursos-tecnicos/integracoes-terceiras.md)
   * [Erros e Avisos Comuns](avancado-recursos-tecnicos/erros-e-avisos-comuns.md)
-* [Diretrizes e Políticas](diretrizes-e-politicas.md)
+* [Diretrizes e Políticas](diretrizes-e-politicas/README.md)
   * [API Oficial vs API Não Oficial](diretrizes-e-politicas/api-oficial-vs-api-nao-oficial.md)
   * [Política de Suporte Técnico](diretrizes-e-politicas/politica-de-suporte-tecnico.md)
   * [Manutenção e Segurança](diretrizes-e-politicas/manutencao-e-seguranca.md)

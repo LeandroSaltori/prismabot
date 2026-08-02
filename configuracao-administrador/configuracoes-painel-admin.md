@@ -1,20 +1,22 @@
+# Configurações Painel Admin
+
 Copiar
 
 Nesta página
 
-1. [Configuração Administrador](/configuracao-administrador)
+1. [Configuração Administrador](./)
 
-# Configurações Painel Admin
+## Configurações Painel Admin
 
 Configurações
 
 A seção de **Configurações** reúne os ajustes operacionais do painel Admin: regras globais de comportamento da plataforma, integrações com ferramentas externas, configuração de apps, gestão de sessões ativas e recursos de CRM.
 
-![](../.gitbook/assets/sys_img_0e47ceb6.png)
+![](../.gitbook/assets/image_342b1c60.png)
 
----
+***
 
-### [Configurações Gerais](/configuracao-administrador/configuracoes-painel-admin/configuracoes-gerais)
+#### [Configurações Gerais](configuracoes-painel-admin/configuracoes-gerais/)
 
 Centro de controle global do painel Admin. Define as regras que regem o comportamento da plataforma para toda a equipe:
 
@@ -26,9 +28,9 @@ Centro de controle global do painel Admin. Define as regras que regem o comporta
 * **Importar histórico de conversas** — migração de conversas anteriores para o sistema
 * **SMTP** — configuração do servidor de e-mail do tenant para envios transacionais
 
----
+***
 
-### [Bots e IA](/configuracao-administrador/configuracoes-painel-admin/bots-e-ia)
+#### [Bots e IA](configuracoes-painel-admin/bots-e-ia/)
 
 Gerenciamento centralizado de todas as ferramentas de automação e modelos de linguagem integrados ao sistema. Cada provedor é habilitado individualmente e pode ser configurado para responder automaticamente a todos os tickets ou ativado manualmente por canal.
 
@@ -42,9 +44,9 @@ Gerenciamento centralizado de todas as ferramentas de automação e modelos de l
 
 **Copiloto de IA:** Assistente em tempo real para apoio ao atendente. Oferece sugestões de resposta, tradução inline, resumo do contato, detecção de urgência e auxílio na criação de campanhas.
 
----
+***
 
-### [Integrações](/configuracao-administrador/configuracoes-painel-admin/integracoes)
+#### [Integrações](configuracoes-painel-admin/integracoes/)
 
 Habilitação e configuração das integrações com plataformas e serviços externos. Cada integração é ativada individualmente conforme a operação:
 
@@ -59,9 +61,9 @@ Habilitação e configuração das integrações com plataformas e serviços ext
 * Webhooks — disparos automáticos de eventos para URLs externas
 * Rastreamento de conversões — integração com pixels e eventos de conversão
 
----
+***
 
-### [Apps](/configuracao-administrador/configuracoes-painel-admin/apps-configuracoes)
+#### [Apps](configuracoes-painel-admin/apps-configuracoes/)
 
 Configuração dos aplicativos de marketplace e redes sociais conectados ao tenant:
 
@@ -69,19 +71,19 @@ Configuração dos aplicativos de marketplace e redes sociais conectados ao tena
 * Mercado Livre, OLX, WooCommerce, Nuvemshop
 * Rocket.Chat
 
----
+***
 
-### [Sessões](/configuracao-administrador/configuracoes-painel-admin/sessoes)
+#### [Sessões](configuracoes-painel-admin/sessoes/)
 
 Visualização e gestão de todas as sessões ativas dos canais conectados ao tenant. Permite monitorar o status de conexão de cada canal em tempo real.
 
----
+***
 
-### [CRM](/configuracao-administrador/configuracoes-painel-admin/crm)
+#### [CRM](configuracoes-painel-admin/crm/)
 
 Configurações dos recursos de CRM da plataforma: gestão de Kanbans, demandas e variáveis personalizadas para uso em automações e campos de contato.
 
-[AnteriorLog auditoria (admin)](/configuracao-administrador/configuracao/log-auditoria-admin)[PróximoConfigurações Gerais](/configuracao-administrador/configuracoes-painel-admin/configuracoes-gerais)
+[AnteriorLog auditoria (admin)](configuracao/log-auditoria-admin/)[PróximoConfigurações Gerais](configuracoes-painel-admin/configuracoes-gerais/)
 
 Atualizado há 29 dias
 

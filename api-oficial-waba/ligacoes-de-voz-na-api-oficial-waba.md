@@ -13,7 +13,7 @@ A API Oficial do WhatsApp (WABA) permite **receber e fazer ligações de voz** d
 * Um canal já conectado e ativo na API Oficial (WABA), recebendo e enviando mensagens.
 * A permissão de chamadas (`calls`) aprovada para o seu App na Meta.
 
-**Conectado pelo App nativo da ZDG (OAuth)?** A permissão de chamadas (`calls`) já vem **aprovada** no nosso App. Não é preciso configurar webhook nem solicitar aprovação — basta ativar as chamadas no painel (Etapa 1) e usar. Por isso o processo é mais simples nesse caminho.
+**Conectado pelo App nativo da Prisma Telecom (OAuth)?** A permissão de chamadas (`calls`) já vem **aprovada** no nosso App. Não é preciso configurar webhook nem solicitar aprovação — basta ativar as chamadas no painel (Etapa 1) e usar. Por isso o processo é mais simples nesse caminho.
 
 **Usa App próprio (Tech Provider)?** A permissão `calls` precisa ser aprovada pela Meta no processo de Análise do App (App Review) do seu próprio aplicativo.
 

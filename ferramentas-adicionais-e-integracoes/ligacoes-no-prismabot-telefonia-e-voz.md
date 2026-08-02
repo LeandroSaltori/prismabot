@@ -44,7 +44,7 @@ Quem tem infraestrutura de telefonia VoIP própria
 
 A modalidade mais completa para quem usa o canal WhatsApp Oficial. As chamadas acontecem dentro do próprio WhatsApp do cliente — sem aplicativos externos — e são gerenciadas diretamente pelo painel do Prismabot.
 
-**Quem pode usar:** assinantes com canal WABA ativo. Quem conecta pelo App nativo da ZDG (OAuth) já tem a permissão de chamadas aprovada automaticamente.
+**Quem pode usar:** assinantes com canal WABA ativo. Quem conecta pelo App nativo da Prisma Telecom (OAuth) já tem a permissão de chamadas aprovada automaticamente.
 
 #### Como funciona
 
@@ -116,7 +116,7 @@ Para detalhes, acesse [Envio em Massa — WaVoIP.](/ferramentas-do-atendimento/c
 
 ---
 
-### [3. Telefonia SIP (PABX / Trunk VoIP)](https://portal.zdg.com.br/270021-sistema-prismabot/5179490-telefonia-sip)
+### [3. Telefonia SIP (PABX / Trunk VoIP)](https://prismatelecomservicos.com/)
 
 Conecta o Prismabot ao sistema de telefonia corporativo da empresa via protocolo SIP, habilitando um **Webphone** integrado para cada atendente fazer e receber chamadas do trunk diretamente pelo painel.
 

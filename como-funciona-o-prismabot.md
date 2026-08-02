@@ -4,15 +4,15 @@ Nesta página
 
 # Como funciona o Prismabot
 
-Visão geral do Prismabot: plataforma omnichannel self-hosted com WhatsApp, Instagram, chatbot, multi-tenant e white-label para empresas e revendas.
+Visão geral do Prismabot: plataforma omnichannel gerenciado em nuvem com WhatsApp, Instagram, chatbot, multi-tenant e plataforma de atendimento para empresas e cliente final.
 
-O Prismabot é uma plataforma omnichannel de atendimento e automação de conversas. Centraliza em um único painel mensagens de múltiplos canais — WhatsApp, Instagram, Facebook Messenger, Telegram, E-mail e Webchat —, distribui atendimentos entre filas e equipes, automatiza jornadas com chatbot nativo (ChatFlow) e integra com ferramentas externas via API, N8N e provedores de IA. É voltado tanto para empresas que operam o próprio atendimento quanto para revendas que oferecem o sistema como SaaS para seus clientes.
+O Prismabot é uma plataforma omnichannel de atendimento e automação de conversas. Centraliza em um único painel mensagens de múltiplos canais — WhatsApp, Instagram, Facebook Messenger, Telegram, E-mail e Webchat —, distribui atendimentos entre filas e equipes, automatiza jornadas com chatbot nativo (ChatFlow) e integra com ferramentas externas via API, N8N e provedores de IA. É voltado tanto para empresas que operam o próprio atendimento quanto para empresas e clientes finais que buscam otimizar seu atendimento.
 
-O Prismabot é **self-hosted**: o sistema é instalado e roda no servidor (VPS) contratado pelo próprio assinante. Isso significa que os dados ficam na infraestrutura do assinante, sem dependência de nuvem da ZDG. A instalação pode ser feita pela equipe técnica da ZDG ou pelo próprio assinante usando o auto-instalador disponibilizado após a compra.
+O Prismabot é **gerenciado em nuvem**: o sistema é instalado e roda no servidor (servidor em nuvem) contratado pelo próprio assinante. Isso significa que os dados ficam na infraestrutura do assinante, sem dependência de nuvem da Prisma Telecom. A instalação pode ser feita pela equipe técnica da Prisma Telecom ou pelo próprio assinante usando o auto-instalador disponibilizado após a compra.
 
 **API Oficial do WhatsApp (WABA):** o Prismabot é Tech Provider homologado da Meta. Você conecta números pela API Oficial — o método mais estável, seguro e recomendado para operações profissionais, sem risco de banimento e com suporte direto da Meta.
 
-Em ambos os planos a plataforma é **white-label**: você usa sua própria marca, seu domínio e suas cores. A diferença está na escala — o plano **Uso Próprio** opera com uma única conta, enquanto o plano **Revenda** permite criar contas isoladas para múltiplos clientes (multi-tenant) e comercializá-las como SaaS.
+Em ambos os planos a plataforma é **plataforma de atendimento**: você usa sua própria marca, seu domínio e suas cores. A diferença está na escala — o plano **Uso Próprio** opera com uma única conta, enquanto o plano **cliente final** permite criar contas isoladas para múltiplos clientes (multi-tenant) e comercializá-las como SaaS.
 
 ---
 
@@ -26,7 +26,7 @@ A licença é **anual, sem cobrança por usuário, conexão ou volume de mensage
 * **Suporte técnico** — via sistema de tickets, segunda a sexta, 8h–18h
 * **Atualizações contínuas** — novas funcionalidades e correções enquanto a licença estiver ativa
 
-**Prazo de instalação pela equipe:** 2 a 5 dias úteis após agendamento e envio das credenciais da VPS e do domínio. Se preferir mais agilidade, o auto-instalador está disponível com download liberado imediatamente após confirmação do pagamento.
+**Prazo de instalação pela equipe:** 2 a 5 dias úteis após agendamento e envio das credenciais da servidor em nuvem e do domínio. Se preferir mais agilidade, o auto-instalador está disponível com download liberado imediatamente após confirmação do pagamento.
 
 [→ Termos e Condições de Uso](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)
 [→ Política de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)
@@ -47,19 +47,19 @@ Quem quer centralizar o próprio atendimento
 
 1 conta (tenant), canais e usuários ilimitados, todos os recursos operacionais
 
-**Revenda (SaaS / White-Label)**
+**cliente final (SaaS / plataforma de atendimento)**
 
 Quem quer criar um negócio de software e revender para clientes
 
-Tudo do Uso Próprio + Painel Super Admin para múltiplas contas, white-label com sua marca, integração com gateway de pagamento (Asaas)
+Tudo do Uso Próprio + Painel Super Admin para múltiplas contas, plataforma de atendimento com sua marca, integração com gateway de pagamento (Asaas)
 
-**A principal diferença:** o Uso Próprio centraliza o atendimento em uma única conta. O plano de Revenda (Multi-Tenant) permite criar contas isoladas para múltiplos clientes, separando a gestão e os números conectados de cada um. Ambos os planos não possuem limite de números e usuários.
+**A principal diferença:** o Uso Próprio centraliza o atendimento em uma única conta. O plano de cliente final (Multi-Tenant) permite criar contas isoladas para múltiplos clientes, separando a gestão e os números conectados de cada um. Ambos os planos não possuem limite de números e usuários.
 
 [→ Ver valores e adquirir licença](https://prismabot.zdg.com.br/#oferta)
 
-#### Como funciona a Revenda (White-Label)
+#### Como funciona a cliente final (plataforma de atendimento)
 
-Com o Plano Revenda, você:
+Com o Plano cliente final, você:
 
 1. Instala o Prismabot no seu servidor com a sua própria marca (logo, cores, domínio)
 2. Acessa o Painel Super Admin e cria contas isoladas (**tenants**) para cada cliente
@@ -69,13 +69,13 @@ Com o Plano Revenda, você:
 
 A estratégia de preços é 100% sua.
 
-[→ Como aplicar o White-Label na prática](/configuracao-superadmin/tenants-e-licenca/artigo-usando-o-white-label-para-varios-clientes)
+[→ Como aplicar o plataforma de atendimento na prática](/configuracao-superadmin/tenants-e-licenca/artigo-usando-o-plataforma de atendimento-para-varios-clientes)
 
 ---
 
-### Servidor (VPS) e responsabilidades
+### Servidor (servidor em nuvem) e responsabilidades
 
-**O Prismabot é self-hosted.** Você contrata e mantém o servidor (VPS) onde o sistema roda. A VPS não está inclusa na licença — é um custo de infraestrutura seu, pago diretamente ao provedor de hospedagem.
+**O Prismabot é gerenciado em nuvem.** Você contrata e mantém o servidor (servidor em nuvem) onde o sistema roda. A servidor em nuvem não está inclusa na licença — é um custo de infraestrutura seu, pago diretamente ao provedor de hospedagem.
 
 **Suas responsabilidades:**
 
@@ -90,7 +90,7 @@ A estratégia de preços é 100% sua.
 * Realizar a instalação inicial no seu servidor
 * Prestar suporte técnico focado no funcionamento da plataforma
 
-[→ Pré-requisitos de instalação (especificações mínimas da VPS)](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)
+[→ Pré-requisitos de instalação (especificações mínimas da servidor em nuvem)](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)
 
 ---
 
@@ -111,7 +111,7 @@ A estratégia de preços é 100% sua.
 
 **Chatbot nativo (ChatFlow):** construtor visual interno para criar fluxos automáticos sem ferramentas adicionais.
 
-**IAs suportadas:** ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Grok (xAI), Deepseek, Qwen — e modelos self-hosted via Ollama e LM Studio. Basta inserir sua chave de API.
+**IAs suportadas:** ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Grok (xAI), Deepseek, Qwen — e modelos gerenciado em nuvem via Ollama e LM Studio. Basta inserir sua chave de API.
 
 **Integração com sistemas externos:** o Prismabot pode se conectar a outros sistemas de duas formas:
 
@@ -129,7 +129,7 @@ O valor pago ao Prismabot refere-se à licença de uso do software, à instalaç
 
 **Obrigatórios:**
 
-* Servidor (VPS) e domínio
+* Servidor (servidor em nuvem) e domínio
 
 **Variáveis (conforme o que você usar):**
 
@@ -150,7 +150,7 @@ Anual. O modelo cobre os custos de setup, instalação e horas técnicas dedicad
 Sim. Liberamos 7 dias de acesso em um ambiente de demonstração. Solicite pelo canal comercial: <https://zdg.dev.br/contato>
 
 **Há limite de usuários, conexões ou disparos?**
-Não. O Prismabot não impõe limites de software. A capacidade depende dos recursos do seu servidor (VPS).
+Não. O Prismabot não impõe limites de software. A capacidade depende dos recursos do seu servidor (servidor em nuvem).
 
 **O suporte atende pelo WhatsApp ou faz reuniões?**
 Não. O suporte opera exclusivamente por sistema de tickets (segunda a sexta, 8h–18h). Não há atendimento via WhatsApp, call ou consultoria.

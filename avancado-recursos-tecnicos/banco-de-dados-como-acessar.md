@@ -24,7 +24,7 @@ Para realizar este procedimento, utilizaremos o software **PGAdmin**.
 Antes de abrir o PGAdmin, você precisará do Usuário (*Username*) e da Senha (*Password*) do seu banco de dados. Você pode encontrar essas informações de duas formas:
 
 1. **Sumário de Instalação:** Os dados são entregues no resumo gerado no final da instalação do sistema Prismabot.
-2. **Arquivo .env:** Caso não tenha salvo o sumário, acesse o servidor (VPS) onde o Prismabot está hospedado, navegue até a pasta do **back-end** e abra o arquivo `.env`. Lá constarão o `username` e o `password` do banco de dados.
+2. **Arquivo .env:** Caso não tenha salvo o sumário, acesse o servidor (servidor em nuvem) onde o Prismabot está hospedado, navegue até a pasta do **back-end** e abra o arquivo `.env`. Lá constarão o `username` e o `password` do banco de dados.
 
 #### Passo 2: Configurar o Servidor no PGAdmin
 
@@ -37,7 +37,7 @@ Com o PGAdmin instalado e aberto em seu computador, siga os passos abaixo para c
    * **Nome:** Dê um nome de sua preferência para identificar a conexão (Exemplo: `Prismabot` ou `Prismabot - Produção`).
 4. Na aba **Conexão (Connection)**:
 
-   * **Endereço/Host:** Insira o **IP da sua VPS** (Atenção: utilize `localhost` apenas se o sistema estiver rodando fisicamente no seu próprio computador).
+   * **Endereço/Host:** Insira o **IP da nuvem** (Atenção: utilize `localhost` apenas se o sistema estiver rodando fisicamente no seu próprio computador).
    * **Username (Nome de usuário):** Insira o usuário localizado no Passo 1.
    * **Password (Senha):** Insira a senha localizada no Passo 1.
 5. Salve as configurações. O PGAdmin se conectará automaticamente ao servidor.
@@ -56,7 +56,7 @@ Com a conexão estabelecida com sucesso:
 
 ### Vídeo aula no portar do assinante:
 
-[https://portal.zdg.com.br/270021-sistema-prismabot/5179470-acessando-o-banco-de-dados](https://portal.zdg.com.br/270021-sistema-prismabot/5179470-acessando-o-banco-de-dados )
+[https://prismatelecomservicos.com/ )
 
 [AnteriorWavoip - Ligações pelo WhatsApp](/ferramentas-adicionais-e-integracoes/wavoip-ligacoes-pelo-whatsapp)[PróximoComo diagnosticar o erro "servidor temporariamente off-line"](/avancado-recursos-tecnicos/como-diagnosticar-o-erro-servidor-temporariamente-off-line)
 

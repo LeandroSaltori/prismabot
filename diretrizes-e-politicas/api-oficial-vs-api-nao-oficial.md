@@ -24,8 +24,8 @@ A API Oficial é a infraestrutura homologada, construída e mantida pela própri
 
 O Prismabot integra-se à API Oficial permitindo duas formas de configuração:
 
-* **Via App Prismabot (Login Incorporado):** O usuário utiliza o aplicativo oficial da ZDG para realizar o login via Facebook e conectar o número de forma rápida.
-* **Via App Próprio (Tech Provider):** O assinante cria e aprova seu próprio aplicativo no painel *Facebook Developers*. Indicado para operações White-label, permitindo que seus clientes façam o login visualizando a sua marca.
+* **Via App Prismabot (Login Incorporado):** O usuário utiliza o aplicativo oficial da Prisma Telecom para realizar o login via Facebook e conectar o número de forma rápida.
+* **Via App Próprio (Tech Provider):** O assinante cria e aprova seu próprio aplicativo no painel *Facebook Developers*. Indicado para operações plataforma de atendimento, permitindo que seus clientes façam o login visualizando a sua marca.
 
 #### Coexistência
 
@@ -50,7 +50,7 @@ As APIs Não Oficiais são métodos alternativos que emulam o comportamento do W
 #### Tipos de APIs Não Oficiais Suportadas
 
 1. **Nativas (Baileys e WWebJS):** Bibliotecas integradas ao código do Prismabot. A conexão é feita diretamente pelo painel através da leitura do QR Code. Não há custos adicionais.
-2. **Auto-hospedadas / Self-Hosted (Ex: Evolution API, Wuzapi):** Aplicações externas de código aberto instaladas e mantidas pelo próprio usuário em um servidor à parte, integradas ao Prismabot via credenciais (Host/Token).
+2. **Auto-hospedadas / gerenciado em nuvem (Ex: Evolution API, Wuzapi):** Aplicações externas de código aberto instaladas e mantidas pelo próprio usuário em um servidor à parte, integradas ao Prismabot via credenciais (Host/Token).
 3. **Gerenciadas / Pagas (Ex: Z-API, Uazapi):** Serviços terceirizados fornecidos por outras empresas (SaaS) mediante pagamento de mensalidade. A empresa terceira gerencia a estabilidade do roteamento.
 
 #### Riscos e Responsabilidades Operacionais
@@ -58,7 +58,7 @@ As APIs Não Oficiais são métodos alternativos que emulam o comportamento do W
 Conforme estabelecido nos **Termos e Condições de Uso**, o Prismabot não garante estabilidade (SLA) para conexões realizadas por vias não oficiais e não se responsabiliza por desconexões ou perda de dados.
 
 * **O WhatsApp não tolera SPAM:** Disparos em massa ou mensagens não solicitadas via API não oficial têm altíssima probabilidade de resultar em banimento permanente do número, sem possibilidade de recurso.
-* **Riscos de Infraestrutura e IP:** Conectar múltiplos números não oficiais em um único IP (a sua VPS) caracteriza comportamento automatizado anômalo. Se a Meta identificar e marcar a infraestrutura, ocorrerá um **bloqueio em cascata**, desconectando ou banindo todos os números de todos os clientes hospedados naquele servidor simultaneamente.
+* **Riscos de Infraestrutura e IP:** Conectar múltiplos números não oficiais em um único IP (a nuvem) caracteriza comportamento automatizado anômalo. Se a Meta identificar e marcar a infraestrutura, ocorrerá um **bloqueio em cascata**, desconectando ou banindo todos os números de todos os clientes hospedados naquele servidor simultaneamente.
 * **Recomendações Técnicas:** Para minimizar riscos, evite disparos em massa. Se operar em escala com múltiplos clientes (SaaS), considere a distribuição horizontal (múltiplos servidores) ou a configuração de proxies dedicados para isolar conexões.
 * **Aviso "Aguardando mensagem":** Em conexões não oficiais (especialmente em emulações Web), a sincronização da criptografia de ponta a ponta pode falhar se o aparelho celular principal perder a conexão com a internet. Isso gera o aviso de "Aguardando mensagem". Para o funcionamento correto, o smartphone base deve permanecer ligado, com internet estável e o aplicativo do WhatsApp ativo em segundo plano.
 

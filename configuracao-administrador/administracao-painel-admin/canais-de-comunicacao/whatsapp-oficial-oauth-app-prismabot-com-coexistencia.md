@@ -10,9 +10,9 @@ oauthcoexistência
 
 # WhatsApp Oficial OAuth APP Prismabot com coexistência
 
-Passo a passo para conectar um número WhatsApp Business pela API Oficial usando o app da ZDG (Tech Provider) com modo de coexistência.
+Passo a passo para conectar um número WhatsApp Business pela API Oficial usando o app da Prisma Telecom (Tech Provider) com modo de coexistência.
 
-Números com alto índice de denúncias (status Red na Meta) podem ser desconectados do App compartilhado da ZDG para proteger os demais assinantes. Veja: [Score do App Tech Provider](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
+Números com alto índice de denúncias (status Red na Meta) podem ser desconectados do App compartilhado da Prisma Telecom para proteger os demais assinantes. Veja: [Score do App Tech Provider](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
 
 #### O que é o Modo de Coexistência?
 
@@ -69,7 +69,7 @@ Com o recurso liberado, acesse a conta da empresa (Admin normal) para realizar a
 3. No campo "Tipo de Canal", selecione a opção **WhatsApp OAuth**.
 4. **Selecione o Aplicativo Meta:** Você verá um menu suspenso para escolher o aplicativo.
 
-   * Selecione o aplicativo nativo fornecido pela plataforma (ex: teste login incorporado tech provider zdg ou ZDG App).
+   * Selecione o aplicativo nativo fornecido pela plataforma (ex: teste login incorporado tech provider zdg ou Prisma Telecom App).
    * (Nota: Caso sua empresa seja um Tech Provider aprovado pela Meta, você poderá selecionar seu próprio App configurado previamente).
 5. Clique no botão azul **Conectar via WhatsApp OAuth**.
 
@@ -108,11 +108,11 @@ Para testar, envie uma mensagem de outro número para o seu WhatsApp Business. V
 
 **AVISO: Reputação do Número e Restrições de Uso** [**(Score)**](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
 
-Ao conectar através do **App compartilhado da ZDG**, seu número passa a integrar nosso ecossistema. Para proteger a estabilidade de todos os assinantes, monitoramos rigorosamente a qualidade dos canais conectados.
+Ao conectar através do **App compartilhado da Prisma Telecom**, seu número passa a integrar nosso ecossistema. Para proteger a estabilidade de todos os assinantes, monitoramos rigorosamente a qualidade dos canais conectados.
 
 * **Status Red (Vermelho):** Números com alto índice de denúncias ou bloqueios (SPAM) na Meta caem para este status.
 * **Desconexão Forçada:** Se o número permanecer no status *Red*, ele será desconectado irreversivelmente do nosso App.
-* **Bloqueio da Licença:** Acumular números no status vermelho bloqueia a sua licença, impedindo a conexão de qualquer novo número pelo aplicativo da ZDG.
+* **Bloqueio da Licença:** Acumular números no status vermelho bloqueia a sua licença, impedindo a conexão de qualquer novo número pelo aplicativo da Prisma Telecom.
 
 **Recomendação para operações de risco:** Se o seu modelo de negócio gera denúncias frequentes e números no status *Red*, **não utilize o App compartilhado**. A orientação é configurar um **App Próprio (Tech Provider)** no Facebook Developers. Isso isola a sua reputação, permitindo gerenciar seus números sob a sua própria responsabilidade na Meta.
 

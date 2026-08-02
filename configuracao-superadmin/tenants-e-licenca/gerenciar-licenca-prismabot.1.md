@@ -100,7 +100,7 @@ Realize estes dois passos logo após a primeira instalação do Prismabot.
 
 Após salvar, o status pode levar alguns minutos para atualizar. Aguarde até que o sistema processe a validação e o status mude para **"Ativo"**.
 
-Não recebeu sua licença por e-mail? Abra um chamado de suporte administrativo em [suporte.zdg.com.br](https://suporte.zdg.com.br/).
+Não recebeu sua licença por e-mail? Abra um chamado de suporte administrativo em [suporte.zdg.com.br](https://prismatelecomservicos.com/).
 
 ![](../../.gitbook/assets/image_3e997405.png)
 
@@ -144,7 +144,7 @@ Ambos os problemas geralmente estão ligados à configuração da licença. Veri
 2. **Domínio:** garanta que o domínio configurado é exatamente o mesmo usado para acessar a plataforma — sem subdomínios como `app.` ou `api.`, apenas o domínio principal (ex: `suaempresa.com.br`).
 3. **Domínio padrão:** verifique se `whatsapp.com` não permanece no campo de domínio — ele deve ser removido e substituído pelo seu domínio.
 
-Se o erro persistir após essas verificações, abra um chamado no [suporte administrativo](https://suporte.zdg.com.br/).
+Se o erro persistir após essas verificações, abra um chamado no [suporte administrativo](https://prismatelecomservicos.com/).
 
 ---
 
@@ -152,13 +152,13 @@ Se o erro persistir após essas verificações, abra um chamado no [suporte admi
 
 Sua chave foi enviada automaticamente para o e-mail cadastrado logo após a confirmação da compra. Verifique a caixa de entrada e a pasta de spam procurando por e-mails de `suporte@zdg.dev.br`.
 
-Se não encontrar, abra um chamado no [suporte administrativo](https://suporte.zdg.com.br/) solicitando o reenvio.
+Se não encontrar, abra um chamado no [suporte administrativo](https://prismatelecomservicos.com/) solicitando o reenvio.
 
 ---
 
 #### Por que o status da licença não atualizou depois de salvar?
 
-O sistema leva alguns minutos para processar a validação com os servidores da ZDG. Aguarde e recarregue a página. Se após 10 minutos o status ainda não for **"Ativo"**, verifique se a chave e o domínio estão corretos.
+O sistema leva alguns minutos para processar a validação com os servidores da Prisma Telecom. Aguarde e recarregue a página. Se após 10 minutos o status ainda não for **"Ativo"**, verifique se a chave e o domínio estão corretos.
 
 ---
 
@@ -207,9 +207,9 @@ Acesse [prismabot.zdg.com.br/renovar](https://prismabot.zdg.com.br/renovar/), in
 
 #### Ainda não consegui resolver. Como abrir suporte?
 
-Abra um chamado no portal de suporte administrativo em [suporte.zdg.com.br](https://suporte.zdg.com.br/). Selecione o departamento **"Suporte Administrativo"** e descreva o problema com o print do status da licença e o domínio configurado.
+Abra um chamado no portal de suporte administrativo em [suporte.zdg.com.br](https://prismatelecomservicos.com/). Selecione o departamento **"Suporte Administrativo"** e descreva o problema com o print do status da licença e o domínio configurado.
 
-#### [Link para aula completa - portal do assinante](https://portal.zdg.com.br/270021-sistema-prismabot/5179463-primeiros-passos-e-ativacao-da-licenca)
+#### [Link para aula completa - portal do assinante](https://prismatelecomservicos.com/)
 
 [AnteriorTenants e Licença](/configuracao-superadmin/tenants-e-licenca)[PróximoScore do App Tech Provider](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
 

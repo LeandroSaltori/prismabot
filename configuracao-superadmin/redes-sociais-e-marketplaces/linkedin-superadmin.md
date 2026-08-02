@@ -81,7 +81,7 @@ Com o app criado e o acesso aprovado:
 
 O **Redirect URI** deve ser cadastrado **exatamente** como `https://oauth.techprovider.com.br/callback.html` no LinkedIn Developer Portal. Qualquer divergência impedirá o funcionamento da integração.
 
-**Quer usar um domínio próprio (whitelabel)?** Configure-o previamente em `/oauth-dominio` dentro do Prismabot e use esse domínio como Redirect URI no LinkedIn Developer Portal.
+**Quer usar um domínio próprio (plataforma de atendimento)?** Configure-o previamente em `/oauth-dominio` dentro do Prismabot e use esse domínio como Redirect URI no LinkedIn Developer Portal.
 
 ---
 

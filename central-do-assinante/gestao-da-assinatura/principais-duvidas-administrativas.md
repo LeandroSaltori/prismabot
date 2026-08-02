@@ -35,7 +35,7 @@ Se o erro persistir, especialmente o "License Error", tente os seguintes passos:
 
 * **Atualize o Sistema:** Garanta que sua instalação do Prismabot está na versão mais recente.
 
-Se após todas as verificações o problema continuar, abra um chamado em nosso **suporte administrativo** no portal: <https://suporte.zdg.com.br/>
+Se após todas as verificações o problema continuar, abra um chamado em nosso **suporte administrativo** no portal: <https://prismatelecomservicos.com/
 
 ### Onde encontro minha chave de licença?
 
@@ -43,7 +43,7 @@ Sua chave de licença (License Key) é enviada automaticamente para o seu e-mail
 
 1. **Procure no seu E-mail:** Verifique sua caixa de entrada e a pasta de SPAM no dia em que realizou a assinatura.
 2. **Busque pelo Remetente:** Procure por e-mails enviados por `suporte@zdg.dev.br`.
-3. **Solicite o Reenvio:** Caso não encontre, abra um chamado em nosso **suporte administrativo** no portal <https://suporte.zdg.com.br/> e solicite o reenvio da sua chave.
+3. **Solicite o Reenvio:** Caso não encontre, abra um chamado em nosso **suporte administrativo** no portal <https://prismatelecomservicos.com/ e solicite o reenvio da sua chave.
 
 ### A data de expiração no painel não condiz com a validade da minha assinatura. O que pode ser?
 
@@ -60,9 +60,9 @@ Sempre considere a **"Expiração da Licença"** como a data de vencimento da su
 
 O acesso à nossa área de membros, onde ficam as videoaulas, é válido por um ano a partir da data da sua compra.
 
-1. **Tente o Acesso:** Acesse o portal através do link: <https://portal.zdg.com.br/>
+1. **Tente o Acesso:** Acesse o portal através do link: <https://prismatelecomservicos.com/
 2. **Verifique a Validade:** Confirme se sua assinatura ainda está dentro do prazo de um ano.
-3. **Solicite Ajuda:** Caso não consiga acessar mesmo com a assinatura ativa, abra um chamado em nosso **suporte administrativo** no portal <https://suporte.zdg.com.br/>
+3. **Solicite Ajuda:** Caso não consiga acessar mesmo com a assinatura ativa, abra um chamado em nosso **suporte administrativo** no portal <https://prismatelecomservicos.com/
 
 ### Estou sem acesso ao Tomticket. O que fazer?
 
@@ -71,12 +71,12 @@ O acesso ao nosso portal de suporte (Tomticket) está diretamente atrelado à va
 1. **Verifique a Validade:** Confirme se sua assinatura anual ainda está ativa. O acesso ao suporte é encerrado após o vencimento da licença.
 2. **Entre em Contato:** Se sua assinatura estiver ativa e mesmo assim você não conseguir o acesso, ou se precisar de ajuda para renovar, entre em contato conosco através do nosso WhatsApp de atendimento: <https://zdg.dev.br/contato>.
 
-### Não tenho acesso à Comunidade ZDG. O que fazer?
+### Não tenho acesso à Comunidade Prisma Telecom. O que fazer?
 
-O acesso à Comunidade ZDG é um produto separado. Siga os passos para verificar seu acesso:
+O acesso à Comunidade Prisma Telecom é um produto separado. Siga os passos para verificar seu acesso:
 
-1. **Confirme a Compra:** Primeiro, verifique nos seus e-mails de compra se você adquiriu o acesso à "Comunidade ZDG" juntamente com sua assinatura Prismabot.
-2. **Acesse a Nova Plataforma:** As aulas da comunidade, que antes ficavam na Hotmart, foram migradas para a plataforma Memberkit. Se você tem o acesso garantido, utilize o link direto para a área da comunidade: <https://portal.zdg.com.br/>
+1. **Confirme a Compra:** Primeiro, verifique nos seus e-mails de compra se você adquiriu o acesso à "Comunidade Prisma Telecom" juntamente com sua assinatura Prismabot.
+2. **Acesse a Nova Plataforma:** As aulas da comunidade, que antes ficavam na Hotmart, foram migradas para a plataforma Memberkit. Se você tem o acesso garantido, utilize o link direto para a área da comunidade: <https://prismatelecomservicos.com/
 
 ## Dúvidas renovação
 

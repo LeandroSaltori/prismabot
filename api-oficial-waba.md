@@ -6,7 +6,7 @@ Nesta página
 
 Tudo sobre a API Oficial do WhatsApp (WABA) no Prismabot: como funciona, formas de conectar, templates HSM, custos Meta e recursos exclusivos.
 
-O Prismabot possui integração nativa com a **API Oficial do WhatsApp (WABA)**, mantida e homologada pela Meta. O Prismabot é um **Tech Provider certificado pela Meta**, o que permite que assinantes conectem números de WhatsApp Business por meio do aplicativo da ZDG, sem necessidade de criar um App próprio.
+O Prismabot possui integração nativa com a **API Oficial do WhatsApp (WABA)**, mantida e homologada pela Meta. O Prismabot é um **Tech Provider certificado pela Meta**, o que permite que assinantes conectem números de WhatsApp Business por meio do aplicativo da Prisma Telecom, sem necessidade de criar um App próprio.
 
 Para quem já possui um App aprovado no Facebook Developers, o Prismabot também oferece suporte à integração via App próprio.
 
@@ -24,20 +24,20 @@ Há duas opções de integração disponíveis:
 
 ---
 
-#### Opção 1 — Via App Prismabot (usando o App da ZDG como Tech Provider)
+#### Opção 1 — Via App Prismabot (usando o App da Prisma Telecom como Tech Provider)
 
 O Prismabot disponibiliza seu próprio App (aprovado como Tech Provider na Meta) para que assinantes façam a conexão OAuth diretamente pelo painel, sem precisar de um App próprio.
 
 **Como funciona:**
 
 1. No painel, acesse **Canais → Adicionar Canal → WhatsApp OAuth**
-2. Selecione o aplicativo da ZDG
+2. Selecione o aplicativo da Prisma Telecom
 3. Faça login com o Facebook, selecione a conta WhatsApp Business e escaneie o QR Code no celular
 4. O número fica conectado em modo de coexistência
 
-Ao conectar pelo App da ZDG, a permissão de **ligações de voz** (`calls`) já está aprovada automaticamente.
+Ao conectar pelo App da Prisma Telecom, a permissão de **ligações de voz** (`calls`) já está aprovada automaticamente.
 
-Números com alto índice de denúncias (status Red na Meta) podem ser desconectados do App compartilhado da ZDG para proteger os demais assinantes. Veja: [Score do App Tech Provider](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
+Números com alto índice de denúncias (status Red na Meta) podem ser desconectados do App compartilhado da Prisma Telecom para proteger os demais assinantes. Veja: [Score do App Tech Provider](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-prismabot/score-do-app-tech-provider)
 
 **Tutorial completo:** [WhatsApp Oficial OAuth (login)](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia)
 
@@ -45,7 +45,7 @@ Números com alto índice de denúncias (status Red na Meta) podem ser desconect
 
 #### Opção 2 — Via App Próprio (para quem já tem um App aprovado na Meta)
 
-Assinantes que já possuem um App aprovado no Facebook Developers — ou que desejam criar um — podem integrar o Prismabot usando as próprias credenciais. Nesse caso, o login incorporado exibe a marca do assinante (não a ZDG) para os usuários finais.
+Assinantes que já possuem um App aprovado no Facebook Developers — ou que desejam criar um — podem integrar o Prismabot usando as próprias credenciais. Nesse caso, o login incorporado exibe a marca do assinante (não a Prisma Telecom) para os usuários finais.
 
 **O que é necessário:**
 
@@ -98,7 +98,7 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 #### Conectar e gerenciar o canal
 
-* [WhatsApp Oficial OAuth (login com coexistência)](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia): passo a passo para conectar um número em modo de coexistência usando o App da ZDG
+* [WhatsApp Oficial OAuth (login com coexistência)](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/whatsapp-oficial-oauth-app-prismabot-com-coexistencia): passo a passo para conectar um número em modo de coexistência usando o App da Prisma Telecom
 * [Integrações Meta — configurações do canal](/configuracao-administrador/configuracao/integracoes-meta): painel de configurações do canal após a conexão: webhook, roteamento de chamadas, número de teste e outras opções
 * [Contas WhatsApp na Meta](/configuracao-administrador/configuracao/integracoes-meta/whatsapp-contas-meta) — visualização e gestão dos números WABA vinculados à Business Manager
 
@@ -135,7 +135,7 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 **Posso manter o celular ativo e usar o Prismabot ao mesmo tempo?** Sim. O modo de coexistência permite que o número opere simultaneamente no app WhatsApp Business e no painel do Prismabot.
 
-**Como oferecer a conexão WABA para os clientes da minha revenda com a minha marca?** É necessário criar e aprovar um App próprio no Facebook Developers. Veja a Opção 2 acima.
+**Como oferecer a conexão WABA para os clientes da minha cliente final com a minha marca?** É necessário criar e aprovar um App próprio no Facebook Developers. Veja a Opção 2 acima.
 
 [AnteriorLID do WhatsApp](/diretrizes-e-politicas/lid-do-whatsapp)[PróximoWhatsapp Oficial- Cadastro Incorporado e Coexistência com APP próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
 

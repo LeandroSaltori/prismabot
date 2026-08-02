@@ -11,13 +11,13 @@ Notas de versão do Prismabot 4.0.x: novidades, correções e breaking changes d
 
 ### Manter seu sistema atualizado é fundamental para a segurança, performance e acesso a novas funcionalidades.
 
-### Para acompanhar as novas versões entre no [canal de avisos do Telegram](https://portal.zdg.com.br/270021-sistema-prismabot/5179500-links-termos-de-uso-e-informacoes-gerais)
+### Para acompanhar as novas versões entre no [canal de avisos do Telegram](https://prismatelecomservicos.com/)
 
-[Aula - Atualização Passo a Passo](https://portal.zdg.com.br/270021-sistema-prismabot/5179468-atualizacao-automatica-via-terminal)
+[Aula - Atualização Passo a Passo](https://prismatelecomservicos.com/)
 
 **AVISO: FAÇA UM SNAPSHOT DO SERVIDOR**
 
-Antes de iniciar qualquer procedimento de atualização, é **mandatório** criar um **snapshot** (um ponto de restauração) do seu servidor VPS.
+Antes de iniciar qualquer procedimento de atualização, é **mandatório** criar um **snapshot** (um ponto de restauração) do seu servidor servidor em nuvem.
 
 Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado anterior de forma rápida e segura em caso de qualquer falha ou imprevisto durante o processo de atualização.
 
@@ -260,7 +260,7 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 #### ⚙️ Superadmin e Configurações
 
-* Customização White-Label:
+* Customização plataforma de atendimento:
 
   + Tela de Signup padrão internacional (agora customizável).
   + Link do Postman (agora customizável).
@@ -385,9 +385,9 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 🎧 Novos recursos de [atendimento](/configuracao-administrador/gestao-comercial/analises-e-registros/painel-de-atendimentos)
 👤 [Perfil personalizado de usuários](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)
 🔌 Novos [Endpoints API](/central-do-assinante/referencia-da-api)
-🎨 [Personalizações](/configuracao-superadmin/configuracoes/customizar-white-label)
+🎨 [Personalizações](/configuracao-superadmin/configuracoes/customizar-plataforma de atendimento)
 ☁️ Armazenamento externo ([Storage AmazonS3](/configuracao-superadmin/sistema/sistema-dados-e-configuracao/storage-s3), etc)
-⚡️ [Autoinstalador melhorado](https://portal.zdg.com.br/270021-sistema-prismabot/5179464-instalacao-automatica-prismabot-pacote-ultima-versao)
+⚡️ [Autoinstalador melhorado](https://prismatelecomservicos.com/)
 💳 Novos gateways de pagamento (stripe, mercadopago, etc)
 🚀 Modo Cluster - Infraestrutura para escala com múltiplos núcleos de processamento
 📧 Integração com [SMTP](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/e-mail-imap-smtp) para envio e recebimento de email nos tickets

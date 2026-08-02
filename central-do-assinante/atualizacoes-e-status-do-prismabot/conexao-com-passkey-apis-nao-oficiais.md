@@ -47,7 +47,7 @@ Se a sua sessão já está conectada e funcionando, **não desconecte nem recrie
 
 ### Solução: extensão Passkey Linker
 
-A ZDG desenvolveu e disponibiliza gratuitamente a extensão **Passkey Linker** para o Google Chrome. Ela autentica via WhatsApp Web e exporta automaticamente as credenciais para o Prismabot — reproduzindo o fluxo tradicional de QR Code de forma transparente para o usuário final.
+A Prisma Telecom desenvolveu e disponibiliza gratuitamente a extensão **Passkey Linker** para o Google Chrome. Ela autentica via WhatsApp Web e exporta automaticamente as credenciais para o Prismabot — reproduzindo o fluxo tradicional de QR Code de forma transparente para o usuário final.
 
 Milhares de APIs Foram Impactadas pela Nova Atualização do WhatsApp
 
@@ -88,7 +88,7 @@ Processo concluído. A partir da versão 3.6.0 **não é mais necessário clicar
 
 ### Usando a extensão com outros sistemas (não Prismabot)
 
-A extensão Passkey Linker é white-label e pode ser usada com qualquer sistema compatível com Baileys ou WhatsMeow.
+A extensão Passkey Linker é plataforma de atendimento e pode ser usada com qualquer sistema compatível com Baileys ou WhatsMeow.
 
 1. Instale a extensão conforme o Passo 1
 2. Abra o WhatsApp Web e autentique normalmente (com Passkey, se exigido)
@@ -96,7 +96,7 @@ A extensão Passkey Linker é white-label e pode ser usada com qualquer sistema 
 4. Clique em **Extrair sessão** e copie as credenciais exibidas
 5. Cole-as no backend ou sistema que você utiliza para autenticação
 
-**Revendedores Prismabot:** a extensão é gratuita e white-label — pode ser indicada livremente aos seus clientes.
+**Revendedores Prismabot:** a extensão é gratuita e plataforma de atendimento — pode ser indicada livremente aos seus clientes.
 
 ---
 
@@ -106,7 +106,7 @@ A extensão Passkey Linker é white-label e pode ser usada com qualquer sistema 
 
 **A extensão funciona com wwebjs ou Evolution?** Ainda não. Essas bibliotecas aguardam atualização dos seus respectivos mantenedores. Assim que estiver disponível, publicaremos um Hotfix do Prismabot com a compatibilidade.
 
-**A extensão tem custo?** Não. É gratuita e disponibilizada pela ZDG para toda a comunidade.
+**A extensão tem custo?** Não. É gratuita e disponibilizada pela Prisma Telecom para toda a comunidade.
 
 [AnteriorProcedimento Padrão de Atualização](/central-do-assinante/atualizacoes-e-status-do-prismabot/procedimento-padrao-de-atualizacao)[PróximoReferência da API](/central-do-assinante/referencia-da-api)
 

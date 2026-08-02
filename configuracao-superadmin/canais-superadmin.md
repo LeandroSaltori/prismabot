@@ -26,7 +26,7 @@ Visão consolidada de todas as sessões de canais ativas em todos os tenants da 
 
 ### [Domínio OAuth](/configuracao-superadmin/canais-superadmin/dominio-oauth-customizado)
 
-Define o domínio próprio utilizado no fluxo de autenticação OAuth da instância. Necessário quando o white-label exige que o login via Meta seja feito através do domínio da sua marca.
+Define o domínio próprio utilizado no fluxo de autenticação OAuth da instância. Necessário quando o plataforma de atendimento exige que o login via Meta seja feito através do domínio da sua marca.
 
 ---
 

@@ -18,8 +18,8 @@ Gerenciamento de todos os canais conectados ao Prismabot. O sistema suporta múl
 
 [**WhatsApp Oficial (API WABA)**](/api-oficial-waba)
 
-* WhatsApp Oficial — App ZDG (OAuth) — conexão via app da ZDG com coexistência, sem configuração de app próprio
-* Configurar App Próprio no Facebook Developers — para quem quer white-label ou isolamento de reputação
+* WhatsApp Oficial — App Prisma Telecom (OAuth) — conexão via app da Prisma Telecom com coexistência, sem configuração de app próprio
+* Configurar App Próprio no Facebook Developers — para quem quer plataforma de atendimento ou isolamento de reputação
 * Dialog360 — BSP e Gupshup — BSP — conexão via Business Solution Provider
 
 **WhatsApp não oficial**

@@ -10,7 +10,7 @@ Nesta página
 
 **Disponível para o perfil: Superadministrador**
 
-A seção **Score do App Tech Provider** avalia a saúde e a reputação dos seus números de WhatsApp Oficial (WABA) que estão conectados utilizando o **App compartilhado da ZDG** (login incorporado padrão). É um mecanismo de **proteção**: ele monitora a qualidade que a **própria Meta** atribui aos seus números e impede que números de baixa reputação coloquem em risco o aplicativo compartilhado — e, com ele, todos os demais clientes.
+A seção **Score do App Tech Provider** avalia a saúde e a reputação dos seus números de WhatsApp Oficial (WABA) que estão conectados utilizando o **App compartilhado da Prisma Telecom** (login incorporado padrão). É um mecanismo de **proteção**: ele monitora a qualidade que a **própria Meta** atribui aos seus números e impede que números de baixa reputação coloquem em risco o aplicativo compartilhado — e, com ele, todos os demais clientes.
 
 **O score é compartilhado por chave de licença.** Todas as suas instalações auto-hospedadas que utilizam a mesma licença visualizam o mesmo score e compartilham a mesma reputação. Isso **inclui os números que os seus clientes/tenants conectam** pelo App compartilhado sob a sua licença — eles também contam para o seu score.
 
@@ -113,7 +113,7 @@ Quando a licença entra em estado **crítico**, o bloqueio é aplicado automatic
 
 **Ninguém é bloqueado sem aviso.** Antes do bloqueio, você recebe alertas por e-mail (diários quando o score está crítico) com o score atual, o resumo dos números afetados e o prazo restante até o bloqueio.
 
-Em nível de número: quando um número conectado pelo App compartilhado fica **Vermelho**, ele é **desconectado** do nosso aplicativo (OAuth da ZDG) após um período, para preservar a reputação do App global. Uma vez desassociado, **aquele número não consegue mais se reconectar** usando o App compartilhado. E, se a sua operação acumular vários números vermelhos (score geral muito baixo), a licença perde a permissão de conectar **qualquer novo número** pelo nosso App.
+Em nível de número: quando um número conectado pelo App compartilhado fica **Vermelho**, ele é **desconectado** do nosso aplicativo (OAuth da Prisma Telecom) após um período, para preservar a reputação do App global. Uma vez desassociado, **aquele número não consegue mais se reconectar** usando o App compartilhado. E, se a sua operação acumular vários números vermelhos (score geral muito baixo), a licença perde a permissão de conectar **qualquer novo número** pelo nosso App.
 
 **Erro que aparece quando o número é desassociado**
 
@@ -143,13 +143,13 @@ Quando um ou mais canais são desassociados do App Tech Provider, um aviso apare
 
 ### **Como tirar um número do score e recuperar a pontuação**
 
-Um número só **deixa de pesar no score** quando é **desvinculado do App compartilhado da ZDG (Tech Provider)**. Enquanto ele permanecer vinculado ao nosso App, continua sendo avaliado — **mesmo que você já esteja enviando mensagens por outro caminho**.
+Um número só **deixa de pesar no score** quando é **desvinculado do App compartilhado da Prisma Telecom (Tech Provider)**. Enquanto ele permanecer vinculado ao nosso App, continua sendo avaliado — **mesmo que você já esteja enviando mensagens por outro caminho**.
 
 Para recuperar a pontuação: assim que um número ficar Amarelo ou Vermelho, remova-o do App compartilhado. Na **próxima checagem de score** — que acontece **pelo menos uma vez por dia** — aquele número deixa de ser considerado e a pontuação é **recalculada naturalmente**, devolvendo os pontos que ele estava descontando.
 
 **Atenção: "Alterar origem" não desvincula o número.**
 
-O botão **Alterar origem** muda apenas **por onde os webhooks da Meta são entregues** (proxy da ZDG × App Próprio). Ele **não** altera o vínculo de autenticação do número e, por isso, **não** o remove do score.
+O botão **Alterar origem** muda apenas **por onde os webhooks da Meta são entregues** (proxy da Prisma Telecom × App Próprio). Ele **não** altera o vínculo de autenticação do número e, por isso, **não** o remove do score.
 
 Para desvincular um número do nosso App de forma eficaz, você precisa de uma destas ações:
 
@@ -162,7 +162,7 @@ Excluir apenas o canal do Prismabot não remove a conexão do número com o App 
 
 Para números **banidos**, o fluxo correto é o botão **"Deletar canal banido"** (ícone de lixeira) em **Superadmin → Assinatura**: ele executa a sequência completa na ordem certa — desregistra na Meta → desassocia do BM → tira do score → remove o canal.
 
-Se você excluiu o canal manualmente sem seguir esse fluxo, será necessário desvincular o número do App compartilhado da ZDG diretamente na gestão do próprio número:
+Se você excluiu o canal manualmente sem seguir esse fluxo, será necessário desvincular o número do App compartilhado da Prisma Telecom diretamente na gestão do próprio número:
 
 * **Conexão via coexistência:** a desvinculação é feita no aplicativo **WhatsApp Business do celular** — siga os passos do vídeo abaixo.
 
@@ -174,7 +174,7 @@ Feita a desvinculação, aguarde a **próxima checagem de score** — acontece p
 
 ### **Depois de bloqueado: reabilitação**
 
-Uma vez bloqueada, a licença **não consegue mais conectar canais Meta pelo App compartilhado da ZDG**. **Não existe desbloqueio automático** — não adianta reinstalar, trocar de número ou reconectar.
+Uma vez bloqueada, a licença **não consegue mais conectar canais Meta pelo App compartilhado da Prisma Telecom**. **Não existe desbloqueio automático** — não adianta reinstalar, trocar de número ou reconectar.
 
 A reabilitação segue estas regras:
 
@@ -213,7 +213,7 @@ O desbloqueio de cortesia é avaliado caso a caso e não é garantido. Resolva o
 
 ### **Solução definitiva: App Próprio**
 
-Se a sua operação trabalha com nichos que geram muitas denúncias, ou você tem clientes que rotineiramente deixam os números em vermelho, **você não poderá continuar utilizando o App compartilhado da ZDG**. Nesse cenário, a orientação é criar a sua própria infraestrutura na Meta:
+Se a sua operação trabalha com nichos que geram muitas denúncias, ou você tem clientes que rotineiramente deixam os números em vermelho, **você não poderá continuar utilizando o App compartilhado da Prisma Telecom**. Nesse cenário, a orientação é criar a sua própria infraestrutura na Meta:
 
 * **Configurar App Próprio (Tornar-se Tech Provider)**: acesse o Facebook Developers, crie o seu próprio aplicativo, passe pelo processo de aprovação da Meta e configure as credenciais no painel Superadmin do Prismabot.
 * **Vantagem:** com o seu próprio App, a saúde (score) fica **isolada na sua própria Business Manager**, permitindo que você gerencie os números vermelhos dos seus clientes **sob a sua responsabilidade**, sem afetar o ecossistema global do Prismabot e sem risco de bloqueio coletivo.

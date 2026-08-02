@@ -65,7 +65,7 @@ Diferente de outras plataformas, a OLX **não possui um portal self-service** pa
 
 **Documentação oficial completa da OLX:** Para detalhes técnicos completos sobre o fluxo OAuth da OLX, consulte a documentação oficial em <https://developers.olx.com.br/anuncio/api/oauth.html>.
 
-**Quer usar um domínio próprio (whitelabel)?** Caso você queira utilizar um domínio próprio para o OAuth em vez do `oauth.techprovider.com.br`, configure-o **antes de enviar o e-mail para a OLX** em `/oauth-dominio` dentro do Prismabot, e informe seu domínio customizado como Redirect URI no lugar do padrão. Veja o artigo [Domínio OAuth Customizado](/configuracao-superadmin/canais-superadmin/dominio-oauth-customizado).
+**Quer usar um domínio próprio (plataforma de atendimento)?** Caso você queira utilizar um domínio próprio para o OAuth em vez do `oauth.techprovider.com.br`, configure-o **antes de enviar o e-mail para a OLX** em `/oauth-dominio` dentro do Prismabot, e informe seu domínio customizado como Redirect URI no lugar do padrão. Veja o artigo [Domínio OAuth Customizado](/configuracao-superadmin/canais-superadmin/dominio-oauth-customizado).
 
 ---
 
@@ -123,7 +123,7 @@ Preencha o formulário **Novo App OLX** com as informações recebidas por e-mai
 
 Clique em **Criar** para salvar a integração.
 
-**Quer usar um domínio próprio (whitelabel)?** Caso você queira utilizar um domínio próprio para o OAuth em vez do `oauth.techprovider.com.br`, configure-o previamente em `/oauth-dominio` dentro do Prismabot.
+**Quer usar um domínio próprio (plataforma de atendimento)?** Caso você queira utilizar um domínio próprio para o OAuth em vez do `oauth.techprovider.com.br`, configure-o previamente em `/oauth-dominio` dentro do Prismabot.
 
 Atenção: se você alterar o domínio OAuth, será necessário solicitar à OLX a **atualização do Redirect URI** cadastrado no app.
 

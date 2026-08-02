@@ -8,7 +8,7 @@ Nesta página
 
 Checklist para investigar o erro "PERMISSION CONNECTIONS LIMITED" na hora de se conectar ao tech provider
 
-Se ao conectar um número WhatsApp pela API Oficial (via App Techprovider/compartilhado da ZDG) você recebeu a tela de erro **"Erro na autenticação"** com o código `ERR_NO_PERMISSION_CONNECTIONS_LIMIT`, siga este checklist na ordem abaixo.
+Se ao conectar um número WhatsApp pela API Oficial (via App Techprovider/compartilhado da Prisma Telecom) você recebeu a tela de erro **"Erro na autenticação"** com o código `ERR_NO_PERMISSION_CONNECTIONS_LIMIT`, siga este checklist na ordem abaixo.
 
 ![](../.gitbook/assets/image_2f3a6dd4.png)
 
@@ -22,9 +22,9 @@ Esse erro aparece na etapa de autenticação OAuth, quando o Prismabot tenta con
 
 ---
 
-### Caso esteja usando o App Tech Provider ZDG: Verifique seu Score (causa mais comum no modo compartilhado)
+### Caso esteja usando o App Tech Provider Prisma Telecom: Verifique seu Score (causa mais comum no modo compartilhado)
 
-Quando uma licença acumula números de baixa reputação (amarelos/vermelhos) no App compartilhado da ZDG, ela **perde a permissão de conectar novos números** por esse App — o que gera exatamente um erro de "sem permissão" por limite de conexões.
+Quando uma licença acumula números de baixa reputação (amarelos/vermelhos) no App compartilhado da Prisma Telecom, ela **perde a permissão de conectar novos números** por esse App — o que gera exatamente um erro de "sem permissão" por limite de conexões.
 
 1. Acesse **Superadmin → Tenants e Licença → Gerenciar Licença → Score do App Tech Provider**.
 2. Verifique se a licença está com o **score baixo** (faixa "Alerta" ou "Crítico") ou se aparece algum aviso de **bloqueio de conexão de novos números**.
@@ -63,7 +63,7 @@ Se a licença está com o Score saudável e o erro persiste, confirme a configur
 
 **Causa:** gate de proteção do Score do App Tech Provider ativo. **Solução:** siga a Etapa 1 — limpar números ruins e desbloquear a licença antes de tentar conectar o número novo novamente.
 
-[AnteriorComo diagnosticar o erro "servidor temporariamente off-line"](/avancado-recursos-tecnicos/como-diagnosticar-o-erro-servidor-temporariamente-off-line)[PróximoComo liberar espaço em disco na VPS do Prismabot](/avancado-recursos-tecnicos/como-liberar-espaco-em-disco-na-vps-do-prismabot)
+[AnteriorComo diagnosticar o erro "servidor temporariamente off-line"](/avancado-recursos-tecnicos/como-diagnosticar-o-erro-servidor-temporariamente-off-line)[PróximoComo liberar espaço em disco na servidor em nuvem do Prismabot](/avancado-recursos-tecnicos/como-liberar-espaco-em-disco-na-servidor em nuvem-do-prismabot)
 
 Atualizado há 25 dias
 

@@ -12,7 +12,7 @@ A seção de **Configurações** reúne os ajustes globais da instância feitos 
 
 ---
 
-### [Customizar (White Label)](/configuracao-superadmin/configuracoes/customizar-white-label)
+### [Customizar (plataforma de atendimento)](/configuracao-superadmin/configuracoes/customizar-plataforma de atendimento)
 
 Personalização completa da identidade visual da plataforma. Permite aplicar logotipo, cores e nome de marca próprios em toda a interface — transformando o Prismabot em um produto com a identidade do assinante ou revendedor. Os tenants (clientes) visualizarão apenas a marca definida aqui.
 
@@ -28,7 +28,7 @@ Configuração do servidor de e-mail utilizado pela plataforma para envios trans
 
 Central de comunicados do Superadministrador para todos os usuários da plataforma. Permite enviar avisos, alertas e mensagens em tempo real, com monitoramento de entrega e leitura por usuário.
 
-[AnteriorArtigo: Usando o White-Label para Vários Clientes](/configuracao-superadmin/tenants-e-licenca/artigo-usando-o-white-label-para-varios-clientes)[PróximoCustomizar (White Label)](/configuracao-superadmin/configuracoes/customizar-white-label)
+[AnteriorArtigo: Usando o plataforma de atendimento para Vários Clientes](/configuracao-superadmin/tenants-e-licenca/artigo-usando-o-plataforma de atendimento-para-varios-clientes)[PróximoCustomizar (plataforma de atendimento)](/configuracao-superadmin/configuracoes/customizar-plataforma de atendimento)
 
 Atualizado há 29 dias
 

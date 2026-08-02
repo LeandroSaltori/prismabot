@@ -35,7 +35,7 @@ Ferramenta de comunicação interna entre agentes e equipes sem sair da platafor
 
 ---
 
-### [Contatos](https://ajuda.zdg.com.br/)
+### [Contatos](https://prismatelecomservicos.com/)
 
 Diretório central de clientes da plataforma, que funciona como um CRM integrado. Permite criar, importar, segmentar e gerenciar toda a base de contatos por etiquetas, carteiras e campos personalizados — e iniciar atendimentos diretamente a partir da lista.
 

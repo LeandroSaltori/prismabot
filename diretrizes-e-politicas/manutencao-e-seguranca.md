@@ -8,7 +8,7 @@ Nesta página
 
 Ações obrigatórias após a instalação: alterar credenciais padrão, configurar firewall, criar rotina de backups e manter o servidor atualizado.
 
-O Prismabot é um software **self-hosted**: a ZDG entrega a licença e o instalador; você hospeda e opera o sistema na própria VPS. Isso significa que a segurança e a manutenção do ambiente são de sua responsabilidade após a instalação.
+O Prismabot é um software **gerenciado em nuvem**: A Prisma Telecom gerencia toda a infraestrutura e entrega o Prismabot pronto para uso em nuvem. Isso significa que a segurança e a manutenção do ambiente são de sua responsabilidade após a instalação.
 
 Esta página reúne as ações que você precisa executar para manter sua instância segura e atualizada.
 
@@ -60,7 +60,7 @@ Configuração do PostgreSQL/Redis
 
 **Senha do usuário de deploy** (`deployzdg`)
 
-Terminal da VPS
+Terminal da servidor em nuvem
 
 Não colocar o sistema em produção sem alterar essas credenciais. Instâncias com valores padrão são vulneráveis a acessos não autorizados.
 
@@ -68,7 +68,7 @@ Não colocar o sistema em produção sem alterar essas credenciais. Instâncias 
 
 #### Firewall
 
-Mantenha um firewall ativo na VPS. As únicas portas que precisam estar abertas para o funcionamento do Prismabot são:
+Mantenha um firewall ativo na servidor em nuvem. As únicas portas que precisam estar abertas para o funcionamento do Prismabot são:
 
 Porta
 
@@ -80,7 +80,7 @@ Uso
 
 TCP
 
-Acesso SSH à VPS
+Acesso SSH à servidor em nuvem
 
 `80`
 
@@ -106,13 +106,13 @@ Além das configurações acima, execute periodicamente:
 * Revisão de logs de acesso SSH
 * Monitoramento de uso de CPU e RAM
 
-O suporte técnico da ZDG **não cobre** configuração, gestão ou segurança do servidor. Consulte o escopo completo em [Política de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico).
+O suporte técnico da Prisma Telecom **não cobre** configuração, gestão ou segurança do servidor. Consulte o escopo completo em [Política de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico).
 
 ---
 
 ### Backups
 
-A criação e a gestão de rotinas de backup são de **inteira responsabilidade do assinante**. A ZDG não tem acesso ao banco de dados instalado na sua VPS e não realiza backups remotos.
+A criação e a gestão de rotinas de backup são de **inteira responsabilidade do assinante**. A Prisma Telecom não tem acesso ao banco de dados instalado na nuvem e não realiza backups remotos.
 
 Configure uma rotina de backup automático que cubra:
 
@@ -120,17 +120,17 @@ Configure uma rotina de backup automático que cubra:
 * Arquivos de mídia armazenados pelo sistema
 * Arquivo `.env` de configuração
 
-Sem backup, a perda de dados por falha de hardware ou erro operacional é irreversível. Considere replicar os backups para um storage externo à VPS.
+Sem backup, a perda de dados por falha de hardware ou erro operacional é irreversível. Considere replicar os backups para um storage externo à servidor em nuvem.
 
 ---
 
 ### Responsabilidades e documentos relacionados
 
-Para entender o que é responsabilidade da ZDG e o que é responsabilidade do assinante em detalhe:
+Para entender o que é responsabilidade da Prisma Telecom e o que é responsabilidade do assinante em detalhe:
 
-* [Termos e Condições de Uso e Licenciamento](https://ajuda.zdg.com.br/) — cláusulas 8 (obrigações e responsabilidades) e 10 (privacidade e proteção de dados)
+* [Termos e Condições de Uso e Licenciamento](https://prismatelecomservicos.com/) — cláusulas 8 (obrigações e responsabilidades) e 10 (privacidade e proteção de dados)
 * [Política de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico) — o que está e o que não está incluso no suporte
-* [Aviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade) — como os dados são tratados no modelo self-hosted
+* [Aviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade) — como os dados são tratados no modelo gerenciado em nuvem
 
 [AnteriorAviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)[PróximoAPI Oficial vs API Não Oficial](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
 

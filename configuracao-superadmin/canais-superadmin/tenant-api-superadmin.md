@@ -94,8 +94,8 @@ Ao expandir qualquer uma das rotas na interface, o Prismabot exibe o exemplo exa
 
 #### Tópicos Relacionados
 
-* [Gerenciamento de Tenants](https://ajuda.zdg.com.br/configuracao-superadmin/tenants-e-licenca/gestao-de-clientes-tenants)
-* [Configuração de Planos e Trial](https://ajuda.zdg.com.br/configuracao-superadmin/tenants-e-licenca/planos-e-trial)
+* [Gerenciamento de Tenants](https://prismatelecomservicos.com/)
+* [Configuração de Planos e Trial](https://prismatelecomservicos.com/)
 
 [AnteriorCanais Superadmin](/configuracao-superadmin/canais-superadmin)[PróximoCanais Superadmin (Sessões dos Tenants)](/configuracao-superadmin/canais-superadmin/canais-superadmin-sessoes-dos-tenants)
 

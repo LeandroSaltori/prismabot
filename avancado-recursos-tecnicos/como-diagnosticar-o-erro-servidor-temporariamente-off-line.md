@@ -12,14 +12,14 @@ Se o seu Prismabot parou de carregar (tela branca, erro de conexão ou "servidor
 
 **Pré-requisitos:**
 
-* Acesso **SSH** à sua VPS (usuário e senha, ou chave — o mesmo acesso usado na instalação).
+* Acesso **SSH** à nuvem (usuário e senha, ou chave — o mesmo acesso usado na instalação).
 * Um terminal para conectar: PuTTY (Windows), o Terminal do Mac/Linux, ou o terminal web da sua hospedagem (ex: Hostinger).
 
 ---
 
 ### Como funciona
 
-O Prismabot roda como um processo (`backend`) gerenciado pelo **PM2** dentro do usuário `deployzdg` da sua VPS. Quando o sistema "cai", quase sempre é esse processo que parou, travou ou entrou em loop de reinício — não é preciso reinstalar nada para descobrir o motivo.
+O Prismabot roda como um processo (`backend`) gerenciado pelo **PM2** dentro do usuário `deployzdg` da nuvem. Quando o sistema "cai", quase sempre é esse processo que parou, travou ou entrou em loop de reinício — não é preciso reinstalar nada para descobrir o motivo.
 
 **Atenção:** os comandos abaixo apenas **consultam** o estado do servidor — nenhum deles apaga dados ou arquivos. Pode seguir o checklist com tranquilidade.
 
@@ -27,7 +27,7 @@ O Prismabot roda como um processo (`backend`) gerenciado pelo **PM2** dentro do 
 
 ### Etapa 1: Acesse o terminal e o usuário do sistema
 
-1. Conecte na sua VPS via SSH (ou abra o terminal web da hospedagem).
+1. Conecte na nuvem via SSH (ou abra o terminal web da hospedagem).
 2. Entre no usuário `deployzdg` — é obrigatório, as aplicações rodam dentro dele:
 
 Copiar
@@ -76,7 +76,7 @@ Antes de olhar logs, confira o estado do disco do seu servidor.
 
 Alguma partição perto de **100% em "Use%"**? (erro `disk_full` / `53100` no log do Postgres)
 
-**Causa:** a VPS ficou sem espaço em disco — quase sempre logs do PM2, cache ou mídias acumuladas.
+**Causa:** a servidor em nuvem ficou sem espaço em disco — quase sempre logs do PM2, cache ou mídias acumuladas.
 
 **Solução:**
 

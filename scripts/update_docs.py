@@ -14,15 +14,40 @@ os.makedirs(ASSETS_DIR, exist_ok=True)
 def rebrand(text):
     if not text:
         return ""
-    text = re.sub(r'\bZ-PRO\b', 'Prismabot', text, flags=re.IGNORECASE)
-    text = re.sub(r'\bZPRO\b', 'Prismabot', text, flags=re.IGNORECASE)
-    text = re.sub(r'\bZ PRO\b', 'Prismabot', text, flags=re.IGNORECASE)
-    text = re.sub(r'\bZDG\b', 'Prisma Telecom', text, flags=re.IGNORECASE)
+    # Self-Hosted / Infrastructure -> Cloud Managed
+    text = re.sub(r'self-hosted|selfhosted|auto-hospedado|auto hospedado', 'gerenciado em nuvem', text, flags=re.IGNORECASE)
+    text = re.sub(r'a ZDG entrega a licença e o instalador;? você hospeda e opera o sistema na própria VPS\.?', 'A Prisma Telecom gerencia toda a infraestrutura e entrega o Prismabot pronto para uso em nuvem.', text, flags=re.IGNORECASE)
+    text = re.sub(r'roda o Software na própria infraestrutura \(VPS\)', 'acessa a plataforma operada em nuvem pela Prisma Telecom', text, flags=re.IGNORECASE)
+    text = re.sub(r'modelo self-hosted', 'modelo de plataforma gerenciada', text, flags=re.IGNORECASE)
+    text = re.sub(r'na própria VPS', 'na nuvem', text, flags=re.IGNORECASE)
+    text = re.sub(r'VPS do Cliente', 'plataforma em nuvem', text, flags=re.IGNORECASE)
+    text = re.sub(r'sua VPS', 'nuvem', text, flags=re.IGNORECASE)
+    text = re.sub(r'VPS', 'servidor em nuvem', text, flags=re.IGNORECASE)
+
+    # Whitelabel / Revenda -> Cliente Final
+    text = re.sub(r'revendas que oferecem o sistema como SaaS para seus clientes', 'empresas e clientes finais que buscam otimizar seu atendimento', text, flags=re.IGNORECASE)
+    text = re.sub(r'para revendas', 'para clientes finais', text, flags=re.IGNORECASE)
+    text = re.sub(r'white-label|whitelabel|white label', 'plataforma de atendimento', text, flags=re.IGNORECASE)
+    text = re.sub(r'\brevenda\b|\brevendas\b', 'cliente final', text, flags=re.IGNORECASE)
+
+    # ZDG / ZPRO / Support Links -> Prisma Telecom
+    text = re.sub(r'https?://portal\.zdg\.com\.br[^\s\)]*', 'https://prismatelecomservicos.com/', text)
+    text = re.sub(r'https?://suporte\.zdg\.com\.br[^\s\)]*', 'https://prismatelecomservicos.com/', text)
+    text = re.sub(r'https?://t\.me/\+[^\s\)]*', 'https://prismatelecomservicos.com/', text)
+    text = re.sub(r'https?://roadmap\.zdg\.com\.br[^\s\)]*', 'https://prismatelecomservicos.com/', text)
+    text = re.sub(r'https?://ajuda\.zdg\.com\.br[^\s\)]*', 'https://prismatelecomservicos.com/', text)
+    text = re.sub(r'https?://www\.hostinger\.com/zdg[^\s\)]*', 'https://prismatelecomservicos.com/', text)
+    text = re.sub(r'privacidade@zdg\.com\.br', 'contato@prismatelecomservicos.com', text)
+    text = re.sub(r'BIANCA SANT ANA PEREIRA & CIA LTDA', 'Prisma Telecom', text)
+    text = re.sub(r'\bZDG\b', 'Prisma Telecom', text)
+    text = re.sub(r'\bZPRO\b|\bZ-PRO\b|\bZ PRO\b', 'Prismabot', text)
+
     return text
 
 def is_ignored_path(href):
     lowered = href.lower()
-    if 'superadmin' in lowered or 'tenant' in lowered or 'licenca' in lowered:
+    ignored_keywords = ['superadmin', 'tenant', 'licenca', 'banco-de-dados', 'infraestrutura', 'liberar-espaco', 'instalar-prismabot']
+    if any(k in lowered for k in ignored_keywords):
         return True
     return False
 

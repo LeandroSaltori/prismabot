@@ -8,9 +8,9 @@ Nesta página
 
 Este é o painel de administração de mais alto nível, projetado para o gerenciamento centralizado de toda a instância da plataforma Prismabot.
 
-O **Painel Superadmin** é a área administrativa de mais alto nível do Prismabot. É aqui que o dono da instalação gerencia a infraestrutura, as licenças, a personalização white-label, os tenants (empresas clientes) e as conexões globais que alimentam toda a plataforma.
+O **Painel Superadmin** é a área administrativa de mais alto nível do Prismabot. É aqui que o dono da instalação gerencia a infraestrutura, as licenças, a personalização plataforma de atendimento, os tenants (empresas clientes) e as conexões globais que alimentam toda a plataforma.
 
-Este painel é exclusivo para o **dono da instalação** (dono da VPS ou do SaaS). Não deve ser confundido com o painel de atendimento nem com o painel Admin de cada tenant.
+Este painel é exclusivo para o **dono da instalação** (dono da servidor em nuvem ou do SaaS). Não deve ser confundido com o painel de atendimento nem com o painel Admin de cada tenant.
 
 ---
 
@@ -31,7 +31,7 @@ O coração do seu SaaS. Aqui você valida a licença Prismabot, cria e gerencia
 
 Identidade visual e configurações globais do servidor — afetam todos os tenants da instância.
 
-* **Customizar (White Label)** — nome, cor, logo e domínio da plataforma
+* **Customizar (plataforma de atendimento)** — nome, cor, logo e domínio da plataforma
 * **E-mail SMTP** — servidor de e-mail para envios transacionais do sistema
 * **Notificações Internas** — alertas e notificações globais da plataforma
 * **Apps Google** — credenciais do Google para integrações que dependem de OAuth

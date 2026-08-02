@@ -142,7 +142,7 @@ O token gerado pelo painel do desenvolvedor é temporário e expira em 24 horas.
 
 Com tudo pronto no ambiente da Meta, o passo final é configurar a conexão dentro do Prismabot.
 
-Vídeo detalhado na nossa área de membros: <https://portal.zdg.com.br/270021-sistema-prismabot/5179477-conectar-api-oficial>
+Vídeo detalhado na nossa área de membros: <https://prismatelecomservicos.com/
 
 1. **Conecte o Canal no Prismabot (Para Enviar Mensagens):**
 
@@ -180,9 +180,9 @@ Com os webhooks ativos, sua plataforma está pronta para enviar e receber mensag
 
 Os erros `AxiosError` do tipo **"ETIMEDOUT"** registrados no log indicam que a comunicação com o servidor da Meta (Webhook) está sofrendo atraso de resposta — geralmente causado por alta latência de rede.
 
-Isso ocorre quando o ping entre sua VPS e o domínio `graph.facebook.com` ultrapassa 40 ms, resultando em falhas do tipo TIMEDOUT nas requisições.
+Isso ocorre quando o ping entre nuvem e o domínio `graph.facebook.com` ultrapassa 40 ms, resultando em falhas do tipo TIMEDOUT nas requisições.
 
-Para prevenir esse problema, é importante definir uma rota pública estável em sua VPS. Se você utiliza a **Hostinger**, por exemplo, o caminho é:
+Para prevenir esse problema, é importante definir uma rota pública estável em nuvem. Se você utiliza a **Hostinger**, por exemplo, o caminho é:
 
 1. Acesse o painel da Hostinger.
 2. Vá até **Configurações → Rede → DNS**.
@@ -191,7 +191,7 @@ Para prevenir esse problema, é importante definir uma rota pública estável em
    * `1.1.1.1` (Cloudflare)
    * `8.8.8.8` (Google)
 
-Essas configurações ajudam a garantir uma rota mais direta e estável entre a VPS e a infraestrutura da Meta, reduzindo atrasos e eliminando o erro de timeout nos logs.
+Essas configurações ajudam a garantir uma rota mais direta e estável entre a servidor em nuvem e a infraestrutura da Meta, reduzindo atrasos e eliminando o erro de timeout nos logs.
 
 ![](../../../.gitbook/assets/image_2d7162c1.png)
 
@@ -199,25 +199,25 @@ Essas configurações ajudam a garantir uma rota mais direta e estável entre a 
 
 **Guia Verificação do app (tech provider)**
 
-[![Logo](../../../.gitbook/assets/image_facdd2e9.png)Como Aprovar Seu App Da Meta (Passo A Passo) - Comunidade ZDGComunidade ZDG](https://comunidade.zdg.com.br/geral/app-meta-aprovar/)
+[![Logo](../../../.gitbook/assets/image_facdd2e9.png)Como Aprovar Seu App Da Meta (Passo A Passo) - Comunidade ZDGComunidade Prisma Telecom](https://comunidade.zdg.com.br/geral/app-meta-aprovar/)
 
-[![Logo](../../../.gitbook/assets/image_5901cf53.png)Coexistência WhatsApp + Cadastro Incorporado: Tutorial DEFINITIVO! - Comunidade ZDGComunidade ZDG](https://comunidade.zdg.com.br/geral/coexistence-whatsapp/)
+[![Logo](../../../.gitbook/assets/image_5901cf53.png)Coexistência WhatsApp + Cadastro Incorporado: Tutorial DEFINITIVO! - Comunidade ZDGComunidade Prisma Telecom](https://comunidade.zdg.com.br/geral/coexistence-whatsapp/)
 
 **Guia Configuração coexistência:**
 
-[https://ajuda.zdg.com.br/api-oficial-waba/api-oficial-cadastro-incorporado-e-coexistencia-waba-betaajuda.zdg.com.br](https://ajuda.zdg.com.br/api-oficial-waba/api-oficial-cadastro-incorporado-e-coexistencia-waba-beta)
+[https://prismatelecomservicos.com/)
 
 **Configuração login incorporado:**
 
-[https://ajuda.zdg.com.br/configuracao-superadmin/canais-e-integracoes-superadmin/facebook-login-incorporado-waba-insta-messengerajuda.zdg.com.br](https://ajuda.zdg.com.br/configuracao-superadmin/canais-e-integracoes-superadmin/facebook-login-incorporado-waba-insta-messenger)
+[https://prismatelecomservicos.com/)
 
 **Configuração instagram nativo:**
 
-[https://ajuda.zdg.com.br/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/facebook-e-instagram-nativo/canal-instagram-nativo-betaajuda.zdg.com.br](https://ajuda.zdg.com.br/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/facebook-e-instagram-nativo/canal-instagram-nativo-beta)
+[https://prismatelecomservicos.com/)
 
 **Configuração facebook messenger nativo:**
 
-[https://ajuda.zdg.com.br/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/facebook-e-instagram-nativo/canal-facebook-messenger-nativo-betaajuda.zdg.com.br](https://ajuda.zdg.com.br/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/facebook-e-instagram-nativo/canal-facebook-messenger-nativo-beta)
+[https://prismatelecomservicos.com/)
 
 **Guia da Meta para configuração do login incorporado:**
 <https://developers.facebook.com/docs/facebook-login/facebook-login-for-business/>**Guia da Meta para configuração da coexistência:**

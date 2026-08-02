@@ -26,9 +26,9 @@ Passo a passo para atualizar sua instalação com segurança — seja pelo méto
 
 ---
 
-Acompanhe nosso Roadmap público: <https://roadmap.zdg.com.br/>
+Acompanhe nosso Roadmap público: <https://prismatelecomservicos.com/
 
-Acompanhe nosso canal de avisos do Telegram: <https://t.me/+mzRfVk-Qe7VlZDIx>
+Acompanhe nosso canal de avisos do Telegram: <https://prismatelecomservicos.com/
 
 [AnteriorCobranças da Meta (WhatsApp Business Platform)](/api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform)[PróximoChangelog (4.0.x última versão)](/central-do-assinante/atualizacoes-e-status-do-prismabot/changelog-4.0.x-ultima-versao)
 

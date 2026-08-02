@@ -6,11 +6,11 @@ Nesta página
 
 # Pré-requisitos de instalação e utilização
 
-Especificações mínimas de VPS, sistema operacional (Ubuntu), RAM, vCPU, domínio e navegador para instalar e usar o Prismabot.
+Especificações mínimas de servidor em nuvem, sistema operacional (Ubuntu), RAM, vCPU, domínio e navegador para instalar e usar o Prismabot.
 
-### Requisitos do Servidor (VPS)
+### Requisitos do Servidor (servidor em nuvem)
 
-A VPS onde o sistema será instalado deve atender às seguintes especificações mínimas:
+A servidor em nuvem onde o sistema será instalado deve atender às seguintes especificações mínimas:
 
 Recurso
 
@@ -40,12 +40,12 @@ O pleno funcionamento do sistema está condicionado ao atendimento dessas especi
 
 Recomendamos datacenter brasileiro para garantir baixa latência e melhor experiência para os usuários.
 
-#### Provedores de VPS recomendados
+#### Provedores de servidor em nuvem recomendados
 
 **Brasil:**
 
-* [Hostinger](https://www.hostinger.com/zdg)
-* [HostGator](https://www.hostgator.com.br/servidor-vps)
+* [Hostinger](https://prismatelecomservicos.com/)
+* [HostGator](https://www.hostgator.com.br/servidor-servidor em nuvem)
 
 **Internacional (avalie a latência antes de contratar):**
 
@@ -56,7 +56,7 @@ Recomendamos datacenter brasileiro para garantir baixa latência e melhor experi
 
 #### Registro de domínio
 
-O Prismabot utiliza dois subdomínios (front-end e back-end) apontados para o IP da VPS. Para registrar um domínio `.com.br`, acesse [registro.br](https://registro.br/).
+O Prismabot utiliza dois subdomínios (front-end e back-end) apontados para o IP da servidor em nuvem. Para registrar um domínio `.com.br`, acesse [registro.br](https://registro.br/).
 
 ---
 
@@ -86,7 +86,7 @@ até 1 GB
 
 100 a 150 MB
 
-Esses valores são uma projeção média e podem variar conforme a intensidade de uso. Monitore o consumo do servidor à medida que a operação cresce — alta utilização de RAM/CPU indica que é hora de fazer upgrade no plano de VPS.
+Esses valores são uma projeção média e podem variar conforme a intensidade de uso. Monitore o consumo do servidor à medida que a operação cresce — alta utilização de RAM/CPU indica que é hora de fazer upgrade no plano de servidor em nuvem.
 
 ---
 

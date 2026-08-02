@@ -13,8 +13,8 @@ O código do frontend do Prismabot é aberto e permite customizações para adeq
 **AVISO: CONHECIMENTO TÉCNICO NECESSÁRIO**
 
 * As alterações descritas nesta documentação exigem conhecimento técnico em desenvolvimento **Vue.js** e administração de servidores Linux.
-* Antes de iniciar **qualquer** procedimento, crie um **ponto de restauração (snapshot)** completo do seu servidor VPS. Alterações incorretas podem comprometer o funcionamento da sua plataforma.
-* Todas as alterações devem ser feitas logado na VPS com o usuário `deployzdg`. **Não realize os procedimentos se estiver logado como** `root`.
+* Antes de iniciar **qualquer** procedimento, crie um **ponto de restauração (snapshot)** completo do seu servidor servidor em nuvem. Alterações incorretas podem comprometer o funcionamento da sua plataforma.
+* Todas as alterações devem ser feitas logado na servidor em nuvem com o usuário `deployzdg`. **Não realize os procedimentos se estiver logado como** `root`.
 * O Prismabot não se responsabilza com alterações no frontend e suporte para essas personalizações.
 
 ### Procedimento Obrigatório Após Alterações
@@ -93,7 +93,7 @@ Como mencionado, a customização do frontend requer a ajuda de um desenvolvedor
 
 Se precisar de indicações, temos uma lista de profissionais e parceiros externos que podem te auxiliar. Para isso, por favor, abra um chamado no departamento **"Preciso de indicação de profissional para manutenção e desenvolvimento"**.
 
-[AnteriorComo liberar espaço em disco na VPS do Prismabot](/avancado-recursos-tecnicos/como-liberar-espaco-em-disco-na-vps-do-prismabot)[PróximoIntegrando o chat GPT](/avancado-recursos-tecnicos/integrando-o-chat-gpt)
+[AnteriorComo liberar espaço em disco na servidor em nuvem do Prismabot](/avancado-recursos-tecnicos/como-liberar-espaco-em-disco-na-servidor em nuvem-do-prismabot)[PróximoIntegrando o chat GPT](/avancado-recursos-tecnicos/integrando-o-chat-gpt)
 
 Atualizado há 5 meses
 

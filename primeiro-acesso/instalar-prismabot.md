@@ -6,7 +6,7 @@ Nesta página
 
 # Instalar Prismabot
 
-Guia de instalação do Prismabot: auto-instalação via script ou agendamento com a equipe técnica da ZDG.
+Guia de instalação do Prismabot: auto-instalação via script ou agendamento com a equipe técnica da Prisma Telecom.
 
 Esta seção cobre as três etapas necessárias para colocar uma nova instância do Prismabot em operação: preparar o ambiente de servidor, executar a instalação e ativar a licença.
 
@@ -14,13 +14,13 @@ Esta seção cobre as três etapas necessárias para colocar uma nova instância
 
 ### [1. Preparar Ambiente](/primeiro-acesso/instalar-prismabot/1.-preparar-ambiente)
 
-Antes de instalar, é necessário ter um servidor VPS contratado e dois subdomínios apontados para o IP da VPS. Esta página detalha os requisitos mínimos de hardware (RAM, vCPU, armazenamento), provedores recomendados e o passo a passo de configuração do DNS.
+Antes de instalar, é necessário ter um servidor servidor em nuvem contratado e dois subdomínios apontados para o IP da servidor em nuvem. Esta página detalha os requisitos mínimos de hardware (RAM, vCPU, armazenamento), provedores recomendados e o passo a passo de configuração do DNS.
 
 ---
 
 ### [2. Processo de Instalação Prismabot](/primeiro-acesso/instalar-prismabot/2.-instalacao-automatica)
 
-Com o ambiente pronto, a instalação pode ser feita de duas formas: agendamento com a equipe técnica da ZDG ou auto-instalação via script. Esta página explica as duas opções e o passo a passo de cada uma.
+Com o ambiente pronto, a instalação pode ser feita de duas formas: agendamento com a equipe técnica da Prisma Telecom ou auto-instalação via script. Esta página explica as duas opções e o passo a passo de cada uma.
 
 ---
 

@@ -8,7 +8,7 @@ Documentação oficial do Prismabot: tutoriais, configurações, canais, automa�
 
 ![](./.gitbook/assets/image_1e8353f7.png)
 
-O **Prismabot** é uma plataforma de atendimento e automação omnichannel — WhatsApp, Instagram, Messenger e mais — instalada no seu próprio servidor, no modelo White Label. Ideal para agências, empresas de software e empreendedores que querem oferecer atendimento profissional com a própria marca.
+O **Prismabot** é uma plataforma de atendimento e automação omnichannel — WhatsApp, Instagram, Messenger e mais — instalada no seu próprio servidor, no modelo plataforma de atendimento. Ideal para agências, empresas de software e empreendedores que querem oferecer atendimento profissional com a própria marca.
 
 ---
 

@@ -41,7 +41,7 @@ Contém correções e melhorias lançadas nos últimos dias. Mais recente que a 
 
 Os pacotes de download estão disponíveis na área de membros:
 
-[**Portal do assinante → Módulo de Instalação**](https://portal.zdg.com.br/)
+[**Portal do assinante → Módulo de Instalação**](https://prismatelecomservicos.com/)
 
 O pacote de instalação/atualização (`prismabot_passaporte_shell`) é de uso exclusivo do assinante. É proibido compartilhá-lo em grupos ou com terceiros.
 
@@ -51,7 +51,7 @@ O pacote de instalação/atualização (`prismabot_passaporte_shell`) é de uso 
 
 **Faça um snapshot do servidor antes de continuar.**
 
-Acesse o painel do seu provedor de VPS e crie um snapshot completo do servidor. Essa é a única garantia de reverter o sistema ao estado anterior em caso de falha durante a atualização. Não prossiga sem um backup recente.
+Acesse o painel do seu provedor de servidor em nuvem e crie um snapshot completo do servidor. Essa é a única garantia de reverter o sistema ao estado anterior em caso de falha durante a atualização. Não prossiga sem um backup recente.
 
 ---
 
@@ -59,7 +59,7 @@ Acesse o painel do seu provedor de VPS e crie um snapshot completo do servidor. 
 
 Recomendado para a maioria das instalações. Um script cuida de todo o processo automaticamente.
 
-O vídeo completo desta aula está disponível no [portal do assinante](https://portal.zdg.com.br/270021-sistema-prismabot/5179468-atualizacao-automatica-via-terminal).
+O vídeo completo desta aula está disponível no [portal do assinante](https://prismatelecomservicos.com/).
 
 #### Pré-requisitos
 
@@ -88,7 +88,7 @@ Para usuários com instalações customizadas ou que realizaram a instalação c
 
 **Faça o snapshot antes de iniciar** (ver Passo 1). A atualização manual envolve substituição de arquivos e alterações no banco de dados — sem backup, não há como reverter em caso de erro.
 
-O vídeo completo desta aula está disponível no [portal do assinante](https://portal.zdg.com.br/270021-sistema-prismabot/5179469-atualizacao-manual-via-terminal-v4).
+O vídeo completo desta aula está disponível no [portal do assinante](https://prismatelecomservicos.com/).
 
 #### Passo 2 — Acesso e preparação do ambiente
 
@@ -111,7 +111,7 @@ Acesse o servidor via SSH com o usuário da aplicação (geralmente `deployzdg`)
 
 #### Passo 5 — Build do frontend
 
-O `npm run build` exige processamento intenso. Verifique se a VPS tem RAM e swap adequados — memória insuficiente pode interromper o build por travamento.
+O `npm run build` exige processamento intenso. Verifique se a servidor em nuvem tem RAM e swap adequados — memória insuficiente pode interromper o build por travamento.
 
 #### Passo 6 — Atualização dos serviços no PM2
 

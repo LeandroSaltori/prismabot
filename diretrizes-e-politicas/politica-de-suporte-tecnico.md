@@ -10,7 +10,7 @@ O que está incluso no suporte Prismabot: canais de atendimento, horários, SLA,
 
 ### Canais de Atendimento
 
-O único canal oficial para solicitação de suporte técnico é o nosso portal de tickets: [https://suporte.zdg.com.br](https://suporte.zdg.com.br/)
+O único canal oficial para solicitação de suporte técnico é o nosso portal de tickets: [https://prismatelecomservicos.com/)
 
 ### Horário de Atendimento
 
@@ -34,7 +34,7 @@ Para garantir o foco e a qualidade do nosso atendimento, os seguintes itens não
 
 **Infraestrutura e servidor**
 
-* Configuração, gestão, manutenção ou segurança do servidor (VPS) do cliente.
+* Configuração, gestão, manutenção ou segurança do servidor (servidor em nuvem) do cliente.
 * Instalação do Prismabot via Docker ou ambientes containerizados.
 * Migração de banco de dados entre servidores ou versões.
 * Configuração de storage externo.

@@ -1,3 +1,9 @@
+Copiar
+
+Nesta página
+
+1. [Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes)
+
 # Visão geral - Ferramentas Adicionais e Integrações
 
 Esta seção agrupa um conjunto de ferramentas e funcionalidades que expandem as capacidades do Prismabot para além do atendimento convencional por texto.
@@ -10,7 +16,7 @@ Aqui você encontrará canais de comunicação alternativos como a telefonia (Wa
 
 *Esta documentação explica como integrar uma conta Wavoip à plataforma para visualizar o histórico de todas as chamadas de voz feitas ou recebidas através do seu número.*
 
-[**Notificações do Aplicativo (Web Push)**](notificacoes-aplicativo-web-push.md)
+[**Notificações do Aplicativo (Web Push)**](/ferramentas-adicionais-e-integracoes/notificacoes-aplicativo-web-push)
 
 *Aprenda a ativar e gerenciar as notificações push para o aplicativo Prismabot. Este recurso envia alertas diretamente para o navegador ou dispositivo do atendente, informando sobre novas mensagens e outras atividades.*
 
@@ -18,6 +24,8 @@ Aqui você encontrará canais de comunicação alternativos como a telefonia (Wa
 
 *Guia para desenvolvedores sobre como utilizar a API do Prismabot. A API permite que você integre a plataforma a sistemas externos, possibilitando ações como enviar mensagens ou buscar informações de atendimentos de forma programática.*
 
+[AnteriorConta - Meu perfil](/ferramentas-do-atendimento/conta-meu-perfil)[PróximoLigações no Prismabot (Telefonia e Voz)](/ferramentas-adicionais-e-integracoes/ligacoes-no-z-pro-telefonia-e-voz)
 
+Atualizado há 1 ano
 
- 1 ano
+Isto foi útil?

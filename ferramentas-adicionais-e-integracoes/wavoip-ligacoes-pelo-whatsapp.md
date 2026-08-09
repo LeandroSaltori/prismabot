@@ -1,3 +1,9 @@
+Copiar
+
+Nesta página
+
+1. [Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes)
+
 # Wavoip - Ligações pelo WhatsApp
 
 O Prismabot possui integração nativa com o **WaVoIP**, plataforma de voz sobre IP que permite realizar e receber **ligações pelo WhatsApp** diretamente pelo painel, sem precisar de telefonia convencional.
@@ -34,7 +40,7 @@ A criação de conta no WaVoIP é **gratuita** e inclui dispositivos de teste pa
 
 A conexão com o WaVoIP é feita diretamente pelo frontend do Prismabot, sem necessidade de acessar as configurações de canal individualmente.
 
-1. Acesse [**Gestão Comercial → WaVoIP**](../configuracao-administrador/gestao-comercial/analises-e-registros/wavoip.md) no menu lateral
+1. Acesse [**Gestão Comercial → WaVoIP**](/configuracao-administrador/gestao-comercial/analises-e-registros/wavoip) no menu lateral
 2. Clique em **Conectar** ou **Adicionar dispositivo**
 3. O sistema exibirá um **QR Code** — leia-o diretamente pela interface do WaVoIP
 4. Informe o **hash** gerado para concluir a vinculação
@@ -69,7 +75,7 @@ No softphone você pode:
 
 ---
 
-### [Disparo de ligações em massa](../ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-wavoip.md)
+### [Disparo de ligações em massa](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-wavoip)
 
 É possível realizar disparos em lote utilizando um arquivo de áudio pré-gravado.
 
@@ -107,7 +113,7 @@ Ligações em massa para contatos que nunca interagiram com o número aumentam o
 
 ---
 
-### [Painel de métricas (Gestão Comercial → WaVoIP)](../configuracao-administrador/gestao-comercial/analises-e-registros/wavoip.md)
+### [Painel de métricas (Gestão Comercial → WaVoIP)](/configuracao-administrador/gestao-comercial/analises-e-registros/wavoip)
 
 Acesse **Gestão Comercial → WaVoIP** para acompanhar todas as atividades de ligação da sua operação.
 
@@ -180,6 +186,8 @@ deve ser tratado diretamente com o suporte da WaVoIP em [**wavoip.com**](https:/
 
 ---
 
+[AnteriorNotificações Aplicativo (web push)](/ferramentas-adicionais-e-integracoes/notificacoes-aplicativo-web-push)[PróximoBanco de dados - Como acessar](/avancado-recursos-tecnicos/banco-de-dados-como-acessar)
 
+Atualizado há 1 mês
 
- 1 mês
+Isto foi útil?

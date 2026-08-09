@@ -1,27 +1,34 @@
-# Notificações Aplicativo (web push)
+Copiar
 
-## Notificações Aplicativo (web push)
+Nesta página
+
+1. [Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes)
+
+# Notificações Aplicativo (web push)
 
 Como adicionar o Prismabot como App na tela inicial do celular e acionar o WebPush
 
-**O Aplicativo Prismabot** O Prismabot utiliza a moderna tecnologia PWA (Progressive Web App), o que proporciona uma experiência de aplicativo completa diretamente no seu celular ou computador, sem a necessidade de baixar em lojas como App Store ou Play Store. Ao instalá-lo na sua tela inicial, o Prismabot opera como um app nativo: rodando em tela cheia, com navegação fluida e suporte a notificações em tempo real. Como funcionam as Notificações Web Push
+**O Aplicativo Prismabot**
+O Prismabot utiliza a moderna tecnologia PWA (Progressive Web App), o que proporciona uma experiência de aplicativo completa diretamente no seu celular ou computador, sem a necessidade de baixar em lojas como App Store ou Play Store. Ao instalá-lo na sua tela inicial, o Prismabot opera como um app nativo: rodando em tela cheia, com navegação fluida e suporte a notificações em tempo real.
+Como funcionam as Notificações Web Push
 
-**Notificações Web Push** Para manter você sempre atualizado, o sistema utiliza notificações Web Push. Essa tecnologia permite que seu dispositivo receba alertas de novos atendimentos e mensagens mesmo quando o aplicativo não estiver ativamente aberto na tela. Para garantir o recebimento desses alertas, basta seguir uma configuração rápida em três etapas.
+**Notificações Web Push**
+Para manter você sempre atualizado, o sistema utiliza notificações Web Push. Essa tecnologia permite que seu dispositivo receba alertas de novos atendimentos e mensagens mesmo quando o aplicativo não estiver ativamente aberto na tela. Para garantir o recebimento desses alertas, basta seguir uma configuração rápida em três etapas.
 
-#### 1. Adicione o App na tela inicial do celular
+### 1. Adicione o App na tela inicial do celular
 
 O primeiro passo é adicionar o atalho (ícone) do Prismabot no seu celular (Android ou iOS). **É obrigatório abrir o Prismabot por esse ícone** — no iOS, as notificações Web Push só funcionam quando o app é aberto pelo atalho instalado, e não pelo navegador.
 
-**Para Android (Google Chrome):**
+#### **Para Android (Google Chrome):**
 
 1. Abra o endereço do seu Prismabot no **Chrome**.
 2. Toque no menu **⋮** (três pontos) no canto superior direito.
 3. Selecione **"Instalar app"** ou **"Adicionar à tela inicial"** e confirme.
 4. Abra o Prismabot pelo **ícone** que foi criado na tela inicial.
 
-![](../.gitbook/assets/image_40140186.png)
+![](../.gitbook/assets/img_8181462.png)
 
-**Para iPhone (iOS) — pelo Safari:**
+#### **Para iPhone (iOS) — pelo Safari:**
 
 1. Confirme que o iPhone está no **iOS 16.4 ou superior** (versões anteriores não suportam Web Push em PWA).
 2. Abra o endereço do seu Prismabot no **Safari**.
@@ -29,11 +36,11 @@ O primeiro passo é adicionar o atalho (ícone) do Prismabot no seu celular (And
 4. Selecione **"Adicionar à Tela de Início"** e confirme.
 5. Abra o Prismabot pelo **ícone** criado na tela inicial — **não** pelo Safari.
 
-![](../.gitbook/assets/image_8e38acb3.png)
+![](../.gitbook/assets/img_1650692.png)
 
-#### 2. Passo a Passo para Ativar as Notificações
+### 2. Passo a Passo para Ativar as Notificações
 
-**Ative as Notificações no Aplicativo PWA**
+#### Ative as Notificações no Aplicativo PWA
 
 Primeiro, você precisa habilitar a recepção de notificações dentro do próprio PWA.
 
@@ -41,9 +48,9 @@ Primeiro, você precisa habilitar a recepção de notificações dentro do próp
 
 Este botão só é visível quando o Prismabot é executado a partir do celular, com atalho na tela inicial (PWA).
 
-![](../.gitbook/assets/image_accb6f07.png)
+![](../.gitbook/assets/img_8335180.png)
 
-**Habilite o Web Push no Canal Desejado**
+#### Habilite o Web Push no Canal Desejado
 
 Em seguida, você precisa dizer ao Prismabot para qual canal você quer receber os alertas.
 
@@ -51,22 +58,22 @@ Em seguida, você precisa dizer ao Prismabot para qual canal você quer receber 
 * Edite o canal para o qual deseja receber notificações.
 * Marque a opção **"Habilitar WebPush"** e salve as alterações.
 
-![](../.gitbook/assets/image_6efe715c.png)
+![](../.gitbook/assets/img_6731986.png)
 
-#### 3. Customizações do ícone e nome do App
+### 3. Customizações do ícone e nome do App
 
-**Disponível no perfil: Administrador**
+**Disponível no perfil: Super-Administrador**
 
-**Alterando o Nome do Aplicativo**
+#### Alterando o Nome do Aplicativo
 
 O nome definido aqui aparecerá no título da aba do navegador, nas telas de instalação do aplicativo e nos menus do sistema.
 
 1. No campo **Nome do Aplicativo**, apague o nome atual e digite o nome da sua empresa.
 2. Clique no botão azul **Salvar**.
 
-![](../.gitbook/assets/image_c4f775ec.png)
+![](../.gitbook/assets/img_1313077.png)
 
-**Configurando o Ícone do Aplicativo (PWA)**
+#### Configurando o Ícone do Aplicativo (PWA)
 
 Para que o ícone do seu app fique com a sua marca na tela inicial dos celulares dos clientes:
 
@@ -78,7 +85,7 @@ Para evitar distorções ou erros na instalação, a imagem enviada deve ser obr
 
 Ao enviar esta única imagem, o sistema trabalhará de forma inteligente: ele gerará automaticamente 9 tamanhos diferentes (de 72px a 512px) e atualizará o arquivo interno (manifest.json) necessário para a instalação em qualquer dispositivo.
 
-**4. Solução de Problemas**
+#### 4. Solução de Problemas
 
 **Não estou recebendo as notificações. O que verificar?**
 
@@ -92,6 +99,8 @@ Ao enviar esta única imagem, o sistema trabalhará de forma inteligente: ele ge
 
 **Específico do Android:** a **otimização de bateria** e a **economia de dados** costumam bloquear notificações em segundo plano. Em **Configurações → Apps → (Prismabot/Chrome) → Bateria**, deixe **"Sem restrições"**, e libere o uso de **dados em segundo plano**. Mantenha também o **Chrome atualizado**.
 
+[AnteriorLigações no Prismabot (Telefonia e Voz)](/ferramentas-adicionais-e-integracoes/ligacoes-no-z-pro-telefonia-e-voz)[PróximoWavoip - Ligações pelo WhatsApp](/ferramentas-adicionais-e-integracoes/wavoip-ligacoes-pelo-whatsapp)
 
+Atualizado há 1 mês
 
- 1 mês
+Isto foi útil?

@@ -1,3 +1,9 @@
+Copiar
+
+Nesta página
+
+1. [Diretrizes e Políticas](/diretrizes-e-politicas)
+
 # Termos e Condições Gerais de Uso e Licenciamento
 
 Contrato de uso do Prismabot: regras de licenciamento, obrigações do assinante, limitação de responsabilidade e condições gerais de uso da plataforma.
@@ -15,7 +21,7 @@ privado, inscrita no CNPJ sob o nº 35.617.749/0001-67, doravante denominada “
 “**CLIENTE**” ou “**LICENCIADO**”.
 
 O objeto deste instrumento é o regramento da utilização do software de gestão e automação de
-atendimentos denominado “**SISTEMA Prismabot**”, fornecido na modalidade auto-hospedada (em nuvem).
+atendimentos denominado “**SISTEMA Prismabot**”, fornecido na modalidade auto-hospedada (gerenciado em nuvem).
 
 **AO CONTRATAR E UTILIZAR O SISTEMA Prismabot, O CLIENTE DECLARA TER LIDO, COMPREENDIDO E ACEITO INTEGRALMENTE ESTES TERMOS.**
 
@@ -23,17 +29,30 @@ atendimentos denominado “**SISTEMA Prismabot**”, fornecido na modalidade aut
 
 ### QUAIS AS INFORMAÇÕES QUE VOCÊ ENCONTRARÁ NESTES TERMOS
 
+1. [CONCEITOS IMPORTANTES NESTES TERMOS](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-1.-conceitos-importantes-nestes-termos)
+2. [NATUREZA E EFICÁCIA DOS TERMOS](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-2.-natureza-e-eficacia-dos-termos)
+3. [REQUISITOS TÉCNICOS E CONDIÇÕES DE OPERAÇÃO](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-3.-requisitos-tecnicos-e-condicoes-de-operacao)
+4. [DELIMITAÇÃO DE RESPONSABILIDADES E RELAÇÃO COM TERCEIROS](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-4.-delimitacao-de-responsabilidades-e-relacao-com-terceiros)
+5. [OBJETO E LICENÇA DE USO](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-5.-objeto-e-licenca-de-uso)
+6. [PLANOS, PAGAMENTO, RENOVAÇÃO E CANCELAMENTO](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-6.-planos-pagamento-renovacao-e-cancelamento)
+7. [POLÍTICA DE SUPORTE TÉCNICO E SLA](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-7.-politica-de-suporte-tecnico-e-sla)
+8. [OBRIGAÇÕES, RESPONSABILIDADES E LIMITAÇÕES](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-8.-obrigacoes-responsabilidades-e-limitacoes)
+9. [PROPRIEDADE INTELECTUAL](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-9.-propriedade-intelectual)
+10. [PRIVACIDADE E PROTEÇÃO DE DADOS (LGPD)](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-10.-privacidade-e-protecao-de-dados-lgpd)
+11. [DISPOSIÇÕES GERAIS](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-11.-disposicoes-gerais)
+12. [FORO E LEGISLAÇÃO APLICÁVEL](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento#id-12.-foro-e-legislacao-aplicavel)
+
 ---
 
 ## 1. CONCEITOS IMPORTANTES NESTES TERMOS
 
 Para facilitar a leitura e interpretação deste documento, adotamos as seguintes definições:
 
-* **Cliente (ou Licenciado)**: Pessoa física ou jurídica que adquire a Licença de Uso do Software Prismabot, responsável pelo pagamento, pela contratação da infraestrutura (servidor) e pela gestão dos Usuários e Clientes Finais (Tenants).
-* **Sistema Prismabot**: Software desenvolvido e de propriedade exclusiva da Prismabot, fornecido sob regime de licenciamento em nuvem. Trata-se de uma solução tecnológica para centralização e gestão de multicanais de atendimento e automação.
+* **Cliente (ou Licenciado)**: Pessoa física ou jurídica que adquire a Licença de Uso do Software Prismabot, responsável pelo pagamento, pela contratação da infraestrutura (servidor em nuvem) e pela gestão dos Usuários e Clientes Finais (Tenants).
+* **Sistema Prismabot**: Software desenvolvido e de propriedade exclusiva da Prismabot, fornecido sob regime de licenciamento gerenciado em nuvem. Trata-se de uma solução tecnológica para centralização e gestão de multicanais de atendimento e automação.
 * **Licença de Uso Anual**: Modalidade de contratação que concede ao Cliente o direito de uso do Sistema Prismabot pelo período de 12 (doze) meses, instalada na infraestrutura providenciada pelo Cliente.
 * **Modelo plataforma de atendimento**: Característica do Sistema Prismabot que permite ao Cliente personalizar a identidade visual e revender o acesso ao software para terceiros sob sua própria marca.
-* **Infraestrutura (servidor)**: Servidor Virtual Privado (Virtual Private Server) contratado e custeado diretamente pelo Cliente junto a terceiros, onde o Sistema Prismabot será instalado.
+* **Infraestrutura (servidor em nuvem)**: Servidor Virtual Privado (Virtual Private Server) contratado e custeado diretamente pelo Cliente junto a terceiros, onde o Sistema Prismabot será instalado.
 * **Usuário**: Pessoa autorizada pelo Cliente a acessar o painel do sistema (Super Admin, Admin, supervisores ou atendentes).
 * **Tenant (Cliente Final)**: Conta ou instância criada pelo Cliente dentro do Sistema Prismabot para revender serviços a terceiros.
 
@@ -62,8 +81,8 @@ Recomendamos que o sistema operacional e o navegador do Usuário estejam atualiz
 * Processador: Intel i5 ou superior (ou equivalente).
 * Conexão: Internet rápida e estável.
 
-**3.2. Requisitos do Servidor (Infraestrutura servidor):**
-A servidor onde o sistema será instalado deverá satisfazer os seguintes requisitos mínimos obrigatórios:
+**3.2. Requisitos do Servidor (Infraestrutura servidor em nuvem):**
+A servidor em nuvem onde o sistema será instalado deverá satisfazer os seguintes requisitos mínimos obrigatórios:
 
 * Memória (RAM): 16GB ou mais.
 * Processamento: 4 vCPUs ou mais.
@@ -72,7 +91,7 @@ A servidor onde o sistema será instalado deverá satisfazer os seguintes requis
 * Armazenamento: SSD ou NVMe a partir de 200GB.
 
 **3.3. Documentação Técnica:**
-Os requisitos detalhados e atualizados constam no link oficial: <https://prismatelecomservicos.com/
+Os requisitos detalhados e atualizados constam no link oficial: <https://zpro.passaportezdg.com.br/requisitos-de-uso>.
 
 **3.4. Versões Suportadas:**
 É crucial manter o sistema operacional e navegadores atualizados. As versões suportadas para conexão com a Plataforma WhatsApp são:
@@ -109,7 +128,7 @@ Considerando que o Cliente pode revender o uso do sistema (SaaS) sob marca próp
 
 ## 5. OBJETO E LICENÇA DE USO
 
-**5.1. Objeto:** O contrato concede ao Cliente uma Licença de Uso de Software (Direito de Uso), não exclusiva, intransferível e temporária, do Sistema Prismabot, para instalação em servidor (servidor) do Cliente.
+**5.1. Objeto:** O contrato concede ao Cliente uma Licença de Uso de Software (Direito de Uso), não exclusiva, intransferível e temporária, do Sistema Prismabot, para instalação em servidor (servidor em nuvem) do Cliente.
 
 **5.2. Escopo:** A licença permite instalar o software, configurar o plataforma de atendimento, criar usuários ilimitados (conforme capacidade do servidor) e receber atualizações durante a vigência contratual.
 
@@ -122,20 +141,20 @@ Sob pena de cancelamento imediato e medidas judiciais, é vedado:
 
 **Única Modalidade Permitida (SaaS):** A comercialização autorizada restringe-se exclusivamente à venda do acesso ao sistema (login/senha), com o software rodando obrigatoriamente em infraestrutura gerida pelo Cliente Licenciado.
 
-**5.4. Natureza em nuvem:** O Cliente declara-se ciente de que a Prismabot fornece o software, não a infraestrutura. A gestão do servidor (servidor) é de responsabilidade do Cliente.
+**5.4. Natureza gerenciado em nuvem:** O Cliente declara-se ciente de que a Prismabot fornece o software, não a infraestrutura. A gestão do servidor (servidor em nuvem) é de responsabilidade do Cliente.
 
 **5.5. Serviço de Setup de Instalação:**
 Além de disponibilizar o instalador automatizado e tutoriais na área de membros, caso o Cliente opte pela instalação agendada, a Prismabot realizará, uma única vez, a instalação técnica remota do software no servidor indicado pelo Cliente. A execução deste serviço está condicionada, obrigatoriamente, à entrega do ambiente nas seguintes condições:
 
-* **5.5.1. Estado do Servidor:** A servidor deve ser entregue formatada (instalação limpa), contendo apenas o Sistema Operacional instalado, sem painéis de gestão (como cPanel, Plesk, CyberPanel) e sem outros serviços rodando (Apache, Nginx ou bancos de dados pré-instalados), para evitar conflitos de porta.
+* **5.5.1. Estado do Servidor:** A servidor em nuvem deve ser entregue formatada (instalação limpa), contendo apenas o Sistema Operacional instalado, sem painéis de gestão (como cPanel, Plesk, CyberPanel) e sem outros serviços rodando (Apache, Nginx ou bancos de dados pré-instalados), para evitar conflitos de porta.
 * **5.5.2. Especificações Obrigatórias:**
 
   + Sistema Operacional: Ubuntu Server nas versões 20.04, 22.04 ou 24.04 LTS.
   + Hardware: Mínimo de 16GB de memória RAM.
 * **5.5.3. Dados para Execução:** O Cliente deverá fornecer previamente à equipe técnica:
 
-  + I. IP da servidor e senha de acesso SSH (usuário ROOT).
-  + II. Definição dos 02 (dois) subdomínios para a aplicação (Ex: app.dominio.com para frontend e api.dominio.com para backend), já com os apontamentos DNS (Tipo A) direcionados para o IP da servidor.
+  + I. IP da servidor em nuvem e senha de acesso SSH (usuário ROOT).
+  + II. Definição dos 02 (dois) subdomínios para a aplicação (Ex: app.dominio.com para frontend e api.dominio.com para backend), já com os apontamentos DNS (Tipo A) direcionados para o IP da servidor em nuvem.
   + III. E-mail de cadastro na Prismabot e número de WhatsApp para validação.
 * **5.5.4. Método de Acesso:** A instalação é realizada exclusivamente via protocolos de terminal (SSH). Não realizamos instalações via acesso remoto visual ou compartilhamento de tela (ex: AnyDesk, TeamViewer, Zoom), nem instalações em computadores locais (PC/Notebook).
 * **5.5.5. Serviços Extra-Contratuais:** Reinstalações, execução remota de atualizações, formatações, alterações de servidor ou migração de bancos de dados não estão cobertas pela licença. A Prismabot não se obriga a realizar estes procedimentos, sendo a sua eventual execução mera liberalidade, sujeita à disponibilidade de agenda técnica e aprovação de orçamento extra.
@@ -153,9 +172,9 @@ A aquisição do Sistema Prismabot é realizada através da compra de uma Licen�
 O limite de instâncias e os direitos comerciais de uso são estritamente determinados pela categoria do Plano adquirido pelo Cliente:
 
 * **6.2.1. Modalidades de Licenciamento:**
-* **I. Plano "Uso Próprio" (Single-Tenant):** Concede o direito de ativação de apenas **01 (uma) instância (Tenant)** vinculada à chave de licença. Este plano é destinado exclusivamente à centralização e gestão do próprio negócio do Cliente, não havendo limites para a criação de usuários (atendentes) ou conexão de números telefônicos nesta mesma instância. É expressamente vedada a cliente, sublocação ou criação de contas para terceiros nesta modalidade.
-* **II. Plano "Para cliente" (Multi-Tenant):** Concede o direito de criação e gestão de múltiplas instâncias (Tenants) de forma ilimitada. Este plano autoriza o Cliente a operar no modelo plataforma de atendimento e revender acessos (SaaS) para múltiplos clientes finais. Todas as instâncias criadas devem estar vinculadas a subdomínios de um mesmo domínio raiz de titularidade do Cliente (ex: app1.cliente.com, app2.cliente.com), validado pela chave de licença no momento da ativação.
-* **6.2.2. Intransferibilidade da Licença Matriz:** A licença (chave de ativação) é pessoal, intransferível e vinculada ao CPF/CNPJ do Cliente adquirente. Mesmo no Plano "Para cliente", o Cliente comercializa apenas o acesso (login) aos seus Tenants, sendo expressamente vedado o compartilhamento ou repasse da chave de licença para ativação em servidores ou domínios raízes de terceiros.
+* **I. Plano "Uso Próprio" (Single-Tenant):** Concede o direito de ativação de apenas **01 (uma) instância (Tenant)** vinculada à chave de licença. Este plano é destinado exclusivamente à centralização e gestão do próprio negócio do Cliente, não havendo limites para a criação de usuários (atendentes) ou conexão de números telefônicos nesta mesma instância. É expressamente vedada a cliente final, sublocação ou criação de contas para terceiros nesta modalidade.
+* **II. Plano "Para cliente final" (Multi-Tenant):** Concede o direito de criação e gestão de múltiplas instâncias (Tenants) de forma ilimitada. Este plano autoriza o Cliente a operar no modelo plataforma de atendimento e revender acessos (SaaS) para múltiplos clientes finais. Todas as instâncias criadas devem estar vinculadas a subdomínios de um mesmo domínio raiz de titularidade do Cliente (ex: app1.cliente.com, app2.cliente.com), validado pela chave de licença no momento da ativação.
+* **6.2.2. Intransferibilidade da Licença Matriz:** A licença (chave de ativação) é pessoal, intransferível e vinculada ao CPF/CNPJ do Cliente adquirente. Mesmo no Plano "Para cliente final", o Cliente comercializa apenas o acesso (login) aos seus Tenants, sendo expressamente vedado o compartilhamento ou repasse da chave de licença para ativação em servidores ou domínios raízes de terceiros.
 * **6.2.3. Auditoria e Penalidades:** A Prismabot reserva-se o direito de verificar o cumprimento destas cláusulas a qualquer momento (via telemetria ou auditoria de banco de dados). A constatação de uso indevido — a exemplo de um Cliente do "Plano Uso Próprio" comercializando acessos a terceiros, ou ativações em domínios não autorizados — poderá acarretar a suspensão imediata da licença e a cobrança proporcional à diferença de plano ou licenças extras utilizadas irregularmente.
 
 **6.2.4. Condições Especiais (Multi-domínio):** A critério exclusivo da Prismabot, poderão ser comercializadas licenças especiais ou oferecidos bônus promocionais que permitam a ativação em múltiplos domínios raízes dentro de uma mesma chave. Tais condições serão válidas apenas se expressamente descritas na oferta ou fatura correspondente.
@@ -186,7 +205,7 @@ Os valores cobrados pela Prismabot referem-se exclusivamente à licença de soft
 
 * I. Tarifas da Meta/WhatsApp (janelas de conversação, WABA);
 * II. Consumo de APIs de Inteligência Artificial (OpenAI, Anthropic, Google, Grok, etc);
-* III. Serviços de SMS, Gateways de Pagamento e Provedores de servidor.
+* III. Serviços de SMS, Gateways de Pagamento e Provedores de servidor em nuvem.
 * IV. Consumo de APIs externas gerenciadas por terceiros (Hub Notificame, Uazapi, Z-API, etc);
 
 **6.7. Inadimplência e Suspensão:**
@@ -217,19 +236,19 @@ Nossa equipe está preparada e restrita para auxiliar com:
 **7.4. Limitações (O que NÃO está incluso):**
 Para garantir a qualidade do atendimento, os seguintes itens estão fora do escopo do nosso suporte técnico padrão, sendo de responsabilidade do Cliente:
 
-* I. Configuração, gestão, manutenção ou segurança do servidor (servidor) do cliente.
+* I. Configuração, gestão, manutenção ou segurança do servidor (servidor em nuvem) do cliente.
 * II. Suporte para ferramentas de terceiros (Typebot, N8N, SIP, Webhooks externos, etc.).
 * III. Criação de fluxos de chatbot, lógicas de atendimento, implementação de automações ou consultoria de negócios/marketing.
 * IV. Acesso remoto à máquina do cliente (por questões de privacidade e segurança).
 * V. Customizações de frontend, alterações de código ou design (CSS/HTML) de forma personalizada para o cliente.
 * VI. Resolução de instabilidades ou falhas em APIs Não Oficiais. O funcionamento destas conexões depende de bibliotecas de terceiros e rotas não homologadas (simulação do WhatsApp Web), estando sujeitas a bloqueios e interrupções por parte da Meta que fogem ao controle técnico da Prismabot.
-* VII. Suporte a ambientes locais e redes restritivas: Diagnóstico de problemas de conexão decorrentes de instalações em infraestrutura local (Localhost, servidores físicos on-premise, máquinas virtuais em PCs pessoais), bem como dificuldades relacionadas a redes sem IP público dedicado (CGNAT), túneis de conexão (Ngrok, Cloudflare Tunnel), proxies reversos customizados ou firewalls de borda corporativos que divirjam do ambiente padrão homologado (servidor Cloud com IP Público).
+* VII. Suporte a ambientes locais e redes restritivas: Diagnóstico de problemas de conexão decorrentes de instalações em infraestrutura local (Localhost, servidores físicos on-premise, máquinas virtuais em PCs pessoais), bem como dificuldades relacionadas a redes sem IP público dedicado (CGNAT), túneis de conexão (Ngrok, Cloudflare Tunnel), proxies reversos customizados ou firewalls de borda corporativos que divirjam do ambiente padrão homologado (servidor em nuvem Cloud com IP Público).
 
 ## 8. OBRIGAÇÕES, RESPONSABILIDADES E LIMITAÇÕES
 
 **8.1. Obrigações da Prismabot:** Fornecer os arquivos de instalação, realizar o setup inicial, liberar atualizações (updates) de correção/segurança e prestar suporte técnico limitado ao funcionamento do software (bugs e dúvidas operacionais).
 
-**8.2. Obrigações do Cliente:** Contratar e manter a servidor, realizar backups periódicos (a Prismabot não tem acesso aos dados), gerenciar as integrações de terceiros e administrar os usuários.
+**8.2. Obrigações do Cliente:** Contratar e manter a servidor em nuvem, realizar backups periódicos (a Prismabot não tem acesso aos dados), gerenciar as integrações de terceiros e administrar os usuários.
 
 **8.3. Limitações sobre Integrações de Terceiros:**
 Conforme detalhado na Cláusula 3.6, a Prismabot não possui controle sobre serviços externos (Meta/WhatsApp, OpenAI, Gateways).
@@ -280,14 +299,14 @@ Para fins da Lei Geral de Proteção de Dados (Lei nº 13.709/2018):
 * **10.1.1.** Prismabot como Controladora: A Prismabot atua como Controladora apenas dos dados cadastrais do Cliente Direto (nome, e-mail, CPF/CNPJ, telefone, domínio), utilizados para faturamento, validação da licença e suporte.
 * **10.1.2.** Cliente como Controlador: O Cliente é o único e exclusivo Controlador dos dados pessoais de terceiros (seus clientes finais/tenants, leads e contatos) que trafegam pelo Sistema Prismabot instalado em seu servidor.
 
-**10.2. Ausência de Acesso aos Dados (Modelo em nuvem):**
-O Cliente reconhece que, devido à natureza auto-hospedada (em nuvem) do software:
+**10.2. Ausência de Acesso aos Dados (Modelo gerenciado em nuvem):**
+O Cliente reconhece que, devido à natureza auto-hospedada (gerenciado em nuvem) do software:
 
-* **10.2.1.** O banco de dados fica hospedado na infraestrutura (servidor) contratada pelo Cliente, sob sua guarda e responsabilidade.
+* **10.2.1.** O banco de dados fica hospedado na infraestrutura (servidor em nuvem) contratada pelo Cliente, sob sua guarda e responsabilidade.
 * **10.2.2.** A Prismabot não possui acesso ao conteúdo das mensagens, lista de contatos ou dados sensíveis processados pelo Cliente, exceto quando o Cliente fornece voluntariamente credenciais de acesso temporário para fins de suporte técnico.
 
 **10.3. Responsabilidade por Vazamentos:**
-Compete exclusivamente ao Cliente garantir a segurança de seu servidor (servidor), aplicando firewalls, atualizações de sistema operacional e boas práticas de segurança. A Prismabot não se responsabiliza por vazamentos de dados decorrentes de invasões, falhas de segurança na servidor ou engenharia social sofrida pelo Cliente ou sua equipe.
+Compete exclusivamente ao Cliente garantir a segurança de seu servidor (servidor em nuvem), aplicando firewalls, atualizações de sistema operacional e boas práticas de segurança. A Prismabot não se responsabiliza por vazamentos de dados decorrentes de invasões, falhas de segurança na servidor em nuvem ou engenharia social sofrida pelo Cliente ou sua equipe.
 
 ## 11. DISPOSIÇÕES GERAIS
 
@@ -314,6 +333,8 @@ Se qualquer disposição deste contrato for considerada inválida ou inexequíve
 
 12.2. Fica eleito o foro da Comarca de Alfenas - MG como o único competente para dirimir quaisquer dúvidas ou litígios oriundos deste contrato, com renúncia expressa a qualquer outro, por mais privilegiado que seja ou venha a ser.
 
+[AnteriorPolítica de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)[PróximoAviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)
 
+Atualizado há 2 meses
 
- 2 meses
+Isto foi útil?

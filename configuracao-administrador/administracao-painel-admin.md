@@ -1,3 +1,9 @@
+Copiar
+
+Nesta página
+
+1. [Configuração Administrador](/configuracao-administrador)
+
 # Administração - Painel Admin
 
 Configurações estruturais do Prismabot: conectar canais de comunicação (WhatsApp, Instagram, Telegram e mais), criar equipes de atendimento e gerenciar usuários e permissões de acesso.
@@ -6,11 +12,11 @@ A seção de **Administração** concentra as configurações estruturais da ope
 
 ---
 
-### [Canais de Comunicação](administracao-painel-admin/canais-de-comunicacao.md)
+### [Canais de Comunicação](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao)
 
 Gerenciamento de todos os canais conectados ao Prismabot. O sistema suporta múltiplos tipos de canal, agrupados por tecnologia e plataforma:
 
-[**WhatsApp Oficial (API WABA)**](../api-oficial-waba.md)
+[**WhatsApp Oficial (API WABA)**](/api-oficial-waba)
 
 * WhatsApp Oficial — App Prisma Telecom (OAuth) — conexão via app da Prisma Telecom com coexistência, sem configuração de app próprio
 * Configurar App Próprio no Facebook Developers — para quem quer plataforma de atendimento ou isolamento de reputação
@@ -32,20 +38,22 @@ Gerenciamento de todos os canais conectados ao Prismabot. O sistema suporta múl
 
 * Mercado Livre, OLX, WooCommerce
 
-[Como conectar um canal (sessão/número)](administracao-painel-admin/canais-de-comunicacao/como-conectar-um-canal-sessao-numero.md)
+[Como conectar um canal (sessão/número)](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/como-conectar-um-canal-sessao-numero)
 
 ---
 
-### [Equipes](administracao-painel-admin/equipes.md)
+### [Equipes](/configuracao-administrador/administracao-painel-admin/equipes)
 
 Organização dos agentes por departamento, especialidade ou função. Permite segmentar o atendimento em filas específicas (ex: Comercial, Suporte, Financeiro), vincular usuários a cada equipe e controlar a visibilidade de cada grupo conforme a demanda.
 
 ---
 
-### [Usuários](administracao-painel-admin/usuarios.md)
+### [Usuários](/configuracao-administrador/administracao-painel-admin/usuarios)
 
 Centro de gestão de acessos do Prismabot. Permite cadastrar colaboradores, definir perfis de hierarquia (Administrador, Supervisor, Atendente ou Personalizado), controlar quais módulos cada usuário visualiza e configurar jornadas de trabalho individuais.
 
+[AnteriorVisão geral Admin](/configuracao-administrador/visao-geral-admin)[PróximoCanais de comunicação](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao)
 
+Atualizado há 1 mês
 
- 1 mês
+Isto foi útil?

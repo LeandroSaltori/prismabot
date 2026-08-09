@@ -1,10 +1,16 @@
+Copiar
+
+Nesta página
+
+1. [Diretrizes e Políticas](/diretrizes-e-politicas)
+
 # Pré-requisitos de instalação e utilização
 
-Especificações mínimas de servidor, sistema operacional (Ubuntu), RAM, vCPU, domínio e navegador para instalar e usar o Prismabot.
+Especificações mínimas de servidor em nuvem, sistema operacional (Ubuntu), RAM, vCPU, domínio e navegador para instalar e usar o Prismabot.
 
-### Requisitos do Servidor (servidor)
+### Requisitos do Servidor (servidor em nuvem)
 
-A servidor onde o sistema será instalado deve atender às seguintes especificações mínimas:
+A servidor em nuvem onde o sistema será instalado deve atender às seguintes especificações mínimas:
 
 Recurso
 
@@ -32,14 +38,14 @@ Ubuntu 24.04 LTS — instalação limpa, sem painel
 
 O pleno funcionamento do sistema está condicionado ao atendimento dessas especificações. Ambientes subdimensionados ou fora das especificações não recebem diagnóstico de performance pelo suporte técnico.
 
-Recomendamos datacenter brasileiro para garantir baixa latência e melhor experiência para os usuários.
+Os requisitos desta página valem para a **instalação padrão em PM2 (modo fork)**. Para instalar via Docker (containers), veja o [Guia para Instalação com Docker](/avancado-recursos-tecnicos/infraestrutura/guia-para-instalacao-com-docker)
 
-#### Provedores de servidor recomendados
+#### Provedores de servidor em nuvem recomendados
 
 **Brasil:**
 
-* [Hostinger]
-* [HostGator](https://www.hostgator.com.br/servidor-servidor)
+* [Hostinger](https://prismatelecomservicos.com/ rel=)
+* [HostGator](https://www.hostgator.com.br/servidor-servidor em nuvem)
 
 **Internacional (avalie a latência antes de contratar):**
 
@@ -48,9 +54,11 @@ Recomendamos datacenter brasileiro para garantir baixa latência e melhor experi
 * [AWS](https://aws.amazon.com/)
 * [OVHcloud](https://www.ovhcloud.com/pt/)
 
+Recomendamos datacenter brasileiro para garantir baixa latência e melhor experiência para os usuários.
+
 #### Registro de domínio
 
-O Prismabot utiliza dois subdomínios (front-end e back-end) apontados para o IP da servidor. Para registrar um domínio `.com.br`, acesse [registro.br](https://registro.br/).
+O Prismabot utiliza dois subdomínios (front-end e back-end) apontados para o IP da servidor em nuvem. Para registrar um domínio `.com.br`, acesse [registro.br](https://registro.br/).
 
 ---
 
@@ -80,7 +88,7 @@ até 1 GB
 
 100 a 150 MB
 
-Esses valores são uma projeção média e podem variar conforme a intensidade de uso. Monitore o consumo do servidor à medida que a operação cresce — alta utilização de RAM/CPU indica que é hora de fazer upgrade no plano de servidor.
+Esses valores são uma projeção média e podem variar conforme a intensidade de uso. Monitore o consumo do servidor à medida que a operação cresce — alta utilização de RAM/CPU indica que é hora de fazer upgrade no plano de servidor em nuvem.
 
 ---
 
@@ -106,8 +114,10 @@ Para acessar o painel do Prismabot, a máquina de cada atendente deve atender ao
 
 A gestão, segurança e manutenção do servidor são de responsabilidade do assinante. Veja as ações obrigatórias após a instalação:
 
-[Manutenção e Segurança](manutencao-e-seguranca.md)
+[Manutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)
 
+[AnteriorDiretrizes e Políticas](/diretrizes-e-politicas)[PróximoPolítica de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)
 
+Atualizado há 4 dias
 
- 25 dias
+Isto foi útil?

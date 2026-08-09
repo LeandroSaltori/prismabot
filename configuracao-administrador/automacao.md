@@ -1,3 +1,9 @@
+Copiar
+
+Nesta página
+
+1. [Configuração Administrador](/configuracao-administrador)
+
 # Automação
 
 Configurações de automação do Prismabot: Chat Flow (chatbot), agendamentos de mensagens, aniversários e automação de respostas do Instagram.
@@ -6,7 +12,7 @@ A seção de **Automação** reúne as ferramentas que permitem ao administrador
 
 ---
 
-### [Chat Flow](automacao/chat-flow.md)
+### [Chat Flow](/configuracao-administrador/automacao/chat-flow)
 
 O construtor visual nativo de chatbots do Prismabot. Permite criar jornadas completas de atendimento automático: envio de mensagens, coleta de dados, aplicação de etiquetas, integração com sistemas externos e roteamento para filas ou atendentes. A seção cobre todas as etapas de criação e operação de um fluxo:
 
@@ -21,22 +27,24 @@ O construtor visual nativo de chatbots do Prismabot. Permite criar jornadas comp
 
 ---
 
-### [Agendamentos](automacao/agendamentos.md)
+### [Agendamentos](/configuracao-administrador/automacao/agendamentos)
 
 Ferramenta para programar o envio de mensagens para datas e horários futuros. Permite configurar disparos únicos ou recorrentes e acompanhar em tempo real o status de cada envio — sem necessidade de intervenção manual no momento do disparo.
 
 ---
 
-### [Aniversários](automacao/aniversarios.md)
+### [Aniversários](/configuracao-administrador/automacao/aniversarios)
 
 Módulo de relacionamento que centraliza todos os contatos com data de nascimento cadastrada. Permite acompanhar os aniversariantes do dia e enviar mensagens comemorativas manuais ou automatizadas para fidelização de clientes.
 
 ---
 
-### [Automação Instagram](automacao/automacao-instagram.md)
+### [Automação Instagram](/configuracao-administrador/automacao/automacao-instagram)
 
 Configuração de respostas automáticas para eventos do Instagram: comentários em posts e reels, interações em lives, menções, respostas a stories e posts compartilhados via DM. Cada automação define um gatilho, condições de filtragem e as ações que o sistema executa automaticamente.
 
+[AnteriorPerfis de Acesso](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)[PróximoAgendamentos](/configuracao-administrador/automacao/agendamentos)
 
+Atualizado há 1 mês
 
- 1 mês
+Isto foi útil?

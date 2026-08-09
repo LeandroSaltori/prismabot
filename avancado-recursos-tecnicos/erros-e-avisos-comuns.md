@@ -1,3 +1,9 @@
+Copiar
+
+Nesta página
+
+1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
+
 # Erros e Avisos Comuns
 
 ### Avisos do painel
@@ -12,7 +18,7 @@
 2. Verifique se o canal está conectado e sem alertas internos
 3. Confirme que o envio e recebimento continuam funcionando normalmente
 
-Após atualizar a sessão em [Configurações → Sessões](../configuracao-administrador/configuracoes-painel-admin/sessoes.md), o aviso deve desaparecer. Se persistir, verifique se o token/sessão está válido ou se é necessário reconectar o canal.
+Após atualizar a sessão em [Configurações → Sessões](/configuracao-administrador/configuracoes-painel-admin/sessoes), o aviso deve desaparecer. Se persistir, verifique se o token/sessão está válido ou se é necessário reconectar o canal.
 
 ---
 
@@ -34,29 +40,29 @@ Após atualizar a sessão em [Configurações → Sessões](../configuracao-admi
 * Banco de dados ou Redis indisponível
 * Erro de build após instalação ou atualização
 
-**Como diagnosticar:** acesse a servidor e execute:
+**Como diagnosticar:** acesse a servidor em nuvem e execute:
 
-O `pm2 status` e o `pm2 logs prismabot-backend` geralmente já mostram a causa principal. Envie o retorno ao suporte se o problema persistir.
+O `pm2 status` e o `pm2 logs zpro-backend` geralmente já mostram a causa principal. Envie o retorno ao suporte se o problema persistir.
 
 ---
 
 #### "Recuperação de licença: A licença ficou inválida durante a operação"
 
-**Onde aparece:** na tela de login, ao tentar entrar com o Administrador.
+**Onde aparece:** na tela de login, ao tentar entrar com o superadmin.
 
-**O que significa:** a licença expirou ou ficou inválida. O sistema entra automaticamente em **modo de recuperação**, onde somente o Administrador consegue alterar a chave de licença.
+**O que significa:** a licença expirou ou ficou inválida. O sistema entra automaticamente em **modo de recuperação**, onde somente o superadmin consegue alterar a chave de licença.
 
 **Como resolver:**
 
-1. Acesse com o **Administrador**
+1. Acesse com o **superadmin**
 2. Insira a **nova chave de licença** (se renovou) ou a **chave atual** (se ainda válida) para revalidar
-3. Se já renovou a licença mas o erro persiste, pode ser que a licença tenha ficado inválida por mais de 6 horas — nesse caso, **reinicie o backend** na servidor:
+3. Se já renovou a licença mas o erro persiste, pode ser que a licença tenha ficado inválida por mais de 6 horas — nesse caso, **reinicie o backend** na servidor em nuvem:
 
-Se o sistema ficar mais de **6 horas** com a licença inválida, ele bloqueia o acesso. Nesse caso, além de inserir a chave válida, é necessário reiniciar o backend. Somente o **Administrador** pode alterar a chave de licença nesse estado.
+Se o sistema ficar mais de **6 horas** com a licença inválida, ele bloqueia o acesso. Nesse caso, além de inserir a chave válida, é necessário reiniciar o backend. Somente o **superadmin** pode alterar a chave de licença nesse estado.
 
 #### Esta empresa está inativa. Entre em contato com o administrador
 
-* **Situação:** Tenta logar pelo Administrador e o aviso aparece
+* **Situação:** Tenta logar pelo superadmin e o aviso aparece
 * **Causa:** Ocorre quando é inativado o **Tenant 1** via banco ou rotina externa
 * **Solução:** Acessar o banco de dados e ativar na **tabela TENANT** o **Tenant 1**
 
@@ -106,7 +112,7 @@ Se o problema persistir após todas as tentativas acima, considere migrar o cana
 * Mensagens trocadas entre contas WABA
 * Arquivos em formatos não suportados
 
-**Como tratar:** verifique se o arquivo ou tipo de mensagem está na lista de formatos suportados pelo Prismabot: [https://prismatelecomservicos.com/  fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">]
+**Como tratar:** verifique se o arquivo ou tipo de mensagem está na lista de formatos suportados pelo Prismabot: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
 
 Se o tipo de conteúdo não for suportado, o comportamento esperado é que o Prismabot ignore ou registre o evento sem processar — não há ação corretiva do lado do sistema.
 
@@ -120,7 +126,7 @@ Se o tipo de conteúdo não for suportado, o comportamento esperado é que o Pri
 
 **O que significa:** o tenant atingiu o limite de conexões permitidas para a sua conta.
 
-**Como resolver:** acesse o **Administrador → Tenants** e revise o limite de conexões configurado para esse tenant. Aumente o limite se necessário.
+**Como resolver:** acesse o **Superadmin → Tenants** e revise o limite de conexões configurado para esse tenant. Aumente o limite se necessário.
 
 ---
 
@@ -167,7 +173,7 @@ Se o contato do WebChat **não possui telefone cadastrado**, não é possível e
 ### Erro ao gerar o certificado HTTPS
 
 * Verifique se o apontamento foi prapagado
-* Acesse a servidor como root e execute o comando
+* Acesse a servidor em nuvem como root e execute o comando
 
 ## Erros de Banco de Dados
 
@@ -187,10 +193,12 @@ Acessar o terminal com root
 
 ## Customização não são carregadas no front
 
-Acessar a servidor como deployzdg
+Acessar a servidor em nuvem como deployzdg
 
 Realizar as customizações
 
+[AnteriorTypebot autohospedado](/avancado-recursos-tecnicos/integracoes-terceiras/typebot-autohospedado)[PróximoTemplate (WABA) não chega ao destinatário](/avancado-recursos-tecnicos/erros-e-avisos-comuns/template-waba-nao-chega-ao-destinatario)
 
+Atualizado há 1 mês
 
- 1 mês
+Isto foi útil?

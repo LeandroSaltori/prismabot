@@ -1,3 +1,7 @@
+Copiar
+
+Nesta página
+
 # WEBRTC\_TURN\_SETUP
 
 Este guia configura um servidor **TURN** com **coturn** para chamadas de áudio/vídeo do **chat privado**. O tráfego de mídia pode ser retransmitido pelo TURN quando a conexão direta (STUN) não funciona — por exemplo, usuários em redes/ISPs diferentes ou CGNAT.
@@ -50,15 +54,17 @@ JSON com array extra de objetos no formato `RTCIceServer` (mesclado após os STU
 
 **Só TURN em UDP/TCP 3478 (sem TLS):**
 
+Copiar
+
 ```
 WEBRTC_TURN_URLS=turn:turn.exemplo.com.br:3478
-WEBRTC_TURN_USERNAME=prismabot_turn
+WEBRTC_TURN_USERNAME=zpro_turn
 WEBRTC_TURN_CREDENTIAL=uma_senha_longa_e_aleatoria
 ```
 
 **TURN + TURNS (TLS na 5349), se o coturn estiver com certificado:**
 
-**Importante:** use o **mesmo** usuário e senha no coturn (`user=prismabot_turn:uma_senha_longa_e_aleatoria`) e reinicie o processo Node (PM2/systemd) após alterar o `.env`.
+**Importante:** use o **mesmo** usuário e senha no coturn (`user=zpro_turn:uma_senha_longa_e_aleatoria`) e reinicie o processo Node (PM2/systemd) após alterar o `.env`.
 
 ---
 
@@ -76,11 +82,11 @@ Edite o arquivo (ex.: `sudo nano /etc/turnserver.conf`) e ajuste ao seu ambiente
 
 Substitua:
 
-* `SEU_IP_PUBLICO` — IP público da servidor (ou par `IP_PUBLICO/IP_INTERNO` se a VM estiver atrás de 1:1 NAT).
+* `SEU_IP_PUBLICO` — IP público da servidor em nuvem (ou par `IP_PUBLICO/IP_INTERNO` se a VM estiver atrás de 1:1 NAT).
 * `exemplo.com.br` — domínio ou nome lógico (campo `realm`).
-* `prismabot_turn` e `uma_senha_longa_e_aleatoria` — **iguais** a `WEBRTC_TURN_USERNAME` e `WEBRTC_TURN_CREDENTIAL`.
+* `zpro_turn` e `uma_senha_longa_e_aleatoria` — **iguais** a `WEBRTC_TURN_USERNAME` e `WEBRTC_TURN_CREDENTIAL`.
 
-Se a servidor não tiver IP público direto na interface (NAT do provedor):
+Se a servidor em nuvem não tiver IP público direto na interface (NAT do provedor):
 
 ### TLS (`turns:` na porta 5349)
 
@@ -104,7 +110,7 @@ Reinicie o coturn:
 
 ---
 
-## 3. Firewall (UFW na servidor)
+## 3. Firewall (UFW na servidor em nuvem)
 
 No painel da nuvem (security group / firewall), abra as **mesmas** portas.
 
@@ -114,7 +120,7 @@ No painel da nuvem (security group / firewall), abra as **mesmas** portas.
 
 Aponte um registro **A** (ou AAAA) para o subdomínio usado no TURN, ex.:
 
-* `turn.exemplo.com.br` → IP público da servidor
+* `turn.exemplo.com.br` → IP público da servidor em nuvem
 
 Use esse nome em `WEBRTC_TURN_URLS` em vez do IP, se possível (facilita certificado TLS e mudanças de IP).
 
@@ -135,7 +141,7 @@ Após editar o `.env` do backend:
 
 ## Referência no código
 
-* Montagem da lista ICE: `backend/src/utils/webrtcIceServersPrismabot.ts`
+* Montagem da lista ICE: `backend/src/utils/webrtcIceServersZPRO.ts`
 * Rota HTTP: `GET /chat-privado/webrtc/ice-servers` (autenticada)
 * Frontends consomem essa rota e montam o `RTCPeerConnection`
 
@@ -148,3 +154,7 @@ Após editar o `.env` do backend:
 * Credenciais ficam **somente** no servidor (backend `.env`); não coloque senha TURN em variáveis `NEXT_PUBLIC_*` no frontend.
 
 Para credenciais **temporárias** por usuário (shared secret / REST do coturn), seria necessário estender o backend — este guia cobre o modo **usuário/senha estático**, que já é suportado pelas variáveis `WEBRTC_TURN_*`.
+
+[AnteriorTemplate (WABA) não chega ao destinatário](/avancado-recursos-tecnicos/erros-e-avisos-comuns/template-waba-nao-chega-ao-destinatario)
+
+Isto foi útil?

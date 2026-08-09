@@ -1,3 +1,9 @@
+Copiar
+
+Nesta página
+
+1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
+
 # Como diagnosticar o erro "servidor temporariamente off-line"
 
 Se o seu Prismabot parou de carregar (tela branca, erro de conexão ou "servidor offline"), na maioria dos casos dá pra identificar — e às vezes já resolver — sozinho, em menos de 5 minutos, sem esperar o suporte. Este checklist ensina a acessar o terminal do seu servidor e descobrir exatamente o que parou.
@@ -24,6 +30,8 @@ O Prismabot roda como um processo (`backend`) gerenciado pelo **PM2** dentro do 
 1. Conecte na nuvem via SSH (ou abra o terminal web da hospedagem).
 2. Entre no usuário `deployzdg` — é obrigatório, as aplicações rodam dentro dele:
 
+Copiar
+
 ```
 sudo su deployzdg
 ```
@@ -42,7 +50,7 @@ Acompanhe o `pm2 log` por alguns segundos após o restart para confirmar que ele
 
 Liste os processos do sistema:
 
-Olhe a coluna **status** da linha `prismabot-backend`:
+Olhe a coluna **status** da linha `zpro-backend`:
 
 O que aparece
 
@@ -68,7 +76,7 @@ Antes de olhar logs, confira o estado do disco do seu servidor.
 
 Alguma partição perto de **100% em "Use%"**? (erro `disk_full` / `53100` no log do Postgres)
 
-**Causa:** a servidor ficou sem espaço em disco — quase sempre logs do PM2, cache ou mídias acumuladas.
+**Causa:** a servidor em nuvem ficou sem espaço em disco — quase sempre logs do PM2, cache ou mídias acumuladas.
 
 **Solução:**
 
@@ -84,7 +92,7 @@ O erro que está causando a queda aparece na tela. **Copie o texto inteiro** (n�
 
 Para sair e devolver o processo ao PM2:
 
-**Não deixe rodando assim (**`node dist/server.js`**).** Esse modo é só para *ver* o erro na tela — ele morre se você fechar o SSH. Depois de copiar o erro, sempre devolva ao PM2 com `pm2 start prismabot-backend` (ou `pm2 restart all`).
+**Não deixe rodando assim (**`node dist/server.js`**).** Esse modo é só para *ver* o erro na tela — ele morre se você fechar o SSH. Depois de copiar o erro, sempre devolva ao PM2 com `pm2 start zpro-backend` (ou `pm2 restart all`).
 
 ---
 
@@ -144,6 +152,8 @@ Na maioria das vezes, o sistema volta já na Etapa 3 ou 5. Se depois de seguir t
 
 **Causa:** pode ser um erro específico do código, de uma integração ou de uma atualização incompleta. **Solução:** abra um chamado de **Suporte Técnico**, anexando o texto do erro copiado na Etapa 4 e um print do `pm2 list` mostrando o status atual.
 
+[AnteriorBanco de dados - Como acessar](/avancado-recursos-tecnicos/banco-de-dados-como-acessar)[PróximoErro de Autenticação no app Whatsapp Oauth](/avancado-recursos-tecnicos/erro-de-autenticacao-no-app-whatsapp-oauth)
 
+Atualizado há 1 mês
 
- 25 dias
+Isto foi útil?

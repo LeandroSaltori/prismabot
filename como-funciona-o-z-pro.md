@@ -177,7 +177,7 @@ O front-end é acessível e customizável. O back-end é fechado — isso garant
 
 [→ Política de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)
 
-[AnteriorCentral de Ajuda Prismabot](/)[PróximoDiretrizes e Políticas](/diretrizes-e-politicas)
+[AnteriorCentral de Ajuda Prismabot](/)[PróximoQual plano do Prismabot é melhor para a minha operação](/como-funciona-o-z-pro/qual-plano-do-z-pro-e-melhor-para-a-minha-operacao)
 
 Atualizado há 1 mês
 

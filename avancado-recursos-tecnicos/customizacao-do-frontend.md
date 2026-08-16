@@ -93,7 +93,7 @@ Como mencionado, a customização do frontend requer a ajuda de um desenvolvedor
 
 Se precisar de indicações, temos uma lista de profissionais e parceiros externos que podem te auxiliar. Para isso, por favor, abra um chamado no departamento **"Preciso de indicação de profissional para manutenção e desenvolvimento"**.
 
-[AnteriorComo liberar espaço em disco na servidor em nuvem do Prismabot](/avancado-recursos-tecnicos/como-liberar-espaco-em-disco-na-servidor em nuvem-do-z-pro)[PróximoIntegrando o chat GPT](/avancado-recursos-tecnicos/integrando-o-chat-gpt)
+[AnteriorComo remover um tenant com erro de exclusão no Super Admin](/avancado-recursos-tecnicos/como-remover-um-tenant-com-erro-de-exclusao-no-super-admin)[PróximoIntegrando o chat GPT](/avancado-recursos-tecnicos/integrando-o-chat-gpt)
 
 Atualizado há 6 meses
 

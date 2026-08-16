@@ -19,7 +19,7 @@ Nesta seção você encontrará os seguintes artigos:
 * [API Oficial e Não Oficial (WhatsApp)](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
 * [Aviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)
 
-[AnteriorComo funciona o Prismabot](/como-funciona-o-z-pro)[PróximoPré-requisitos de instalação e utilização](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)
+[AnteriorQual plano do Prismabot é melhor para a minha operação](/como-funciona-o-z-pro/qual-plano-do-z-pro-e-melhor-para-a-minha-operacao)[PróximoPré-requisitos de instalação e utilização](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)
 
 Atualizado há 4 meses
 

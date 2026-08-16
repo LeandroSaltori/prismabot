@@ -44,7 +44,7 @@ Acesse a **URL do front-end** da sua instância (recebida ao final da instalaç�
 
 Após o login, você verá o painel do Superadmin com os menus de gestão da plataforma.
 
-![](../.gitbook/assets/img_1545840.png)
+![](../.gitbook/assets/img_852687.png)
 
 ---
 
@@ -68,7 +68,7 @@ Ainda no Superadmin, acesse **Usuários** e crie um novo usuário com o perfil *
 
 Faça logout do Superadmin e entre com as credenciais do usuário Administrador que você acabou de criar. O painel muda: agora você está na área operacional do sistema, onde toda a operação de atendimento acontece.
 
-![](../.gitbook/assets/img_4936651.png)
+![](../.gitbook/assets/img_7609132.png)
 
 ---
 

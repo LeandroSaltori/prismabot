@@ -118,6 +118,6 @@ A gestão, segurança e manutenção do servidor são de responsabilidade do ass
 
 [AnteriorDiretrizes e Políticas](/diretrizes-e-politicas)[PróximoPolítica de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)
 
-Atualizado há 4 dias
+Atualizado há 11 dias
 
 Isto foi útil?

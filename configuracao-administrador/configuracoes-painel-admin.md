@@ -10,7 +10,7 @@ Configurações
 
 A seção de **Configurações** reúne os ajustes operacionais do painel Admin: regras globais de comportamento da plataforma, integrações com ferramentas externas, configuração de apps, gestão de sessões ativas e recursos de CRM.
 
-![](../.gitbook/assets/img_4939361.png)
+![](../.gitbook/assets/img_8785025.png)
 
 ---
 

@@ -35,7 +35,7 @@ A primeira etapa é habilitar a funcionalidade do ChatGPT dentro do seu sistema 
 3. No menu secundário que aparecerá, selecione a opção **Chat GPT**.
 4. Ative a opção **"Ativar integração com ChatGPT"**.
 
-![](../.gitbook/assets/img_4358724.png)
+![](../.gitbook/assets/img_9715015.png)
 
 *Opcional: Você também pode ativar a chave "Ativar integração com ChatGPT para todos os atendimentos por padrão" se desejar que o bot responda em todos os canais automaticamente. Caso contrário, você configurará canal por canal, como mostrado no próximo passo.*
 
@@ -47,7 +47,7 @@ Após ativar a integração, você precisa configurar sua chave de API e as inst
 2. Localize o canal desejado (ex: WhatsApp, Webchat) e clique no ícone de **Configurações (engrenagem)**.
 3. Caso não tenha nenhum canal criado ainda. Clique no botão + Adicionar Canal. Uma janela de configurações se abrirá.
 
-![](../.gitbook/assets/img_8768458.png)
+![](../.gitbook/assets/img_6104194.png)
 
 #### **Passo 3: Integrando o chat GPT no seu canal**
 
@@ -75,12 +75,12 @@ Ainda na mesma janela, você pode refinar a integração:
 * **ChatGPT Voice Model:** Caso opte por respostas em áudio, selecione o modelo de voz desejado (ex: alloy, onyx, nova).
 * **Ativar Respostas de Voz (ChatGPT Voice):** Ative esta opção para que o bot responda às mensagens com áudios em vez de texto.
 
-![](../.gitbook/assets/img_6768622.png)
+![](../.gitbook/assets/img_9612494.png)
 
 Após preencher as informações, salve as configurações. Seu canal estará pronto para utilizar o ChatGPT nos atendimentos.
 
 [AnteriorCustomização do Frontend](/avancado-recursos-tecnicos/customizacao-do-frontend)[PróximoIntegração Google Calendar](/avancado-recursos-tecnicos/integracao-google-calendar)
 
-Atualizado há 24 dias
+Atualizado há 1 mês
 
 Isto foi útil?

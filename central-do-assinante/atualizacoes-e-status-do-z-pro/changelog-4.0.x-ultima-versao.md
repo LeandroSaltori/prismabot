@@ -25,7 +25,249 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 ## Última Versão
 
+### v4.0.4
+
+**🚀 UPDATE OFICIAL (HOMOLOG) | 17/08/2026**
+
+Esta versão altera **permissões, visibilidade de atendimentos e regras de criação de usuários** — inclusive na API. Os detalhes estão explicados abaixo.
+
+**⚠️ BREAKING CHANGE — Permissões, visibilidade e segurança**
+
+As notificações agora seguem **exatamente** as mesmas permissões da tela de Atendimentos: o usuário só recebe avisos de conversas que pode abrir. A segurança no servidor também foi reforçada — atendimentos fora do alcance do usuário não podem mais ser abertos nem respondidos por link direto.
+
+**O que muda no comportamento atual**
+
+* **Criação de usuários:** agora exige permissão de gestão e não permite criar perfil superior ao próprio. **Scripts que criavam usuários com credencial comum podem parar de funcionar.**
+* **API:** não cria mais contas de nível plataforma. Administrador, supervisor, atendente e perfil personalizado continuam funcionando normalmente.
+* **Edição do próprio cadastro:** usuários sem permissão de gestão não podem mais alterar filas, canais, horário, e-mail, senha e outras configurações do próprio cadastro.
+* **Canais:** usuários com canais definidos acessam somente esses canais — o servidor também bloqueia o acesso direto aos demais.
+* **Visualização por Departamento:** agora é validada no servidor. Supervisor restrito não acessa outra fila por link direto; supervisor sem fila definida continua sem restrição.
+* **Conversas do robô:** ficam ocultas apenas enquanto estão com o robô. Após o encaminhamento para uma fila, voltam a aparecer.
+* **Carteira:** o dono da carteira volta a visualizar e a receber avisos dos atendimentos do contato.
+
+**Regras por perfil**
+
+Perfil
+
+Situação
+
+O que passa a ver
+
+**Supervisor**
+
+Sem restrições
+
+Vê tudo.
+
+Com departamento + filas
+
+Apenas suas filas, além dos próprios atendimentos, convites e grupos.
+
+Sem filas definidas
+
+Sem restrição.
+
+Com restrição de canal
+
+Apenas os canais atribuídos.
+
+**Atendente**
+
+Com filas
+
+Suas filas + atendimentos próprios, convites, carteira e grupos.
+
+Sem filas
+
+Continua vendo os atendimentos não atribuídos.
+
+Sem canais definidos
+
+Todos os canais.
+
+Com canais definidos
+
+Somente esses canais.
+
+**Administrador / Plataforma**
+
+Uso normal
+
+Nada muda: acesso completo aos atendimentos.
+
+**Perfil personalizado**
+
+Com acesso total
+
+Mantém a visão completa.
+
+Sem acesso total
+
+Segue as regras de fila e canal.
+
+**Dois detalhes importantes:** o supervisor **não pode mais alterar a própria "Visualização por Departamento"**, e o atendimento próprio do atendente continua acessível mesmo se o canal for excluído.
+
+**Correções ligadas a permissões**
+
+* Corrigido o "acesso restrito" ao clicar em notificações.
+* Convites removidos deixam de gerar avisos.
+* Alterações de permissões passam a valer em até 30 segundos.
+* Corrigido o alerta duplicado em Nuvemshop e WooCommerce.
+* As telas de usuário não oferecem mais opções que o servidor vai recusar.
+* Permissões de menu escolhidas na criação do usuário agora são salvas corretamente — antes o usuário era criado com todos os menus liberados. O horário de atendimento definido na criação também passa a ser respeitado.
+* Corrigido o erro ao salvar a edição do próprio cadastro (nome, e-mail, telefone) — perfil e permissões agora aparecem bloqueados para o próprio usuário, com aviso.
+* Atendentes sem restrição de conexão voltam a receber notificações push, e a redistribuição automática passa a considerar corretamente quem pode ver o número.
+
+**⚠️ BREAKING CHANGE — Perfis personalizados**
+
+* **Entram no roteamento automático.** Antes eram invisíveis para o bot e para a distribuição de fila — nunca recebiam atendimento automático. Se você modelou um perfil personalizado de supervisão, essas pessoas passam a receber atendimento.
+* **Ações que exigem marcar uma nova permissão** no perfil personalizado (sem ela, param de funcionar): criar, editar e excluir canal — inclusive o Login com Facebook — → **Gerenciar sessões**; salvar qualquer configuração da empresa → **Configurações gerais**; salvar horário de atendimento e feriados → **Gerenciar horários**; marcar todos como não lidos → **Atribuir atendimentos**.
+* **Agenda:** a página passou a ser limitada pela capability **agenda** do plano, e não mais por `funnelKanban`. Um plano que tenha Funil mas não Agenda passa a bloquear a Agenda — antes ela entrava de carona.
+* Perfis personalizados agora funcionam de ponta a ponta em Integração Meta, Dashboard, Campanhas e Configurações, e a tela de perfis passou a avisar quando falta marcar a permissão que a página exige.
+
+**⚠️ BREAKING CHANGE — Eventos do painel em tempo real**
+
+* **Payload enxuto:** os eventos do painel passam a chegar com dados reduzidos — menos consumo de banda e mais velocidade, especialmente em equipes grandes. Se você tem integração lendo os eventos do socket, revise os campos utilizados.
+
+**💬 Atendimento e Tickets**
+
+* **Mais confiável e rápido:** mensagens que falham não somem mais e podem ser reenviadas com um clique, o upload de arquivos mostra progresso e novos atalhos de teclado agilizam o dia a dia.
+* **Colar arquivos com Ctrl+V** no atendimento — PDF, Word, Excel e outros documentos, além de imagens e vídeos.
+* **Reabertura com aviso de duplicidade:** ao reabrir um atendimento encerrado, o sistema avisa se o contato já tem uma conversa em andamento (no mesmo canal ou em outro), para quem o atendimento vai e se a janela de 24 horas está fechada — antes de criar um atendimento duplicado. A lista também deixou de esconder um dos atendimentos quando o mesmo contato tem dois em aberto.
+* **Etiquetas definidas por API ou pelo chatbot** aparecem no atendimento na hora, sem esperar a próxima mensagem nem recarregar a página.
+* **Botão (x) da lista volta a encerrar de forma direta** — sem pesquisa de satisfação, sem demanda obrigatória e sem mensagem de despedida. A pesquisa continua sendo enviada pelo "Resolver" do atendimento e pelo painel do contato, conforme o comportamento configurado em Avaliações.
+* **Espiar conversa do contato:** o histórico é exibido exatamente como no chat do atendimento — imagens ampliam em tela cheia, PDFs abrem em popup, áudios ganham o player completo e mensagens de botões, listas e templates aparecem formatadas.
+* **Notas do atendimento com links clicáveis:** URLs, endereços www e e-mails abrem direto da nota, e códigos PIX e linha digitável continuam intactos para copiar. O chat privado também passou a exibir links clicáveis.
+* **Mensagem rápida com apenas arquivo:** a "/" usada para buscar não vai mais junto na conversa — some sozinha ao escolher a mensagem — e o botão de enviar aparece normalmente também no celular.
+* Ao abrir um atendimento, a conversa sempre carrega na mensagem mais recente: sem abrir no meio nem exigir clique na seta para descer.
+* A lista de conversas não volta mais ao tamanho inicial depois de usar "carregar mais" — as páginas carregadas são preservadas nas atualizações em tempo real e após ações em massa.
+* Ao ampliar a foto de perfil, contatos sem foto (ou com foto expirada) exibem as iniciais coloridas em vez de um popup vazio.
+* O botão **"Enviar template"** do aviso de janela de 24h agora se ajusta automaticamente ao tema e às cores da marca, ficando legível também no modo claro.
+* O **PDF de exportação da conversa** apresenta as mensagens em ordem cronológica, da mais antiga para a mais recente.
+* Corrigido: a conversa não fecha mais sozinha ao enviar mensagem em atendimento atribuído a outro usuário da mesma fila.
+* Corrigido: cliente com atendente fixo (carteira) que chamava por um número fora da visão do atendente ficava sem atendimento — agora o atendimento vai para outro responsável da carteira ou para a fila, normalmente.
+* Corrigido: erro intermitente ao enviar respostas rápidas com botões/lista no WhatsApp Oficial e mensagens interativas no Instagram/Messenger logo após aceitar o atendimento.
+* Corrigido o contador da janela de conversa, que em alguns casos exibia tempo restante acima de 24 horas.
+* Corrigido: documentos PDF com nome contendo pontos duplos (ex.: `arquivo..pdf`) abrem e baixam normalmente no atendimento.
+* Corrigido: envio de imagens e arquivos pelo bot quando o nome do arquivo contém espaços ou acentos.
+* Corrigido: travamentos do chat privado ao abrir conversas em grupo, além do contador de mensagens não lidas que podia aparecer zerado.
+* Corrigido o aviso "Este recurso não está incluído no seu plano", que aparecia sozinho ao abrir um atendimento mesmo sem o usuário acessar o recurso.
+
+**🔔 Notificações e Sininho**
+
+* Ao desativar **"Notificações sonoras"** em Configurações, os alertas de áudio são silenciados imediatamente em todas as sessões abertas — incluindo chat interno, chat de suporte e notificações do sistema, sem precisar recarregar a página.
+* Corrigido: com o filtro de tickets no socket ativo, atendentes voltam a receber som, notificação e prévia da mensagem em atendimentos pendentes.
+* **Conexões e agendamentos** sinalizam quando apontam para fluxo de bot, fila ou atendente que foi excluído — com aviso automático no sininho dos administradores.
+* **Ações automáticas de ticket e do funil** sinalizam quando usam canal, etiqueta, carteira ou etapa que foi excluída — na tela e no aviso diário do sininho.
+
+**📊 Kanban e Funil**
+
+* Corrigido o alerta de fechamento no funil, que exibia "hoje" para oportunidades que venciam no dia seguinte e ignorava as que venciam de fato no dia — datas e contagem de dias agora batem com a data mostrada no card.
+
+**🤖 Chatbot e Chatflow**
+
+* **Editor de fluxo profissional:** desfazer/refazer, aviso de conexões quebradas e ações arrastáveis para dentro dos passos.
+* **Variáveis como** `{{name}}` passam a funcionar no corpo, nos títulos e nas opções das listas (WABA, Gupshup e 360Dialog) e na mensagem padrão de tentativa em todos os canais; falhas de envio de lista são sinalizadas no atendimento.
+* Transferências para fila, atendente ou canal excluídos não travam mais o atendimento — o sistema avisa no sininho e sinaliza o fluxo com pendência na tela de Chat Flow.
+* **Listas do ChatFlow no canal UazAPI** enviam a descrição de cada opção, e o cabeçalho configurado aparece como primeira linha da mensagem.
+
+**📢 Campanhas e Disparo em Massa**
+
+* **Status real por destinatário** nos relatórios de disparo em massa e de campanha — enviada, entregue, lida ou falha — com exportação por número. O relatório também deixa claro quando a mensagem foi apenas aceita pelo provedor, sem confirmação de entrega.
+* **Disparo por template** (comum e com variáveis) passa a respeitar a verificação de conversas ativas: contatos em atendimento ou aguardando são pulados e aparecem no resumo e no relatório, sem interromper o atendimento em andamento.
+* Agora é possível **editar campanhas agendadas e pausadas**.
+* **Importação de números nos Disparos e Grupos:** aceita `.csv` e `.txt` com qualquer divisor (vírgula, ponto e vírgula, tabulação, barra, espaço ou hífen), com detecção automática e pré-visualização antes de importar.
+
+**📱 Canais Oficiais Meta (WABA / Instagram / Messenger)**
+
+* **Cobrança pelo WhatsApp (WABA):** escolha o template de cobrança, informe os itens e o valor, e o cliente recebe uma ficha de pagamento com Pix, boleto ou link. Disponível no atendimento, em nova conversa, disparo em massa, campanhas, agendamentos, funil e chatbot.
+* **Autocura dos canais Meta:** resolvido o caso em que o canal permanecia conectado mas parava de receber mensagens novas após alguns dias, exigindo reconfiguração manual da origem do webhook.
+* **Instagram e Messenger:** a pesquisa de satisfação volta a registrar a nota e a encerrar o atendimento automaticamente após a resposta do cliente — e as mensagens de confirmação e despedida agora aparecem no histórico da conversa.
+* **Instagram — assumir o controle da conversa:** quando outra ferramenta está "segurando" a conversa (a mensagem chega, mas a resposta falha), o sistema assume o controle automaticamente e reenvia a mensagem. Basta habilitar "Assumir o controle de conversas" nas configurações da Página do Facebook.
+* **Instagram via Tech Provider** pode ser usado associado a uma conta do Facebook ou apenas com o Instagram.
+* Instagram conectado via Facebook agora conclui a configuração do webhook — antes a ativação falhava silenciosamente em contas sem canal Messenger na mesma página.
+* Adicionada a hidratação da carga para cobrir o aviso intermitente "Token WABA não encontrado" ao enviar templates e mensagens do WhatsApp Oficial.
+* Corrigido o template de mensagem de aniversário em canais WhatsApp Oficial (WABA), que não era salvo ao configurar e não era usado no envio.
+* Corrigido: encaminhar mensagem recebida em canais WABA, Instagram e Hub agora entrega de fato ao destinatário (antes aparecia como enviada sem chegar).
+
+**🔌 Integrações Não Oficiais (Baileys, UazAPI, Z-API, EVO, ZAPO, InfiniteAPI)**
+
+* **Nova API liberada: ZAPO** — com opção de transferência nativa de Baileys para ZAPO.
+* **Novo atalho "InfiniteAPI"** na tela de Sessões: crie o canal já com a biblioteca de mensagens interativas e escolha o armazenamento da sessão, sem precisar configurar pelo Baileys.
+* **WhatsApp/Baileys:** sessão utilizada em outro local (conflito "replaced") agora é detectada e pausada automaticamente após 3 quedas seguidas, eliminando o loop de reconexão que elevava o consumo de memória e podia reiniciar o servidor.
+* **Conexões WhatsApp mais estáveis:** canais que ficavam presos em "conectando" ou desconectavam em loop após conflito de sessão agora se recuperam sozinhos, e reconectar manualmente volta a funcionar de primeira.
+* Canais **desativados automaticamente** após falhas de conexão voltam a funcionar sozinhos quando reconectam, e o aviso "Inativo" explica o motivo e o que fazer.
+* **Z-API:** corrigido apagar e editar mensagens — a exclusão remove a mensagem também no WhatsApp do contato, e a alteração aparece em tempo real na conversa.
+* **Z-API e UazAPI:** a foto de perfil dos contatos voltou a carregar, e a criação de canais via API respeita o provedor global configurado.
+* **UazAPI:** corrigido o envio de arquivos PDF em instalações que usam armazenamento em nuvem (S3).
+* **EVO:** corrigido o encode de mídia.
+
+**🛍️ Marketplaces e Hub (Mercado Livre, OLX, LinkedIn, YouTube)**
+
+* Respostas pelos canais **Mercado Livre, OLX, LinkedIn e YouTube** funcionam de ponta a ponta, e envios que falham passam a mostrar erro claro no chat em vez de constar como entregues.
+* **Mercado Livre:** o ticket mostra o nome do comprador e o anúncio/produto da conversa (título, imagem e link), sem precisar abrir o Mercado Livre.
+
+**🔗 API e Integrações Externas**
+
+* Agora é possível **criar a conexão já vinculada ao modo híbrido pela API**, sem precisar editar o canal depois.
+* As telas de configuração de integrações avisam quando um **provedor global do sistema** está ativo e tem prioridade sobre os dados preenchidos na página.
+
+**👥 Contatos e Importação**
+
+* **Convenção do 9º dígito (BR):** números de celular com o 9º dígito passam a ser respeitados conforme a configuração da empresa (Configuração Geral → Convenção do 9º dígito (BR)), e envios que falhavam por variação do 9 são reenviados automaticamente na forma correta. Envios de mídia, botões, listas e templates pelos canais oficiais do WhatsApp também se recuperam automaticamente quando o número do contato diverge no 9º dígito.
+* **Importação de contatos:** arquivos `.csv` e `.txt` funcionam com qualquer divisor (vírgula, ponto e vírgula, tabulação ou barra), com detecção automática e opção de escolher o divisor na pré-visualização.
+* **Importação inteligente:** a área de mapeamento de colunas mostra mais colunas de uma vez e exibe quantas colunas foram detectadas no arquivo.
+* **Importação inteligente:** o campo personalizado aparece corretamente ao ser selecionado, pode ser removido com um clique e não permite nomes repetidos entre colunas.
+* **Exclusão de contatos** passou a respeitar de fato a configuração "permitir somente admin excluir contatos": com ela desligada, supervisores e atendentes conseguem excluir contatos que já têm atendimento; com ela ligada, a restrição vale também na API, e não só na tela.
+* Corrigida a importação de contatos por planilha.
+
+**📈 Relatórios, Dashboard e Indicadores**
+
+* **Novo relatório de Produtividade Diária:** mostra quantos atendimentos cada atendente fez, iniciou e resolveu em cada dia, considerando a data em que o atendimento aconteceu — incluindo conversas abertas em dias anteriores.
+* **Painéis com contexto:** comparativo com o período anterior, relatórios ordenáveis e Analytics com gráficos de verdade.
+* **Tempos com precisão de segundos** (nada de "0min" para equipes rápidas), TPR e TTE com explicação direto no painel, e correção automática dos registros antigos que zeravam o tempo de primeira resposta.
+* Os indicadores **TPR** e **TTE** passam a ser calculados corretamente em todos os canais, inclusive em atendimentos antigos.
+* Atendimentos encerrados pelo **botão de resolver da lista** voltam a ser contabilizados em TPR e TTE, e não mudam mais de atendente ao serem encerrados.
+* Corrigidos o carregamento do detalhamento por usuário no dashboard e os valores incorretos na linha de totais da tabela de desempenho.
+
+**📅 Agendamento e Aniversários**
+
+* **Lembretes da Agenda** ficam registrados no histórico do atendimento também nos canais WhatsApp QR Code e UazAPI, como já acontecia na API oficial.
+* Corrigido: mensagens agendadas com template exibem as variáveis preenchidas na tela de Agendamentos e no chat (o envio ao contato já estava correto).
+* Corrigido o horário exibido nas consultas da agenda: a data/hora agora aparece igual na lista, no calendário e na tela de edição (a servidor em nuvem deve estar no timezone `America/Sao_Paulo`).
+* Na lista de aniversários, ordenar por qualquer coluna considera todos os contatos, e não apenas os da página aberta.
+
+**⚙️ Superadmin, Planos e Pagamentos**
+
+* **Alterar as funcionalidades de um plano vale na hora** para os clientes que já estão nele — antes só valia para novas contratações.
+* **Controle do WaVoIP por empresa.**
+* **Pagamentos via Stripe:** o plano contratado fica vinculado à assinatura desde o cadastro, com fatura com vencimento e troca de plano direto pelo menu Meu Plano.
+* Corrigido: as notificações de pagamento do Stripe voltaram a ser recebidas corretamente — o status da assinatura é atualizado automaticamente, sem erros de autenticação no webhook.
+
+**👤 Usuários e Senhas**
+
+* **Controle de senha para novos usuários:** exija a troca de senha no primeiro acesso ou envie um convite por e-mail para o próprio usuário criar a senha (Configurações → Gerais → Senha de novos usuários).
+* Agora é possível remover a foto de perfil e voltar ao avatar padrão nas páginas de perfil.
+
+**🎨 Interface, Navegação e Configurações**
+
+* **Navegação repensada:** busca **Ctrl+K** com todas as telas, configurações e ações rápidas; troca de tema instantânea.
+* **Interface no seu idioma:** datas, horas e números seguem o idioma do usuário, e o modo escuro foi corrigido em todo o sistema.
+* **Configurações Gerais:** busca aprimorada com atalho `/`, filtros por tema, seções recolhíveis, revisão das alterações antes de salvar e aviso ao sair sem salvar.
+* Listas longas em modais e painéis agora mostram barra de rolagem — corrigidos o popover de atendimentos pausados, o modal de Tarefas e o de encaminhar mensagem, que cortavam a lista sem deixar rolar.
+* **Catálogo:** o campo **Imagens extras** agora explica que essas fotos ficam no cadastro e não são enviadas junto com a ficha do produto.
+
+**✉️ E-mail**
+
+* Corrigida a visualização de e-mails em HTML no iPhone/Safari — o conteúdo do e-mail agora abre normalmente no celular.
+
+**🔧 Sistema e Infra**
+
+* **Instalador:** as respostas da API passam a trafegar comprimidas (gzip), reduzindo o consumo de dados e acelerando o carregamento — aplicado automaticamente na próxima atualização.
+
 ---
+
+## Versões anteriores
 
 ### v4.0.3
 
@@ -132,10 +374,6 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 * Nova variável no `.env` do backend: `AUDIT_LOGS_RETENTION_DAYS` para definir a retenção dos logs de auditoria (padrão: 90 dias).
 * **Instalador:** o modo cluster detecta automaticamente o usuário do PostgreSQL — corrige erros de dreno e de leitura de capacidade em servidores com usuário de banco personalizado.
-
----
-
-## Versões anteriores
 
 ---
 
@@ -399,6 +637,6 @@ Nas páginas seguintes você encontra o histórico completo das versões anterio
 
 [AnteriorAtualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-z-pro)[Próximo3.1.5.x](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao/3.1.5.x)
 
-Atualizado há 21 dias
+Atualizado há 4 dias
 
 Isto foi útil?

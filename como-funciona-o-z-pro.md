@@ -179,6 +179,6 @@ O front-end é acessível e customizável. O back-end é fechado — isso garant
 
 [AnteriorCentral de Ajuda Prismabot](/)[PróximoQual plano do Prismabot é melhor para a minha operação](/como-funciona-o-z-pro/qual-plano-do-z-pro-e-melhor-para-a-minha-operacao)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

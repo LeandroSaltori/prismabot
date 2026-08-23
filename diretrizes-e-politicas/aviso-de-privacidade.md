@@ -345,6 +345,6 @@ A versão vigente está sempre disponível em [https://prismatelecomservicos.com
 
 [AnteriorTermos e Condições Gerais de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)[PróximoManutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)
 
-Atualizado há 2 meses
+Atualizado há 3 meses
 
 Isto foi útil?

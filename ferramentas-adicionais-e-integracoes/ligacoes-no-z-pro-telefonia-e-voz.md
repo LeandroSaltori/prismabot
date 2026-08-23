@@ -164,7 +164,7 @@ Porta WSS do servidor (padrão: **8089**)
 
 1. Salve — o **SIP Webphone** ficará disponível para aquele usuário no painel do atendimento
 
-![](../.gitbook/assets/img_6111094.png)
+![](../.gitbook/assets/img_4306715.png)
 
 #### Como usar no atendimento
 
@@ -214,6 +214,6 @@ Para detalhes, acesse [Log Ligações.](/configuracao-administrador/gestao-comer
 
 [AnteriorVisão geral - Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes/visao-geral-ferramentas-adicionais-e-integracoes)[PróximoNotificações Aplicativo (web push)](/ferramentas-adicionais-e-integracoes/notificacoes-aplicativo-web-push)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

@@ -43,7 +43,7 @@ Módulo de relacionamento que centraliza todos os contatos com data de nasciment
 
 Configuração de respostas automáticas para eventos do Instagram: comentários em posts e reels, interações em lives, menções, respostas a stories e posts compartilhados via DM. Cada automação define um gatilho, condições de filtragem e as ações que o sistema executa automaticamente.
 
-[AnteriorPerfis de Acesso](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)[PróximoAgendamentos](/configuracao-administrador/automacao/agendamentos)
+[AnteriorPerfil Personalizado](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)[PróximoAgendamentos](/configuracao-administrador/automacao/agendamentos)
 
 Atualizado há 1 mês
 

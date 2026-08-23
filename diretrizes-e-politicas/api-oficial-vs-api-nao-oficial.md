@@ -76,6 +76,6 @@ Conforme estabelecido nos **Termos e Condições de Uso**, o Prismabot não gara
 
 [AnteriorManutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)[PróximoLID do WhatsApp](/diretrizes-e-politicas/lid-do-whatsapp)
 
-Atualizado há 2 meses
+Atualizado há 3 meses
 
 Isto foi útil?

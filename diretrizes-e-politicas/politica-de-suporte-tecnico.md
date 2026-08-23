@@ -73,6 +73,6 @@ O Prismabot oferece integração com diversas ferramentas externas, mas o funcio
 
 [AnteriorPré-requisitos de instalação e utilização](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)[PróximoTermos e Condições Gerais de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

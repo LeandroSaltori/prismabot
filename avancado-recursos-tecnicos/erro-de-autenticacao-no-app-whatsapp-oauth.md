@@ -10,7 +10,7 @@ Checklist para investigar o erro "PERMISSION CONNECTIONS LIMITED" na hora de se 
 
 Se ao conectar um número WhatsApp pela API Oficial (via App Techprovider/compartilhado da Prisma Telecom) você recebeu a tela de erro **"Erro na autenticação"** com o código `ERR_NO_PERMISSION_CONNECTIONS_LIMIT`, siga este checklist na ordem abaixo.
 
-![](../.gitbook/assets/img_2381500.png)
+![](../.gitbook/assets/img_4370832.png)
 
 ---
 

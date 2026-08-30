@@ -188,6 +188,6 @@ deve ser tratado diretamente com o suporte da WaVoIP em [**wavoip.com**](https:/
 
 [AnteriorNotificações Aplicativo (web push)](/ferramentas-adicionais-e-integracoes/notificacoes-aplicativo-web-push)[PróximoBanco de dados - Como acessar](/avancado-recursos-tecnicos/banco-de-dados-como-acessar)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

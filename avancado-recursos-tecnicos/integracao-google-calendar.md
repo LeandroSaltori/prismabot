@@ -84,7 +84,7 @@ Com as credenciais em mãos, vamos finalizar a configuração dentro do Prismabo
    * **Secret (Segredo):** Cole o código gerado na Etapa 3.
 4. Clique em **"Obter Token"** ou **"Salvar"**.
 
-![](../.gitbook/assets/img_2174607.png)
+![](../.gitbook/assets/img_2638681.png)
 
 #### Autorizando o Acesso
 
@@ -116,7 +116,7 @@ Dentro do menu **Kanban (CRM)**:
 4. Defina a data, hora e detalhes do evento.
 5. Ao salvar, o evento será criado automaticamente na sua Google Agenda.
 
-![](../.gitbook/assets/img_7499487.png)
+![](../.gitbook/assets/img_2493415.png)
 
 #### 2. Visualizando a Agenda
 
@@ -126,7 +126,7 @@ No menu lateral do Prismabot, acesse a aba **Calendário**.
 * Clique em **Buscar** para visualizar todos os seus compromissos sincronizados.
 * Você também pode criar novos eventos clicando diretamente nas datas deste calendário.
 
-![](../.gitbook/assets/img_6376059.png)
+![](../.gitbook/assets/img_7989394.png)
 
 #### 3. Automatizando no Chatbot
 
@@ -135,7 +135,7 @@ Você pode criar agendamentos automáticos durante uma conversa do bot com seu c
 1. Acesse o menu **Chatbot** e edite o fluxo desejado.
 2. Na barra de ferramentas, clique no ícone de **Calendário** (Google Agenda) para adicionar o elemento ao fluxo.
 
-![](../.gitbook/assets/img_2594148.png)
+![](../.gitbook/assets/img_3345082.png)
 
 1. Configure o elemento com as seguintes informações:
 
@@ -147,6 +147,6 @@ Você pode criar agendamentos automáticos durante uma conversa do bot com seu c
 
 [AnteriorIntegrando o chat GPT](/avancado-recursos-tecnicos/integrando-o-chat-gpt)[PróximoInfraestrutura](/avancado-recursos-tecnicos/infraestrutura)
 
-Atualizado há 5 meses
+Atualizado há 6 meses
 
 Isto foi útil?

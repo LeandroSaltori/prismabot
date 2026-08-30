@@ -21,6 +21,6 @@ Nesta seção você encontrará os seguintes artigos:
 
 [AnteriorQual plano do Prismabot é melhor para a minha operação](/como-funciona-o-z-pro/qual-plano-do-z-pro-e-melhor-para-a-minha-operacao)[PróximoPré-requisitos de instalação e utilização](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)
 
-Atualizado há 4 meses
+Atualizado há 5 meses
 
 Isto foi útil?

@@ -54,6 +54,6 @@ Centro de gestão de acessos do Prismabot. Permite cadastrar colaboradores, defi
 
 [AnteriorVisão geral Admin](/configuracao-administrador/visao-geral-admin)[PróximoCanais de comunicação](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

@@ -45,6 +45,6 @@ Configuração de respostas automáticas para eventos do Instagram: comentários
 
 [AnteriorPerfil Personalizado](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)[PróximoAgendamentos](/configuracao-administrador/automacao/agendamentos)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

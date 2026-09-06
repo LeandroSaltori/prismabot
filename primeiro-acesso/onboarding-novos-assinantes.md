@@ -72,6 +72,6 @@ Recomendamos a leitura das páginas abaixo antes de colocar o sistema em produç
 
 [AnteriorPrincipais dúvidas administrativas](/central-do-assinante/gestao-da-assinatura/principais-duvidas-administrativas)[PróximoInstalar Prismabot](/primeiro-acesso/instalar-z-pro)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

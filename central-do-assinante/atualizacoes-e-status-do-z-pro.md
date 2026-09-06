@@ -32,6 +32,6 @@ Acompanhe nosso canal de avisos do Telegram: [https://prismatelecomservicos.com/
 
 [AnteriorCobranças da Meta (WhatsApp Business Platform)](/api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform)[PróximoChangelog (4.0.x última versão)](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

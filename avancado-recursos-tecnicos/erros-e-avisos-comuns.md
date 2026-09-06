@@ -199,6 +199,6 @@ Realizar as customizações
 
 [AnteriorTypebot autohospedado](/avancado-recursos-tecnicos/integracoes-terceiras/typebot-autohospedado)[PróximoTemplate (WABA) não chega ao destinatário](/avancado-recursos-tecnicos/erros-e-avisos-comuns/template-waba-nao-chega-ao-destinatario)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

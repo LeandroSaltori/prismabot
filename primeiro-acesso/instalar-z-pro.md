@@ -30,6 +30,6 @@ Após a instalação, a licença precisa ser ativada pelo superadministrador. Es
 
 [AnteriorOnboarding - novos assinantes](/primeiro-acesso/onboarding-novos-assinantes)[Próximo1. Preparar ambiente](/primeiro-acesso/instalar-z-pro/1.-preparar-ambiente)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

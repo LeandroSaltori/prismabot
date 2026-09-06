@@ -10,7 +10,7 @@ Ferramentas de atendimento do Prismabot: tela de conversas, filtros de tickets, 
 
 A seção de **Atendimento** reúne todas as ferramentas que a equipe utiliza no dia a dia de relacionamento com o cliente: a tela principal de conversas, a comunicação interna entre agentes e o gerenciamento da base de contatos.
 
-![](../.gitbook/assets/img_9544104.png)
+![](../.gitbook/assets/img_3226524.png)
 
 ---
 
@@ -43,6 +43,6 @@ Diretório central de clientes da plataforma, que funciona como um CRM integrado
 
 [AnteriorBarra de ferramenta geral](/ferramentas-do-atendimento/home-e-dashboard/barra-de-ferramenta-geral)[PróximoTela de Atendimento](/ferramentas-do-atendimento/atendimento/tela-de-atendimento)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

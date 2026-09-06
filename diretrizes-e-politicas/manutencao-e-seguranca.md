@@ -134,6 +134,6 @@ Para entender o que é responsabilidade da Prisma Telecom e o que é responsabil
 
 [AnteriorAviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)[PróximoAPI Oficial vs API Não Oficial](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

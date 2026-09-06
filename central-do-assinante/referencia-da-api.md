@@ -12,6 +12,6 @@ Documentação da API REST do Prismabot: endpoints disponíveis, autenticação,
 
 [AnteriorConexão com Passkey — APIs não oficiais](/central-do-assinante/atualizacoes-e-status-do-z-pro/conexao-com-passkey-apis-nao-oficiais)[Próximo📅 Agendamentos E Lembretes](/central-do-assinante/referencia-da-api/agendamentos-e-lembretes)
 
-Atualizado há 6 meses
+Atualizado há 7 meses
 
 Isto foi útil?

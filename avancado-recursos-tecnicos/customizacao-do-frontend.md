@@ -95,6 +95,6 @@ Se precisar de indicações, temos uma lista de profissionais e parceiros extern
 
 [AnteriorComo remover um tenant com erro de exclusão no Super Admin](/avancado-recursos-tecnicos/como-remover-um-tenant-com-erro-de-exclusao-no-super-admin)[PróximoIntegrando o chat GPT](/avancado-recursos-tecnicos/integrando-o-chat-gpt)
 
-Atualizado há 6 meses
+Atualizado há 7 meses
 
 Isto foi útil?

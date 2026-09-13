@@ -154,6 +154,6 @@ Na maioria das vezes, o sistema volta já na Etapa 3 ou 5. Se depois de seguir t
 
 [AnteriorBanco de dados - Como acessar](/avancado-recursos-tecnicos/banco-de-dados-como-acessar)[PróximoErro de Autenticação no app Whatsapp Oauth](/avancado-recursos-tecnicos/erro-de-autenticacao-no-app-whatsapp-oauth)
 
-Atualizado há 1 mês
+Atualizado há 2 meses
 
 Isto foi útil?

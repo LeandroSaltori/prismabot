@@ -168,6 +168,6 @@ Estas opções, em [**Configurações → Gerais → Geral**](/configuracao-admi
 
 [AnteriorPrimeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)[PróximoVisão geral Superadmin](/configuracao-superadmin/visao-geral-super-admin)
 
-Atualizado há 16 dias
+Atualizado há 24 dias
 
 Isto foi útil?

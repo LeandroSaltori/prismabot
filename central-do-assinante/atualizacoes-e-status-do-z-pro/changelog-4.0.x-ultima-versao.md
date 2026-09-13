@@ -25,6 +25,168 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 ## Última Versão
 
+### v4.0.5
+
+**🚀 UPDATE OFICIAL (HOMOLOG) | 09/09/2026**
+
+Correção cumulativa da versão Homolog atual (v4.0.5.0).
+
+**Faça um BACKUP / SNAPSHOT antes de aplicar esta correção.**
+
+Esta versão corrige o roteamento de mensagens do WhatsApp Oficial quando o mesmo cliente tem dois cadastros (BSUID) e ajusta o cadastro de contatos em vários canais — faça o backup antes de atualizar.
+
+**Ajustes automáticos nesta atualização:** fluxos de chatbot afetados pelo inchaço da Tabela de Horários com mídias são limpos automaticamente, e a ação **"Bloquear Chatbot"** passa a valer também nos fluxos já existentes.
+
+**💬 Atendimento e Tickets**
+
+* **Colar (Ctrl+V) imagem** copiada direto da conversa ou de qualquer página do navegador — antes só a imagem de print de tela ou de arquivo era anexada.
+* **Encerrar em massa por período:** no painel de atendimentos, é possível encerrar de uma vez todos os atendimentos do período filtrado, sem enviar mensagem de despedida aos contatos.
+* **Ações em massa com tela de progresso:** contagem de tickets processados, execução que segue até o fim mesmo se algum falhar, e resumo de quantos deram certo e quantos falharam.
+* Mensagens que o WhatsApp não conseguiu entregar deixam de aparecer como "tipo de mensagem não suportado" e passam a avisar que a mensagem está indisponível, com orientação de pedir o reenvio ao cliente — no idioma do painel.
+* **Mais segurança e confiabilidade:** a API externa limita dados internos do canal, mensagens recebidas em rajada no WhatsApp Oficial não se perdem mais, conversas duplicadas por mensagens simultâneas deixam de acontecer, e a transferência de canal avisa quando o contato já tem atendimento aberto no destino.
+* A **fila padrão do canal** volta a ser aplicada no WhatsApp Oficial (Meta) quando o canal também tem chatbot, e nos canais de e-mail (IMAP/POP3/Gmail) a fila e o atendente padrão passam a ser aplicados.
+* No **celular**, a tela de atendimento não corta mais a lateral ao digitar, e as imagens recebidas ficam corretamente dentro do balão da conversa.
+* Adicionar nota ou editar dados de um atendimento na aba **Fechados** não faz mais o atendimento sumir da lista nem fechar a conversa.
+* Corrigido: o cabeçalho da janela **"Espiar atendimento"** estourava os botões Encerrar/Atender quando o contato tinha nome longo (comum no canal de e-mail).
+
+**🔔 Notificações e Sininho**
+
+* **Pushs:** as notificações e mensagens do sistema deixaram de usar símbolos decorativos, mantendo intacto o texto e o nome escritos pelo cliente.
+
+**📞 Chamadas de Voz (WebPhone, SIP, WaVoIP)**
+
+* **Toque de chamada personalizado:** basta colocar um arquivo `ringtone.wav` na pasta pública do sistema; sem arquivo, o toque continua exatamente como era.
+* Chamada em andamento não é mais derrubada quando outra chega.
+* Corrigido o **botão SIP** do contato, que mostrava "Chamando..." sem completar a ligação — agora ele disca de verdade pelo WebPhone, já com o número preenchido, e avisa na tela quando a chamada não pode ser iniciada.
+* **Chamadas de voz do Dialog360 e do Gupshup:** planejamento concluído, liberação em etapa seguinte.
+
+**🧠 Copiloto e Agente de IA**
+
+* **Copiloto:** "Copiar texto", "Pergunte ao ChatGPT" e "Traduzir" voltaram a aparecer nas mensagens recebidas por WhatsApp Oficial, Instagram, Messenger, Dialog360, Gupshup e Meow.
+* Resumos, análises de sentimento e insights de IA agora saem no **idioma escolhido por cada atendente** na tela.
+* **Agente de IA:** corrigida a perda de memória entre mensagens (o agente voltou a considerar a conversa inteira); a transferência só é anunciada ao cliente depois de acontecer de verdade; e o agente ganhou **ferramentas externas** para consultar dados nas suas automações antes de responder.
+* O **assistente de IA do fluxo de atendimento** entende a intenção do cliente e age sozinho — transfere para a equipe ou o atendente certo, sem exigir que o cliente digite palavras exatas.
+
+**📊 Kanban e Funil**
+
+* **Envio de mensagem pelos cards do funil** volta a funcionar para atendentes e permite escolher se o atendimento nasce em nome do atendente ou fica aguardando na fila.
+* Corrigido: alerta indevido de "canal excluído" nas ações do funil quando a ação usava canal de template (WhatsApp Oficial e BSPs) ou um canal apenas desconectado.
+
+**🤖 Chatbot e Chatflow**
+
+* **Filtros de público do chatbot** passam a valer de verdade em todos os canais: contato fora do público não recebe mais o robô (nem pelo fluxo padrão da conexão), atendimentos presos num robô mudo vão direto para a equipe, etiquetas com espaço extra deixam de quebrar o filtro, e os motivos de silêncio do robô aparecem no log.
+* Corrigido: **etiqueta definida por automação** durante o fluxo do bot não some mais do atendimento quando o bot envia a mensagem seguinte (canal WhatsApp API Oficial).
+* Corrigido: a ação **"Bloquear Chatbot"** do construtor de fluxos não marcava o contato como bloqueado ao passar pela etapa — agora o bloqueio é aplicado corretamente, inclusive em fluxos já existentes.
+* Corrigido: **inchaço do fluxo** ao usar Tabela de Horários com mídias — o salvamento reenviava cópias internas dos passos (com vídeos embutidos), estourando o limite e travando o editor; fluxos afetados são limpos automaticamente na atualização.
+
+**📢 Campanhas e Disparo em Massa**
+
+* Ao **editar uma campanha**, o arquivo de mídia já anexado aparece na tela, com opção de remover ou substituir — antes o campo voltava vazio e dava a impressão de que a mídia tinha se perdido (ela sempre foi enviada normalmente).
+* O **template escolhido e os valores das variáveis** aparecem preenchidos ao reabrir a campanha, sem precisar recarregar a tela.
+* Confirmações de envio ficaram mais leves no banco de dados — contas que não usam campanhas deixam de fazer verificações desnecessárias a cada mensagem — e o relatório de campanhas passa a registrar corretamente o status de entrega e leitura nos canais QR Code.
+
+**💳 Cobrança (Pix, Boleto e Link)**
+
+* **Templates de pagamento pelo painel:** podem ser criados direto pelo painel, e os dados do Pix, boleto ou link deixaram de ser recusados por formato — o sistema avisa, mas quem decide o que cobrar é você.
+* **Templates de cobrança:** o texto do botão de pagamento já vem pronto e não pode mais ser alterado por engano; o envio avisa o que está faltando — a ficha de pagamento ou o código de um botão — em vez de mostrar um erro genérico.
+* **Permissão por empresa:** dá para liberar que atendentes comuns enviem cobranças por Pix, link ou boleto — e quem não tem permissão vê o aviso antes de preencher a cobrança, em vez de descobrir só ao tentar enviar.
+
+**📱 Canais Oficiais Meta (WABA / Instagram / Messenger)**
+
+* **Cliente com dois cadastros (BSUID):** a mensagem do WhatsApp Oficial deixa de se perder quando o mesmo cliente está cadastrado duas vezes — a conversa passa a cair no cadastro correto, e um relatório aponta os cadastros duplicados para união.
+* **Cliente sem número (nome de usuário):** quem fala pelo WhatsApp Oficial usando nome de usuário é atendido normalmente — o atendente consegue responder, o cadastro salva sem exigir telefone, e há um botão para pedir o número ao cliente pelo caminho oficial do WhatsApp.
+* **Criação de templates:** o campo de cabeçalho mostra o limite de caracteres e um contador, e o gerador por IA respeita os limites automaticamente.
+* **Formulários do WhatsApp (Flows):** as respostas aparecem preenchidas no histórico e dão sequência ao chatbot também nas conexões 360dialog e Gupshup; a lista de conversas e os relatórios mostram o que o cliente respondeu em vez de texto técnico; campanhas passam a enviar botões de formulário e catálogo; e o envio de formulários aceita seleção por nome com cabeçalho de imagem, vídeo ou documento.
+* **Modo Coexistência:** botões e listas enviados no atendimento aparecem na tela já como o cliente recebe (menu numerado), o atendente vê um aviso antes de enviar, e o canal ganhou a opção **"Botões e listas pela API oficial"** para entregá-los como botões de verdade.
+
+**🔌 Integrações Não Oficiais (Baileys, UazAPI, Z-API, Evolution, Evolution Go, Meow, wuzapi)**
+
+* **API Baileys:** as fotos de perfil dos contatos do WhatsApp voltaram a aparecer, inclusive nas conversas que só tinham as iniciais.
+* **Evolution Go — cadastro de contato** voltou a funcionar: contato sem foto de perfil não impede mais o salvamento, número digitado com ou sem o nono dígito é aceito, e quando o número realmente não existe no WhatsApp a tela passa a dizer isso em vez de "erro ao criar".
+* **Evolution Go — conversa avulsa:** corrigido o erro ao iniciar; o número volta a ser validado (inclusive quando falta o 9º dígito) e, quando algo dá errado, a tela diz o motivo em vez de "erro desconhecido".
+* **QR Code do Z-API:** quando falta o Number ID, o token ou o endereço do provedor, a tela passa a dizer exatamente o que preencher em vez de abrir sem código — e o QR gerado não some mais sozinho durante a leitura.
+* **Conexões via biblioteca (Evolution, Evolution Go, Meow, Z-API, UAZAPI)** avisam quando a integração não está configurada, em vez de criar um canal que não conecta — e canais já criados podem ser removidos normalmente.
+* **wuzapi custom (não homologada):** o recibo de leitura do cliente não reabre mais atendimento encerrado nem cria conversa nova (o status de "lida" continua funcionando normalmente).
+
+**👥 Grupos e Menções**
+
+* **Menção com @ em grupos** voltou a listar os participantes com nome e telefone, inclusive nos grupos novos do WhatsApp; mencionar por número, mencionar todos e a menção oculta voltaram a notificar de verdade.
+* **Menção com @ nas conexões uazapi, meow e Z-API:** pelo atalho @ na conversa, pelo menu "Mencionar participante" ou mencionando todos de uma vez.
+* **Link de convite dos grupos** é entregue pela API, com aviso do motivo quando não for possível gerá-lo, e há um novo recurso para revogar o link atual e criar outro na hora.
+
+**🛍️ Marketplaces e Hub (Mercado Livre)**
+
+* **Mercado Livre:** as reclamações do comprador chegam dentro da própria conversa — com resposta pelo mesmo campo de sempre — e o atendimento aberto avisa quando o pedido muda de status; a reclamação vai direto para atendente, sem chatbot.
+
+**🤝 WebChat / Chat do site**
+
+* **Link direto e responsivo:** o WebChat pode ser usado por um link — ideal para aplicativos, portais e QR Codes —, com uma página de conversa pronta que abre sem precisar colar código no site (**Configurações → WebChat**).
+* **Citação de mensagens:** respostas do atendente aparecem com a citação no chat do cliente (widget e link direto), com clique para pular até a mensagem original.
+* **Celular:** o chat abre em tela cheia corretamente — o cabeçalho e o botão de fechar voltaram a aparecer, os botões de anexar e enviar não ficam mais escondidos atrás do balão flutuante, a tela para de deslocar ao tocar no campo de mensagem, funciona também com o celular deitado e, em telas baixas, o painel se ajusta sozinho para o cabeçalho e o botão de fechar nunca ficarem fora da tela.
+
+**📣 Publicação em Redes Sociais (Instagram e Facebook)**
+
+* Publicação de posts no Instagram e no Facebook voltou a funcionar em contas com armazenamento em nuvem — a imagem passa a ser enviada ao armazenamento antes da publicação, valendo também para posts agendados, rascunhos e mídias de resposta rápida.
+
+**🔗 API e Integrações Externas**
+
+* **Responder qualquer conversa pelo número do atendimento (ticket):** texto e arquivos em WhatsApp, Instagram, Messenger, Telegram, Webchat, E-mail, Hub e Mercado Livre pelo mesmo endpoint, com reabertura opcional do atendimento fechado.
+* O **canal de e-mail** avisa por webhook quando uma nova mensagem chega.
+* **Criar empresa pela API com plano:** os limites e recursos do plano são aplicados na hora, e um plano inexistente é recusado sem criar nada.
+* **Descarteirizar contato pela API:** enviar a lista de carteiras vazia remove todas, e carteiras inválidas ou de outra empresa são recusadas com aviso claro em vez de erro genérico.
+* **Documentação da API no painel** revisada de ponta a ponta, com correção dos campos e exemplos de rotas que não batiam com o que a API realmente aceita — a tela de APIs e o Postman foram atualizados.
+
+**👥 Contatos e Importação**
+
+* **Cadastro por vCard** passou a tolerar falha na busca da foto de perfil, como já acontece no cadastro pelo menu: o contato é salvo mesmo quando o canal não consegue devolver a imagem.
+* Corrigido: a **consulta de diagnóstico de contatos sem telefone** — o canal do atendimento é lido do próprio atendimento, não do cadastro do contato.
+
+**📈 Relatórios, Dashboard e Avaliações**
+
+* **Relatório de oportunidades em CSV** agora traz nome, telefone e e-mail do contato (além dos nomes de funil, etapa e responsável), com o telefone preservado por inteiro ao abrir na planilha.
+* **Atendimentos de grupo fora dos tempos médios:** nova opção nas configurações da empresa permite tirar as conversas de grupo dos tempos médios dos relatórios, sem que elas sumam das contagens.
+* **Avaliações:** as estrelas acompanham a pontuação máxima configurada em toda parte (configuração, listagem, filtro e histórico do atendimento) — escalas menores que 5 não mostram mais estrelas sobrando, a nota 0 ficou filtrável, e a mensagem padrão de reenvio cita a escala correta.
+
+**📅 Agendamento e Aniversários**
+
+* **Google Agenda por página:** escolha qual agenda do Google cada página de agendamento usa, marque uma agenda padrão para o resto do sistema, e compromissos de agendas secundárias passam a bloquear horários corretamente.
+* Cada página de agendamento e cada profissional aponta para a agenda e o calendário certos do Google; compromissos já marcados deixam de ser oferecidos como horário livre; e cancelar ou remarcar pelo painel também atualiza o Google.
+* **Lista de consultas paginada,** com filtros de situação, período e busca, e calendário que carrega as consultas do mês exibido — antes a tela parava nos 100 primeiros registros e os meses futuros apareciam vazios.
+* **Google Agenda resiliente a rede:** em vez de erro, o sistema repete a consulta sozinho e, se a listagem de agendas falhar, continua mostrando os compromissos da agenda principal.
+* **A agenda voltou a abrir para atendentes** e passou a ter permissão própria — ligar ou desligar o Kanban não afeta mais a agenda, e cada item desativado no painel bloqueia só a sua própria tela.
+* **Mensagem agendada disparada** deixa um aviso na conversa marcando a hora do envio e o trecho do texto, para a resposta do cliente fazer sentido na ordem — com interruptor por empresa em **Configurações → Geral**.
+
+**⚙️ Superadmin, Planos e Pagamentos**
+
+* **Limites por tipo de canal** passam a valer para WhatsApp Oficial via login, Instagram, Facebook e canais Hub; as telas de empresas e planos mostram uma linha por tipo real; empresas presas na lista padrão antiga ganham os canais oficiais e marketplaces; e a janela de login do Facebook, Instagram e WhatsApp Oficial passa a dizer o motivo real da recusa.
+* Corrigido: o **aviso de teste grátis no menu** mostrava sempre 31 dias e ignorava a duração configurada da empresa — agora exibe os dias reais, a data de encerramento e avisa quando o prazo passa a ser a primeira cobrança.
+* Corrigido: rótulos e avisos com texto técnico na **tela de edição de canal do superadmin**, agora traduzidos em todos os idiomas.
+
+**🔐 Perfis, Permissões e Menus**
+
+* **Restrições de menu da plataforma** valem para todos os perfis de usuário da empresa — itens desativados somem do menu e da busca e ficam bloqueados por link direto, sem exceções por tipo de conta.
+* **Menu Funil por usuário:** pode ser liberado ou ocultado por usuário, e a tela de usuários do superadmin ganhou o mesmo formato de permissões de menu das demais telas.
+* **Tela de perfis de acesso:** corrigida a falha que quebrava a janela de permissões ao abrir, e a permissão de **cobranças** passou a ser marcável no perfil personalizado.
+
+**✉️ E-mail e E-mail Marketing**
+
+* **Novo módulo de E-mail Marketing:** crie modelos de e-mail com editor visual e variáveis, dispare campanhas e envios em massa pelos seus canais de e-mail (Gmail e SMTP/IMAP), com link de descadastramento automático, lista de bloqueio e ações automáticas quando o contato responde.
+
+**🎨 Interface, Navegação e Configurações**
+
+* **Ícone no card de compartilhamento:** ao compartilhar o link do sistema no WhatsApp e em outras redes, a imagem do card é sempre o ícone personalizado da instalação, mesmo em instalações que enviaram o ícone há mais tempo.
+* **Tela de boas-vindas:** depois de fechada uma vez, fica marcada como lida na conta do usuário e não aparece mais, nem ao trocar de navegador, aparelho ou limpar o cache.
+
+**🔧 Sistema, Armazenamento e Infra**
+
+* **Backup por empresa** começa na hora e avisa na tela enquanto roda — acabou o falso "erro ao iniciar" em backups grandes, que na verdade terminavam normalmente.
+* **Limpeza de arquivos antigos:** a exclusão automática agora libera espaço em disco, e o envio para o armazenamento externo avisa antes o que será apagado do servidor.
+* **Cloudflare R2:** a URL pública deixou de aparecer como opcional — agora é destacada como obrigatória, com explicação no próprio campo, e as mensagens de erro ao salvar dizem exatamente o que falta corrigir.
+
+---
+
+## Versões anteriores
+
 ### v4.0.4
 
 **🚀 UPDATE OFICIAL (HOMOLOG) | 17/08/2026**
@@ -264,10 +426,6 @@ Segue as regras de fila e canal.
 **🔧 Sistema e Infra**
 
 * **Instalador:** as respostas da API passam a trafegar comprimidas (gzip), reduzindo o consumo de dados e acelerando o carregamento — aplicado automaticamente na próxima atualização.
-
----
-
-## Versões anteriores
 
 ### v4.0.3
 
@@ -637,6 +795,6 @@ Nas páginas seguintes você encontra o histórico completo das versões anterio
 
 [AnteriorAtualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-z-pro)[Próximo3.1.5.x](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao/3.1.5.x)
 
-Atualizado há 19 dias
+Atualizado há 2 dias
 
 Isto foi útil?

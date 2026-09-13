@@ -84,7 +84,7 @@ Com as credenciais em mãos, vamos finalizar a configuração dentro do Prismabo
    * **Secret (Segredo):** Cole o código gerado na Etapa 3.
 4. Clique em **"Obter Token"** ou **"Salvar"**.
 
-![](../.gitbook/assets/img_5609429.png)
+![](../.gitbook/assets/img_6563810.png)
 
 #### Autorizando o Acesso
 
@@ -116,7 +116,7 @@ Dentro do menu **Kanban (CRM)**:
 4. Defina a data, hora e detalhes do evento.
 5. Ao salvar, o evento será criado automaticamente na sua Google Agenda.
 
-![](../.gitbook/assets/img_3655877.png)
+![](../.gitbook/assets/img_5976088.png)
 
 #### 2. Visualizando a Agenda
 
@@ -126,7 +126,7 @@ No menu lateral do Prismabot, acesse a aba **Calendário**.
 * Clique em **Buscar** para visualizar todos os seus compromissos sincronizados.
 * Você também pode criar novos eventos clicando diretamente nas datas deste calendário.
 
-![](../.gitbook/assets/img_1426293.png)
+![](../.gitbook/assets/img_7773885.png)
 
 #### 3. Automatizando no Chatbot
 
@@ -135,7 +135,7 @@ Você pode criar agendamentos automáticos durante uma conversa do bot com seu c
 1. Acesse o menu **Chatbot** e edite o fluxo desejado.
 2. Na barra de ferramentas, clique no ícone de **Calendário** (Google Agenda) para adicionar o elemento ao fluxo.
 
-![](../.gitbook/assets/img_4481846.png)
+![](../.gitbook/assets/img_5456393.png)
 
 1. Configure o elemento com as seguintes informações:
 

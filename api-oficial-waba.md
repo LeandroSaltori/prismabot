@@ -139,6 +139,6 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 [AnteriorLID do WhatsApp](/diretrizes-e-politicas/lid-do-whatsapp)[PróximoWhatsapp Oficial- Cadastro Incorporado e Coexistência com APP próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
 
-Atualizado há 2 meses
+Atualizado há 3 meses
 
 Isto foi útil?

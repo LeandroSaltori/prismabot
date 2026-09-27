@@ -481,6 +481,6 @@ Os prazos deste item são contados da última alteração registrada nos indicad
 
 [AnteriorPolítica de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)[PróximoAviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)
 
-Atualizado há 3 dias
+Atualizado há 10 dias
 
 Isto foi útil?

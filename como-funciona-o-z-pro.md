@@ -10,7 +10,11 @@ O Prismabot é uma plataforma omnichannel de atendimento e automação de conver
 
 O Prismabot é **gerenciado em nuvem**: o sistema é instalado e roda no servidor (servidor em nuvem) contratado pelo próprio assinante. Isso significa que os dados ficam na infraestrutura do assinante, sem dependência de nuvem da Prisma Telecom. A instalação pode ser feita pela equipe técnica da Prisma Telecom ou pelo próprio assinante usando o auto-instalador disponibilizado após a compra.
 
+Para entender onde ficam os dados, quem é o controlador pela LGPD e o que é responsabilidade do assinante, veja [On-premise e LGPD](https://zpro.zdg.com.br/on-premise-lgpd).
+
 **API Oficial do WhatsApp (WABA):** o Prismabot é Tech Provider homologado da Meta. Você conecta números pela API Oficial — o método mais estável, seguro e recomendado para operações profissionais, sem risco de banimento e com suporte direto da Meta.
+
+[→ O que o status de Tech Provider muda na prática](https://zpro.zdg.com.br/tech-provider-meta)
 
 Em ambos os planos a plataforma é **plataforma de atendimento**: você usa sua própria marca, seu domínio e suas cores. A diferença está na escala — o plano **Uso Próprio** opera com uma única conta, enquanto o plano **cliente final** permite criar contas isoladas para múltiplos clientes (multi-tenant) e comercializá-las como SaaS.
 

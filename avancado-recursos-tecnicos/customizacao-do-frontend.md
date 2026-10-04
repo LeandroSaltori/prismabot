@@ -12,7 +12,7 @@ O código do frontend do Prismabot é aberto e permite customizações para adeq
 
 **AVISO: CONHECIMENTO TÉCNICO NECESSÁRIO**
 
-* As alterações descritas nesta documentação exigem conhecimento técnico em desenvolvimento **Vue.js** e administração de servidores Linux.
+* As alterações descritas nesta documentação exigem conhecimento técnico em desenvolvimento Next.js e administração de servidores Linux.
 * Antes de iniciar **qualquer** procedimento, crie um **ponto de restauração (snapshot)** completo do seu servidor servidor em nuvem. Alterações incorretas podem comprometer o funcionamento da sua plataforma.
 * Todas as alterações devem ser feitas logado na servidor em nuvem com o usuário `deployzdg`. **Não realize os procedimentos se estiver logado como** `root`.
 * O Prismabot não se responsabilza com alterações no frontend e suporte para essas personalizações.
@@ -95,6 +95,6 @@ Se precisar de indicações, temos uma lista de profissionais e parceiros extern
 
 [AnteriorComo remover um tenant com erro de exclusão no Super Admin](/avancado-recursos-tecnicos/como-remover-um-tenant-com-erro-de-exclusao-no-super-admin)[PróximoIntegrando o chat GPT](/avancado-recursos-tecnicos/integrando-o-chat-gpt)
 
-Atualizado há 7 meses
+Atualizado há 4 dias
 
 Isto foi útil?

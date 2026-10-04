@@ -10,6 +10,8 @@ O Prismabot possui integração nativa com a **API Oficial do WhatsApp (WABA)**,
 
 Para quem já possui um App aprovado no Facebook Developers, o Prismabot também oferece suporte à integração via App próprio.
 
+Para ver o que o status de Tech Provider muda na prática e a comprovação na Central de Parceiros da Meta, acesse [Prismabot é Tech Provider oficial da Meta](https://zpro.zdg.com.br/tech-provider-meta).
+
 **Custos da API Oficial:** os custos de uso da API Oficial (cobranças por conversas fora da janela de 24 horas) são faturados diretamente pela Meta na **Business Manager (BM) do número conectado**. O pagamento dessas taxas é responsabilidade do assinante. O Prismabot cobra exclusivamente a licença do software. Veja mais em [Cobranças da Meta.](/api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform)
 
 **Risco de bloqueio:** o uso da API Oficial elimina o risco de banimento por uso de software não autorizado. No entanto, o número ainda está sujeito às avaliações de qualidade da Meta — bloqueios por envio de spam ou violação das políticas de mensageria são de responsabilidade do operador, independentemente da ferramenta utilizada. Siga sempre as [diretrizes da Meta](https://www.whatsapp.com/legal/business-policy/).

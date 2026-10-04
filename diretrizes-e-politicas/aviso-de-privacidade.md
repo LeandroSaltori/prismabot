@@ -10,7 +10,7 @@ Dados coletados, papéis na LGPD (Controlador/Operador), modelo gerenciado em nu
 
 **Data de disponibilização: 22/05/2024**
 
-**Última atualização: 15/09/2026**
+**Última atualização: 28/09/2026**
 
 *Versão vigente em: https://prismatelecomservicos.com/ class="paragraph decoration-primary/6 max-w-3xl w-full print:break-inside-avoid text-start self-start justify-start" data-cover-aware-text="">A **BIANCA SANT ANA PEREIRA & CIA LTDA**, inscrita no CNPJ sob o nº 35.617.749/0001-67, com sede em Alfenas/MG (referida nos termos como "**Prisma Telecom**", **"Prismabot"** ou **"LICENCIANTE"**), criou este **Aviso de Privacidade** (o "**Aviso**") para explicar como trata dados pessoais quando você contrata, instala ou utiliza o **Prismabot**, quando usa o **Painel do Licenciado** ou quando acessa o nosso **Site**.*
 
@@ -102,6 +102,7 @@ Em razão da natureza gerenciado em nuvem do Prismabot, a Prisma Telecom **não 
 * **Alertas de segurança** — quando o Software detecta alteração dos seus arquivos, falha de integridade, tentativa de examinar o Software em funcionamento com ferramentas de depuração ou tentativas repetidas e malsucedidas de validar a licença: tipo e descrição técnica do evento (como o nome do arquivo alterado e o identificador da compilação), endereço IP do servidor ou, quando a tentativa parte de uma tela do Software, o endereço IP de quem fez a solicitação, endereços do painel e da API da Instalação e, quando for o caso, a chave de licença e a quantidade de tentativas. Os alertas são enviados aos Serviços Centrais e, por e-mail, à equipe de segurança da Prisma Telecom.
 * **Censo de canais** — a cada hora: chave de licença, endereço (URL) e identificador aleatório da Instalação, versão do Software, horário informado pela Instalação, quantidade de empresas (tenants) com canais e quantidade de canais por tipo e situação (conectado, desconectado, com erro, desligado automaticamente, conectado por App Próprio). A Prisma Telecom guarda também até 5 (cinco) endereços anteriores da Instalação. O censo **não** inclui nome, número ou identificador de canal, nem qualquer dado de contato.
 * **Presença da Instalação** — na inicialização e a cada validação periódica bem-sucedida (em regra, a cada 2 (duas) horas), ao obter a chave que protege as sessões de canais: chave de licença, endereço da Instalação e data e hora ("visto por último").
+* **Resumo de erros do Software** — em regra a cada 6 (seis) horas, e antes disso quando ocorre um erro ainda não informado, por processo do Software: chave de licença, endereço (URL) e identificador aleatório da Instalação, versão do Software, identificador do processo e da execução, data do período, e a lista das ocorrências de erro do dia em forma de contagem por ponto do programa (identificador fixo do ponto, texto fixo do programa **sem os valores da execução**, código técnico do erro e a hora da primeira e da última ocorrência), além de contadores de saúde do processo (tempo ligado, memória, uso de processador, atraso interno, exceções não tratadas, travamentos e o estado do vigia de travamento) e, para cada travamento, os nomes das funções do Node.js e das bibliotecas de terceiros que mais consumiram tempo (as funções do próprio Software aparecem apenas como "código do produto"). O resumo não **contém mensagens**, contatos, nomes, números, e-mails, endereços de terceiros nem qualquer dado de titular: os valores variáveis são substituídos por marcadores antes de sair da Instalação. O Cliente pode desligar o envio na configuração do Software.
 * **Autorização de conexão de canais** — ao iniciar a sessão de um canal e periodicamente: chave de licença, endereço da Instalação, tipo do canal, identificadores internos (empresa e conexão) e, conforme o canal, o identificador técnico na plataforma ou no provedor (como o identificador da instância). Esses registros não são guardados; apenas o tipo do canal entra no censo.
 * **Qualidade dos números oficiais** — a cada hora, para números de WhatsApp conectados pela API oficial: número de telefone em formato de exibição, identificadores da Meta (conta WhatsApp Business e número), classificação de qualidade, limite de mensagens, situação do número e decisão de revisão da conta. A Prisma Telecom complementa esses dados consultando a própria Meta a cada 6 (seis) horas. Os números conectados por App Próprio também constam do envio, identificados como tais, mas são descartados no recebimento: não são armazenados nem considerados no score de saúde, e a Prisma Telecom registra apenas a quantidade desses números e o fato de a licença usar App Próprio. Números de canais excluídos são informados como desassociados.
 * **Contato para alertas** — ao validar a licença, a camada de conexão de canais guarda cópia do nome e do e-mail cadastrados na licença, para os alertas do Anexo I dos Termos de Uso, e define o idioma desses alertas pelo domínio do e-mail. O Cliente pode pedir a troca do idioma.
@@ -216,6 +217,12 @@ Censo de canais
 Suporte, compatibilidade e evolução do produto
 
 Legítimo interesse (art. 7º, IX), com contagens agregadas por Instalação
+
+Resumo de erros do Software
+
+Suporte, correção de defeitos e evolução do produto
+
+Legítimo interesse (art. 7º, IX), com contagens por ponto do programa, sem dado de titular
 
 Números oficiais, indicadores de qualidade, contato para alertas e score de saúde
 
@@ -376,6 +383,10 @@ Registro da Instalação (endereços, endereço IP do servidor e chave de licen�
 Até 6 (seis) meses após o último registro
 
 Censo de canais
+
+Até 30 (trinta) dias após o último envio da Instalação
+
+Resumo de erros do Software
 
 Até 30 (trinta) dias após o último envio da Instalação
 
@@ -540,6 +551,6 @@ A versão vigente está sempre disponível em [https://prismatelecomservicos.com
 
 [AnteriorTermos e Condições Gerais de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)[PróximoManutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)
 
-Atualizado há 10 dias
+Atualizado há 5 dias
 
 Isto foi útil?

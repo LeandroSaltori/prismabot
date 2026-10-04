@@ -25,6 +25,135 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 ## Última Versão
 
+### v4.0.6
+
+**🚀 UPDATE OFICIAL (HOMOLOG) | 29/09/2026**
+
+Nova versão Homolog (v4.0.6.0), cumulativa de todas as correções publicadas desde a v4.0.5.0.
+
+**Faça um BACKUP / SNAPSHOT antes de aplicar esta atualização.**
+
+Esta versão traz a nova página do contato (Timeline e Relacionamento), a expansão das ferramentas do Agente de IA, o editor visual de E-mail Marketing, o SMS em massa em segundo plano e o aviso de canal WABA bloqueado pela Meta.
+
+**Ajustes automáticos nesta atualização:** copiloto e bots com Gemini configurados com um modelo que o Google desligou passam sozinhos para um modelo ativo, e as ações antigas vindas de webhooks e do WebChat que estavam atribuídas ao usuário errado são corrigidas para "Sistema".
+
+**👤 Página do Contato e Relacionamento**
+
+* **Página própria do contato,** aberta pelo atendimento, pela lista de contatos ou pelo funil, com o resumo do cliente (atendimentos, cliente desde, vendas com estrelas, oportunidades, etiquetas e carteira).
+* **Timeline** com todo o histórico do contato em ordem, e a aba **Relacionamento**, onde a equipe registra ligações, propostas e visitas com anexos e vincula tarefas.
+* **4 relatórios novos:** ações por tipo, tarefas e funil por atendente, e ações até a venda. Também é possível escolher por quanto tempo o histórico fica guardado.
+
+**💬 Atendimento e Tickets**
+
+* A guia **Chatbots** do atendimento agora se chama **Automações** e mostra também as conversas com Agente de IA e integrações de IA ligadas, com um seletor para filtrar por tipo.
+* **Ações em massa** ficaram bem mais rápidas e pararam de deixar o sistema lento para os outros atendentes. Encerrar vários atendimentos agora pede confirmação, com "não enviar despedida" já marcado.
+* Criar atendimento pela tela ou pela API no mesmo instante em que chega mensagem do contato não gera mais dois atendimentos abertos para a mesma pessoa.
+* Mensagens enviadas pela API e ações vindas de webhooks e do WebChat aparecem como **"Sistema"**, e não mais com o nome do administrador, do dono do atendimento ou de um usuário de outra empresa.
+* Corrigido: atendimento encaminhado pelo chatbot **fora do horário** agora sai do robô, sem "Você está aí?" nem encerramento automático durante a noite.
+* A tela de Atendimentos não trava mais quando a última mensagem é um texto longo com acentos, como transcrições de áudio.
+* O **contador de mensagens não lidas** passa a ser calculado direto no atendimento, em todos os canais, contando certo em mensagens simultâneas e ao reabrir a conversa.
+* A tecla **Esc** deixa de fechar a conversa aberta.
+
+**🔔 Notificações**
+
+* **Notificações no celular** voltam sozinhas depois de atualizar o app ou trocar de usuário no mesmo aparelho, e quem sai do sistema para de receber avisos naquele aparelho.
+* O **sininho** deixa de mostrar atendimentos que já foram assumidos por outro atendente. Com a opção "não ver atendimentos atribuídos a outros" ligada, o atendente comum não consegue mais abrir o atendimento do colega nem pelo link direto.
+
+**🧠 Agente de IA e Copiloto**
+
+* **Novas ferramentas do Agente de IA** (aba Ferramentas): etiquetar o contato, mover no funil, anotar na ficha os dados que o cliente informa, registrar oportunidade, anotar no atendimento, avisar a equipe, encerrar o atendimento gravando o motivo, devolver a conversa para um fluxo automático, manter o cliente com o mesmo atendente por um tempo, consultar e reservar horário na agenda e programar uma mensagem para depois.
+* O agente **aprende com arquivos JSON e Markdown**, passa a conversa para outro agente que já responde na mesma mensagem e pode consultar um especialista antes de responder.
+* Botões **Mapa**, que mostra num desenho o que foi configurado, e **Duplicar**, que copia o agente junto com a base de conhecimento.
+* O **WebChat** passa a acionar o agente vinculado ao canal e deixa de mostrar notas internas ao visitante.
+* **Agente sem crédito na conta** transfere o atendimento na hora com uma nota explicando o motivo, e toda falha do provedor de IA passa a aparecer no log do servidor.
+* **Gemini:** copiloto e bots voltam a funcionar com os modelos atuais do Google. A lista sugere só modelos ativos e o botão Testar deixou de acusar falha falsa em modelos que raciocinam.
+* Na tela **IA da plataforma**, o "Testar conexão" explica o motivo da falha (conta sem crédito, modelo padrão não escolhido, chave recusada e outros).
+* A **reescrita de mensagens com IA** respeita o idioma escolhido em Bots e IA, e a correção de ortografia mantém o idioma do texto digitado.
+
+**🤖 Chatbot e Chatflow**
+
+* O **número para teste** e a chave **Ativo** são salvos ao criar um fluxo, e duplicar um fluxo mantém número de teste, público-alvo, prioridade, horário e o estado ativo/inativo do original.
+
+**📊 Kanban e Funil**
+
+* O **calendário do funil** mostra todas as oportunidades de cada mês pela previsão de fechamento, até 5000 por mês, e avisa quando o mês passa desse limite.
+* O **Dashboard do Funil** filtra por mês e período, e o gestor escolhe se as vendas contam pela data de criação ou pela data de fechamento.
+* Ao **excluir uma etapa do funil**, o sistema avisa quando ela não pode sair e explica o motivo (oportunidades ganhas ou perdidas que não aparecem no quadro, ou ações do funil desativadas), em vez de dizer que salvou e a etapa voltar ao atualizar a página.
+
+**👥 Contatos e Etiquetas**
+
+* **Endereço completo** no contato, com CEP que preenche sozinho e filtro por bairro, cidade e UF na lista, no envio em massa e nas campanhas.
+* Pedidos do **WooCommerce** e da **Nuvemshop** passam a atualizar endereço, CPF e aniversário do cliente.
+* **Filtrar e exportar por várias etiquetas** ao mesmo tempo, escolhendo se o contato precisa ter todas ou qualquer uma. A planilha e os relatórios mostram todas as etiquetas de cada contato, e o relatório por carteira ganhou filtro e coluna de etiquetas.
+* Supervisores voltam a ver os contatos das carteiras dos colegas ao filtrar por carteira em Contatos, Kanban, aniversariantes e exportação.
+* Contatos não perdem mais foto e aniversário sozinhos.
+
+**📢 Campanhas e Disparo em Massa**
+
+* A tela de campanha explica que cada contato recebe só uma das 3 mensagens, sorteada, e avisa na hora qual delas falta preencher, sem deixar a campanha dar erro ao criar.
+* **Disparo em massa de template** volta a funcionar para atendentes: o atendimento é criado no nome de quem dispara, vai para a fila ou usuário escolhido e não fica mais perdido quando o envio falha.
+
+**📲 SMS**
+
+* **SMS em massa em segundo plano,** com progresso na tela, registro no Relatório, cancelamento, retomada automática depois de reinício e proteção contra envio em dobro.
+* **Comtele** volta a funcionar com as chaves do painel novo, com escolha da rota de envio, e o envio em massa mostra quantos SMS saíram e o motivo das falhas.
+
+**✉️ E-mail Marketing**
+
+* **Editor visual por blocos** para modelos, envios em massa e campanhas, com prévia no computador e no celular e imagens que aparecem direto na caixa do destinatário.
+
+**📱 Canais Oficiais Meta (WABA / Instagram / Messenger)**
+
+* **Canal WABA sem forma de pagamento ou bloqueado pela Meta** agora avisa quem administra os canais (faixa, card, selo e motivo no tique), com atalho para o WhatsApp Manager e o botão **"Já resolvi"**, que confere a situação na Meta.
+* **Chamadas no WABA:** quem liga pela primeira vez recebe a mensagem de ligação não permitida e ganha atendimento com a janela de 24h aberta, contando como atendimento receptivo.
+* **Instagram só com mensagens diretas:** o canal pode ficar só com DMs, os comentários deixam de abrir atendimento, e as automações de comentário continuam respondendo.
+* **Automação do Instagram por comentário:** a imagem da DM é enviada assim que o contato responde, e a tela explica a regra da Meta e exige o texto de abertura.
+* No Instagram, Messenger, 360dialog e Telegram, as respostas dos bots de IA e as mensagens automáticas (avaliação, despedida, fila, aniversário, fluxo) passam a aparecer sempre no histórico do atendimento.
+* A **palavra-gatilho do Instagram e do Messenger** respeita o público do fluxo, não tira mais o atendimento das mãos do atendente e desliga o Agente de IA ao entrar no fluxo.
+
+**🔌 Integrações Não Oficiais (uazapi, WWEBJS, ZAPO, Meow, Evolution Go)**
+
+* **uazapi:** mensagens de grupo deixam de sumir quando quem escreve esconde o telefone, quem manda pelo WhatsApp Web/Desktop passa a ser reconhecido como o mesmo contato, e a rejeição de chamada feita pelo Desktop chega ao número certo.
+* **uazapi:** a mensagem automática de ligação sai uma vez só por ligação recebida, sem disparos repetidos de madrugada e sem mensagem para o próprio número.
+* **uazapi com dois canais da empresa no mesmo grupo:** o atendimento que não recebeu a mensagem deixa de mostrar no card um texto que não aparece na conversa. O histórico do grupo continua dividido entre os dois canais; para unificar, ligue **"Permitir mensagem duplicada entre canais"**.
+* **WWEBJS:** os canais voltam a receber mensagens mesmo quando a biblioteca falha ao abrir a conversa, e respostas citadas não somem mais por erro na citação.
+* **ZAPO:** os Status dos contatos, listas de transmissão e canais deixam de ser processados, e as mensagens recebidas entram numa fila com limite, o que tira os picos de CPU do servidor.
+* **Meow e Evolution Go:** mensagem editada pelo cliente aparece corrigida na conversa e na prévia da lista.
+
+**🔗 API**
+
+* A **API de grupos** não derruba mais o canal quando o id vem como texto. Adicionar, remover, promover e rebaixar mostram o resultado de cada número e o motivo da falha, também na tela de Massa de usuários.
+
+**📅 Agendamento**
+
+* A tela de **Agendamentos** mostra todos os agendamentos com paginação, e a busca encontra qualquer agendamento, não só os da primeira página.
+* A **agenda do Google** avisa na tela quando a conexão com a conta Google expira, em vez de mostrar a agenda vazia sem explicação, e para de repetir evento na segunda busca.
+
+**📞 Chamadas de Voz, WebChat e Chat interno**
+
+* O **WebPhone** ganhou o campo **"Domínio SIP"** na configuração do usuário e passa a funcionar com provedores que conectam por um SBC e identificam o ramal com outro domínio.
+* WebChat e chamadas de voz passam a conectar de forma estável em instalações com múltiplos processos.
+* **Chat privado:** as mensagens mantêm a ordem certa ao recarregar a tela mesmo quando os computadores estão com horários diferentes, e a hora mostrada passa a ser a do servidor.
+* O **Rocket.Chat embutido** volta a abrir e entrar sozinho nos servidores Rocket.Chat 8, mostra o motivo real de cada erro, testa a configuração inteira em um clique e nunca entrega a um atendente a conta de outra pessoa.
+
+**⚙️ Superadmin, Revendedores e Usuários**
+
+* **Termos próprios do revendedor** (Superadmin → Customizar): publique seus termos, exija o aceite dos administradores das empresas clientes, com bloqueio até aceitarem, e consulte o registro de cada aceite (data, versão, IP e navegador).
+* Nova tela **"Banco de dados"** no painel do superadmin, para consultar os dados e corrigir um registro por vez sem abrir o banco para fora, com segredos protegidos, senha ao abrir e registro permanente de tudo o que for executado.
+* A tela de **Usuários** mostra quando cada pessoa fez o último login, com ordenação por essa coluna.
+* A **exclusão de usuário** voltou a funcionar mesmo para quem já fez disparos em massa; quando algum vínculo impedir a remoção, a tela explica o motivo.
+* Ao bater o **limite de usuários ou de conexões**, a tela diz exatamente isso, em vez de "Erro ao criar".
+
+**🔧 Sistema e Infra**
+
+* **Servidor mais leve e estável:** menos leitura de disco e travamentos na verificação de segurança, boot sem pico de memória, chat interno sem acúmulo de conexões e menos quedas de conexão com o banco.
+* O **download de mídias grandes** no WhatsApp deixa de travar o servidor e de consumir CPU por minutos.
+* As telas de **Configurações** passam a ser protegidas também no servidor.
+
+---
+
+## Versões anteriores
+
 ### v4.0.5
 
 **🚀 UPDATE OFICIAL (HOMOLOG) | 09/09/2026**
@@ -182,10 +311,6 @@ Esta versão corrige o roteamento de mensagens do WhatsApp Oficial quando o mesm
 * **Backup por empresa** começa na hora e avisa na tela enquanto roda — acabou o falso "erro ao iniciar" em backups grandes, que na verdade terminavam normalmente.
 * **Limpeza de arquivos antigos:** a exclusão automática agora libera espaço em disco, e o envio para o armazenamento externo avisa antes o que será apagado do servidor.
 * **Cloudflare R2:** a URL pública deixou de aparecer como opcional — agora é destacada como obrigatória, com explicação no próprio campo, e as mensagens de erro ao salvar dizem exatamente o que falta corrigir.
-
----
-
-## Versões anteriores
 
 ### v4.0.4
 
@@ -795,6 +920,6 @@ Nas páginas seguintes você encontra o histórico completo das versões anterio
 
 [AnteriorAtualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-z-pro)[Próximo3.1.5.x](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao/3.1.5.x)
 
-Atualizado há 15 dias
+Atualizado há 23 dias
 
 Isto foi útil?

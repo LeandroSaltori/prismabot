@@ -10,7 +10,7 @@ Configurações
 
 A seção de **Configurações** reúne os ajustes operacionais do painel Admin: regras globais de comportamento da plataforma, integrações com ferramentas externas, configuração de apps, gestão de sessões ativas e recursos de CRM.
 
-![](../.gitbook/assets/img_8921498.png)
+![](../.gitbook/assets/img_1398841.png)
 
 ---
 
@@ -83,6 +83,6 @@ Configurações dos recursos de CRM da plataforma: gestão de Kanbans, demandas 
 
 [AnteriorLog auditoria (admin)](/configuracao-administrador/configuracao/log-auditoria-admin)[PróximoConfigurações Gerais](/configuracao-administrador/configuracoes-painel-admin/configuracoes-gerais)
 
-Atualizado há 2 meses
+Atualizado há 3 meses
 
 Isto foi útil?

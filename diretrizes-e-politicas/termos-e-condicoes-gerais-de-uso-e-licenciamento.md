@@ -10,7 +10,7 @@ Contrato de uso do Prismabot: licenciamento gerenciado em nuvem, planos, requisi
 
 **Data de disponibilização: 22/05/2024**
 
-**Última atualização: 15/09/2026**
+**Última atualização: 28/09/2026**
 
 Estes Termos e Condições de Uso ("Termos") regulam a relação comercial e o licenciamento de uso entre a empresa **BIANCA SANT ANA PEREIRA & CIA LTDA**, pessoa jurídica de direito privado, inscrita no CNPJ sob o nº 35.617.749/0001-67, doravante denominada **"Prisma Telecom"**, **"Prismabot"** ou **"LICENCIANTE"**, e a pessoa física ou jurídica que adquire a licença, doravante denominada **"CLIENTE"** ou **"LICENCIADO"**.
 
@@ -317,7 +317,7 @@ O Cliente pode pedir a revisão de qualquer dessas decisões por uma pessoa da e
 * II. A base de dados de contatos, históricos de conversas e informações de seus clientes finais (Tenants).
 * III. A estratégia de precificação e os contratos firmados com seus próprios clientes.
 
-**9.3. Dados Técnicos e Auditoria:** Para validar a licença, proteger o Sistema Prismabot e a infraestrutura compartilhada, prestar suporte e acompanhar a compatibilidade das versões, o Sistema Prismabot troca com os Serviços Centrais os dados técnicos descritos no Aviso de Privacidade (item 3.3), entre eles: chave da licença; domínios e endereços da instalação e da servidor em nuvem, inclusive IP; versão do Sistema Prismabot e identificador da instalação; quantidade de empresas (Tenants) com canais e de canais por tipo e situação; identificadores e endereços de retorno dos canais registrados na camada de conexão de canais; números de WhatsApp conectados pela API oficial e seus indicadores de qualidade; e eventos de segurança. Os dados cadastrais da licença retornam à instalação que apresentar a chave. Esses dados não incluem mensagens, conversas nem dados dos contatos atendidos armazenados na servidor em nuvem. O envio integra o funcionamento da licença e não pode ser desativado (cláusula 9.1.2).
+**9.3. Dados Técnicos e Auditoria:** Para validar a licença, proteger o Sistema Prismabot e a infraestrutura compartilhada, prestar suporte e acompanhar a compatibilidade das versões, o Sistema Prismabot troca com os Serviços Centrais os dados técnicos descritos no Aviso de Privacidade (item 3.3), entre eles: chave da licença; domínios e endereços da instalação e da servidor em nuvem, inclusive IP; versão do Sistema Prismabot e identificador da instalação; quantidade de empresas (Tenants) com canais e de canais por tipo e situação; identificadores e endereços de retorno dos canais registrados na camada de conexão de canais; números de WhatsApp conectados pela API oficial e seus indicadores de qualidade; resumo dos erros do Sistema Prismabot, em forma de contagem por ponto do programa e sem os valores da execução; e eventos de segurança. Os dados cadastrais da licença retornam à instalação que apresentar a chave. Esses dados não incluem mensagens, conversas nem dados dos contatos atendidos armazenados na servidor em nuvem. O envio integra o funcionamento da licença e não pode ser desativado (cláusula 9.1.2), exceto o resumo de erros, que o Cliente pode desligar na configuração do Sistema Prismabot.
 
 ### 10. PRIVACIDADE E PROTEÇÃO DE DADOS (LGPD)
 
@@ -481,6 +481,6 @@ Os prazos deste item são contados da última alteração registrada nos indicad
 
 [AnteriorPolítica de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)[PróximoAviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)
 
-Atualizado há 10 dias
+Atualizado há 5 dias
 
 Isto foi útil?

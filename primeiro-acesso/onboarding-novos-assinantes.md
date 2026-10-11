@@ -8,70 +8,147 @@ Nesta página
 
 Primeiros passos após a compra do Prismabot: e-mail de boas-vindas, preparar o ambiente, instalar, ativar a licença e configurar o sistema.
 
-Bem-vindo ao Prismabot. Este guia mostra o que você receberá após a compra e qual é a sequência de passos para colocar o sistema em operação.
+Bem-vindo ao Prismabot. Este guia mostra o que você recebe após a compra, para que serve cada lugar que você vai usar e qual é o caminho, em 5 passos, até o sistema no ar.
+
+![](../.gitbook/assets/img_9373662.png)
+
+Você também acompanha esses passos no [Painel do Licenciado](https://painel.zdg.com.br/), na aba **Onboarding**, que reúne os links de todos os portais citados aqui e onde você marca cada passo como concluído. Veja Painel do Licenciado.
 
 ---
 
-### Passo 1 — Verifique seu e-mail
+#### Os e-mails que você recebe
 
-Após a confirmação do pagamento, você receberá dois e-mails automáticos:
+Após a confirmação do pagamento, chegam três e-mails automáticos:
 
-1. **Acesso ao portal do assinante** ([portal.zdg.com.br](https://prismatelecomservicos.com/ rel=)) — onde ficam as videoaulas, o script de instalação e os arquivos necessários para as próximas etapas.
-2. **Chave de licença** — código único que você usará para ativar o Prismabot após a instalação. Guarde em local seguro.
+1. **Acesso às aulas** ([portal.zdg.com.br](https://prismatelecomservicos.com/ rel=)): a trilha em vídeo, o instalador e os arquivos de atualização.
+2. **Acesso ao Painel do Licenciado** ([painel.zdg.com.br](https://painel.zdg.com.br/)): onde você gerencia a licença. Entre sempre com o e-mail da compra.
+3. **Chave de licença:** o código que ativa o Prismabot depois de instalado. Sem ela não é possível usar o sistema, então localize esse e-mail e salve a chave para aplicar após a instalação.
 
-Se não receber os e-mails em até alguns minutos, verifique a caixa de spam. Para recuperar a chave de licença, abra um chamado em [suporte.zdg.com.br](https://prismatelecomservicos.com/ rel=).
+**Cuidados com a chave de licença:**
 
----
+* Guarde em local seguro. A chave fica **só no e-mail**, não no portal.
+* **Não compartilhe:** toda instalação feita com a sua chave aparece na sua conta, no Painel do Licenciado.
 
-### Passo 2 — Prepare o ambiente
-
-Antes de instalar, você precisará de um servidor servidor em nuvem contratado e dois subdomínios apontados para o IP da servidor em nuvem. Os requisitos mínimos e o passo a passo de configuração estão em:
-
-[1. Preparar ambiente](/primeiro-acesso/instalar-z-pro/1.-preparar-ambiente)
+Não recebeu algum dos e-mails? Verifique a caixa de spam. Se não estiver lá, abra um chamado administrativo em [suporte.zdg.com.br](https://prismatelecomservicos.com/ rel=) pedindo o reenvio.
 
 ---
 
-### Passo 3 — Instale o Prismabot
+#### Onde fica cada coisa
 
-Com o ambiente pronto, escolha uma das duas formas de instalação:
+Onde
 
-[2. Processo de instalação do Prismabot](/primeiro-acesso/instalar-z-pro/2.-instalacao-automatica)
+Para quê
+
+**Portal** — [portal.zdg.com.br](https://prismatelecomservicos.com/ rel=)
+
+Aprender em ordem e baixar o instalador e os pacotes de atualização
+
+**Central de ajuda** — [ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
+
+Pesquisar a documentação de cada funcionalidade e integração (muitos artigos têm vídeo), erros e o changelog
+
+**Painel do Licenciado** — [painel.zdg.com.br](https://painel.zdg.com.br/)
+
+Gerenciar a licença: visão geral, renovação, números, canais, domínios, atividades e o onboarding
+
+**Suporte** — [suporte.zdg.com.br](https://prismatelecomservicos.com/ rel=)
+
+Abrir chamado técnico ou administrativo e acompanhar as respostas
+
+[**Telegram**](https://prismatelecomservicos.com/ rel=)
+
+Avisos de novas versões, hotfixes e informações relevantes aos assinantes
+
+**Roadmap** — [roadmap.zdg.com.br](https://prismatelecomservicos.com/ rel=)
+
+Sugerir e votar em funcionalidades
+
+Regra prática: aprenda o básico nas aulas do portal e, quando precisar de algo específico, pesquise aqui na central. O Painel do Licenciado funciona por fora da instalação, então você consegue gerenciar a licença mesmo com o servidor fora do ar.
 
 ---
 
-### Passo 4 — [Ative a licença](/configuracao-superadmin/tenants-e-licenca/gerenciar-licenca-z-pro)
+#### Os 5 passos até o sistema no ar
 
-Após a instalação, o sistema estará funcional mas ainda sem licença ativa. A ativação é feita pelo próprio assinante dentro do painel do Prismabot:
+**Passo 1 — Comece por aqui**
 
-1. Acesse o painel com o usuário **super-admin**
-2. Vá em **Gestão de Assinatura**
-3. Insira a **chave de licença** recebida por e-mail após a compra
-4. Informe o **domínio principal** da instalação (o mesmo subdomínio de front-end configurado no ambiente)
-5. Salve para concluir a ativação
-
-O domínio informado na ativação deve ser exatamente o mesmo configurado durante a instalação. Domínio incorreto impedirá a ativação da licença.
-
-Não localizou a chave de licença no e-mail? Verifique a caixa de spam ou abra um chamado em [suporte.zdg.com.br](https://prismatelecomservicos.com/ rel=) solicitando o reenvio.
+É este guia (e a aula 0.1 do portal). Siga as aulas do portal na ordem: elas foram montadas como uma trilha.
 
 ---
 
-### Passo 5 — Leia as diretrizes da plataforma
+**Passo 2 — Prepare o ambiente**
 
-Recomendamos a leitura das páginas abaixo antes de colocar o sistema em produção:
+Você vai precisar de:
 
-* [Manutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca) — ações obrigatórias de segurança pós-instalação, firewall e backups
-* [Política de Suporte Técnico](https://prismatelecomservicos.com/ rel=) — canais, horários, SLA e o que está incluso no suporte
+* Uma servidor em nuvem com no mínimo **4 vCPUs, 16 GB de RAM e 200 GB de SSD**, com **Ubuntu 24.04 LTS sem painel** e arquitetura AMD, de preferência no Brasil.
+* Dois subdomínios do **tipo A** apontados para o IP da servidor em nuvem: um para o sistema (ex.: `app.`) e outro para a API (ex.: `api.`). Se usa Cloudflare, deixe a nuvem **cinza** (sem proxy).
+
+O passo a passo completo está em:
+
+---
+
+**Passo 3 — Instale o Prismabot**
+
+Há dois caminhos:
+
+* **Agendar com a nossa equipe:** abra um chamado em [suporte.zdg.com.br](https://prismatelecomservicos.com/ rel=) com o assunto **"Agendar instalação"** e envie os dados da servidor em nuvem e do domínio. O prazo é de **2 a 5 dias úteis** depois que os dados estiverem completos e corretos.
+* **Instalar você mesmo:** com o instalador automático, disponível no portal. Leva poucos minutos se o ambiente estiver certo.
+
+Se você nunca acessou um servidor por SSH, o agendamento é o caminho mais tranquilo. Nos dois casos a instalação segue o modelo padrão suportado pela Prisma Telecom. Instalação em Docker não faz parte do suporte.
+
+---
+
+**Passo 4 — Ative a licença**
+
+Após a instalação, o sistema funciona, mas ainda sem licença ativa. Para ativar:
+
+1. Acesse o painel com o usuário **Super Admin**.
+2. No menu lateral, vá em **Tenants e Licenciamento → Assinatura**.
+3. Insira a **chave de licença** recebida por e-mail.
+4. Informe o **domínio principal** da instalação (o mesmo subdomínio do sistema configurado no Passo 2).
+5. Salve para concluir a ativação.
+
+O domínio informado na ativação deve ser **exatamente o mesmo** da instalação. Domínio diferente impede a ativação da licença.
+
+Logo após a instalação, **troque as senhas padrão**. O passo a passo está em Manutenção e Segurança.
+
+---
+
+**Passo 5 — Leia as diretrizes da plataforma**
+
+Antes de colocar clientes no sistema, leia três páginas:
+
+* [Manutenção e Segurança: ações obrigatórias de segurança pós-instalação, firewall e backups](/diretrizes-e-politicas/manutencao-e-seguranca)
+* [Política de Suporte Técnico: canais, horários, prazos e o que está incluso no suporte](/diretrizes-e-politicas/politica-de-suporte-tecnico)
 * [Termos e Condições de Uso e Licenciamento](/diretrizes-e-politicas/termos-e-condicoes-gerais-de-uso-e-licenciamento)
 
 ---
 
-### Recursos adicionais
+#### Importante: duas datas diferentes
 
-* [**Canal de avisos no Telegram**](https://prismatelecomservicos.com/ rel=) — disponível na área de membros. Mantenha as notificações ativas para ser avisado sobre atualizações e novidades.
-* [**Roadmap público**](https://prismatelecomservicos.com/ rel=) — Sugira melhorias, vote e acompanhe o desenvolvimento de novas funcionalidades
+Data
+
+O que é
+
+Quando vence
+
+**Validade da licença**
+
+Sua assinatura anual
+
+Você renova a assinatura
+
+**Validade da versão**
+
+O prazo de vida da versão instalada
+
+O sistema **para**, mesmo com a licença em dia. É preciso atualizar
+
+Na prática: **atualize o Prismabot pelo menos duas vezes por ano**. O aviso de cada versão nova sai no canal do Telegram. Veja mais em Gerenciar Licença Prismabot.
+
+---
 
 [AnteriorPrincipais dúvidas administrativas](/central-do-assinante/gestao-da-assinatura/principais-duvidas-administrativas)[PróximoInstalar Prismabot](/primeiro-acesso/instalar-z-pro)
 
-Atualizado há 3 meses
+Atualizado há 2 dias
 
 Isto foi útil?

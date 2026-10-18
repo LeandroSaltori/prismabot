@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes)
+1. [Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes/visao-geral-ferramentas-adicionais-e-integracoes)
 
 # Wavoip - Ligações pelo WhatsApp
 

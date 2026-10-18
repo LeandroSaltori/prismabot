@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
+1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos/banco-de-dados-como-acessar)
 
 # Como diagnosticar o erro "servidor temporariamente off-line"
 

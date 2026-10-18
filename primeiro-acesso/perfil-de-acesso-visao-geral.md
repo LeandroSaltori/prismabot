@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Primeiro Acesso](/primeiro-acesso)
+1. [Primeiro Acesso](/primeiro-acesso/onboarding-novos-assinantes)
 
 # Perfil de Acesso: Visão Geral
 
@@ -166,8 +166,8 @@ Estas opções, em [**Configurações → Gerais → Geral**](/configuracao-admi
 
 ---
 
-[AnteriorPrimeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)[PróximoVisão geral Superadmin](/configuracao-superadmin/visao-geral-super-admin)
+[AnteriorPrimeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)[PróximoPrincipais dúvidas administrativas](/primeiro-acesso/principais-duvidas-administrativas)
 
-Atualizado há 1 mês
+Atualizado há 2 dias
 
 Isto foi útil?

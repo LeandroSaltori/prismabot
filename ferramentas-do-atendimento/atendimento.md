@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Ferramentas do atendimento](/ferramentas-do-atendimento)
+1. [Ferramentas do atendimento](/ferramentas-do-atendimento/home-e-dashboard)
 
 # Atendimento
 
@@ -10,7 +10,7 @@ Ferramentas de atendimento do Prismabot: tela de conversas, filtros de tickets, 
 
 A seção de **Atendimento** reúne todas as ferramentas que a equipe utiliza no dia a dia de relacionamento com o cliente: a tela principal de conversas, a comunicação interna entre agentes e o gerenciamento da base de contatos.
 
-![](../.gitbook/assets/img_7686198.png)
+![](../.gitbook/assets/img_5682971.png)
 
 ---
 

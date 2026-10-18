@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Configuração Administrador](/configuracao-administrador)
+1. [Configuração Administrador](/configuracao-administrador/visao-geral-admin)
 
 # Automação
 

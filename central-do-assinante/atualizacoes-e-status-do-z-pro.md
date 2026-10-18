@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
+1. [CENTRAL DO ASSINANTE](/central-do-assinante/atualizacoes-e-status-do-z-pro)
 
 # Atualizações e Status do Prismabot
 
@@ -30,7 +30,7 @@ Acompanhe nosso Roadmap público: [https://prismatelecomservicos.com/ class="gb-
 
 Acompanhe nosso canal de avisos do Telegram: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
 
-[AnteriorCobranças da Meta (WhatsApp Business Platform)](/api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform)[PróximoChangelog (4.0.x última versão)](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao)
+[AnteriorExemplo de fluxo no N8N + API Prismabot + WABA](/api-oficial-waba/exemplo-de-fluxo-no-n8n-+-api-z-pro-+-waba)[PróximoChangelog (4.0.x última versão)](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao)
 
 Atualizado há 3 meses
 

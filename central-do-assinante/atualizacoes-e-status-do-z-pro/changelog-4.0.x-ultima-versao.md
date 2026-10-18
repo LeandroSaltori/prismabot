@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
+1. [CENTRAL DO ASSINANTE](/central-do-assinante/atualizacoes-e-status-do-z-pro)
 2. [Atualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-z-pro)
 
 # Changelog (4.0.x última versão)

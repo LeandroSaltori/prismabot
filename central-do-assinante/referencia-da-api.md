@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [CENTRAL DO ASSINANTE](/central-do-assinante)
+1. [CENTRAL DO ASSINANTE](/central-do-assinante/atualizacoes-e-status-do-z-pro)
 
 # Referência da API
 

@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Configuração Administrador](/configuracao-administrador)
+1. [Configuração Administrador](/configuracao-administrador/visao-geral-admin)
 
 # Configurações Painel Admin
 
@@ -10,7 +10,7 @@ Configurações
 
 A seção de **Configurações** reúne os ajustes operacionais do painel Admin: regras globais de comportamento da plataforma, integrações com ferramentas externas, configuração de apps, gestão de sessões ativas e recursos de CRM.
 
-![](../.gitbook/assets/img_420099.png)
+![](../.gitbook/assets/img_295740.png)
 
 ---
 

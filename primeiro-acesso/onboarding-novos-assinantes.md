@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Primeiro Acesso](/primeiro-acesso)
+1. [Primeiro Acesso](/primeiro-acesso/onboarding-novos-assinantes)
 
 # Onboarding - novos assinantes
 
@@ -10,7 +10,7 @@ Primeiros passos após a compra do Prismabot: e-mail de boas-vindas, preparar o 
 
 Bem-vindo ao Prismabot. Este guia mostra o que você recebe após a compra, para que serve cada lugar que você vai usar e qual é o caminho, em 5 passos, até o sistema no ar.
 
-![](../.gitbook/assets/img_9373662.png)
+![](../.gitbook/assets/img_7045379.png)
 
 Você também acompanha esses passos no [Painel do Licenciado](https://painel.zdg.com.br/), na aba **Onboarding**, que reúne os links de todos os portais citados aqui e onde você marca cada passo como concluído. Veja Painel do Licenciado.
 
@@ -147,8 +147,8 @@ Na prática: **atualize o Prismabot pelo menos duas vezes por ano**. O aviso de 
 
 ---
 
-[AnteriorPrincipais dúvidas administrativas](/central-do-assinante/gestao-da-assinatura/principais-duvidas-administrativas)[PróximoInstalar Prismabot](/primeiro-acesso/instalar-z-pro)
+[AnteriorModels](/central-do-assinante/referencia-da-api/models)[PróximoPrimeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)
 
-Atualizado há 2 dias
+Atualizado há 9 dias
 
 Isto foi útil?

@@ -73,7 +73,7 @@ Com o Plano cliente final, você:
 
 A estratégia de preços é 100% sua.
 
-[→ Como aplicar o plataforma de atendimento na prática](/configuracao-superadmin/tenants-e-licenca/artigo-usando-o-plataforma de atendimento-para-varios-clientes)
+[→ Como aplicar o plataforma de atendimento na prática](/como-funciona-o-z-pro/artigo-usando-o-plataforma de atendimento-para-varios-clientes)
 
 ---
 
@@ -151,7 +151,7 @@ O investimento total dependerá das suas escolhas de ferramentas complementares.
 Anual. O modelo cobre os custos de setup, instalação e horas técnicas dedicadas da nossa equipe.
 
 **Posso testar antes de comprar?**
-Sim. Liberamos 7 dias de acesso em um ambiente de demonstração. Solicite pelo canal comercial: <https://zdg.dev.br/contato>
+Sim. Liberamos 7 dias de acesso em um ambiente de demonstração. Veja em: [Como testar o Prismabot na demonstração gratuita.](/como-funciona-o-z-pro/como-testar-o-z-pro-na-demonstracao-gratuita)
 
 **Há limite de usuários, conexões ou disparos?**
 Não. O Prismabot não impõe limites de software. A capacidade depende dos recursos do seu servidor (servidor em nuvem).
@@ -183,6 +183,6 @@ O front-end é acessível e customizável. O back-end é fechado — isso garant
 
 [AnteriorCentral de Ajuda Prismabot](/)[PróximoQual plano do Prismabot é melhor para a minha operação](/como-funciona-o-z-pro/qual-plano-do-z-pro-e-melhor-para-a-minha-operacao)
 
-Atualizado há 3 meses
+Atualizado há 2 dias
 
 Isto foi útil?

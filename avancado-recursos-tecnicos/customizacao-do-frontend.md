@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos)
+1. [Avançado - Recursos técnicos](/avancado-recursos-tecnicos/banco-de-dados-como-acessar)
 
 # Customização do Frontend
 
@@ -95,6 +95,6 @@ Se precisar de indicações, temos uma lista de profissionais e parceiros extern
 
 [AnteriorComo remover um tenant com erro de exclusão no Super Admin](/avancado-recursos-tecnicos/como-remover-um-tenant-com-erro-de-exclusao-no-super-admin)[PróximoIntegrando o chat GPT](/avancado-recursos-tecnicos/integrando-o-chat-gpt)
 
-Atualizado há 11 dias
+Atualizado há 18 dias
 
 Isto foi útil?

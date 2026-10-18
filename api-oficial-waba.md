@@ -12,7 +12,7 @@ Para quem já possui um App aprovado no Facebook Developers, o Prismabot também
 
 Para ver o que o status de Tech Provider muda na prática e a comprovação na Central de Parceiros da Meta, acesse [Prismabot é Tech Provider oficial da Meta](https://zpro.zdg.com.br/tech-provider-meta).
 
-**Custos da API Oficial:** os custos de uso da API Oficial (cobranças por conversas fora da janela de 24 horas) são faturados diretamente pela Meta na **Business Manager (BM) do número conectado**. O pagamento dessas taxas é responsabilidade do assinante. O Prismabot cobra exclusivamente a licença do software. Veja mais em [Cobranças da Meta.](/api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform)
+**Custos da API Oficial:** os custos de uso da API Oficial (cobranças por conversas fora da janela de 24 horas) são faturados diretamente pela Meta na **Business Manager (BM) do número conectado**. O pagamento dessas taxas é responsabilidade do assinante. O Prismabot cobra exclusivamente a licença do software. Veja mais em Cobranças da Meta.
 
 **Risco de bloqueio:** o uso da API Oficial elimina o risco de banimento por uso de software não autorizado. No entanto, o número ainda está sujeito às avaliações de qualidade da Meta — bloqueios por envio de spam ou violação das políticas de mensageria são de responsabilidade do operador, independentemente da ferramenta utilizada. Siga sempre as [diretrizes da Meta](https://www.whatsapp.com/legal/business-policy/).
 
@@ -125,7 +125,7 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 #### Cobrança da Meta
 
-* [Como funciona a cobrança de mensagens na Meta](/api-oficial-waba/cobrancas-da-meta-whatsapp-business-platform) — modelo de precificação por categorias de conversa, janela de 24 horas e como gerenciar o faturamento na Business Manager
+* Como funciona a cobrança de mensagens na Meta — modelo de precificação por categorias de conversa, janela de 24 horas e como gerenciar o faturamento na Business Manager
 
 ---
 
@@ -141,6 +141,6 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 [AnteriorLID do WhatsApp](/diretrizes-e-politicas/lid-do-whatsapp)[PróximoWhatsapp Oficial- Cadastro Incorporado e Coexistência com APP próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

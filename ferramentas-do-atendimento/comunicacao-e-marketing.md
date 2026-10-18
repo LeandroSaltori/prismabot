@@ -2,12 +2,12 @@ Copiar
 
 Nesta página
 
-1. [Ferramentas do atendimento](/ferramentas-do-atendimento)
+1. [Ferramentas do atendimento](/ferramentas-do-atendimento/home-e-dashboard)
 
 # Comunicação e marketing
 
 [Campanhas (Disparo em Massa)](/ferramentas-do-atendimento/comunicacao-e-marketing/campanhas-disparo-em-massa)[E-mail Marketing](/ferramentas-do-atendimento/comunicacao-e-marketing/e-mail-marketing)[Envio em Massa](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa)[Galeria](/ferramentas-do-atendimento/comunicacao-e-marketing/galeria)[Eventos do Google Calendar](/ferramentas-do-atendimento/comunicacao-e-marketing/eventos-do-google-calendar)[Gestão de grupos](/ferramentas-do-atendimento/comunicacao-e-marketing/gestao-de-grupos)[Mensagens Rápidas](/ferramentas-do-atendimento/comunicacao-e-marketing/mensagens-rapidas)[Redes Sociais - Comentários](/ferramentas-do-atendimento/comunicacao-e-marketing/redes-sociais-comentarios)
 
-[AnteriorRestrição de Acesso a Contatos](/ferramentas-do-atendimento/atendimento/contatos/restricao-de-acesso-a-contatos)[PróximoCampanhas (Disparo em Massa)](/ferramentas-do-atendimento/comunicacao-e-marketing/campanhas-disparo-em-massa)
+[AnteriorPerfil do contato](/ferramentas-do-atendimento/atendimento/contatos/perfil-do-contato)[PróximoCampanhas (Disparo em Massa)](/ferramentas-do-atendimento/comunicacao-e-marketing/campanhas-disparo-em-massa)
 
 Isto foi útil?

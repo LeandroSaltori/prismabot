@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Ferramentas do atendimento](/ferramentas-do-atendimento)
+1. [Ferramentas do atendimento](/ferramentas-do-atendimento/home-e-dashboard)
 
 # Conta - Meu perfil
 
@@ -10,7 +10,7 @@ Gerencie suas informações pessoais, foto de perfil e senha de acesso ao sistem
 
 ### Atualizando o perfil
 
-![](../.gitbook/assets/img_8526720.png)
+![](../.gitbook/assets/img_6019491.png)
 
 * Edite seu nome, e-mail e telefone na seção Meu Perfil
 * Clique na foto para atualizar sua imagem de perfil (máximo 5MB)
@@ -18,7 +18,7 @@ Gerencie suas informações pessoais, foto de perfil e senha de acesso ao sistem
 
 ### Alterando a senha
 
-![](../.gitbook/assets/img_2164674.png)
+![](../.gitbook/assets/img_3111919.png)
 
 * Informe a senha atual e a nova senha com no mínimo 6 caracteres
 * Confirme a nova senha e clique em Alterar senha

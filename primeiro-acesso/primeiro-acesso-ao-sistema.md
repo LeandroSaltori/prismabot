@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Primeiro Acesso](/primeiro-acesso)
+1. [Primeiro Acesso](/primeiro-acesso/onboarding-novos-assinantes)
 
 # Primeiro Acesso ao Sistema
 
@@ -44,7 +44,7 @@ Acesse a **URL do front-end** da sua instância (recebida ao final da instalaç�
 
 Após o login, você verá o painel do Superadmin com os menus de gestão da plataforma.
 
-![](../.gitbook/assets/img_8702681.png)
+![](../.gitbook/assets/img_8203182.png)
 
 ---
 
@@ -68,7 +68,7 @@ Ainda no Superadmin, acesse **Usuários** e crie um novo usuário com o perfil *
 
 Faça logout do Superadmin e entre com as credenciais do usuário Administrador que você acabou de criar. O painel muda: agora você está na área operacional do sistema, onde toda a operação de atendimento acontece.
 
-![](../.gitbook/assets/img_5128717.png)
+![](../.gitbook/assets/img_3327593.png)
 
 ---
 
@@ -104,7 +104,7 @@ Com o sistema funcionando, os próximos passos naturais são:
 
 [ChatFlow (chatbot)](/configuracao-administrador/automacao/chat-flow)
 
-[Anterior2. Processo de instalação do Prismabot](/primeiro-acesso/instalar-z-pro/2.-instalacao-automatica)[PróximoPerfil de Acesso: Visão Geral](/primeiro-acesso/perfil-de-acesso-visao-geral)
+[AnteriorOnboarding - novos assinantes](/primeiro-acesso/onboarding-novos-assinantes)[PróximoPerfil de Acesso: Visão Geral](/primeiro-acesso/perfil-de-acesso-visao-geral)
 
 Atualizado há 3 meses
 

@@ -2,7 +2,7 @@ Copiar
 
 Nesta página
 
-1. [Ferramentas do atendimento](/ferramentas-do-atendimento)
+1. [Ferramentas do atendimento](/ferramentas-do-atendimento/home-e-dashboard)
 
 # Gestão
 

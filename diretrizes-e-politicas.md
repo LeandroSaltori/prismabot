@@ -21,6 +21,6 @@ Nesta seção você encontrará os seguintes artigos:
 
 [AnteriorComo funciona a cliente final do Prismabot (plataforma de atendimento)](/como-funciona-o-z-pro/artigo-usando-o-plataforma de atendimento-para-varios-clientes)[PróximoPré-requisitos de instalação e utilização](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)
 
-Atualizado há 6 meses
+Atualizado há 7 meses
 
 Isto foi útil?

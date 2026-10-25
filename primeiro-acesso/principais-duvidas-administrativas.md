@@ -117,6 +117,6 @@ Caso precise da sua nota fiscal, siga o passo abaixo:
 
 [AnteriorPerfil de Acesso: Visão Geral](/primeiro-acesso/perfil-de-acesso-visao-geral)[PróximoVisão geral Superadmin](/configuracao-superadmin/visao-geral-super-admin)
 
-Atualizado há 6 meses
+Atualizado há 7 meses
 
 Isto foi útil?

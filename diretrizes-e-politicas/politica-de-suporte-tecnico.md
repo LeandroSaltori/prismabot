@@ -47,10 +47,10 @@ Para garantir o foco e a qualidade do nosso atendimento, os seguintes itens não
 O Prismabot oferece integração com diversas ferramentas externas, mas o funcionamento, a configuração e o suporte de cada uma são de responsabilidade do respectivo fornecedor. Não prestamos suporte para:
 
 * **Automação e IA:** N8N, Typebot, ChatGPT (OpenAI), Claude (Anthropic), Gemini (Google), Grok (xAI), Deepseek, Qwen, Ollama, LM Studio, VAPI
-* **Canais não oficiais:** Evolution API, WuzAPI, Z-API, UazAPI, Baileys (instabilidades de conexão por atualizações do WhatsApp)
-* **Telefonia:** WaVoIP, SIP/PABX, trunks VoIP e qualquer infraestrutura de voz
+* **Conexões de WhatsApp fora da API Oficial:** qualquer conexão que não seja a API Oficial do WhatsApp Business Platform
+* **Telefonia:** SIP/PABX, trunks VoIP e qualquer infraestrutura de voz
 * **E-commerce:** Nuvemshop, WooCommerce, Mercado Livre, OLX
-* **Outros:** Hub NotificaMe, Asaas (gateway de pagamento), Google Calendar, qualquer CRM ou ERP externo integrado via API
+* **Outros:** Asaas (gateway de pagamento), Google Calendar, qualquer CRM ou ERP externo integrado via API
 
 **Meta e WhatsApp**
 

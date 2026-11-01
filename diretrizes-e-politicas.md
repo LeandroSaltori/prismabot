@@ -16,7 +16,6 @@ Nesta seção você encontrará os seguintes artigos:
 * [Requisitos de Uso](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)
 * [Política de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico)
 * [Manutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)
-* [API Oficial e Não Oficial (WhatsApp)](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
 * [Aviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)
 
 [AnteriorComo funciona a cliente final do Prismabot (plataforma de atendimento)](/como-funciona-o-z-pro/artigo-usando-o-plataforma de atendimento-para-varios-clientes)[PróximoPré-requisitos de instalação e utilização](/diretrizes-e-politicas/pre-requisitos-de-instalacao-e-utilizacao)

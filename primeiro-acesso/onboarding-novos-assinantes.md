@@ -10,7 +10,7 @@ Primeiros passos após a compra do Prismabot: e-mail de boas-vindas, preparar o 
 
 Bem-vindo ao Prismabot. Este guia mostra o que você recebe após a compra, para que serve cada lugar que você vai usar e qual é o caminho, em 5 passos, até o sistema no ar.
 
-![](../.gitbook/assets/img_227532.png)
+![](../.gitbook/assets/img_6810292.png)
 
 Você também acompanha esses passos no [Painel do Licenciado](https://painel.zdg.com.br/), na aba **Onboarding**, que reúne os links de todos os portais citados aqui e onde você marca cada passo como concluído. Veja Painel do Licenciado.
 
@@ -43,7 +43,7 @@ Para quê
 
 Aprender em ordem e baixar o instalador e os pacotes de atualização
 
-**Central de ajuda** — [ajuda.zdg.com.br](https://prismatelecomservicos.com/ rel=)
+**Central de ajuda** —
 
 Pesquisar a documentação de cada funcionalidade e integração (muitos artigos têm vídeo), erros e o changelog
 
@@ -149,6 +149,6 @@ Na prática: **atualize o Prismabot pelo menos duas vezes por ano**. O aviso de 
 
 [AnteriorModels](/central-do-assinante/referencia-da-api/models)[PróximoPrimeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)
 
-Atualizado há 16 dias
+Atualizado há 23 dias
 
 Isto foi útil?

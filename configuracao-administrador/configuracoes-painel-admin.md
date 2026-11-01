@@ -10,7 +10,7 @@ Configurações
 
 A seção de **Configurações** reúne os ajustes operacionais do painel Admin: regras globais de comportamento da plataforma, integrações com ferramentas externas, configuração de apps, gestão de sessões ativas e recursos de CRM.
 
-![](../.gitbook/assets/img_6255072.png)
+![](../.gitbook/assets/img_6635242.png)
 
 ---
 
@@ -48,8 +48,6 @@ Gerenciamento centralizado de todas as ferramentas de automação e modelos de l
 
 Habilitação e configuração das integrações com plataformas e serviços externos. Cada integração é ativada individualmente conforme a operação:
 
-* BSP, Evolution API, UAZAPI, WuzAPI, Z-API — provedores de WhatsApp não oficial
-* Hub NotificaMe — hub de canais (Facebook, Instagram, Webchat, E-mail)
 * Webchat — chat embutido em sites
 * SMS — envio de mensagens por SMS
 * Google Calendar — sincronização de agendamentos
@@ -83,6 +81,6 @@ Configurações dos recursos de CRM da plataforma: gestão de Kanbans, demandas 
 
 [AnteriorLog auditoria (admin)](/configuracao-administrador/configuracao/log-auditoria-admin)[PróximoConfigurações Gerais](/configuracao-administrador/configuracoes-painel-admin/configuracoes-gerais)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

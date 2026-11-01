@@ -22,10 +22,6 @@ Gerenciamento de todos os canais conectados ao Prismabot. O sistema suporta múl
 * Configurar App Próprio no Facebook Developers — para quem quer plataforma de atendimento ou isolamento de reputação
 * Dialog360 — BSP e Gupshup — BSP — conexão via Business Solution Provider
 
-**WhatsApp não oficial**
-
-* Baileys, wwebjs, Evolution API, Meow / WuzAPI, UAZAPI, Z-API
-
 **Redes sociais e outros canais**
 
 * Instagram e Facebook Messenger, Telegram, TikTok, YouTube, LinkedIn
@@ -54,6 +50,6 @@ Centro de gestão de acessos do Prismabot. Permite cadastrar colaboradores, defi
 
 [AnteriorVisão geral Admin](/configuracao-administrador/visao-geral-admin)[PróximoCanais de comunicação](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

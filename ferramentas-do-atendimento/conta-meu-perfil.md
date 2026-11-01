@@ -10,7 +10,7 @@ Gerencie suas informações pessoais, foto de perfil e senha de acesso ao sistem
 
 ### Atualizando o perfil
 
-![](../.gitbook/assets/img_6389696.png)
+![](../.gitbook/assets/img_954591.png)
 
 * Edite seu nome, e-mail e telefone na seção Meu Perfil
 * Clique na foto para atualizar sua imagem de perfil (máximo 5MB)
@@ -18,13 +18,13 @@ Gerencie suas informações pessoais, foto de perfil e senha de acesso ao sistem
 
 ### Alterando a senha
 
-![](../.gitbook/assets/img_6165085.png)
+![](../.gitbook/assets/img_9347035.png)
 
 * Informe a senha atual e a nova senha com no mínimo 6 caracteres
 * Confirme a nova senha e clique em Alterar senha
 
 [AnteriorTarefas](/ferramentas-do-atendimento/gestao/tarefas)[PróximoVisão geral - Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes/visao-geral-ferramentas-adicionais-e-integracoes)
 
-Atualizado há 6 meses
+Atualizado há 7 meses
 
 Isto foi útil?

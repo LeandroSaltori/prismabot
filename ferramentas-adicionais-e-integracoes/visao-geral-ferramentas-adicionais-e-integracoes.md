@@ -8,13 +8,13 @@ Nesta página
 
 Esta seção agrupa um conjunto de ferramentas e funcionalidades que expandem as capacidades do Prismabot para além do atendimento convencional por texto.
 
-Aqui você encontrará canais de comunicação alternativos como a telefonia (Wavoip) e recursos para desenvolvedores, como a API, que permite conectar o Prismabot a outros sistemas
+Aqui você encontrará canais de comunicação alternativos como a telefonia e recursos para desenvolvedores, como a API, que permite conectar o Prismabot a outros sistemas
 
 ---
 
-**Telefonia (Wavoip)**
+[**Ligações no Prismabot (Telefonia e Voz)**](/ferramentas-adicionais-e-integracoes/ligacoes-no-z-pro-telefonia-e-voz)
 
-*Esta documentação explica como integrar uma conta Wavoip à plataforma para visualizar o histórico de todas as chamadas de voz feitas ou recebidas através do seu número.*
+*Como fazer e receber ligações pelo painel: chamadas pela API Oficial do WhatsApp e telefonia SIP (PABX).*
 
 [**Notificações do Aplicativo (Web Push)**](/ferramentas-adicionais-e-integracoes/notificacoes-aplicativo-web-push)
 

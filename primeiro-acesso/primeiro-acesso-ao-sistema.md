@@ -44,7 +44,7 @@ Acesse a **URL do front-end** da sua instância (recebida ao final da instalaç�
 
 Após o login, você verá o painel do Superadmin com os menus de gestão da plataforma.
 
-![](../.gitbook/assets/img_629558.png)
+![](../.gitbook/assets/img_3532580.png)
 
 ---
 
@@ -68,13 +68,13 @@ Ainda no Superadmin, acesse **Usuários** e crie um novo usuário com o perfil *
 
 Faça logout do Superadmin e entre com as credenciais do usuário Administrador que você acabou de criar. O painel muda: agora você está na área operacional do sistema, onde toda a operação de atendimento acontece.
 
-![](../.gitbook/assets/img_787466.png)
+![](../.gitbook/assets/img_3434518.png)
 
 ---
 
 ### Passo 5 — Conecte o primeiro canal
 
-No painel Admin, acesse **Administração → Canais** e conecte o primeiro número ou conta. O tipo de canal depende da sua operação — WhatsApp Oficial (WABA), Baileys, Instagram, entre outros.
+No painel Admin, acesse **Administração → Canais** e conecte o primeiro número ou conta. O tipo de canal depende da sua operação — WhatsApp Oficial (WABA), Instagram, Messenger, entre outros.
 
 [Canais de comunicação](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao)
 
@@ -106,6 +106,6 @@ Com o sistema funcionando, os próximos passos naturais são:
 
 [AnteriorOnboarding - novos assinantes](/primeiro-acesso/onboarding-novos-assinantes)[PróximoPerfil de Acesso: Visão Geral](/primeiro-acesso/perfil-de-acesso-visao-geral)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

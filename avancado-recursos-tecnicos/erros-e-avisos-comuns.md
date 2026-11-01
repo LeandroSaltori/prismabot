@@ -70,31 +70,6 @@ Se o sistema ficar mais de **6 horas** com a licença inválida, ele bloqueia o 
 
 ### Erros de envio de mensagens
 
-#### "Aguarde alguns instantes..."
-
-**Onde aparece:** ao tentar enviar uma mensagem por um canal que utiliza a lib Baileys.
-
-**O que significa:** comportamento associado à lib Baileys. Pode ocorrer apenas em conexões específicas e tende a ser intermitente.
-
-**Como resolver (em ordem de prioridade):**
-
-1. Atualize o **Prismabot para a versão HOTFIX** mais recente
-2. Atualize o **aplicativo do WhatsApp** no celular vinculado ao canal
-3. Atualize o **Android** do aparelho
-
-Essas três ações resolvem o problema em cerca de 90% dos casos.
-
-**Alternativas adicionais:**
-
-* Recriar o canal afetado
-* Migrar o canal para o **Baileys v7**: acesse **Canais → Editar canal → Baileys → selecionar v7**
-
-O Baileys v7 está disponível a partir da versão **4.0.0.8** do Prismabot.
-
-Se o problema persistir após todas as tentativas acima, considere migrar o canal para **wwebjs** ou **wuzapi** — essas libs não apresentam relato desse comportamento.
-
----
-
 #### META: Not supported type
 
 **Onde aparece:** no processamento de mensagens recebidas via canal WABA (API Oficial).
@@ -112,7 +87,7 @@ Se o problema persistir após todas as tentativas acima, considere migrar o cana
 * Mensagens trocadas entre contas WABA
 * Arquivos em formatos não suportados
 
-**Como tratar:** verifique se o arquivo ou tipo de mensagem está na lista de formatos suportados pelo Prismabot: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
+**Como tratar:** verifique se o arquivo ou tipo de mensagem está na lista de formatos suportados pelo Prismabot:
 
 Se o tipo de conteúdo não for suportado, o comportamento esperado é que o Prismabot ignore ou registre o evento sem processar — não há ação corretiva do lado do sistema.
 
@@ -199,6 +174,6 @@ Realizar as customizações
 
 [AnteriorTypebot autohospedado](/avancado-recursos-tecnicos/integracoes-terceiras/typebot-autohospedado)[PróximoTemplate (WABA) não chega ao destinatário](/avancado-recursos-tecnicos/erros-e-avisos-comuns/template-waba-nao-chega-ao-destinatario)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

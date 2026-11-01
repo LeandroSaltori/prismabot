@@ -105,10 +105,6 @@ Administrador, Supervisor, Atendente ou Personalizado. Não é possível criar u
 
 Blindagem de dados sensíveis do contato (nome parcial, foto borrada, campos ocultos) — ver Restrição de Acesso a Contatos.
 
-**Bloquear WaVoIP**
-
-Impede chamadas pela plataforma. Aparece na edição de Supervisor e Atendente.
-
 **Visualização por Departamento**
 
 Só aparece para o perfil Supervisor — restringe a visão dele às próprias filas.
@@ -168,6 +164,6 @@ Estas opções, em [**Configurações → Gerais → Geral**](/configuracao-admi
 
 [AnteriorPrimeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)[PróximoPrincipais dúvidas administrativas](/primeiro-acesso/principais-duvidas-administrativas)
 
-Atualizado há 9 dias
+Atualizado há 16 dias
 
 Isto foi útil?

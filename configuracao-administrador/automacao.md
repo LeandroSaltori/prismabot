@@ -27,7 +27,7 @@ O construtor visual nativo de chatbots do Prismabot. Permite criar jornadas comp
 
 ---
 
-### [Agendamentos](/configuracao-administrador/automacao/agendamentos)
+### Agendamentos
 
 Ferramenta para programar o envio de mensagens para datas e horários futuros. Permite configurar disparos únicos ou recorrentes e acompanhar em tempo real o status de cada envio — sem necessidade de intervenção manual no momento do disparo.
 
@@ -43,8 +43,8 @@ Módulo de relacionamento que centraliza todos os contatos com data de nasciment
 
 Configuração de respostas automáticas para eventos do Instagram: comentários em posts e reels, interações em lives, menções, respostas a stories e posts compartilhados via DM. Cada automação define um gatilho, condições de filtragem e as ações que o sistema executa automaticamente.
 
-[AnteriorPerfil Personalizado](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)[PróximoAgendamentos](/configuracao-administrador/automacao/agendamentos)
+[AnteriorPerfil Personalizado](/configuracao-administrador/administracao-painel-admin/usuarios/perfis-de-acesso)[PróximoAgentes de IA](/configuracao-administrador/automacao/agentes-de-ia)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

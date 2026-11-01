@@ -28,7 +28,7 @@ O primeiro passo é adicionar o atalho (ícone) do Prismabot no seu celular (And
 3. Selecione **"Instalar app"** ou **"Adicionar à tela inicial"** e confirme.
 4. Abra o Prismabot pelo **ícone** que foi criado na tela inicial.
 
-![](../.gitbook/assets/img_1710633.png)
+![](../.gitbook/assets/img_3851365.png)
 
 #### **Para iPhone (iOS) — pelo Safari:**
 
@@ -38,7 +38,7 @@ O primeiro passo é adicionar o atalho (ícone) do Prismabot no seu celular (And
 4. Selecione **"Adicionar à Tela de Início"** e confirme.
 5. Abra o Prismabot pelo **ícone** criado na tela inicial — **não** pelo Safari.
 
-![](../.gitbook/assets/img_7841506.png)
+![](../.gitbook/assets/img_1350571.png)
 
 ### 2. Passo a Passo para Ativar as Notificações
 
@@ -50,7 +50,7 @@ Primeiro, você precisa habilitar a recepção de notificações dentro do próp
 
 Este botão só é visível quando o Prismabot é executado a partir do celular, com atalho na tela inicial (PWA).
 
-![](../.gitbook/assets/img_8359002.png)
+![](../.gitbook/assets/img_9066782.png)
 
 #### Habilite o Web Push no Canal Desejado
 
@@ -60,7 +60,7 @@ Em seguida, você precisa dizer ao Prismabot para qual canal você quer receber 
 * Edite o canal para o qual deseja receber notificações.
 * Marque a opção **"Habilitar WebPush"** e salve as alterações.
 
-![](../.gitbook/assets/img_8070192.png)
+![](../.gitbook/assets/img_7441559.png)
 
 ### 3. Customizações do ícone e nome do App
 
@@ -73,7 +73,7 @@ O nome definido aqui aparecerá no título da aba do navegador, nas telas de ins
 1. No campo **Nome do Aplicativo**, apague o nome atual e digite o nome da sua empresa.
 2. Clique no botão azul **Salvar**.
 
-![](../.gitbook/assets/img_122881.png)
+![](../.gitbook/assets/img_5340118.png)
 
 #### Configurando o Ícone do Aplicativo (PWA)
 
@@ -101,8 +101,8 @@ Ao enviar esta única imagem, o sistema trabalhará de forma inteligente: ele ge
 
 **Específico do Android:** a **otimização de bateria** e a **economia de dados** costumam bloquear notificações em segundo plano. Em **Configurações → Apps → (Prismabot/Chrome) → Bateria**, deixe **"Sem restrições"**, e libere o uso de **dados em segundo plano**. Mantenha também o **Chrome atualizado**.
 
-[AnteriorComo baixar e usar o app do Prismabot no celular (Android e iPhone)](/ferramentas-adicionais-e-integracoes/como-baixar-e-usar-o-app-do-z-pro)[PróximoWavoip - Ligações pelo WhatsApp](/ferramentas-adicionais-e-integracoes/wavoip-ligacoes-pelo-whatsapp)
+[AnteriorComo baixar e usar o app do Prismabot no celular (Android e iPhone)](/ferramentas-adicionais-e-integracoes/como-baixar-e-usar-o-app-do-z-pro)[PróximoBanco de dados - Como acessar](/avancado-recursos-tecnicos/banco-de-dados-como-acessar)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

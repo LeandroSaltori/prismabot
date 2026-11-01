@@ -126,12 +126,11 @@ Sem backup, a perda de dados por falha de hardware ou erro operacional é irreve
 
 Para entender o que é responsabilidade da Prisma Telecom e o que é responsabilidade do assinante em detalhe:
 
-* [Termos e Condições de Uso e Licenciamento](https://prismatelecomservicos.com/ rel=) — cláusulas 8 (obrigações e responsabilidades) e 10 (privacidade e proteção de dados)
-* [Política de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico) — o que está e o que não está incluso no suporte
+* [[Política de Suporte Técnico](/diretrizes-e-politicas/politica-de-suporte-tecnico) — o que está e o que não está incluso no suporte](https://prismatelecomservicos.com/ e Condições de Uso e Licenciamento</a></span> — cláusulas 8 (obrigações e responsabilidades) e 10 (privacidade e proteção de dados)</p></div></li><li class=)
 * [Aviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade) — como os dados são tratados no modelo gerenciado em nuvem
 
-[AnteriorAviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)[PróximoAPI Oficial vs API Não Oficial](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
+[AnteriorAviso de Privacidade](/diretrizes-e-politicas/aviso-de-privacidade)[PróximoAPI Oficial WABA](/api-oficial-waba)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

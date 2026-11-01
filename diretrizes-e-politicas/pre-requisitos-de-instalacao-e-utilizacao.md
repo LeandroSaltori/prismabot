@@ -72,17 +72,9 @@ Tipo de canal / conexão
 
 Consumo médio por canal
 
-Canais WABA / Hub
+Canais WABA
 
 até 100 MB
-
-Canais Baileys / Evolution / Meow
-
-até 250 MB
-
-Canais wwebjs
-
-até 1 GB
 
 **Por usuário logado (atendente)**
 
@@ -105,8 +97,7 @@ Para acessar o painel do Prismabot, a máquina de cada atendente deve atender ao
 
 ### Versões suportadas da API WhatsApp
 
-* API WhatsApp Business Account v19.0 ou superior
-* WhatsApp Web até a versão v2.24xx.x
+* WhatsApp Business Platform (Cloud API / Graph API) v24.0 ou superior
 
 ---
 

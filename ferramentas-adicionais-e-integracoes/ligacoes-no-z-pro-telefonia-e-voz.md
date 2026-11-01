@@ -6,37 +6,25 @@ Nesta página
 
 # Ligações no Prismabot (Telefonia e Voz)
 
-SIP e Wavoip
+API Oficial e SIP
 
 O Prismabot funciona como **centralizador** das operações de voz — você atende e realiza chamadas diretamente pelo painel, sem trocar de ferramenta. A plataforma não é um provedor de telefonia: ela se conecta a serviços externos que fornecem a infraestrutura de voz.
 
-Existem três modalidades de ligação disponíveis:
+Existem duas modalidades de ligação disponíveis:
 
 Modalidade
 
 Tecnologia
 
-Indicado para
-
 **API Oficial (WABA)**
 
 WebRTC nativo Meta
-
-Quem usa canal WhatsApp Oficial — sem ferramentas externas
-
-**WaVoIP**
-
-WhatsApp não oficial (Baileys)
-
-Quem usa conexões não oficiais e já tem conta WaVoIP
 
 **Telefonia SIP**
 
 Trunk SIP / PABX corporativo
 
-Quem tem infraestrutura de telefonia VoIP própria
-
-**Escopo de suporte:** o suporte do Prismabot cobre apenas a integração (configuração do token/credenciais dentro do sistema). Problemas na infraestrutura do **WaVoIP**, configuração do **servidor SIP/PABX** ou do **App Meta** são de responsabilidade do assinante ou do profissional de TI responsável pelo serviço.
+**Escopo de suporte:** o suporte do Prismabot cobre apenas a integração (configuração do token/credenciais dentro do sistema). Problemas na configuração do **servidor SIP/PABX** ou do **App Meta** são de responsabilidade do assinante ou do profissional de TI responsável pelo serviço.
 
 ---
 
@@ -84,39 +72,7 @@ Para o detalhamento completo, acesse a página [Ligações de voz na API Oficial
 
 ---
 
-### [2. Ligações via WhatsApp (WaVoIP)](/configuracao-administrador/gestao-comercial/analises-e-registros/wavoip)
-
-Permite fazer e receber chamadas de voz do WhatsApp diretamente na interface do Prismabot, usando conexões **não oficiais (Baileys)**. Requer uma conta ativa no serviço externo **WaVoIP**.
-
-**WaVoIP é um serviço pago e independente do Prismabot.** Contrate um plano diretamente em [wavoip.com](https://wavoip.com/) antes de configurar a integração.
-
-#### Configuração
-
-1. Acesse [wavoip.com](https://wavoip.com/), crie ou acesse sua conta e adicione um **dispositivo**
-2. Copie o **Token** gerado para o dispositivo
-3. No Prismabot, acesse **Canais**, edite a conexão Baileys desejada e cole o token no campo **WaVoIP**
-4. Clique em **Salvar** — um ícone de telefone aparece no card do canal
-5. Clique no ícone, escaneie o QR Code com o celular (**WhatsApp → Aparelhos Conectados → Conectar um aparelho**)
-
-Após a conexão, atendentes podem fazer e receber chamadas pelo ícone **WaVoIP** no menu do atendimento.
-
-Para o passo a passo completo de configuração, acesse [WaVoIP — Ligações pelo WhatsApp.](/ferramentas-adicionais-e-integracoes/wavoip-ligacoes-pelo-whatsapp)
-
-#### Gerenciamento e histórico WaVoIP
-
-Em **Gestão Comercial → WaVoIP**, o administrador pode autenticar a conta e consultar o histórico de chamadas com gravações. Acesse com login/senha ou por token.
-
-Para detalhes, acesse [WaVoIP — Gestão Comercial.](/configuracao-administrador/gestao-comercial/analises-e-registros/wavoip)
-
-#### Envio em massa de voz (WaVoIP)
-
-Também é possível realizar **chamadas de voz em massa** enviando um arquivo de áudio para uma lista de números via conexão Baileys. Acesse em **Comunicação e Marketing → Envio em Massa → WaVoIP**.
-
-Para detalhes, acesse [Envio em Massa — WaVoIP.](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-wavoip)
-
----
-
-### [3. Telefonia SIP (PABX / Trunk VoIP)](https://prismatelecomservicos.com/ rel=)
+### [2. Telefonia SIP (PABX / Trunk VoIP)](https://prismatelecomservicos.com/ rel=)
 
 Conecta o Prismabot ao sistema de telefonia corporativo da empresa via protocolo SIP, habilitando um **Webphone** integrado para cada atendente fazer e receber chamadas do trunk diretamente pelo painel.
 
@@ -164,11 +120,11 @@ Porta WSS do servidor (padrão: **8089**)
 
 1. Salve — o **SIP Webphone** ficará disponível para aquele usuário no painel do atendimento
 
-![](../.gitbook/assets/img_3884772.png)
+![](../.gitbook/assets/img_2274089.png)
 
 #### Como usar no atendimento
 
-Com o SIP configurado, o atendente verá as opções de telefonia disponíveis no painel do atendimento (**WaVoIP**, **SIP**, **SMS**). Ao abrir o SIP Webphone, o sistema já popula o número do contato para discagem.
+Com o SIP configurado, o atendente verá as opções de telefonia disponíveis no painel do atendimento (**SIP**, **SMS**). Ao abrir o SIP Webphone, o sistema já popula o número do contato para discagem.
 
 **SMS** só aparece como opção se houver um gateway de SMS configurado em **Configurações → Integrações**.
 
@@ -206,14 +162,12 @@ Para detalhes, acesse [Log Ligações.](/configuracao-administrador/gestao-comer
 
 ### Avisos e precauções
 
-**Escopo de suporte — WaVoIP:** o suporte do Prismabot não cobre problemas no serviço WaVoIP (conta, dispositivo, qualidade de chamada). Em caso de falha, acesse o painel do WaVoIP ou contate o suporte deles diretamente.
-
 **Escopo de suporte — Telefonia SIP:** a configuração do servidor SIP/PABX (Asterisk ou similar), criação de ramais e troubleshooting de conexão não fazem parte do escopo de suporte do Prismabot. Consulte o profissional de TI responsável pela infraestrutura de telefonia.
 
 **Prismabot não é um provedor de telefonia.** A plataforma centraliza e exibe as chamadas, mas a infraestrutura de voz (número de telefone, trunk, minutos) é fornecida pelo serviço de terceiro escolhido.
 
 [AnteriorVisão geral - Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes/visao-geral-ferramentas-adicionais-e-integracoes)[PróximoComo baixar e usar o app do Prismabot no celular (Android e iPhone)](/ferramentas-adicionais-e-integracoes/como-baixar-e-usar-o-app-do-z-pro)
 
-Atualizado há 4 meses
+Atualizado há 2 dias
 
 Isto foi útil?

@@ -14,7 +14,7 @@ Para ver o que o status de Tech Provider muda na prática e a comprovação na C
 
 **Custos da API Oficial:** os custos de uso da API Oficial (cobranças por conversas fora da janela de 24 horas) são faturados diretamente pela Meta na **Business Manager (BM) do número conectado**. O pagamento dessas taxas é responsabilidade do assinante. O Prismabot cobra exclusivamente a licença do software. Veja mais em Cobranças da Meta.
 
-**Risco de bloqueio:** o uso da API Oficial elimina o risco de banimento por uso de software não autorizado. No entanto, o número ainda está sujeito às avaliações de qualidade da Meta — bloqueios por envio de spam ou violação das políticas de mensageria são de responsabilidade do operador, independentemente da ferramenta utilizada. Siga sempre as [diretrizes da Meta](https://www.whatsapp.com/legal/business-policy/).
+**Risco de bloqueio:** a API Oficial é a conexão autorizada pela Meta para empresas. Ainda assim, o número está sujeito às avaliações de qualidade da Meta — bloqueios por envio de spam ou violação das políticas de mensageria são de responsabilidade do operador, independentemente da ferramenta utilizada. Siga sempre as [diretrizes da Meta](https://www.whatsapp.com/legal/business-policy/).
 
 ---
 
@@ -92,8 +92,6 @@ Painel da Meta onde a empresa gerencia contas, ativos e métodos de pagamento
 
 Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 horas
 
-**APIs não oficiais também são suportadas.** O Prismabot permite conexão via QR Code por APIs não oficiais (Baileys, Evolution API, Z-API, entre outras). Cada modalidade tem características e riscos distintos. Veja: [API Oficial vs. APIs Não Oficiais](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
-
 ---
 
 ### Documentação por área
@@ -107,8 +105,8 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 #### Templates e disparos
 
 * [Gerenciar Templates HSM](/configuracao-administrador/configuracao/integracoes-meta/templates-integracoes-meta) — criação, edição e aprovação de templates de mensagem na Meta diretamente pelo painel
-* [Envio em Massa — Template API Oficial](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-template-api-oficial) — disparo em massa usando um template fixo para uma lista de contatos
-* [Envio em Massa — Template com Variáveis](/ferramentas-do-atendimento/comunicacao-e-marketing/envio-em-massa/envio-em-massa-template-variavel-api-oficial) — disparo em massa com preenchimento dinâmico de variáveis do template por contato
+* Envio em Massa — Template API Oficial — disparo em massa usando um template fixo para uma lista de contatos
+* Envio em Massa — Template com Variáveis — disparo em massa com preenchimento dinâmico de variáveis do template por contato
 
 #### Atendimento com canal WABA
 
@@ -133,14 +131,16 @@ Mensagem pré-aprovada pela Meta para iniciar conversas fora da janela de 24 hor
 
 **O Prismabot cobra taxa por mensagem na API Oficial?** Não. O Prismabot cobra a licença do software. Os custos de uso do WhatsApp são faturados pela Meta diretamente na Business Manager do número conectado.
 
-**A API Oficial elimina completamente o risco de bloqueio?** Elimina bloqueios por uso de software não autorizado. O número permanece sujeito às avaliações de qualidade da Meta: spam, violação de políticas e acúmulo de denúncias podem resultar em penalidades — independentemente da API utilizada.
+**A API Oficial elimina completamente o risco de bloqueio?** Mesmo usando conexões oficiais e homologadas, o número permanece sujeito às avaliações de qualidade da Meta: spam, violação de políticas e acúmulo de denúncias podem resultar em penalidades.
+
+O Prismabot não recomenda conexões alternativas não homologadas. Para garantir mais segurança à sua operação e aos seus números, damos suporte técnico apenas para conexões oficialmente homologadas, como a WABA
 
 **Posso manter o celular ativo e usar o Prismabot ao mesmo tempo?** Sim. O modo de coexistência permite que o número opere simultaneamente no app WhatsApp Business e no painel do Prismabot.
 
 **Como oferecer a conexão WABA para os clientes da minha cliente final com a minha marca?** É necessário criar e aprovar um App próprio no Facebook Developers. Veja a Opção 2 acima.
 
-[AnteriorLID do WhatsApp](/diretrizes-e-politicas/lid-do-whatsapp)[PróximoWhatsapp Oficial- Cadastro Incorporado e Coexistência com APP próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
+[AnteriorManutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)[PróximoWhatsapp Oficial- Cadastro Incorporado e Coexistência com APP próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
 
-Atualizado há 4 meses
+Atualizado há 10 horas
 
 Isto foi útil?

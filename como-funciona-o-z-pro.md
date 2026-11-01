@@ -12,7 +12,9 @@ O Prismabot é **gerenciado em nuvem**: o sistema é instalado e roda no servido
 
 Para entender onde ficam os dados, quem é o controlador pela LGPD e o que é responsabilidade do assinante, veja [On-premise e LGPD](https://zpro.zdg.com.br/on-premise-lgpd).
 
-**API Oficial do WhatsApp (WABA):** o Prismabot é Tech Provider homologado da Meta. Você conecta números pela API Oficial — o método mais estável, seguro e recomendado para operações profissionais, sem risco de banimento e com suporte direto da Meta.
+**Conexões oficiais:** o Prismabot é Tech Provider homologado da Meta e trabalha com conexões oficialmente homologadas. No WhatsApp, isso significa a API Oficial (WABA), a conexão autorizada, operada e suportada pela própria Meta.
+
+Não recomendamos conexões alternativas não homologadas. Para mais segurança da sua operação e dos seus números, nosso suporte técnico cobre apenas conexões oficiais.
 
 [→ O que o status de Tech Provider muda na prática](https://zpro.zdg.com.br/tech-provider-meta)
 
@@ -100,14 +102,16 @@ A estratégia de preços é 100% sua.
 
 ### Canais suportados
 
-* **WhatsApp** — API Oficial (WABA) ou APIs não oficiais (Baileys, Evolution, Wuzapi, Z-API, Uazapi, WebJs)
-* **Instagram Direct e Facebook Messenger** — integração nativa ou via Hub NotificaMe
+Todos os canais abaixo usam a conexão oficial de cada provedor:
+
+* **WhatsApp:** API Oficial (WABA), com coexistência com o app WhatsApp Business
+* **Instagram Direct e Facebook Messenger** — integração oficial pelo login do Facebook
 * **Webchat** — widget para embutir no seu site
 * **E-mail** — integração com Gmail via OAuth2
 * **Telegram** — via bot nativo
-* **Voz / SIP** — ligações via WhatsApp (Wavoip) ou integração com PABX via protocolo SIP
+* **Voz / SIP** — ligações pela API Oficial do WhatsApp ou integração com PABX via protocolo SIP
 
-[→ API Oficial vs. APIs Não Oficiais — qual escolher](/diretrizes-e-politicas/api-oficial-vs-api-nao-oficial)
+**Conexões não homologadas:** conexões de WhatsApp que simulam o WhatsApp Web ou passam por provedores fora da API Oficial não são recomendadas nem endossadas pelo Prismabot e não são cobertas pelo suporte técnico. Elas ficam sujeitas a bloqueios e interrupções pela Meta, fora do nosso controle.
 
 ---
 
@@ -137,9 +141,9 @@ O valor pago ao Prismabot refere-se à licença de uso do software, à instalaç
 
 **Variáveis (conforme o que você usar):**
 
-* API Oficial do WhatsApp — cobrada pela Meta por janela de conversa
+* API Oficial do WhatsApp: cobrada pela Meta por mensagem entregue ([como funcionam as cobranças da Meta](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/cobrancas-da-meta-api-oficial-do-whatsapp))
 * Tokens de IA (OpenAI, Google, Anthropic etc.)
-* Ferramentas externas como N8N, Typebot, Hub NotificaMe
+* Ferramentas externas como N8N e Typebot
 
 O investimento total dependerá das suas escolhas de ferramentas complementares.
 
@@ -154,14 +158,17 @@ Anual. O modelo cobre os custos de setup, instalação e horas técnicas dedicad
 Sim. Liberamos 7 dias de acesso em um ambiente de demonstração. Veja em: [Como testar o Prismabot na demonstração gratuita.](/como-funciona-o-z-pro/como-testar-o-z-pro-na-demonstracao-gratuita)
 
 **Há limite de usuários, conexões ou disparos?**
-Não. O Prismabot não impõe limites de software. A capacidade depende dos recursos do seu servidor (servidor em nuvem).
+O Prismabot não limita usuários, conexões nem envios. A capacidade depende dos recursos do seu servidor (servidor em nuvem). No WhatsApp, os envios seguem as regras da API Oficial: fora da janela de 24 horas, só com template aprovado pela Meta, para contatos que autorizaram receber mensagens (opt-in) e dentro do limite de mensagens que a Meta define para cada número.
+
+**Posso usar conexões não oficiais do WhatsApp?**
+Não recomendamos. O Prismabot trabalha com conexões oficialmente homologadas e não endossa conexões alternativas não homologadas. Elas não têm garantia de funcionamento, ficam sujeitas a bloqueio pela Meta e não são cobertas pelo suporte técnico.
 
 **O suporte atende pelo WhatsApp ou faz reuniões?**
 Não. O suporte opera exclusivamente por sistema de tickets (segunda a sexta, 8h–18h). Não há atendimento via WhatsApp, call ou consultoria.
 
 **O que o suporte cobre?**
-Bugs e falhas nativas da plataforma, dúvidas sobre funcionalidades do Prismabot e auxílio na instalação inicial. **Não cobre** criação de fluxos de chatbot, configuração de ferramentas externas nem problemas de infraestrutura do servidor.
-→ Escopo completo da Política de Suporte
+Bugs e falhas nativas da plataforma, dúvidas sobre funcionalidades do Prismabot e auxílio na instalação inicial. **Não cobre** conexões de WhatsApp fora da API Oficial, criação de fluxos de chatbot, configuração de ferramentas externas nem problemas de infraestrutura do servidor.
+[→ Escopo completo da Política de Suporte](/diretrizes-e-politicas/politica-de-suporte-tecnico)
 
 **Quanto posso cobrar dos meus clientes?**
 A estratégia de preços é 100% sua. O Prismabot não define nem limita o quanto você cobra para revender o serviço.
@@ -183,6 +190,6 @@ O front-end é acessível e customizável. O back-end é fechado — isso garant
 
 [AnteriorCentral de Ajuda Prismabot](/)[PróximoQual plano do Prismabot é melhor para a minha operação](/como-funciona-o-z-pro/qual-plano-do-z-pro-e-melhor-para-a-minha-operacao)
 
-Atualizado há 9 dias
+Atualizado há 9 horas
 
 Isto foi útil?

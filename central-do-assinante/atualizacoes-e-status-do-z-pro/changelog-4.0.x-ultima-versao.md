@@ -25,17 +25,162 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 ## Última Versão
 
+### v4.0.7
+
+**🚀 UPDATE OFICIAL (HOMOLOG) | 24/10/2026**
+
+Nova versão Homolog (v4.0.7.0), cumulativa de todas as correções publicadas desde a v4.0.6.0.
+
+**Faça um BACKUP / SNAPSHOT antes de aplicar esta atualização.**
+
+Esta versão traz os Formulários públicos que abrem atendimento, os aplicativos e sistemas próprios no menu do painel, a Região da empresa (país, moeda e idioma), o pedido de avaliação no Google, a galeria com pastas, tarefas com prazo e lembrete dentro do atendimento e as ferramentas MCP no Agente de IA.
+
+**Ajustes automáticos nesta atualização:** as respostas recentes a stories do Instagram que chegaram só com a etiqueta são recuperadas com o texto do cliente; cadastros duplicados do mesmo cliente no WhatsApp oficial (só identificador + telefone) são unidos, com opção de reverter; e canais marcados com armazenamento SQLite passam a usar o SQLite de verdade, com migração automática e sem novo QR.
+
+**📝 Formulários (novo)**
+
+* **Formulários públicos que abrem atendimento:** página por link, QR code ou embutida no site, e também pela API. Cada envio cria ou completa o contato e abre o atendimento no canal escolhido (WhatsApp, WhatsApp oficial ou e-mail), com as respostas num cartão só para a equipe.
+* Destino por fila, fluxo ou Agente de IA, **regras por resposta** (fila e etiquetas por opção), oportunidade no funil, confirmação ao cliente e aba **Respostas** com filtro e exportação. Veja Formulários.
+
+**🧩 Aplicativos da Empresa**
+
+* **Sistemas próprios no menu do painel:** cada empresa coloca seus sistemas no menu, abrindo dentro da tela ou em nova aba, e escolhe quem vê cada um. O provedor pode oferecer aplicativos para todas as empresas ou por plano.
+* Os aplicativos abrem **direto do contato e do atendimento**, com os dados do cliente no endereço e identificação assinada de quem abriu. Usuário restrito e modo apresentação recebem só códigos, e cada abertura fica registrada na **Auditoria**.
+
+**🌎 Região da Empresa**
+
+* **País, moeda e idioma por empresa:** mensagens automáticas ao cliente no idioma escolhido, valores no formato do país e telefone estrangeiro reconhecido.
+
+**💬 Atendimento e Tickets**
+
+* **Atendimentos fixados** acompanham o usuário em todos os aparelhos (navegador, app e celular): o que é fixado em um aparece no outro em até 30 s, sem apagar os fixados do outro aparelho.
+* **Transferências registradas no chat** com quem transferiu, origem, destino e hora, inclusive as automáticas e as feitas pela API. O registro não conta como resposta ao cliente e não aparece para o contato.
+* A opção **"Listar atendimentos pela última mensagem"** passa a valer na tela: a lista segue o mesmo tempo mostrado no card, e o **"Inverter ordem"** do menu Ações mostra quando está ligado.
+* **Mensagens rápidas ao iniciar conversa** (Nova Conversa, conversa avulsa e Funil, inclusive no e-mail), com as variáveis do cliente trocadas no envio e aviso quando algum dado vai sair vazio.
+* Mensagem rápida do tipo **Template** abre o envio de template já selecionado para preencher as variáveis, também com a janela de 24h fechada. Antes chegava ao cliente só como texto.
+* Mensagem rápida de **Botões ou Lista** envia também os anexos, antes dos botões, e trocar de mensagem rápida não leva mais o anexo da anterior.
+* **Encaminhar mídia** leva a legenda certa em todos os canais (no Instagram e no Messenger ela chega logo depois). Vídeo, documento e figurinha que não chegavam passam a sair, e canais que não recebem o encaminhamento avisam em vez de deixar a mensagem parada.
+* **Prévia de link** nas conversas só aparece ao clicar em **"Ver prévia"**.
+* Quando o WhatsApp **não entrega uma mensagem ou mídia** que o cliente enviou, o atendimento mostra o aviso para pedir o reenvio e o motivo fica registrado no log, em vez de a mensagem sumir sem rastro.
+* **Mensagens editadas** no WhatsApp (pelo contato ou pelo celular do número) voltam a aparecer editadas no atendimento, sem reabrir conversa encerrada e sem mexer nas não lidas.
+* Imagens, GIFs e mídias de template e de notas voltam a ocupar só a largura da própria mídia no chat.
+
+**📣 Anúncios (Click-to-WhatsApp, Instagram e Messenger)**
+
+* Contato que chega por **anúncio** mostra o anúncio na 1ª mensagem (título, imagem e ID para copiar), ganha o selo **"Anúncio"** na lista e no atendimento (também no WhatsApp oficial), pode receber uma etiqueta automática e aparece no relatório de **Conversões**.
+* Conversas iniciadas por anúncio mostram até quando os templates saem **sem custo** (janela grátis da Meta de até 7 dias), com interruptor em Configurações. O texto livre continua limitado a 24h.
+
+**✅ Tarefas**
+
+* **Tarefas no atendimento** com prazo com hora, lembrete de 10, 30 ou 60 min, aviso na tela e por push ao responsável, e número de atrasadas e de hoje no sino e no menu.
+* Corrigido: a tarefa "para o dia" deixa de aparecer atrasada às 21h da véspera.
+
+**🔔 Notificações**
+
+* **Novo botão de som** ao lado do sino: cada usuário escolhe som ligado, grupos sem som ou tudo sem som, no painel e no push do celular. Com o som da empresa desligado, o iPhone também fica em silêncio.
+* O aviso **"Notificar equipe"** e o **"Avisar a equipe"** do Agente de IA mostram nome e mensagem do cliente só para quem consegue abrir o atendimento; os demais recebem só o texto do aviso.
+
+**🧠 Agente de IA e Copiloto**
+
+* **Ferramentas de servidores MCP** (n8n, Zapier, Make e outros) aprovadas pela empresa, com aviso quando o servidor muda e nota interna quando a ferramenta altera dados. A senha das ferramentas externas não aparece mais na tela.
+* **Base de conhecimento compartilhada** entre agentes, novo agente **"só base de conhecimento"** e criação de um agente ou de uma equipe completa a partir de **modelos prontos**, em poucos cliques.
+* Novo campo **"Atraso na resposta":** o agente espera um tempo sorteado antes de responder, com "digitando..." no WhatsApp, e descarta a resposta se um atendente assumir a conversa.
+* Novo botão **"Desligar agente de IA"** no atendimento (menu ⋯ e aba Integrações): a IA para de responder aquele cliente na hora, com nota na conversa, sem marcar o cliente como respondido.
+* O agente **para com o "Bloquear chatbot"**, pode ser pausado e retomado em cada atendimento, e avisa e encerra (ou transfere) sozinho quando o cliente para de responder.
+* **Etiquetas e etapa do funil** aplicadas depois de cada mensagem do cliente, inclusive quando transfere ou encerra, sem atrasar a resposta e com interruptor por agente na aba Ações.
+* O campo **"Quando transferir"** aceita até 1.000 caracteres, com caixa maior e contador, e o texto inteiro passa a ser considerado pela IA.
+* **Arquivos:** o agente confirma que lê PDF, Word, Excel e CSV, lê o arquivo com legenda ou nome em maiúsculas, avisa o cliente quando o PDF é escaneado e, no WebChat, volta a receber os arquivos enviados.
+* Agente com **endereço próprio** (DeepSeek e outros) lê imagens e transcreve áudios pelo próprio provedor, e a resposta em voz que falha passa a sair em texto.
+* **Todas as IAs** (Claude, Gemini, Grok, DeepSeek, Qwen, LM Studio, Ollama e o assistente da OpenAI) entendem o clique em botão ou lista e sabem qual mensagem o cliente respondeu. No WhatsApp oficial, na 360dialog e na Gupshup o clique chega às IAs, sem ser tratado como arquivo.
+* O raciocínio interno que alguns modelos escrevem antes da resposta (bloco "think") não aparece mais para o cliente. No **Copiloto** com modelos que raciocinam (Qwen, DeepSeek R1 e outros), a resposta deixa de sumir quando o raciocínio estoura o limite.
+* **Resposta em áudio da IA** volta a chegar ao cliente no Instagram e no Messenger, sem chegar em dobro e sem trocar o áudio entre clientes. No Mercado Livre a resposta sai em texto.
+* O agente volta a responder **áudio, foto e documento** no fluxo do WhatsApp oficial, e o encerramento automático deixa de mandar despedida que a Meta recusaria fora da janela de 24 horas.
+* Canal com Agente de IA e ChatGPT ligado para todos os atendimentos não entra mais no laço de erro de chave: o card do canal mostra o agente vinculado e avisa quando falta a API Key do ChatGPT.
+* **IA da plataforma:** modelos sem preço no serviço (como Open WebUI e Ollama) podem ser vendidos com o preço que você digitar, cada bloqueio explica o motivo e o teste de conexão avisa quando o serviço não informa o consumo.
+
+**🤖 Chatbot e Chatflow**
+
+* As configurações do fluxo avisam que a **distribuição do fluxo não vale** quando a conversa passa por um Agente de IA, e mostram onde ligar a distribuição na fila.
+* Corrigido: nó com vários caminhos por **Regex** reconhece todos eles, não só o primeiro da lista.
+
+**📊 Kanban e Funil**
+
+* **Oportunidades** abrem o atendimento direto pelo card. O quadro mostra um funil por vez, com seletor no topo, e clicar no card abre uma ficha lateral com dados, conversa, linha do tempo e Ganho/Perdido.
+* **Funil estilo Kommo** conferido com atendente, usuário restrito e perfil sem permissão de criar atendimento: cada um vê só o que pode, e o link direto de atendimento avisa quando não há acesso.
+* A **exportação de oportunidades** sai com uma oportunidade por linha (quebras da descrição viram " | ") e abre já separada em colunas no Excel em português.
+* Funil, kanban e tarefas **no celular** voltam a rolar com muitos cards. Para mover um card, toque e segure por um instante e arraste.
+
+**⭐ Avaliações**
+
+* **Avaliação no Google:** pedido de avaliação depois da nota, link `{{linkAvaliacaoGoogle}}`, ação do funil ao marcar como Ganha e aba **Google** com avaliações, respostas e alerta de prazo. O Aviso de Privacidade foi atualizado com o Perfil da Empresa no Google.
+* Botão **Exportar** em Excel e CSV com os filtros da tela, filtro por agente, busca que filtra de verdade e download pelo app no celular (exige atualizar o app).
+* A nota do cliente em atendimento já resolvido não notifica mais o atendente, e a privacidade das avaliações passa a proteger de verdade log, relatórios e média por atendente.
+
+**🖼️ Galeria e Catálogo**
+
+* **Galeria com pastas:** crie pastas, mova arquivos (um a um ou em lote), exclua vários de uma vez e filtre por pasta na galeria, no seletor de arquivos e no "Da galeria" do atendimento, que agora avisa que dá para enviar vários de uma vez.
+* **Catálogo de produtos:** a lista e o seletor do atendimento ganharam "Carregar mais", e nenhum produto some depois do 20º.
+
+**👥 Contatos e Etiquetas**
+
+* **Importação inteligente:** nova dica na etapa de colunas explica que o contato existente é achado pelo telefone, que célula vazia com "Sempre atualizar" apaga o dado e que o campo personalizado precisa ter o mesmo nome do contato.
+* Etiquetas e API avisam **nome repetido** ou texto longo demais.
+
+**📢 Campanhas e Disparo em Massa**
+
+* **Disparo em massa com texto e arquivo** entrega os dois ao mesmo contato quando a verificação de conversa em outros canais está ligada. Antes só o texto chegava.
+* **Campanha com o canal fora do ar** espera o canal sem perder contatos e pausa sozinha com aviso.
+* **Mensagem de aniversário** com imagem, vídeo ou áudio aparece como mídia no atendimento em todos os canais, sem bolhas repetidas, e volta a ser enviada pelo Telegram, Mercado Livre, Instagram e Messenger.
+
+**📱 Canais Oficiais Meta (WABA / Instagram / Messenger)**
+
+* **Aba Custos da API oficial** desconta as 1.000 respostas grátis por número, não cobra o que foi digitado no celular nem o histórico importado e mostra o custo certo de cada tipo de mensagem.
+* **Erros de envio** do WhatsApp oficial explicam o que fazer (número do canal não encontrado ou número não registrado). O aviso de PIN pendente cobre número que ficou fora da Cloud API, e a tela de verificação mostra o ID certo do número com orientações para não travar o pedido de código.
+* A mensagem de um cliente não cai mais no cadastro de **outro contato** que tinha o identificador dele, e a resposta sai para o número certo. Editar o número ou mesclar contatos não carrega mais esse vínculo.
+* Mensagens do WhatsApp oficial não se perdem mais com **horário de atendimento** invertido ou vazio.
+* **Respostas a stories do Instagram** mostram o texto que o cliente escreveu, com a indicação "Respondeu ao seu story" e o link do story, e chatbot, IA e automações passam a receber esse texto.
+* **Comentários do Instagram:** responda direto no atendimento, em público ou no Direct, e as respostas da própria conta não abrem mais atendimento em nome da empresa.
+* **Comentários do Instagram e do Facebook** podem ser liberados para supervisor e atendente no cadastro do usuário, para ver, responder e comentar. Apagar, publicar e editar posts continua com o administrador.
+* A automação e os Comentários do Instagram carregam **todas as publicações** (botão "Carregar mais") e mostram a capa dos vídeos. As listagens de Instagram e Facebook não deixam mais usar o token do canal fora delas.
+* **Instagram e Messenger:** mensagens que chegam juntas não se perdem mais, o comentário em live aciona a automação, conversas de outro app aparecem sem o robô responder, cliques repetidos não disparam o fluxo de novo e o atendimento novo mostra o texto certo na lista.
+* Instagram: responder um contato que voltou a escrever depois do atendimento encerrado não falha mais por "conversa com outro aplicativo".
+
+**📅 Agendamento e Horários**
+
+* **Agendamento público em canal oficial** (WABA, Gupshup, Dialog360): aviso de serviço sem template, pausa ao trocar o canal, confirmação em texto para quem conversou nas últimas 24h e template próprio para o check-in.
+* Corrigido: turno de atendimento que passa da meia-noite volta a funcionar.
+
+**📞 Chamadas de Voz, WebChat, Telegram e Chat interno**
+
+* **WebPhone SIP** volta sozinho quando a conexão cai (aba minimizada, internet oscilando), mantém a conexão ativa com ajuste por usuário na Config SIP e avisa a chamada recebida com a aba escondida.
+* **Link de convite do WebChat:** o cliente que vem do WhatsApp abre o link e continua a conversa no WebChat como o mesmo contato, e o visitante do WebChat deixa de receber dados internos do canal.
+* **WebChat:** links enviados pelo atendente aparecem clicáveis para o visitante (link direto e widget novo), o texto aparece exatamente como foi escrito, e os widgets já instalados nos sites ficaram protegidos contra código injetado nas mensagens.
+* **Convite do Telegram por link ou QR:** o cliente toca em Iniciar e o Telegram dele fica ligado ao cadastro certo, com os textos do bot editáveis por canal. Contatos juntados passam a receber Instagram, Messenger e Telegram sem perder o nome e a foto do WhatsApp.
+* **Chat privado:** pesquisa por palavras nas conversas e nas equipes, com atalho que leva direto à mensagem. Cada pessoa só lê e cita as conversas e equipes de que participa.
+* **Chat privado:** ícone próprio no topo com contador azul, lista de conversas com "Marcar como lida" e aviso que só some quando a mensagem é lida, inclusive com arquivo ou áudio.
+* **Chat privado:** a confirmação de leitura (✓✓) aparece na hora, mensagens com a conversa aberta já ficam lidas, edição, exclusão e reação atualizam sozinhas, e "marcar tudo como lido" passa a valer só para quem clicou.
+
+**📈 Dashboard**
+
+* **TPR e TTE** passam a contar atendimentos com chatbot, fluxo e IA, com o TPR começando quando a automação entrega a conversa ao atendente. Fora do horário, a contagem começa no clique em Atender.
+
+**⚙️ Superadmin, Planos e Pagamentos**
+
+* **Troca de plano** cobra a diferença proporcional, o teste grátis vale com Stripe e Asaas, a configuração de pagamento sobrevive às atualizações do Docker e a área de pagamentos aparece para qualquer gateway.
+* **Migração de empresa** mantém datas, ordem, citações e o número antigo dos atendimentos (com busca e selo), chega com canais desativados sem envio automático e ganhou o botão **"Reparar histórico"** para as empresas já migradas.
+
+**🔧 Sistema e Infra**
+
+* **Chat interno com armazenamento S3/R2** volta a encaminhar e baixar imagens (baixa na mesma aba, com o nome do arquivo). Galeria, respostas rápidas, catálogo, chat de suporte e PDF da conversa passam a funcionar com bucket sem CORS.
+* A prévia de link e o download do painel ficaram protegidos contra acesso a endereços internos.
+
+## Versões anteriores
+
 ### v4.0.6
 
 **🚀 UPDATE OFICIAL (HOMOLOG) | 29/09/2026**
 
 Nova versão Homolog (v4.0.6.0), cumulativa de todas as correções publicadas desde a v4.0.5.0.
-
-**Faça um BACKUP / SNAPSHOT antes de aplicar esta atualização.**
-
-Esta versão traz a nova página do contato (Timeline e Relacionamento), a expansão das ferramentas do Agente de IA, o editor visual de E-mail Marketing, o SMS em massa em segundo plano e o aviso de canal WABA bloqueado pela Meta.
-
-**Ajustes automáticos nesta atualização:** copiloto e bots com Gemini configurados com um modelo que o Google desligou passam sozinhos para um modelo ativo, e as ações antigas vindas de webhooks e do WebChat que estavam atribuídas ao usuário errado são corrigidas para "Sistema".
 
 **👤 Página do Contato e Relacionamento**
 
@@ -111,19 +256,6 @@ Esta versão traz a nova página do contato (Timeline e Relacionamento), a expan
 * No Instagram, Messenger, 360dialog e Telegram, as respostas dos bots de IA e as mensagens automáticas (avaliação, despedida, fila, aniversário, fluxo) passam a aparecer sempre no histórico do atendimento.
 * A **palavra-gatilho do Instagram e do Messenger** respeita o público do fluxo, não tira mais o atendimento das mãos do atendente e desliga o Agente de IA ao entrar no fluxo.
 
-**🔌 Integrações Não Oficiais (uazapi, WWEBJS, ZAPO, Meow, Evolution Go)**
-
-* **uazapi:** mensagens de grupo deixam de sumir quando quem escreve esconde o telefone, quem manda pelo WhatsApp Web/Desktop passa a ser reconhecido como o mesmo contato, e a rejeição de chamada feita pelo Desktop chega ao número certo.
-* **uazapi:** a mensagem automática de ligação sai uma vez só por ligação recebida, sem disparos repetidos de madrugada e sem mensagem para o próprio número.
-* **uazapi com dois canais da empresa no mesmo grupo:** o atendimento que não recebeu a mensagem deixa de mostrar no card um texto que não aparece na conversa. O histórico do grupo continua dividido entre os dois canais; para unificar, ligue **"Permitir mensagem duplicada entre canais"**.
-* **WWEBJS:** os canais voltam a receber mensagens mesmo quando a biblioteca falha ao abrir a conversa, e respostas citadas não somem mais por erro na citação.
-* **ZAPO:** os Status dos contatos, listas de transmissão e canais deixam de ser processados, e as mensagens recebidas entram numa fila com limite, o que tira os picos de CPU do servidor.
-* **Meow e Evolution Go:** mensagem editada pelo cliente aparece corrigida na conversa e na prévia da lista.
-
-**🔗 API**
-
-* A **API de grupos** não derruba mais o canal quando o id vem como texto. Adicionar, remover, promover e rebaixar mostram o resultado de cada número e o motivo da falha, também na tela de Massa de usuários.
-
 **📅 Agendamento**
 
 * A tela de **Agendamentos** mostra todos os agendamentos com paginação, e a busca encontra qualquer agendamento, não só os da primeira página.
@@ -151,8 +283,6 @@ Esta versão traz a nova página do contato (Timeline e Relacionamento), a expan
 * As telas de **Configurações** passam a ser protegidas também no servidor.
 
 ---
-
-## Versões anteriores
 
 ### v4.0.5
 
@@ -182,7 +312,7 @@ Esta versão corrige o roteamento de mensagens do WhatsApp Oficial quando o mesm
 
 * **Pushs:** as notificações e mensagens do sistema deixaram de usar símbolos decorativos, mantendo intacto o texto e o nome escritos pelo cliente.
 
-**📞 Chamadas de Voz (WebPhone, SIP, WaVoIP)**
+**📞 Chamadas de Voz (WebPhone e SIP)**
 
 * **Toque de chamada personalizado:** basta colocar um arquivo `ringtone.wav` na pasta pública do sistema; sem arquivo, o toque continua exatamente como era.
 * Chamada em andamento não é mais derrubada quando outra chega.
@@ -191,7 +321,7 @@ Esta versão corrige o roteamento de mensagens do WhatsApp Oficial quando o mesm
 
 **🧠 Copiloto e Agente de IA**
 
-* **Copiloto:** "Copiar texto", "Pergunte ao ChatGPT" e "Traduzir" voltaram a aparecer nas mensagens recebidas por WhatsApp Oficial, Instagram, Messenger, Dialog360, Gupshup e Meow.
+* **Copiloto:** "Copiar texto", "Pergunte ao ChatGPT" e "Traduzir" voltaram a aparecer nas mensagens recebidas por WhatsApp Oficial, Instagram, Messenger, Dialog360 e Gupshup.
 * Resumos, análises de sentimento e insights de IA agora saem no **idioma escolhido por cada atendente** na tela.
 * **Agente de IA:** corrigida a perda de memória entre mensagens (o agente voltou a considerar a conversa inteira); a transferência só é anunciada ao cliente depois de acontecer de verdade; e o agente ganhou **ferramentas externas** para consultar dados nas suas automações antes de responder.
 * O **assistente de IA do fluxo de atendimento** entende a intenção do cliente e age sozinho — transfere para a equipe ou o atendente certo, sem exigir que o cliente digite palavras exatas.
@@ -212,7 +342,7 @@ Esta versão corrige o roteamento de mensagens do WhatsApp Oficial quando o mesm
 
 * Ao **editar uma campanha**, o arquivo de mídia já anexado aparece na tela, com opção de remover ou substituir — antes o campo voltava vazio e dava a impressão de que a mídia tinha se perdido (ela sempre foi enviada normalmente).
 * O **template escolhido e os valores das variáveis** aparecem preenchidos ao reabrir a campanha, sem precisar recarregar a tela.
-* Confirmações de envio ficaram mais leves no banco de dados — contas que não usam campanhas deixam de fazer verificações desnecessárias a cada mensagem — e o relatório de campanhas passa a registrar corretamente o status de entrega e leitura nos canais QR Code.
+* Confirmações de envio ficaram mais leves no banco de dados: contas que não usam campanhas deixam de fazer verificações desnecessárias a cada mensagem.
 
 **💳 Cobrança (Pix, Boleto e Link)**
 
@@ -228,19 +358,8 @@ Esta versão corrige o roteamento de mensagens do WhatsApp Oficial quando o mesm
 * **Formulários do WhatsApp (Flows):** as respostas aparecem preenchidas no histórico e dão sequência ao chatbot também nas conexões 360dialog e Gupshup; a lista de conversas e os relatórios mostram o que o cliente respondeu em vez de texto técnico; campanhas passam a enviar botões de formulário e catálogo; e o envio de formulários aceita seleção por nome com cabeçalho de imagem, vídeo ou documento.
 * **Modo Coexistência:** botões e listas enviados no atendimento aparecem na tela já como o cliente recebe (menu numerado), o atendente vê um aviso antes de enviar, e o canal ganhou a opção **"Botões e listas pela API oficial"** para entregá-los como botões de verdade.
 
-**🔌 Integrações Não Oficiais (Baileys, UazAPI, Z-API, Evolution, Evolution Go, Meow, wuzapi)**
+**👥 Grupos**
 
-* **API Baileys:** as fotos de perfil dos contatos do WhatsApp voltaram a aparecer, inclusive nas conversas que só tinham as iniciais.
-* **Evolution Go — cadastro de contato** voltou a funcionar: contato sem foto de perfil não impede mais o salvamento, número digitado com ou sem o nono dígito é aceito, e quando o número realmente não existe no WhatsApp a tela passa a dizer isso em vez de "erro ao criar".
-* **Evolution Go — conversa avulsa:** corrigido o erro ao iniciar; o número volta a ser validado (inclusive quando falta o 9º dígito) e, quando algo dá errado, a tela diz o motivo em vez de "erro desconhecido".
-* **QR Code do Z-API:** quando falta o Number ID, o token ou o endereço do provedor, a tela passa a dizer exatamente o que preencher em vez de abrir sem código — e o QR gerado não some mais sozinho durante a leitura.
-* **Conexões via biblioteca (Evolution, Evolution Go, Meow, Z-API, UAZAPI)** avisam quando a integração não está configurada, em vez de criar um canal que não conecta — e canais já criados podem ser removidos normalmente.
-* **wuzapi custom (não homologada):** o recibo de leitura do cliente não reabre mais atendimento encerrado nem cria conversa nova (o status de "lida" continua funcionando normalmente).
-
-**👥 Grupos e Menções**
-
-* **Menção com @ em grupos** voltou a listar os participantes com nome e telefone, inclusive nos grupos novos do WhatsApp; mencionar por número, mencionar todos e a menção oculta voltaram a notificar de verdade.
-* **Menção com @ nas conexões uazapi, meow e Z-API:** pelo atalho @ na conversa, pelo menu "Mencionar participante" ou mencionando todos de uma vez.
 * **Link de convite dos grupos** é entregue pela API, com aviso do motivo quando não for possível gerá-lo, e há um novo recurso para revogar o link atual e criar outro na hora.
 
 **🛍️ Marketplaces e Hub (Mercado Livre)**
@@ -456,7 +575,6 @@ Segue as regras de fila e canal.
 * **Editor de fluxo profissional:** desfazer/refazer, aviso de conexões quebradas e ações arrastáveis para dentro dos passos.
 * **Variáveis como** `{{name}}` passam a funcionar no corpo, nos títulos e nas opções das listas (WABA, Gupshup e 360Dialog) e na mensagem padrão de tentativa em todos os canais; falhas de envio de lista são sinalizadas no atendimento.
 * Transferências para fila, atendente ou canal excluídos não travam mais o atendimento — o sistema avisa no sininho e sinaliza o fluxo com pendência na tela de Chat Flow.
-* **Listas do ChatFlow no canal UazAPI** enviam a descrição de cada opção, e o cabeçalho configurado aparece como primeira linha da mensagem.
 
 **📢 Campanhas e Disparo em Massa**
 
@@ -477,18 +595,6 @@ Segue as regras de fila e canal.
 * Corrigido o template de mensagem de aniversário em canais WhatsApp Oficial (WABA), que não era salvo ao configurar e não era usado no envio.
 * Corrigido: encaminhar mensagem recebida em canais WABA, Instagram e Hub agora entrega de fato ao destinatário (antes aparecia como enviada sem chegar).
 
-**🔌 Integrações Não Oficiais (Baileys, UazAPI, Z-API, EVO, ZAPO, InfiniteAPI)**
-
-* **Nova API liberada: ZAPO** — com opção de transferência nativa de Baileys para ZAPO.
-* **Novo atalho "InfiniteAPI"** na tela de Sessões: crie o canal já com a biblioteca de mensagens interativas e escolha o armazenamento da sessão, sem precisar configurar pelo Baileys.
-* **WhatsApp/Baileys:** sessão utilizada em outro local (conflito "replaced") agora é detectada e pausada automaticamente após 3 quedas seguidas, eliminando o loop de reconexão que elevava o consumo de memória e podia reiniciar o servidor.
-* **Conexões WhatsApp mais estáveis:** canais que ficavam presos em "conectando" ou desconectavam em loop após conflito de sessão agora se recuperam sozinhos, e reconectar manualmente volta a funcionar de primeira.
-* Canais **desativados automaticamente** após falhas de conexão voltam a funcionar sozinhos quando reconectam, e o aviso "Inativo" explica o motivo e o que fazer.
-* **Z-API:** corrigido apagar e editar mensagens — a exclusão remove a mensagem também no WhatsApp do contato, e a alteração aparece em tempo real na conversa.
-* **Z-API e UazAPI:** a foto de perfil dos contatos voltou a carregar, e a criação de canais via API respeita o provedor global configurado.
-* **UazAPI:** corrigido o envio de arquivos PDF em instalações que usam armazenamento em nuvem (S3).
-* **EVO:** corrigido o encode de mídia.
-
 **🛍️ Marketplaces e Hub (Mercado Livre, OLX, LinkedIn, YouTube)**
 
 * Respostas pelos canais **Mercado Livre, OLX, LinkedIn e YouTube** funcionam de ponta a ponta, e envios que falham passam a mostrar erro claro no chat em vez de constar como entregues.
@@ -496,7 +602,6 @@ Segue as regras de fila e canal.
 
 **🔗 API e Integrações Externas**
 
-* Agora é possível **criar a conexão já vinculada ao modo híbrido pela API**, sem precisar editar o canal depois.
 * As telas de configuração de integrações avisam quando um **provedor global do sistema** está ativo e tem prioridade sobre os dados preenchidos na página.
 
 **👥 Contatos e Importação**
@@ -519,7 +624,6 @@ Segue as regras de fila e canal.
 
 **📅 Agendamento e Aniversários**
 
-* **Lembretes da Agenda** ficam registrados no histórico do atendimento também nos canais WhatsApp QR Code e UazAPI, como já acontecia na API oficial.
 * Corrigido: mensagens agendadas com template exibem as variáveis preenchidas na tela de Agendamentos e no chat (o envio ao contato já estava correto).
 * Corrigido o horário exibido nas consultas da agenda: a data/hora agora aparece igual na lista, no calendário e na tela de edição (a servidor em nuvem deve estar no timezone `America/Sao_Paulo`).
 * Na lista de aniversários, ordenar por qualquer coluna considera todos os contatos, e não apenas os da página aberta.
@@ -527,7 +631,6 @@ Segue as regras de fila e canal.
 **⚙️ Superadmin, Planos e Pagamentos**
 
 * **Alterar as funcionalidades de um plano vale na hora** para os clientes que já estão nele — antes só valia para novas contratações.
-* **Controle do WaVoIP por empresa.**
 * **Pagamentos via Stripe:** o plano contratado fica vinculado à assinatura desde o cadastro, com fatura com vencimento e troca de plano direto pelo menu Meu Plano.
 * Corrigido: as notificações de pagamento do Stripe voltaram a ser recebidas corretamente — o status da assinatura é atualizado automaticamente, sem erros de autenticação no webhook.
 
@@ -572,10 +675,8 @@ Segue as regras de fila e canal.
 * **Respostas rápidas:** navegação com as setas ↑↓ do teclado e seleção com Enter.
 * **Indicador de carregamento** ao abrir a conversa (aviso extra em grupos, que têm histórico maior); **espiar conversa** ganhou limite de mensagens com botão "carregar anteriores".
 * **Desempenho:** corrigida a lentidão na entrada de mensagens; envio e recebimento de vídeos do iPhone (.mov) muito mais rápidos e leves — o servidor só reprocessa vídeo quando necessário e campanhas não reconvertem o arquivo a cada contato.
-* **Z-API:** mensagens enviadas pelo celular conectado aparecem corretamente na conversa, mesmo quando o WhatsApp oculta o número do destinatário — conversas duplicadas criadas por esse problema são unificadas automaticamente.
 * **PDF com impressão automática** (comum em faturas/2ª via) não abre mais o diálogo de imprimir sozinho — o comando é neutralizado na visualização e a pré-visualização carrega somente após um clique, mantendo o download do arquivo original intacto.
 * **Notificações:** popup nativo do navegador para ticket novo em pendentes e opção de limitar notificação de chatbot (Configurações Gerais).
-* Correção da duplicação de tickets e mensagens em canais híbridos (Uazapi, Evo, EvoGo, Wuzapi e Z-API).
 * Listagem dos detalhes do ticket alinhada por última mensagem (`lastMessageAt`, com fallback para `updatedAt`).
 
 #### 📊 Kanban e Funil
@@ -596,23 +697,15 @@ Segue as regras de fila e canal.
 
 #### 📱 Canais Oficiais Meta (WABA / Instagram / Messenger)
 
-* **Modo híbrido (coexistência) WABA** — incluindo envio de mensagens de texto pela conexão vinculada mesmo após o fechamento da janela de 24h.
 * **Projeção de custos de mensagens WABA** na configuração Meta.
 * Limites da WABA aplicados ao tamanho dos inputs (botões, listas e templates) e correção do erro de "credenciais incompletas" ao criar template (exigia F5).
 * Correções WABA/Meta: canal duplicado no re-onboarding, resolução número→canal prioriza a linha CONNECTED, envios com erro marcados e logados, app WABA próprio + OAuth Instagram, OAuth Facebook + Instagram em conjunto e login com Facebook preso em "Carregando SDK…".
 * Assinatura com `*asterisco*` suprimida em canais não-WhatsApp.
 * **Dialog360:** sanitização de payload e log de debug para coexistência via `DIALOG360_RAW_DUMP` (.env do backend). **Gupshup e Dialog360:** base64 no payload do n8n (canal).
 
-#### 🔌 Integrações Não Oficiais (Baileys, EvoGo, Evolution, Uazapi, Meow)
-
-* **Baileys:** recebimento de mensagens sem delay; estabilidade com armazenamento SQLite (reconexões não derrubam mais o backend e a religação automática não compete com reconexões em andamento); novas variáveis opcionais no `.env` do backend: `BAILEYS_PROFILEPIC_TIMEOUT_MS` (3000), `BAILEYS_ONWHATSAPP_TIMEOUT_MS` (5000), `BAILEYS_GROUPMETA_TIMEOUT_MS` (8000), `BAILEYS_GROUPFETCH_TIMEOUT_MS` (10000), `BAILEYS_SQLITE_CREDS_BACKUP_ENABLED=false` e `BAILEYS_LID_SEND=true`.
-* Suporte ao **EvoGo** e à extensão **Passkey Linker** com Evolution 2 (depende do microserviço [evo-passkey-injector](https://github.com/pedroherpeto/evo-passkey-injector)).
-* Mensagens editadas pelo cliente atualizam corretamente na conversa (Evolution, EvoGo e Meow — novo formato de edição do WhatsApp).
-* **Uazapi:** correção da renderização de mídia de aniversário.
-
 #### 🔗 API e Integrações Externas
 
-* Correções: `/getMessagebyId` + `mediaUrl`; envio base64 com caption de mídia; disparo de ligações **Wavoip**.
+* Correções: `/getMessagebyId` + `mediaUrl`; envio base64 com caption de mídia.
 * Nova rota para disparar a **pesquisa de avaliação** por ticket ou por número.
 
 #### ⚙️ Superadmin, Planos e Pagamentos
@@ -717,14 +810,6 @@ Segue as regras de fila e canal.
 * **Messenger:** mensagem de **utilidade**, mensagem de **despedida**.
 * **Techprovider Google** definitivamente **depreciado** — mantido apenas o uso de app próprio.
 * **Dialog360:** outbound de PDF + MOV. **Gupshup:** templates.
-
-#### 🔌 Integrações Não Oficiais (Baileys, Uazapi, Evo, WWebJS, Passkey)
-
-* **Baileys:** RC13/infinite (correção de grupos), suporte a **SQLite**, receber mensagem editada, ajustes de carrossel e **persistência de sessão**, timeout de consolidação de LID expandido, novas `.envs` avançadas (`BAILEYS_CONNECT_TIMEOUT_MS`, `BAILEYS_QUERY_TIMEOUT_MS`, `BAILEYS_KEEPALIVE_MS`).
-* **Uazapi:** correção de desconexão, socket ao editar mensagem, mensagem de aniversário.
-* **Evo:** envio/recebimento e render de mídias e áudios, recebimento de edição.
-* **WWebJS:** envio com `@lid`.
-* **Passkey:** importar sessões não oficiais e conexão com **Baileys, Meow e Uazapi**.
 
 #### 🔗 Integrações Externas e API
 
@@ -871,13 +956,6 @@ Segue as regras de fila e canal.
 * Redes Sociais: Suporte ao Facebook Page, e tela de diagnóstico de sessões otimizada para Instagram e Messenger.
 * Novas Integrações (Beta): Gupshup e Dialog360. Inclusão de recebimento de mídia (inbound) e comando para desconectar/reconectar nesses provedores.
 
-#### 🔌 Integrações e APIs Não Oficiais
-
-* Motor Baileys: Atualizado para a versão `v7rc10`. O usuário agora tem opção de escolher entre: fork, rc10 ou infinite. Nova ferramenta adicionada para "Consolidar LIDs" no Baileys.
-* Uazapi: Disparo em massa via arquivo. Recebimento de lista via Uazapi + n8n. Agendamento de mensagem via Uazapi contendo arquivos. Suporte a Grupos no Uazapi. O nome do arquivo recebido na integração foi corrigido.
-* QR Codes: Adicionada leitura de QRCode para motores Z-API e Meow.
-* WWebJS: Tratamento para início de conversa avulsa + correção de LID.
-
 #### 🛒 E-commerce e Automação
 
 * WooCommerce: Permite consumir os produtos do e-commerce direto na conversa e enviar mensagem vinculada a um pedido específico.
@@ -912,14 +990,13 @@ Segue as regras de fila e canal.
 💳 Novos gateways de pagamento (stripe, mercadopago, etc)
 🚀 Modo Cluster - Infraestrutura para escala com múltiplos núcleos de processamento
 📧 Integração com [SMTP](/configuracao-administrador/administracao-painel-admin/canais-de-comunicacao/e-mail-imap-smtp) para envio e recebimento de email nos tickets
-✨ Recursos premium baileys / uazapi - botões, listas, etc
 
 ### Histórico das versões antigas (antes da v4.0)
 
 Nas páginas seguintes você encontra o histórico completo das versões anteriores.
 
-[AnteriorAtualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-z-pro)[Próximo3.1.5.x](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao/3.1.5.x)
+[AnteriorAtualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-z-pro)[PróximoValidade das versões](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao/validade-das-versoes)
 
-Atualizado há 1 mês
+Atualizado há 4 dias
 
 Isto foi útil?

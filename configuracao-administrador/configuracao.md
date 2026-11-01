@@ -8,7 +8,7 @@ Nesta página
 
 A seção de **Configuração** reúne as ferramentas técnicas e operacionais do painel Admin: integração com sistemas externos via API, gestão dos canais oficiais da Meta, rastreabilidade de ações da equipe e as configurações globais de comportamento da plataforma.
 
-![](../.gitbook/assets/img_3992630.png)
+![](../.gitbook/assets/img_7665595.png)
 
 ---
 
@@ -41,8 +41,8 @@ Rastreamento detalhado de todas as ações realizadas na plataforma: quem execut
 
 Centro de controle global do painel Admin. Define as regras que regem o comportamento da plataforma: visibilidade de tickets, tipo de listagem de mensagens, transbordo automático, carência pós-atendimento, autenticação em dois fatores e importação de histórico de conversas.
 
-[AnteriorWaVoIP - Gestão comercial](/configuracao-administrador/gestao-comercial/analises-e-registros/wavoip)[PróximoAPI - Configurações](/configuracao-administrador/configuracao/api)
+[AnteriorRelatórios](/configuracao-administrador/gestao-comercial/analises-e-registros/relatorios)[PróximoAPI - Configurações](/configuracao-administrador/configuracao/api)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

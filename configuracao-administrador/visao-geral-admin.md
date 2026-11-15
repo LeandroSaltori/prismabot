@@ -38,7 +38,7 @@ Para garantir a segurança dos dados e a organização da equipe, o painel do Te
 
 O sistema Prismabot organiza as funcionalidades em oito menus principais. A visibilidade destes menus varia de acordo com o nível de acesso.
 
-![](../.gitbook/assets/img_4632249.png)
+![](../.gitbook/assets/img_1341253.png)
 
 #### 1. Menus Operacionais (Visíveis para Todos)
 
@@ -102,6 +102,6 @@ Estes menus contêm configurações que alteram o comportamento do sistema. Por 
 
 [AnteriorStorage S3](/configuracao-superadmin/sistema/sistema-dados-e-configuracao/storage-s3)[PróximoAdministração - Painel Admin](/configuracao-administrador/administracao-painel-admin)
 
-Atualizado há 6 meses
+Atualizado há 7 meses
 
 Isto foi útil?

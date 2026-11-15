@@ -164,6 +164,6 @@ Estas opções, em [**Configurações → Gerais → Geral**](/configuracao-admi
 
 [AnteriorPrimeiro Acesso ao Sistema](/primeiro-acesso/primeiro-acesso-ao-sistema)[PróximoPrincipais dúvidas administrativas](/primeiro-acesso/principais-duvidas-administrativas)
 
-Atualizado há 16 dias
+Atualizado há 1 mês
 
 Isto foi útil?

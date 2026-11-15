@@ -12,6 +12,6 @@ Documentação da API REST do Prismabot: endpoints disponíveis, autenticação,
 
 [AnteriorProcedimento Padrão de Atualização](/central-do-assinante/atualizacoes-e-status-do-z-pro/procedimento-padrao-de-atualizacao)[Próximo📅 Agendamentos E Lembretes](/central-do-assinante/referencia-da-api/agendamentos-e-lembretes)
 
-Atualizado há 8 meses
+Atualizado há 9 meses
 
 Isto foi útil?

@@ -10,7 +10,7 @@ O que está incluso no suporte Prismabot: canais de atendimento, horários, SLA,
 
 ### Canais de Atendimento
 
-O único canal oficial para solicitação de suporte técnico é o nosso portal de tickets: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
+O único canal oficial para solicitação de suporte técnico é o nosso portal de tickets: [https://prismatelecomservicos.com/ aria-hidden="true" class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
 
 ### Horário de Atendimento
 

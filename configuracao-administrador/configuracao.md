@@ -8,7 +8,7 @@ Nesta página
 
 A seção de **Configuração** reúne as ferramentas técnicas e operacionais do painel Admin: integração com sistemas externos via API, gestão dos canais oficiais da Meta, rastreabilidade de ações da equipe e as configurações globais de comportamento da plataforma.
 
-![](../.gitbook/assets/img_7665595.png)
+![](../.gitbook/assets/img_7358025.png)
 
 ---
 

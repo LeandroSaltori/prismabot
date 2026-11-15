@@ -25,15 +25,150 @@ Um snapshot é a sua única garantia de que poderá reverter o sistema ao estado
 
 ## Última Versão
 
+### v4.0.8
+
+**🚀 UPDATE OFICIAL (HOMOLOG) | 10/11/2026**
+
+Nova versão Homolog (v4.0.8.0), cumulativa de todas as correções publicadas desde a v4.0.7.0.
+
+**Faça um BACKUP / SNAPSHOT antes de aplicar esta atualização.**
+
+Esta versão traz os Formulários do WhatsApp (Flows), o envio de templates de marketing pela Marketing Messages API da Meta, o registro de quem recebeu cada atendimento e por quê, a opção "Fora do rodízio de atendimentos", o Agente de IA no Fora do horário do fluxo, a junção de empresas no Superadmin e o instalador para Ubuntu 26.04 LTS.
+
+**Mudanças automáticas nesta atualização:** os templates de marketing do WhatsApp oficial passam a sair pela Marketing Messages API (mesmo preço) e o botão "Enviar Marketing" do envio em massa sai da tela; mensagens antigas do Instagram e do Messenger com mídia trocada entre conversas passam a mostrar "Mídia indisponível"; canais WABA, Instagram e Messenger desconectados continuam gravando as mensagens recebidas (opção ligada por padrão); e trocar o endereço de IA da conexão passa a pedir a chave de novo.
+
+**📝 Formulários do WhatsApp (Flows) (novo)**
+
+* **Formulários nativos do WhatsApp:** lista de formulários da conta, bloco de formulário no fluxo e botão de formulário no template, na posição certa. O formulário agendado será liberado na próxima etapa.
+
+**📣 Marketing Messages API (WhatsApp oficial)**
+
+* **Templates de marketing** passam a sair automaticamente pela Marketing Messages API da Meta, com o mesmo preço e entrega otimizada. Os demais templates seguem pelo envio comum.
+* **Aviso no card do canal** quando a conta pode aceitar os termos da Marketing Messages API, com passo a passo e link para o WhatsApp Manager.
+* **Ícone de megafone** na mensagem enviada pela Marketing Messages API.
+* O **Diagnosticar** do canal mostra a situação na Marketing Messages API e os últimos avisos da Meta sobre a conta (restrição, revisão, alertas, limite e nome).
+* No envio em massa, o botão **"Enviar Marketing"** foi removido: a escolha agora é automática.
+
+**🔀 Distribuição de Atendimentos**
+
+* **Registro de quem recebeu cada atendimento e por quê:** aba **Distribuição** no histórico do atendimento e relatório próprio. O atendente definido pelo fluxo não é mais trocado pelo atendente padrão do canal.
+* Nova opção **"Fora do rodízio de atendimentos"** no usuário: a pessoa continua online e recebe transferências, mas não é escolhida pela distribuição automática. O administrador nunca entra no sorteio, e em LinkedIn, OLX, TikTok, Nuvemshop, Mercado Livre, YouTube e WooCommerce a conversa fica com o atendente padrão do canal.
+
+**💬 Atendimento e Tickets**
+
+* Atendentes passam a **filtrar a lista por Kanban, Etiquetas e Conexões** mesmo com "Não visualizar atendimentos de outros usuários" ligado. O filtro por Usuário segue oculto nesse caso.
+* O botão **Ações** da lista mostra um número quando "Inverter ordem" ou "Organizar por não respondido" está ligado, igual a Filtros, com visto no item ativo.
+* **Template do WhatsApp oficial com variáveis nomeadas** aparece no atendimento com os valores preenchidos, e não mais com o nome do contato e campos em branco (envio pelo atendimento e pela API).
+* **Imagem, vídeo e documento com legenda enviados pela API** mostram a legenda na conversa e no card do atendimento na hora, sem atualizar a página, no WhatsApp oficial, Dialog360, Gupshup, Instagram e Messenger. Antes só o cliente recebia o texto e o painel mostrava o nome do arquivo.
+* **PDFs recebidos com miniatura grande** não travam mais o sistema nem derrubam as conexões, e o PDF enviado como resposta mostra a legenda no lugar do texto citado.
+* Mensagens para números com o **9º dígito** deixam de ser bloqueadas por engano no chat das conexões WhatsApp.
+* O **protocolo de atendimento** enviado ao cliente sai só com o número, sem o nome do canal no final.
+
+**👥 Contatos**
+
+* **Editar contato não trava mais em número sem WhatsApp:** trocar etiqueta, nome ou e-mail salva sempre, número novo sem WhatsApp é salvo com aviso, e com "Validar Contato" desligado nenhuma conexão é consultada ao criar, editar ou importar.
+* Editar o contato pelo atendimento **apaga de verdade** o e-mail, CPF, nomes, aniversário, empresa e IDs de canal que o atendente limpar, e o LID atualizado pelo botão não volta mais ao antigo ao salvar.
+* **E-mail de remetente já cadastrado** entra no contato existente em vez de criar um duplicado, sem trocar a foto nem o nome de quem já tem telefone.
+
+**🤖 Chatbot e Chatflow**
+
+* **Agente de IA no Fora do horário:** um agente de IA atende à noite, no fim de semana e nos feriados, e de manhã a conversa vai sozinha para a fila escolhida.
+* O **número para teste** do chatbot aceita vários números: digite e aperte Enter ou vírgula para adicionar cada um (até 15).
+* **Formulário no modo "Começa no fluxo"** inicia o fluxo pela primeira mensagem quando o cliente responde, sem "não entendi" antes do menu e sem pular a primeira etapa.
+
+**🧠 Agente de IA e IA da plataforma**
+
+* **Agentes de IA pela API:** agente, base de conhecimento e fontes podem ser criados e geridos pela chave da API, com a tela de API, o Postman e o n8n atualizados.
+* O agente de IA no **WebChat, Instagram, Messenger e Telegram** envia o link da página de agendamento em vez de prometer horário, e o cliente que entra no WebChat pelo convite do WhatsApp agenda direto pela conversa.
+* O **link de cancelar ou remarcar** enviado pelo agente volta a abrir a reserva, mesmo com pontuação no fim.
+* O agente de IA, as demais IAs e o Typebot entendem **áudio, imagem e arquivo** do cliente também com a transcrição do GroqCloud ligada, e o **GPT-5** volta a responder pela IA da plataforma.
+* **Créditos de IA:** modelos com preço em faixas (OpenAI GPT-5.4 em diante e família 6, Claude, Gemini Pro, Grok, Qwen e DeepSeek) podem ser vendidos, cobrados pelo custo exato de cada resposta.
+* **Transcrição dos áudios do atendente:** nova opção na tela da GroqCloud, desligada por padrão ("Transcrever também os áudios enviados pelo atendente").
+* A **transcrição do Google** volta a funcionar com armazenamento S3.
+
+**🔐 Segurança**
+
+* **Variável secreta:** a variável da empresa pode ter o valor oculto e ser usada só no nó HTTP do fluxo.
+* A **chave de IA** do fluxo ou do agente deixa de ir ao endereço de IA da conexão. Trocar esse endereço agora pede a chave de novo.
+* O sistema passa a **conferir se cada mensagem recebida veio mesmo da Meta**.
+
+**📊 Kanban e Funil**
+
+* O valor e a quantidade de cada etapa e os números do topo do quadro mostram o **total real do funil**, mesmo com mais de 100 oportunidades.
+* Os **alertas do quadro** explicam o que significam, o "Inativa" considera as mensagens trocadas com o contato e há o novo alerta de **previsão de fechamento vencida**.
+* Ao criar uma oportunidade com contato não cadastrado, a tela avisa para cadastrar o contato primeiro, em vez de mostrar um erro genérico.
+
+**📢 Campanhas, Comunicados e Envio em Massa**
+
+* **Quem respondeu:** envio em massa e campanha mostram quem respondeu em até 7 dias, com a taxa de resposta, a aba **"Respondidas"**, o botão para abrir o atendimento e colunas novas no CSV e no PDF.
+* O **relatório do envio em massa** mostra por número se a mensagem foi entregue, lida ou não entregue, com o motivo informado pela Meta, também nas planilhas exportadas.
+* **Comunicados com filtro de Kanban** carregam só a etapa escolhida, e o aviso diz o que ainda carrega.
+* **Template agendado** com botões e sem variável volta a ser enviado, e não sai mais sem variáveis quando o canal reinicia.
+
+**📈 Relatórios**
+
+* O relatório de **Atendimentos por Parâmetros** não derruba mais o servidor em períodos grandes: filtro Receptivo/Ativo mais rápido, aviso acima de 20 mil atendimentos e tabela com 100 linhas por vez.
+
+**📣 Anúncios**
+
+* Contatos que chegam por anúncio **nas demais conexões** entram no relatório de Conversões e ganham o selo e a etiqueta automática. A mídia mostra o cartão **"Veio do anúncio"**. Nessas conexões não há envio do evento à Meta.
+
+**📱 Canais Oficiais Meta (WABA / Instagram / Messenger)**
+
+* **Juntar mensagens para pagar menos:** o WhatsApp oficial pode juntar numa só as mensagens seguidas de robôs e atendentes, com o balão de botões e a legenda da mídia do fluxo aparecendo inteiros no painel.
+* O canal do WhatsApp oficial **não desconecta mais quando a Meta limita as consultas** da conta (erro 80008), e a tela avisa "Consultas pausadas" com o horário em que libera.
+* **Canal desconectado** registra as mensagens dos clientes sem robôs e avisa na tela. Nova opção em **Configurações Gerais** para escolher se canais WABA, Instagram e Messenger desconectados continuam gravando as mensagens (ligada por padrão).
+* O Diagnosticar e as ações da Meta respeitam a pausa do limite, e **templates inválidos** são recusados com o motivo.
+* **Webhook da empresa** passa a avisar o status de cada mensagem enviada pelo WhatsApp oficial (enviada, entregue, lida, falhou com o motivo) e a trazer o texto do botão ou da opção de lista clicada.
+* Novo botão **"Enviar convite do WebChat"** no atendimento do WhatsApp oficial, com texto personalizável: o cliente continua a conversa no chat do site como o mesmo contato. No Dialog360 e no Gupshup, o link do convite deixa de chegar como texto cru.
+* **Figurinhas** acima do limite do WhatsApp oficial são reduzidas automaticamente no envio pelo WABA, 360Dialog e Gupshup. A galeria fica intacta e, se nem reduzida couber, o motivo aparece na mensagem.
+* **Ligação pelo WhatsApp oficial** avisa quando o número usa outro sistema de ligação (SIP, como o WaVoIP) ou quando falta microfone no computador, e pede confirmação antes de mexer no SIP do número.
+* **API externa:** template de utilidade enviado pela rota de marketing não dá mais erro.
+* Mensagens de **contas diferentes recebidas juntas** chegam cada uma à empresa certa, e mensagens recebidas durante um reinício rápido do servidor são reentregues em vez de perdidas.
+* **Instagram pelo Login Unificado da Meta**, sem Página do Facebook, com aviso de vencimento do acesso e reconexão pelo mesmo app (em fase final de revisão).
+* **Conexão do Facebook com App próprio** e Config ID de "token do usuário" funciona em produção. Na primeira vez a tela da Meta aparece duas vezes; depois abre direto.
+* A **reconexão do Instagram pelo Facebook** atualiza o canal existente e avisa quando o webhook precisa ser revalidado.
+* **Messenger:** imagens, áudios, vídeos e documentos enviados pelo atendimento voltam a chegar ao cliente, com a legenda logo em seguida e aviso na mensagem quando o envio falha.
+* Fotos, áudios e vídeos recebidos pelo **Instagram e Messenger** não se sobrescrevem mais entre conversas. As mensagens antigas afetadas mostram "Mídia indisponível" em vez da mídia de outro cliente.
+* A **automação do Instagram** não quebra mais quando a permissão muda com a tela aberta, e a falha ao conectar o Instagram pelo aplicativo próprio registra o motivo informado pela Meta.
+
+**📞 WebChat, WebPhone, Chat interno e App**
+
+* **WebChat:** o atendente grava e envia áudio direto no atendimento, com dica de como o visitante recebe.
+* **WebChat:** mensagens automáticas (fluxo, IA, despedida, avaliação) deixam de contar como atendimento do atendente na Produtividade Diária, valendo para as mensagens novas.
+* **WebPhone:** ligações feitas pelo atendente tocam o "chamando" e os avisos da operadora antes de atenderem, com toque de reserva quando o PABX não manda áudio.
+* **WebPhone:** o painel arrastado volta no mesmo lugar depois de recarregar e não sai da tela, e os botões da chamada em curso e da transferência cabem inteiros na janela.
+* **Chat interno no Android:** a barra de escrever não fica mais atrás dos botões do aparelho nem corta o texto, e o envio de imagem funciona (ou avisa para escolher de novo em "Abrir arquivos").
+* **App:** menus que abriam perto do rodapé (como "Apagar" na última mensagem) abrem sempre na área tocável da tela.
+
+**📅 Google (Agenda e Avaliações)**
+
+* **Agenda Google:** ao conectar a conta, a tela atualiza sozinha (sem F5), e a janela de autorização não pede mais login quando o painel é aberto por outro domínio da instalação.
+* **Avaliações no Google:** quando uma das contas não responde, as fichas das outras aparecem normalmente e a tela avisa qual leitura falhou.
+* Corrigido o erro **"Host mismatch"** ao conectar canais quando o servidor de autorização principal está indisponível.
+
+**✉️ E-mail e outros canais**
+
+* O **canal de e-mail** aceita servidor IMAP/SMTP em rede interna (VPN/WireGuard) liberado pelo administrador do servidor. O Testar IMAP explica por que um endereço foi recusado (no `.env` do backend, numa linha própria: `EMAIL_HOST_ALLOWLIST=10.0.4.19`).
+* **UAzapi:** receber várias fotos de uma vez não mostra mais o aviso "Mídia não suportada". As fotos continuam chegando normalmente.
+
+**⚙️ Superadmin**
+
+* **Juntar uma empresa dentro de outra** na tela de Empresas: prévia dos conflitos, confirmação, acompanhamento e resultado, com canais sem QR novo e links antigos funcionando.
+* **Termos do revendedor com variáveis:** dados da empresa, do licenciado e do sistema preenchidos no texto, pré-visualização por empresa e consulta do texto que cada empresa aceitou.
+
+**🔧 Sistema e Infra**
+
+* O **instalador aceita o Ubuntu 26.04 LTS**, com o Google Chrome instalado do jeito que o 26.04 exige, a versão do nginx de novo escondida e a opção Fail2ban do menu de segurança voltando a funcionar.
+* **Armazenamento em nuvem (S3/R2):** áudios recebidos pelo WhatsApp oficial, Instagram e Messenger não deixam mais cópia no servidor, abrir a Galeria não traz mais as imagens da nuvem de volta para o servidor, e a migração para o S3 mostra à parte o que fica no servidor de propósito.
+
+## Versões anteriores
+
 ### v4.0.7
 
 **🚀 UPDATE OFICIAL (HOMOLOG) | 24/10/2026**
 
 Nova versão Homolog (v4.0.7.0), cumulativa de todas as correções publicadas desde a v4.0.6.0.
-
-**Faça um BACKUP / SNAPSHOT antes de aplicar esta atualização.**
-
-Esta versão traz os Formulários públicos que abrem atendimento, os aplicativos e sistemas próprios no menu do painel, a Região da empresa (país, moeda e idioma), o pedido de avaliação no Google, a galeria com pastas, tarefas com prazo e lembrete dentro do atendimento e as ferramentas MCP no Agente de IA.
 
 **Ajustes automáticos nesta atualização:** as respostas recentes a stories do Instagram que chegaram só com a etiqueta são recuperadas com o texto do cliente; cadastros duplicados do mesmo cliente no WhatsApp oficial (só identificador + telefone) são unidos, com opção de reverter; e canais marcados com armazenamento SQLite passam a usar o SQLite de verdade, com migração automática e sem novo QR.
 
@@ -173,8 +308,6 @@ Esta versão traz os Formulários públicos que abrem atendimento, os aplicativo
 
 * **Chat interno com armazenamento S3/R2** volta a encaminhar e baixar imagens (baixa na mesma aba, com o nome do arquivo). Galeria, respostas rápidas, catálogo, chat de suporte e PDF da conversa passam a funcionar com bucket sem CORS.
 * A prévia de link e o download do painel ficaram protegidos contra acesso a endereços internos.
-
-## Versões anteriores
 
 ### v4.0.6
 
@@ -997,6 +1130,6 @@ Nas páginas seguintes você encontra o histórico completo das versões anterio
 
 [AnteriorAtualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-z-pro)[PróximoValidade das versões](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao/validade-das-versoes)
 
-Atualizado há 4 dias
+Atualizado há 3 dias
 
 Isto foi útil?

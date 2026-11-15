@@ -26,12 +26,12 @@ Passo a passo para atualizar sua instalação com segurança — seja pelo méto
 
 ---
 
-Acompanhe nosso Roadmap público: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
+Acompanhe nosso Roadmap público: [https://prismatelecomservicos.com/ aria-hidden="true" class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
 
-Acompanhe nosso canal de avisos do Telegram: [https://prismatelecomservicos.com/ class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
+Acompanhe nosso canal de avisos do Telegram: [https://prismatelecomservicos.com/ aria-hidden="true" class="gb-icon ml-0.5 inline size-3 links-accent:text-tint-subtle" fill="currentColor" style="overflow:visible" viewbox="0 0 384 512">](https://prismatelecomservicos.com/ rel=)
 
 [AnteriorExemplo de fluxo no N8N + API Prismabot + WABA](/api-oficial-waba/exemplo-de-fluxo-no-n8n-+-api-z-pro-+-waba)[PróximoChangelog (4.0.x última versão)](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao)
 
-Atualizado há 3 meses
+Atualizado há 4 meses
 
 Isto foi útil?

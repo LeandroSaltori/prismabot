@@ -120,7 +120,7 @@ Porta WSS do servidor (padrão: **8089**)
 
 1. Salve — o **SIP Webphone** ficará disponível para aquele usuário no painel do atendimento
 
-![](../.gitbook/assets/img_2274089.png)
+![](../.gitbook/assets/img_2046022.png)
 
 #### Como usar no atendimento
 
@@ -168,6 +168,6 @@ Para detalhes, acesse [Log Ligações.](/configuracao-administrador/gestao-comer
 
 [AnteriorVisão geral - Ferramentas Adicionais e Integrações](/ferramentas-adicionais-e-integracoes/visao-geral-ferramentas-adicionais-e-integracoes)[PróximoComo baixar e usar o app do Prismabot no celular (Android e iPhone)](/ferramentas-adicionais-e-integracoes/como-baixar-e-usar-o-app-do-z-pro)
 
-Atualizado há 2 dias
+Atualizado há 16 dias
 
 Isto foi útil?

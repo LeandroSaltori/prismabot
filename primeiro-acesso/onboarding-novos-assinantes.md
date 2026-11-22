@@ -10,7 +10,7 @@ Primeiros passos após a compra do Prismabot: e-mail de boas-vindas, preparar o 
 
 Bem-vindo ao Prismabot. Este guia mostra o que você recebe após a compra, para que serve cada lugar que você vai usar e qual é o caminho, em 5 passos, até o sistema no ar.
 
-![](../.gitbook/assets/img_5925724.png)
+![](../.gitbook/assets/img_141872.png)
 
 Você também acompanha esses passos no [Painel do Licenciado](https://painel.zdg.com.br/), na aba **Onboarding**, que reúne os links de todos os portais citados aqui e onde você marca cada passo como concluído. Veja Painel do Licenciado.
 

@@ -1130,6 +1130,6 @@ Nas páginas seguintes você encontra o histórico completo das versões anterio
 
 [AnteriorAtualizações e Status do Prismabot](/central-do-assinante/atualizacoes-e-status-do-z-pro)[PróximoValidade das versões](/central-do-assinante/atualizacoes-e-status-do-z-pro/changelog-4.0.x-ultima-versao/validade-das-versoes)
 
-Atualizado há 3 dias
+Atualizado há 10 dias
 
 Isto foi útil?

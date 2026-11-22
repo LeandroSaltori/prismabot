@@ -10,7 +10,7 @@ Como baixar o app do Prismabot na Google Play ou na App Store, conectar ao seu p
 
 Com o app para Android e iPhone, você atende pelo celular com o painel completo, nas mesmas telas do navegador, e recebe aviso de mensagem nova mesmo com o app fechado. No primeiro acesso, você informa o endereço do painel que usa no navegador, e o app se conecta a ele.
 
-![](../.gitbook/assets/img_4232112.png)
+![](../.gitbook/assets/img_8771127.png)
 
 **Pré-requisitos:**
 
@@ -142,6 +142,6 @@ Com o app conectado e o Web Push ligado nos canais, a equipe acompanha os atendi
 
 [AnteriorLigações no Prismabot (Telefonia e Voz)](/ferramentas-adicionais-e-integracoes/ligacoes-no-z-pro-telefonia-e-voz)[PróximoNotificações Aplicativo (web push)](/ferramentas-adicionais-e-integracoes/notificacoes-aplicativo-web-push)
 
-Atualizado há 23 dias
+Atualizado há 1 mês
 
 Isto foi útil?

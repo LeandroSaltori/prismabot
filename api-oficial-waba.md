@@ -141,6 +141,6 @@ O Prismabot não recomenda conexões alternativas não homologadas. Para garanti
 
 [AnteriorManutenção e Segurança](/diretrizes-e-politicas/manutencao-e-seguranca)[PróximoWhatsapp Oficial- Cadastro Incorporado e Coexistência com APP próprio](/api-oficial-waba/whatsapp-oficial-cadastro-incorporado-e-coexistencia-com-app-proprio)
 
-Atualizado há 14 dias
+Atualizado há 21 dias
 
 Isto foi útil?
